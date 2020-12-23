@@ -1,0 +1,101 @@
+{
+  "fee-controls": "手数料を調整",
+  "common": {
+    "fee-type": "手数料タイプ",
+    "current-fee": "現在の手数料",
+    "new-fee": "新しい手数料",
+    "fee-type-unchanged": "あなたの {{feeType}} はそのままです。",
+    "buy-fee": "購入手数料",
+    "streaming-fee": "ストリーミング手数料",
+    "performance-fee": "パフォーマンス手数料"
+  },
+  "errors": {
+    "buy-fee-unallowed-value": "購入手数料は0から5%の値となります",
+    "buy-fee-must-be-different": "新しい購入手数料は、現在の購入手数料とは異なる数値でなければいけません。",
+    "performance-fee-unallowed-value": "パフォーマンス手数料は0から40%の値となります",
+    "performance-fee-unallowed-value-legacy": "パフォーマンス料金は0.01から40％間の値である必要があります",
+    "performance-fee-watermark-upgrade-required": "このセットのパフォーマンス料金を最初に0.01％に設定する必要があります",
+    "performance-fee-must-be-different": "新しいパフォーマンス手数料は、現在のパフォーマンス手数料とは異なる数値でなければいけません。",
+    "streaming-fee-unallowed-value": "ストリーミング手数料は0から5%の値となります",
+    "streaming-fee-must-be-different": "新しいストリーミング手数料は、現在のストリーミング手数料とは異なる数値でなければいけません。"
+  },
+  "collect-fees": {
+    "title": "手数料を得る",
+    "last-high-watermark": "直近ハイウォーターマーク",
+    "next-high-watermark": "次のハイウォーターマーク",
+    "performance-fee-label": "未実現パフォーマンス手数料",
+    "performance-fee-description": "最後に記録されたハイウォーターマークに対する本セットの価値に基づいて徴収される可能性のある料金の額。",
+    "performance-fee-unavailable-description": "このセットは、直近のハイウォーターマークの値を超えていません。パフォーマンス手数料は発生しません。",
+    "streaming-fee-label": "未実現ストリーミング手数料",
+    "streaming-fee-description": "本セットの時価総額、ストリーミング料金の割合、および最後の料金発生イベントからの経過時間に基づいて収集される可能性のある料金の金額。",
+    "total-fees-label": "得られる合計手数料",
+    "collect-button": "手数料を得る"
+  },
+  "fee-change": {
+    "title": "手数料を更新",
+    "description": "セットへの大幅な変更時に、ユーザーに十分なリードタイムを与えるために、セットの手数料率を更新するには5日間の待ち時間が必要です。",
+    "description-limitation": "手数料の更新が確実かつ安全に完了するように、ストリーミング料金とパフォーマンス料金は一度の更新ではどちらかのみの更新となっています。",
+    "buy-fee-description": "購入手数料は0から5%の値に設定できます",
+    "performance-fee-description": "パフォーマンス手数料は0から40%の値に設定できます",
+    "performance-fee-description-legacy": "パフォーマンス料金を0.01％から40％間の値にできます",
+    "streaming-fee-description": "ストリーミング手数料は0から5%の値に設定できます"
+  },
+  "fee-change-components": {
+    "confirm-fee-update": "手数料更新を確認する",
+    "cancel-fee-update": "手数料更新をキャンセルする",
+    "countdown-description": "あなたの{{feeType}}の更新が開始されました。更新を完了予定は: ",
+    "finalize-description": "お客様の{{feeType}}のアップデートは確認の準備ができています。下記の更新内容をご確認ください。"
+  },
+  "start-fee-change-modal": {
+    "start-transaction-title": "{{feeType}} 更新を開始",
+    "start-transaction-description": "セットの大幅な変更時に、ユーザーに十分なリードタイムを与えるために、セットの手数料を更新するには5日間の待ち時間が必要です。",
+    "start-transaction-description-2": "手数料の更新が確実かつ安全に完了するように、ストリーミング料金とパフォーマンス料金は一度の更新ではどちらかのみの更新となっています。",
+    "start-transaction-description-3": "お取引完了後、5日後にこのページに戻り、料金の更新を確定させてください。",
+    "pending-transaction-title": "手数料更新を開始中",
+    "pending-transaction-description": "手数料の更新が処理されている間、お待ちください。",
+    "completed-transaction-title": "手数料の更新が開始されました。5日が経過した後、更新を確定するために戻ってきてください。",
+    "failed-transaction-title": "手数料更新に失敗",
+    "failed-transaction-description": "手数料の更新を開始できませんでした。もう一度お試しください。",
+    "long-transaction-title": "手数料の更新はまだ処理中です",
+    "long-transaction-description": "手数料の更新はまだ処理中です。下のリンクからお取引の状況を確認することができます。お取引が成功しない場合は、もう一度お試しください。"
+  },
+  "confirm-fee-change-modal": {
+    "start-transaction-title": " {{{feeType}}} 更新を確認",
+    "start-transaction-description": "手数料の更新が確認されると、あなたのセットはすぐに新しい手数料パーセンテージを使用し始めます。",
+    "start-transaction-description-2": "今後、新たに手数料更新を提出する場合は、通常の5日間の待ち時間が必要となります。",
+    "pending-transaction-title": " {{feeType}} 更新を確認中",
+    "pending-transaction-description": "確認処理中ですので、お待ちください。",
+    "completed-transaction-title": "あなたの{{feeType}}更新が確認されました。",
+    "failed-transaction-title": "手数料更新の確認失敗",
+    "failed-transaction-description": "手数料の更新が確認できませんでした。もう一度お試しください。",
+    "long-transaction-title": "確認処理中",
+    "long-transaction-description": "お客様の確認はまだ処理中です。下のリンクからお取引の状況を確認することができます。お取引が成功しない場合は、もう一度お試しください。"
+  },
+  "cancel-fee-change-modal": {
+    "start-transaction-title": "{{feeType}} 更新のキャンセル",
+    "start-transaction-description": "{{feeType}}更新をキャンセルすると、5日間の待ち時間がリセットされます。",
+    "start-transaction-description-2": "キャンセルが確定した後、新たに手数料の更新依頼を行うことができます。",
+    "pending-transaction-title": "{{feeType}} 更新をキャンセル中",
+    "pending-transaction-description": "キャンセル処理中はお待ちください。",
+    "completed-transaction-title": "あなたの{{feeType}}更新はキャンセルされました。",
+    "failed-transaction-title": "手数料更新のキャンセル失敗",
+    "failed-transaction-description": "手数料の更新をキャンセルできませんでした。もう一度お試しください。",
+    "long-transaction-title": "手数料更新のキャンセルはまだ処理中です",
+    "long-transaction-description": "お客様のキャンセルはまだ処理中です。下のリンクから取引状況を確認することができます。お取引が成功しない場合は、もう一度お試しください。"
+  },
+  "collect-fee-modal": {
+    "new-high-watermark": "新しいハイウォーターマーク",
+    "fees-to-be-collected": "得られる手数料",
+    "no-new-watermark": "この手数料徴収で、このセットに新しいハイウォーターマークは記録されません。",
+    "start-transaction-title": "手数料を得る",
+    "start-transaction-description": "このセットの手数料は、{{totalFeesInSetUnits}}{{setSymbol}}という形で、{{truncatedAddress}}というアドレスに入金されます。このセットのハイウォーターマークは{{nextHighWaterMark}}{{benchmarkAsset}}に更新されます。",
+    "start-transaction-description-no-watermark": "このセットの手数料は、{{totalFeesInSetUnits}} {{setSymbol}}という形で、アドレス{{truncatedAddress}}に入金されます。",
+    "pending-transaction-title": "手数料を回収中...",
+    "pending-transaction-description": "手数料を回収しています、少々お待ちください。",
+    "completed-transaction-title": "セット手数料が口座に入金されました。",
+    "failed-transaction-title": "手数料回収の失敗",
+    "failed-transaction-description": "お客様の手数料を回収することができませんでした。再度、手数料の回収をお試しください。",
+    "long-transaction-title": "手数料の回収はまだ処理中です",
+    "long-transaction-description": "お客様の手数料回収はまだ処理中です。下のリンクから取引状況を確認することができます。お取引が成功しない場合は、もう一度お試しください。"
+  }
+}

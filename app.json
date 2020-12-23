@@ -1,0 +1,39 @@
+{
+  "name": "trading-module-ui",
+  "description": "",
+  "scripts": {},
+  "env": {
+    "REACT_APP_SET_API_HOST": {
+      "required": true
+    },
+    "REACT_APP_ETHEREUM_NETWORK_ID": {
+      "required": true
+    },
+    "REACT_APP_CORE_ADDRESS": {
+      "required": true
+    },
+    "REACT_APP_WHITE_LIST_ADDRESS": {
+      "required": true
+    },
+    "REACT_APP_WETH_ADDRESS": {
+      "required": true
+    },
+    "REACT_APP_SETJS_CONTROLLER": {
+      "required": true
+    },
+    "REACT_APP_SETJS_TRADE_MODULE": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "https://github.com/mars/create-react-app-buildpack.git"
+    }
+  ]
+}

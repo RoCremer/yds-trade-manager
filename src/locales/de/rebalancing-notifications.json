@@ -1,0 +1,30 @@
+{
+  "contact-info": {
+    "title": "Benachrichtigungen über Rebalancing",
+    "sub-title": "Ihre Kontaktangaben",
+    "phone-number": "Telefonnummer",
+    "phone-number-placeholder": "XXX XXX XXXX",
+    "call-for-rebalances": "Anrufen, wenn die Rebalancierung beginnt",
+    "sms-for-rebalances": "Eine SMS senden, wenn die Rebalancierung beginnt",
+    "email": "E-Mail-Adresse",
+    "email-placeholder": "E-Mail-Adresse eingeben"
+  },
+  "errors": {
+    "toggle-notifications-error": "Sie müssen unter \"Anruf erhalten\" oder SMS mindestens eine Option auswählen.",
+    "toggle-valid-phone-number-error": "Die Telefonnummer, die Sie eingegeben haben, ist keine gültige Telefonnummer.",
+    "generic-phone-number-error": "Beim Versuch, Ihre Telefonnummer abzuspeichern, ist ein Fehler aufgetreten.",
+    "no-selected-sets": "Keine neuen Sets ausgewählt. Wählen Sie ein neues Set, welches sie für Benachrichtigungen zur Rebalancierung abonnieren wollen.",
+    "could-not-subscribe": "Die kürzlich ausgewählten Sets konnten unter Ihrer Telefonnummer nicht abonniert werden."
+  },
+  "phone-number": {
+    "delete-phone-number": "Telefonnummer löschen"
+  },
+  "set-selection": {
+    "selected-sets": "Ausgewählte Sets",
+    "update-subscribed-sets": "Abonnierte Sets aktualisieren",
+    "name": "Name",
+    "market-cap": "Börsenwert",
+    "components": "Bestandteile",
+    "success": "Ihre Benachrichtigungseinstellungen wurden erfolgreich aktualisiert!"
+  }
+}

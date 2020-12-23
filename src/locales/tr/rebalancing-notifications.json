@@ -1,0 +1,30 @@
+{
+  "contact-info": {
+    "title": "Yeniden Dengelenme Bildirimleri",
+    "sub-title": "İletişim Bilgileriniz",
+    "phone-number": "Telefon Numarası",
+    "phone-number-placeholder": "XXX XXX XXXX",
+    "call-for-rebalances": "Yeniden dengelenme başladığında ara",
+    "sms-for-rebalances": "Yeniden dengelenme başladığında SMS gönder",
+    "email": "E-posta",
+    "email-placeholder": "E-posta gir"
+  },
+  "errors": {
+    "toggle-notifications-error": "Arama veya SMS arasında en az bir seçenek seçmelisiniz.",
+    "toggle-valid-phone-number-error": "Girmiş olduğunuz telefon numarası geçerli değil.",
+    "generic-phone-number-error": "Telefon numaranız kaydedilirken bir şeyler ters gitti.",
+    "no-selected-sets": "Seçilen yeni set yok. Yeniden dengelenme bildirimleri için bağlanılacak yeni bir set seçin.",
+    "could-not-subscribe": "Telefon numaranız yeni seçilen setlere bağlanamadı."
+  },
+  "phone-number": {
+    "delete-phone-number": "Telefon Numarasını Sil"
+  },
+  "set-selection": {
+    "selected-sets": "Seçili Setler",
+    "update-subscribed-sets": "Abone Olunan Setleri Güncelle",
+    "name": "İsim",
+    "market-cap": "Piyasa Değeri",
+    "components": "Bileşenler",
+    "success": "Bildirim ayarlarınız başarılı bir şekilde güncellendi!"
+  }
+}

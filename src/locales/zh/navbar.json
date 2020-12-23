@@ -1,0 +1,36 @@
+{
+  "home": "主页",
+  "resources": {
+    "resources": "资源",
+    "faq": "常见问题",
+    "help-center": "帮助中心",
+    "blog": "博客",
+    "developers": "开发者",
+    "press": "通知",
+    "integrations": "整合"
+  },
+  "company": {
+    "company": "公司",
+    "about": "关于",
+    "careers": "招贤纳士"
+  },
+  "rebalances": {
+    "rebalances": "再平衡"
+  },
+  "account": {
+    "account": "账户",
+    "trader-profile": "交易员资料",
+    "my-account": "我的账户",
+    "settings": "设置",
+    "sign-out": "登出"
+  },
+  "explore-sets": "探索组合",
+  "sign-in": "登录",
+  "sign-up": "登记",
+  "social-trader": {
+    "social-trader": "社交交易者",
+    "leaderboard": "交易者排行榜",
+    "introducing-social": "欢迎社交交易员",
+    "become-a-trader": "成为交易者"
+  }
+}

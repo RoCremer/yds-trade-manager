@@ -1,0 +1,48 @@
+{
+  "tabs": {
+    "portfolio": "Portfolio",
+    "settings": "Settings"
+  },
+  "account": {
+    "send": "Send",
+    "receive": "Receive",
+    "view": "View",
+    "eth-balance": "My ETH Balance",
+    "total-balance": "My Total Set Balance",
+    "show-expanded-view": "Show Expanded View",
+    "transactions": "Transactions",
+    "no-transactions": "No Set Transactions To Show",
+    "no-sets": "No Sets In Here!",
+    "no-sets-description": "No Problem. You can browse through sets on the",
+    "no-sets-description-2": "Explore Sets Page",
+    "my-account": "My Account"
+  },
+  "welcome": {
+    "title": "Welcome to TokenSets!",
+    "subtitle": "Start here if you're looking for a simple way to get started.",
+    "getting-started": "Getting Started",
+    "getting-started-subtitle": "Now that you've created your new account, you can deposit ETH or other Ethereum based tokens into your account to buy Sets.",
+    "getting-started-button": "Get Started",
+    "already-have-an-account": "Already Have An Account?",
+    "already-have-an-account-subtitle": "If you've already made account before, try logging in with the original login method you previously used.",
+    "already-have-an-account-button": "Learn More"
+  },
+  "send": {
+    "warning": "Warning:",
+    "warning-description": "Sending your Sets to Coinbase, Binance, and many other exchanges",
+    "warning-description-2": "will result in a loss of funds due to lack of ERC-20 token transfer support.",
+    "warning-description-3": "Make sure that the address you’re sending your tokens to supports ERC-20 token transfers."
+  },
+  "receive": {
+    "my-address": "My Address"
+  },
+  "table": {
+    "24-hr": "Change (24 HR)"
+  },
+  "settings": {
+    "title": "Email Preferences",
+    "description": "Your email will not be publicly visible or shared",
+    "ethereum-address": "Ethereum Address",
+    "update-account": "Update Account"
+  }
+}

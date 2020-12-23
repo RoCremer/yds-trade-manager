@@ -1,0 +1,83 @@
+{
+  "new": "新增",
+  "manage-your-crypto": "管理您的加密货币",
+  "home-sticky-cta": {
+    "explore-sets": "探索 Set",
+    "get-started": "开始",
+    "how-set-works-intro-video": "Set 的运作方式"
+  },
+  "home-banner": {
+    "introducing-social-trader": "介绍新的 Set 社交交易者",
+    "copy-trades": "一键复制其他交易者的交易。",
+    "learn-more": "进一步了解社交交易者 >"
+  },
+  "home-header": {
+    "intro": "TokenSets 可以轻松帮到您",
+    "title": "管理您的加密货币",
+    "description": "通过自动化资产管理策略增强您的投资组合"
+  },
+  "home-social-trader": {
+    "intro": "加入其它的交易者",
+    "title": "组合社交交易员",
+    "description": "一键关注最佳交易者，或创建您自己的组合并吸引关注者。",
+    "explore": "按交易者浏览 Set",
+    "learn-more": "了解更多 >"
+  },
+  "home-why-section": {
+    "intro": "组合是代币和",
+    "title": "内置资产管理策略",
+    "description": "每个 Set 都是 根据所选策略，自动再平衡的 ERC20 加密货币代币的智能货币篮子。不要错过市场机遇，或让自己的投资组合从指尖溜走。",
+    "save-time": "节省时间和精力",
+    "automated-rebalancing": "自动平衡调整",
+    "24hr": "24 小时监控",
+    "no-commitment": "无承诺",
+    "automated-strategies": "自动化策略",
+    "reduce-emotion": "降低情绪风险",
+    "reduce-missed-opportunities": "减少错失良机",
+    "diversification": "即时多元化",
+    "control": "保持控制",
+    "collateral": "担保抵押物",
+    "buy-sell": "任何时候均可买卖",
+    "ownership": "您的资金归自己所有"
+  },
+  "home-one-token-section": {
+    "intro": "您的收藏加密货币与",
+    "title": "智能平衡调整",
+    "description": "将您现有的加密货币升级为 Set，以便遵循所选的策略。每个 Set 可得到所管理的加密货币资产的支持。"
+  },
+  "home-set-explanation": {
+    "intro": "有",
+    "title": "安心",
+    "verified": "通过验证的安全性",
+    "audited-code": "由审核代码提供支持。 没有交易对手风险。 资金由您自己控制。",
+    "buy-sell": "任何时候均可买卖",
+    "no-lockup": "在TokenSets上自由买卖组合。 购买组合后没有锁定期。",
+    "collateral": "担保抵押",
+    "portfolio": "每个 Set 就像是代币化的组合，包括属于该 Set 的标的代币。",
+    "explore": "研究 Set ",
+    "get-started": "开始"
+  },
+  "home-integrations": {
+    "intro": "TokenSets 支持钱包",
+    "title": "您已经使用",
+    "description": "在 TokenSets 上使用您熟悉的第三方钱包，或使用电子邮件和密码注册。",
+    "learn-more": "查看所有集成"
+  },
+  "home-start-in-minutes-section": {
+    "intro": "准备好买入一个 Set？ ",
+    "title": "在 Minutes 中开始",
+    "create": "创建帐户",
+    "fund": "为您的钱包注入资金",
+    "buy": "开始买卖"
+  },
+  "home-explore-section": {
+    "intro": "我们开始吧。",
+    "title": "开始探索 Set",
+    "explore": "探索组合",
+    "get-started": "开始使用"
+  },
+  "home-faq-section": {
+    "title": "常见问题",
+    "view-faq": "查看常见问题"
+  }
+}

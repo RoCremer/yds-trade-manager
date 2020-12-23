@@ -1,0 +1,69 @@
+{
+  "trader-profile": {
+    "title": "编辑简介",
+    "username": "用户名",
+    "first-name": "名字",
+    "last-name": "姓",
+    "bio": "Bio",
+    "ethereum-address": "以太坊地址",
+    "website": "网站",
+    "twitter-handle": "Twitter 操作",
+    "submit": "提交",
+    "update-success": "交易员资料已成功更新！",
+    "update-failed": "更新交易者介绍的请求失败。",
+    "username-taken": "更新失败：用户名{{用户名}}已被使用。",
+    "invalid-signature": "更新失败：签名无效。"
+  },
+  "rebalance-manager": {
+    "choose-next-allocation": "为您的交易池选择下一个分配。",
+    "post-title": "发帖说明自己交易背后的想法",
+    "post-description": "将在成功启动平衡调整后发布，并在平衡调整完成后向您的关注者发送电子邮件。",
+    "enter-a-description": "输入说明文字",
+    "learn-more": "了解更多",
+
+    "rebalance-pending": "您的平衡调整正在等待启动中...",
+    "rebalance-pending-description": "在交易完成之前请留在此页面。",
+
+    "long-confirmation": "您的平衡调整仍在确认中。",
+    "long-confirmation-description": "您的再平衡将在开采了您的交易后开始。您可以在 Etherscan 上或您的账户页面上监测您的交易进度。",
+
+    "successful-rebalance": "已启动再平衡！",
+    "successful-rebalance-description": "平衡调整已经开始，并将在4小时内完成您的新分配",
+
+    "rebalance-failed": "发起再平衡失败",
+    "rebalance-failed-description": "您发起再平衡的交易失败。请选择更高的气费，或稍后再试。",
+
+    "currently-rebalancing": "该组合目前正在平衡调整",
+    "view-auction": "查看拍卖",
+    "etherscan-link": "您的 Etherscan 链接",
+
+    "enable-twap": "启用 TWAP",
+    "enabling-twap": "正在启用 TWAP",
+    "confirming-twap": "正在确认 TWAP"
+  },
+  "update-set-details": {
+    "title": "编辑 Set",
+    "set-symbol": "组合标志",
+    "set-name": "Set 名称",
+    "owner-address": "所有者地址",
+    "set-address": "组合地址",
+    "set-description": "Set 描述",
+    "update-successful": "已成功更新您的 set。",
+    "update-failed": "更新组合详细信息请求失败。"
+  },
+  "send-tokens": {
+    "send-tokens": "转出代币",
+    "max-eth-error": "您的账户没有足够的 ETH 来完成这次转账。点击“最大”按钮，查看扣除 Ethereum 网络费用后的最大 ETH 转账额度。",
+    "max-token-error": "您的账户没有足够的 {{tokenSymbol}} 来完成这次转账。",
+    "gas-error": "您的账户没有足够的 ETH 来完成这次转账。完成本次转账需要 {{gasFee}} ETH 。",
+    "preview-send": "预览转出",
+    "send-confirmation": "发送确认",
+    "send-amount": "转出数额",
+    "remaining-balance-after-transfer": "转账后的新余额",
+    "to-address": "至",
+    "ethereum-network-fees": "Ethereum 网络费用",
+    "disclaimer": "我明白，将我的 Set 发送到 Coinbase、Binance 和其他交易所",
+    "disclaimer-2": "将会因缺乏 ERC-20 代币转账支持而导致资金损失。",
+    "disclaimer-3": "我已经确认转账地址支持我当前转出的代币。"
+  }
+}

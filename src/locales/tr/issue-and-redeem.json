@@ -1,0 +1,69 @@
+{
+  "approval-status": {
+    "unstarted": "ONAY GEREKLİ",
+    "pending": "ONAY BEKLENİYOR",
+    "approved": "ONAYLANDI!"
+  },
+  "issue-approve": {
+    "title": "Her jeton için onayınıza ihtiyacımız var.",
+    "description": "Güvenliğiniz için, akıllı Set sözleşmesini kullanmak için jeton basma izinlerinizi vermeniz gerekecek. Bu, jetonlarınızı sadece basım için onaylar, ve hiçbir jeton göndermez. Devam etmek için, 'Tümünü Onayla'ya tıklayın ve her jeton onayını kabul edin."
+  },
+  "issue-form": {
+    "title": "Lütfen basmak istediğiniz {{tokenSymbol}} setlerinin miktarını girin.",
+    "description": "Güvenliğiniz için, akıllı Set sözleşmesini kullanmak için jeton basma izinlerinizi vermeniz gerekecek. Bu, jetonlarınızı sadece basım için onaylar, ve hiçbir jeton göndermez. Devam etmek için, 'Tümünü Onayla'ya tıklayın ve her bir jeton onayını kabul edin.",
+    "error-title": "Basacak yeterli jetonunuz yok.",
+    "error-description": "{{setName}} basmak isterseniz, bir takas ile gerekli yukarıdaki jetonları edinmeniz gerekecek."
+  },
+  "issue-modals": {
+    "pending-title": "Jetonlarınızı basıyoruz",
+    "pending-description": "Yeni basılan {{tokenName}} jetonlarınız, cüzdanınızdan görüntülemek, alım satım yapmak ve çekmek için az sonra hazır olacak.",
+    "long-title": " {{tokenName}} Jetonlarınız Halen Basılıyor",
+    "long-description": "Lütfen aşağıdaki bağlantıyı kullanarak işleminizi izleyin ya da tekrar deneyin.",
+    "completed-title": "Başarılı!",
+    "completed-description": "{{tokenName}} jetonlarınız basıldı.",
+    "failed-title": "Bir Sorun Oluştu",
+    "failed-description": "{{tokenName}} jetonlarınız basılamadı.\nLütfen aşağıdaki bağlantıda neyin yanlış gittiğini gözden geçirin ve tekrar deneyin."
+  },
+  "issue-action": {
+    "component-fetch-failed": "Gerekli basım bileşenleri alınırken bir hata oluştu. Lütfen sayfayı tekrar yükleyip tekrar deneyin.",
+    "issuance-failed": "Basım talebiniz tamamlanamadı. Lütfen tekrar deneyin."
+  },
+  "redeem-approve": {
+    "title": "Setinizi kullanmak için lütfen bir onay verin.",
+    "description": "Güvenliğiniz için, akıllı Set sözleşmesini kullanmak için jeton kullanma izinlerinizi vermeniz gerekecek. Bu, jetonlarınızı sadece kullanım için onaylar, ve hiçbir jeton göndermez. Devam etmek için, 'Tümünü Onayla'ya tıklayın ve onay işlemini kabul edin."
+  },
+  "redeem-form": {
+    "title": "{{tokenName}} Kullan",
+    "description": "Lütfen kullanmak istediğiniz {{tokenSymbol}} set miktarını girin.",
+    "your-balance": "{{tokenSymbol}} Bakiyeniz",
+    "error-title": "Kullanacak yeterli Setiniz yok.",
+    "error-description": "{{tokenName}} kullanmak isterseniz, daha fazla {{tokenName}} edinmeniz gerekecek."
+  },
+  "redeem-modals": {
+    "pending-title": "Jetonlarınızı kullanıyoruz",
+    "pending-description": "Kullanılan {{tokenName}} jetonlarınız, cüzdanınızdan görüntülemek, alım satım yapmak ve çekmek için az sonra hazır olacak.",
+    "long-title": "{{tokenName}} Jetonlarınız Halen Kullanılıyor",
+    "long-description": "Lütfen aşağıdaki bağlantıyı kullanarak işleminizi izleyin ya da tekrar deneyin.",
+    "completed-title": "Başarılı!",
+    "completed-description": "{{tokenName}} jetonlarınız kullanıldı.",
+    "failed-title": "Bir Hata Oluştu",
+    "failed-description": "{{tokenName}} jetonlarınız kullanılamadı. Lütfen aşağıdaki bağlantıdan neyin yanlış gittiğini gözden geçirip tekrar deneyin."
+  },
+  "redeem-action": {
+    "component-fetch-failed": "Gerekli kullanma bilgisi alınırken bir hata oluştu. Lütfen sayfayı tekrar yükleyip tekrar deneyin.",
+    "redeem-failed": "Kullanım talebiniz tamamlanamadı. Lütfen tekrar deneyin"
+  },
+  "table": {
+    "token": "JETON",
+    "amount-required": "GEREKLİ MİKTAR",
+    "your-balance": "BAKİYENİZ",
+    "amount-per-set": "SET BAŞINA MİKTAR",
+    "receive": "AL"
+  },
+  "buttons": {
+    "approve-all": "Tümünü Onayla",
+    "approve": "Onayla",
+    "issue": "Bas",
+    "redeem": "Kullan"
+  }
+}

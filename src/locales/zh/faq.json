@@ -1,0 +1,133 @@
+{
+  "faq": "常见问题",
+  "footer": {
+    "explore-sets": "了解 Set ",
+    "more-questions": "还有其他问题么？",
+    "reach-out": "如有问题，请随时与我们联系",
+    "tweet-us": "有问题可以发送推特给我们",
+    "ask-us": "可以与团队成员交谈"
+  },
+  "general": "一般性问题",
+  "what-is-a-set": "何为 Set?",
+  "what-is-a-set-description": "Set 是一种数字资产（ERC-20），代表其他资产的完全抵押投资组合，包括比特币（WBTC），以太坊（WETH）和法定货币现金（DAI）。Set 自动再平衡，以通过持有一项资产使执行任何投资组合策略（例如范围限制交易）变得简单。使用 Set 无需手动管理多个资产和再平衡投资组合。",
+
+  "custody-of-set": "谁来托管 Set 及其保证金？",
+  "custody-of-set-title": "Set 代币 —— 您的钱包",
+  "custody-of-set-description": "通过 TokenSet 获得的 Set 保存在您自己的钱包里。因为 Set 是 ERC-20 代币，您可以将其转到 支持 ERC-20 代币的任何其他钱包，比如如果想将其放入用于冷钱包的以太坊地址。所有动用您资金的交易必须通过您的账户确认，并可同过以太坊区块链验证。",
+  "custody-of-set-title-2": "标的保证金代币——金库智能合约",
+  "custody-of-set-description-2": "为每一Set提供保证的基础担保代币均保存在{{vaultContract}}内。当你的资金在金库合约内时，Set 团队是无法使用你的资金的。只有你自己可以通过以太币钱包获取你的资金。因此，需要注意的是，当你无法进入保存你的 Set 的钱包时，Set 团队是没有任何办法能帮你收回资金的。所以，最好的做法是将你的私人钱包访问信息进行过备份，并存放在安全的地方，以应对突发状况。",
+
+  "how-to-buy-and-sell": "我如何买卖 Set ?",
+  "how-to-buy-and-sell-description": "交易 Set 只需 3 步即可完成：",
+  "how-to-buy-and-sell-step-1": "1）使用您的电话号码或以太坊钱包登录连接到 TokenSet。我们还支持比特币钱包，TrustWallet和ImToken。",
+  "how-to-buy-and-sell-step-2": "2) 选择 Set 和购买的金额",
+  "how-to-buy-and-sell-step-3": "3) 在账户页面确认并跟踪 Set",
+  "how-to-buy-and-sell-liquidity": "TokenSet 将从去中心化的交易 mint Set，来找到流动性。您只需提供 ETH。",
+
+  "are-there-fees": "TokenSet 是否有任何费用？",
+  "are-there-fees-title": "不会，目前尚不会",
+  "are-there-fees-description": "目前，在 Set Protocol 或 TokenSet 应用中的任何地方都没有内置费用，不过将来很可能会对其进行更新。当/如果我们增加费用，我们将提前通知用户。如果您想与 Set 团队保持同步，请加入{{discord}}，在 {{twitter}} {{medium}} 关注我们，或者在您的帐户设置中注册我们的电子邮件通知",
+  "rebalancing-slippage": "再平衡滑点",
+  "rebalancing-slippage-description": "在某些情况下的再平衡中，用户可能会遇到少量滑点。查看本文 {{articleLink}} 了解再平衡滑点的更多信息",
+
+  "how-to-value-set": "我如何评估 Set 的价值？",
+  "how-to-value-set-description": "每一个Set均有其自己的基础成分代币提供100%的担保，这意味着它的{{netAssetValue}}（NAV）可以通过将 Set 内的所有基础成分代币的值相加来计算得到。TokenSets 上所显示的价格来自于CryptoCompare，用于显示某一 Set 在多个交易所的公平市场价值；我们的智能合约所使用的链上价格来源于{{makerDao}}；买卖价格来源于为 Set Protocol 提供流动性的 DEX。 ",
+
+  "where-to-trade": "我还可以在哪里交易 Set？",
+  "where-to-trade-description": "Sets 符合ERC-20 标准，可以在任何分散式或集中式交易所列出。与我们联系，并让我们知道您想看哪个交易所的 Set。",
+
+  "tax-implications": "在交易 Set 时，有何税务影响？",
+  "tax-implications-description": "税款因司法管辖区的不同而有很大差异。对于任何财务、税务或法律方面的问题，我们建议您咨询自己的专业人士。虽然我们不能为您提供具体的税务指导，但用户需要注意，任何加密数字货币的兑换（例如：ETH 到 WBTC）在您所在的司法管辖范围内都可能会是一项应纳税的交易。某些情况下，加密数字货币的直接发行或包装（例如：ETH到 ETHSMACO20，前提是该 Set 当前是 100% 的 WETH）或许不用纳税。此外，在某些司法管辖区中，用户可能在出售他们所购置的 Set时，而非在每次重新平衡之后，能够确认短期或长期的资本利得或损失。由于基于不同司法管辖区的结果各不相同，我们无法对 TokenSet 的税务处理提供一个明确的答案。\n",
+
+  "trading": "交易",
+  "while-mining": "当交易为挖矿时会发生什么？",
+  "while-mining-description": "当您在 TokenSet 上进行交易时，您是在以太坊区块链上提交交易，只有当以太坊矿工在下一个区块中包含您的交易时才会记录该交易。为了确保您的交易成功，建议您添加足够大的气体量以供矿工使用。",
+
+  "trade-revert": "在交易失败时，会发生什么？",
+  "trade-revert-description": "当确认您的交易之前，流动性提供者的汇率发生变化时，可能会发生回调。如果我们无法保证所显示的汇率，您的交易将恢复并且您的资金将保留在您的帐户中。之后，只有您可以发起新交易。",
+
+  "network-fees": "网费是什么？",
+  "network-fees-description": "要求用网费来永久性记录您在 以太坊区块链上的交易情况。这会体现您在 TokenSet 上交易的资产的所有权情况。",
+
+  "network-fee-trade-size": "网费是否根据交易规模而增加？",
+  "network-fee-trade-size-description": "不会。网络费用不会随着购买量的增加而增加。无论购买 1 Set 还是100 Set，您都需要支付相同的网络费。由于以太坊区块链上活动的增加，网络费用可能会偶尔激增。",
+
+  "trade-change": "为何我会收到找零？",
+  "trade-change-description": "属于你的就是你的。所示费率为交易 Set 所代表的你可以得到的最低费率。可能有时交易会以更好的费率执行，我们的智能合约会返还其余部分。",
+
+  "rebalancing": "再平衡",
+  "what-is-rebalancing": "何为再平衡？",
+  "overview": "综述",
+  "what-is-rebalancing-description": "再平衡是重新调整资产组合权重的一个过程。当成分代币的价格发生足够大的变化，且时间足够长，通过了链上再平衡机制时，Sets会定期调整成分代币的配置情况。作为 Set 的所有者，你什么都不用做，只需要持有该 Set，并获取其根据你所选择的策略进行自动再平衡所带来的收益。了解关于再平衡 {{rebalanceLink}} 的更多信息。\n",
+  "rebalancing-liquidity": "再平衡流动性",
+  "what-is-rebalancing-description-2": "Set 再平衡不使用 Kyber 作为流动性来源，而是使用公开市场参与者来提供流动性。这是为了确保用户不会产生不必要的和不可预测的滑移量。 如果您想进行再平衡，请通过 hello@setprotocol.com 与我们联系，或通过 {{discord}} 亲自给我们发送消息。\n",
+
+  "who-can-rebalance": "谁来觉得何时进行再平衡？",
+  "who-can-rebalance-description": "再平衡的 Set 管理者是唯一可以提出新 Set 建议的一方。 管理者可以是信任的人或去信任的智能合约（去信任的数据库或凭证精选测试表）。TokenSet 上支持的所有分支 Set 都将使用具有预定义逻辑的智能合约管理器来再平衡，从而无需信任对手。",
+
+  "rebalance-progress": "再平衡过程怎样运作？",
+  "rebalance-progress-description": "再平衡 Set 管理者智能合约首先提出要再平衡哪些组件。指定的投标期结束后，将开始进行修改后的荷兰式拍卖，交易者在其中进行投标用新组件交换旧组件。 随着拍卖的进行，价格对交易者越来越有利，从而确保了再平衡的完成。",
+
+  "when-to-rebalance": "何时会发生再平衡？",
+  "when-to-rebalance-description": "当智能合约管理器中满足某些条件时，将启动再平衡。这些条件包括但不限于再平衡间隔和偏离目标的最小百分比。",
+
+  "strategies": "策略",
+  "what-is-buy-and-hold": "何为买入和持有策略？",
+  "what-is-buy-and-hold-description": "买入和持有策略会自动再平衡基础加密货币，以保持一段时间内的固定比率。前 5 个加密 Set 再平衡以保持权重随时间变化。了解更多{{moreInfo}}\n",
+
+  "when-to-buy-and-hold": "我在何时应使用购买和持有策略？",
+  "when-to-buy-and-hold-description": "如果您对加密货币持乐观态度，但又希望分散多个代币的风险，并获得单个资产的出色表现，那么买入和持有 Set 是理想的选择。 无需采取任何措施即可使您的加密货币投资组合分配符合他们的信念。",
+
+  "how-to-buy-and-hold": "买入和持有 Set 怎样使用？",
+  "how-to-buy-and-hold-description": "每当组件代币分配与目标分配有足够的偏差，并且经过了足够的时间进行再平衡时，Set 就会重新调整为其目标分配。",
+
+  "what-is-range-bound": "何为 Range Bound 策略？",
+  "what-is-range-bound-description": "Range Bound 策略在可变资产（如 ETH）和稳定资产（如美元）间自动再平衡，低价买入，根据价格波动盈利，来实现价格波动的货币化，即便长期看来，标的资产在价格方面并未变化。了解更多 {{moreInfo}}",
+
+  "when-to-range-bound": "我何时应使用 Range Bound 策略？",
+  "when-to-range-bound-description": "如果你不相信价格变动的显著明确方向，Range Bound Set 则很是理想，并提供潜力累计更多加密货币，同时将突然反向价格变化的风险降到最小。",
+
+  "how-to-range-bound": "Range Bound Set 如何运作？",
+  "how-to-range-bound-description": "Range Bound Sets 包含一种基准代币（即比特币、以太币等）和一种价格稳定的代币（即：Dai、美元代币等），在价格上涨或下跌时，其会在两者之间进行再平衡。这些 Set 试着在你的投资组合中持有一部分现金，用于在目标资产价格下跌时买入相应资产。比如，一个由50% ETH 和 50% 现金（Dai）组成的 Range Bound Set，会在 ETH 价格下跌超过 10% 时用 DAI 买入 ETH，以始终维持 50% DAI 和 50% ETH 的目标资产配置。",
+
+  "difference-in-volatility": "Range Bound Min、低和高波动性的区别是什么？",
+  "difference-in-volatility-description": "最小、低和高波动性描述你对目标资产（如 ETH、BTC）价格波动程度的看法。如果您认为 ETH 和 BTC 将在一个较大的范围内波动（或有较高的波动）, 则与 Min 或低波动性 Set 相比，Range Bound 高波动性 Set会更适合你的投资组合。如果您认为ETH或BTC将在某一范围内最低限度地的波动，则最小波动性 Set 对于您的投资组合而言更理想。最小、低和高波动性不能描述集合的实际 {{impliedVolatility}}。",
+
+  "what-is-trend-trading": "何为趋势交易策略？",
+  "what-is-trend-trading-description": "趋势交易试图通过对资产动量的统计和市场情感分析来获取收益。交易者使用技术分析来实施策略，例如移动平均线，异同移动平均线（MACD）、布林线和 RSI，它们指示何时进入和退出头寸。了解更多{{moreInfo}}",
+
+  "when-to-trend-trading": "何时我该使用趋势贸易策略？",
+  "when-to-trend-trading-description": "何时使用趋势交易策略最终取决于你自己。我们为你提供了趋势交易 Set，供你在希望自动制定如交易员所使用的基于流行势头的交易策略时使用。这些策略中有些可能会包含以下流行趋势交易指标，如 20、50、100 和 200 日移动均线，指数移动均线、MACD 和 RSI 等等。",
+
+  "how-to-trend-trading": "趋势交易组件如何工作？",
+  "how-to-trend-trading-description": "在任何基于实施的策略(如简单移动平均线，指数移动平均线，MACD)给定的点上，每个趋势交易 Set 是由 100% 的目标资产(如比特币，以太)或 100% 的稳定资产(如 USDC, Dai )组成。在一个假设的例子中，如果目标资产的价格低于其 20 天移动平均线以下，表明有下跌趋势，那么该 Set 将自动再平衡目标资产到稳定资产。如果 20 日移动平均线显示趋势反转，价格上升到移动平均线以上，那么设定的目标资产再平衡。",
+
+  "other": "其他",
+  "future-support": "TokenSet 在未来会支持哪些 Set?",
+  "future-support-description": "我们计划在将来推出更多的 Set，着眼于近期的趋势交易 Set。如果您想在 TokenSets 上看到特定的 Set 或策略，请通过 {{discord}} 与我们联系。",
+
+  "how-to-build-on-set": "我在 Set Protocol 上如何构建内容？",
+  "how-to-build-on-set-description": "如果想在 Set Protocol 中搭建任何内容，可以检查我们的{{developerPlatform}} 或通过{{discord}}给我们发信息！",
+
+  "how-secure-is-tokensets": "TokenSet 安全性如何？",
+  "how-secure-is-tokensets-description": "系统的安全性对我们来说最为重要。我们认识到了协议的复杂性、部署无问题软件的困难程度和维护具有价值的协议的责任。因此，我们已经做出了相当大的努力，以确保系统已接受过顶级安全公司的审查，并在内部对每一行代码进行了严格的审查。我们还联系 Chain Security 和 Trail of Bits 对我们进行了审计。您可以在这里找到相关的审计报告：{{chainSecurity}} 和 {{trailOfBits}}",
+  "how-secure-is-tokensets-description-2": "经过 840 多次单元、集成和模拟测试证明，我们的 Set Protocol 合约回购能够覆盖100%的线路和分支。但信不信由你，Set Protocol的每一行智能合约代码均为开源，我们欢迎每位技术界的朋友来审查和验证我们的代码{{github}}。有关我们的系统的更多信息，请查看{{whitepaper}}。",
+
+  "email-submission": "在我向 TokenSet 提交签署的信息后，会发生什么？",
+  "email-submission-description": "您的电子邮件仅与 TokenSet 上的以太坊地址相关联。您的电子邮件未上传到区块链。",
+
+  "set-creator": "我如果建立 Set 与/或成为再平衡 Set 经理人？",
+  "set-creator-description": "我们的 Set 创建器工具目前不公开。如果您有兴趣创建或管理自己的 Set，请通过 {{email}} 或 {{discord}} 与我们联系。",
+
+  "auction-participation": "我怎样参与再平衡拍卖？",
+  "auction-participation-description": "在网页底部点击 “再平衡”，可以看到所有 活跃的paim",
+
+  "tokensets-set-protocol": "TokenSets 与 Set Protocol 如何相关联？",
+  "tokensets-set-protocol-description": "TokenSets 是第一款基于 Set Protocol 构建的应用程序，允许用户轻松地买卖代币化的项目组合管理策略。Set Protocol 是一种允许用户以完全不可信的方式创建、发行、赎回和管理 ERC-20 代币投资组合的协议。了解更多关于 Set Protocol 的信息 {{setProtocol}}\n",
+
+  "set-labs-set-protocol": "Set Labs Inc. 如何与 Set Protocol 产生关联？",
+  "set-labs-set-protocol-description": "Set Labs Inc. 是一家建立 Set Protocol 智能合约的公司。Set Labs Inc. 不担任任何 Set 的经理人，不充当交易对手，也不保管任何人与TokenSet 相关的资金。Set Labs Inc. 可与任何其他流动性提供者一道作为参与者参与每一次公开拍卖。了解更多与 Set Protocol 相关的信息：{{setProtocol}}",
+
+  "set-labs-social-trader": "TokenSet 提供的交易者",
+  "set-labs-social-trader-description": "Set Labs Inc. 是一家构建有 Set Protocol 智能合约和 TokenSets 应用程序的公司。如前所述，我们不担任任何Set的经理人，不作为交易对手方，也不负责保管任何人与 TokenSets 相关的资金。至于在该网站上提供 Sets 的交易商，他们既不是 Set Labs Inc. 的员工或代理人，也不是 Set Labs Inc. 的附属公司。Set Labs Inc. 仅负责提供网站和在线门户，供交易商们在此建立档案资料、建立社区和与他们的追随者们进行接洽，但我们既不代表交易商执行交易，也不向他们提供任何其他服务。Set Labs Inc. 目前不向在其网站上活跃的交易商们收取任何费用，也不以任何方式向交易商收取费用，不过我们保留今后这样做的权利。如果我们选择收取费用，或者我们与交易商或其他服务提供商的关系发生变化，我们将提前通知用户。\n"
+}

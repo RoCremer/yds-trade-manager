@@ -1,0 +1,69 @@
+{
+  "trader-profile": {
+    "title": "Profil bearbeiten",
+    "username": "Nutzername",
+    "first-name": "Vorname",
+    "last-name": "Nachname",
+    "bio": "Biographie",
+    "ethereum-address": "Ethereum Adresse",
+    "website": "Webseite",
+    "twitter-handle": "Twitter Nutzername",
+    "submit": "Speichern",
+    "update-success": "Dein Trader Profil wurde erfolgreich gespeichert!",
+    "update-failed": "Dein Trader Profil konnte nicht gespeichert werden.",
+    "username-taken": "Update fehlgeschlagen: Nutzername {{username}} nicht verfügbar.",
+    "invalid-signature": "Update fehlgeschlagen: Falsche Signatur."
+  },
+  "rebalance-manager": {
+    "choose-next-allocation": "Wähle die nächste Allokation für deinen Trading Pool.",
+    "post-title": "Schreibe einen Post, der deinen Trade erklärt.",
+    "post-description": "Dieser wird gepostet, nachdem die Rebalancierung erfolgreich initialisiert wurde, zusammen mit einer Email an deine Follower, nachdem die Rebalancierung abgeschlossen ist.",
+    "enter-a-description": "Schreibe eine Beschreibung",
+    "learn-more": "Mehr erfahren",
+
+    "rebalance-pending": "Deine Rebalanicerung wird initialisiert...",
+    "rebalance-pending-description": "Bitte warte auf dieser Seite bis die Transaktion durchgeführt wurde.",
+
+    "long-confirmation": "Deine Rebalancierung wartet noch auf die Bestätigung.",
+    "long-confirmation-description": "Deine Rebalancierung wurde erfolgreich bestätigt. Du kannst den Fortschritt deiner Transaktion auf Etherscan oder auf deiner Account Seite sehen.",
+
+    "successful-rebalance": "Rebalancierung gesendet",
+    "successful-rebalance-description": "Deine Rebalancierung ist gestartet und wird in den nächsten 4 Stunden in deine neue Portfolio Allokation eingehen.",
+
+    "rebalance-failed": "Rebalancierung konnte nicht initialisiert werden",
+    "rebalance-failed-description": "Deine Transaktion zur Initialisierung der Rebalancierung ist fehlgeschlagen. Bitte wähle eine höhere Gasgebühr oder versuche es später erneut.",
+
+    "currently-rebalancing": "Dieses Set ist gerade in einer Rebalancierung.",
+    "view-auction": "Auktion sehen",
+    "etherscan-link": "Dein Etherscan Lin",
+
+    "enable-twap": "TWAP einschalten",
+    "enabling-twap": "TWAP einschalten",
+    "confirming-twap": "TWAP wird bestätigt"
+  },
+  "update-set-details": {
+    "title": "Set bearbeiten",
+    "set-symbol": "Set Symbo",
+    "set-name": "Set Name",
+    "owner-address": "Eigentümer Adresse",
+    "set-address": "Set Adresse",
+    "set-description": "Set Beschreibung",
+    "update-successful": "Dein Set wurde erfolgreich upgedated!",
+    "update-failed": "Das Update ist fehlgeschlagen."
+  },
+  "send-tokens": {
+    "send-tokens": "Tokens senden",
+    "max-eth-error": "Ihr Konto verfügt nicht über ausreichend ETH, um diese Überweisung abzuschließen. Drücken Sie die Schaltfläche \"Maximum\", um den höchsten zulässigen ETH-Betrag zu sehen, den Sie abzüglich der Ethereum-Netzgebühren überweisen dürfen.",
+    "max-token-error": "Ihr Konto verfügt nicht über ausreichend {{tokenSymbol}}, um diese Überweisung abzuschließen.",
+    "gas-error": "Ihr Konto verfügt nicht über ausreichend ETH, um diese Überweisung abzuschließen. {{gasFee}} ETH werden benötigt, um diese Überweisung abzuschließen.",
+    "preview-send": "Sendungsvorschau",
+    "send-confirmation": "Bestätigung senden",
+    "send-amount": "Betrag senden",
+    "remaining-balance-after-transfer": "Neuer Kontostand nach der Überweisung",
+    "to-address": "An",
+    "ethereum-network-fees": "Ethereum-Netzgebühren",
+    "disclaimer": "Ich verstehe, dass, wenn ich meine Sets an Coinbase, Binance und andere Währungsbörsen schicke,",
+    "disclaimer-2": "dies wegen mangelnder Unterstützung für die Überweisung von ERC-20-Token zu einem Geldverlust führen wird.",
+    "disclaimer-3": "Ich habe sichergestellt, dass die Adresse, an die ich meine Tokens sende, das Token unterstützt, welches ich momentan überweise."
+  }
+}

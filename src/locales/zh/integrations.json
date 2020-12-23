@@ -1,0 +1,41 @@
+{
+  "title": "整合与合作伙伴",
+  "description": "集成了 Set 的公司和产品。",
+  "view": "查看",
+  "wallets": {
+    "title": "钱包",
+    "coinbase-wallet": "Coinbase 钱包",
+    "coinbase-wallet-description": "易于使用的钱包，可让您购买、出售和追踪您的 Set。",
+    "argent": "Argent 钱包",
+    "argent-description": "一款简单且安全的加密货币智能钱包，内置 Set 支持。",
+    "trust-wallet": "信任钱包",
+    "trust-wallet-description": "安全的多币种钱包，可让您购买、出售和追踪您的 Set。",
+    "fortmatic": "Fortmatic",
+    "fortmatic-description": "支持通过电子邮件和电话登录的安全钱包。",
+    "imtoken": "imToken",
+    "imtoken-description": "允许用户购买、出售和管理 Set 的多资产钱包。"
+  },
+  "open-finance-portals": {
+    "title": "开放式金融门户",
+    "zerion": "Zerion",
+    "zerion-description": "支持 Set 的开放式金融产品的单一解决方案。",
+    "multis": "Multis",
+    "multis-description": "允许您购买、出售和管理 Set 的加密货币银行。",
+    "defi-prime": "DeFiprime",
+    "defi-prime-description": "一站式消费，使用 Set 资产组合跟踪器来处理所有DeFi。"
+  },
+  "liquidity": {
+    "title": "流动性",
+    "kyber": "Kyber",
+    "kyber-description": "一种向 Set 提供流动性的链上流动性协议。",
+    "0x": "0 x",
+    "0x-description": "用于 Set 流动性的点对点交换协议。"
+  },
+  "prices-and-analytics": {
+    "title": "价格和分析",
+    "etherscan": "Etherscan",
+    "etherscan-description": "在 Etherscan 上的 Ethereum 区块链的 Set 认证智能合同列表。",
+    "coin-gecko": "代币 Gecko",
+    "coin-gecko-description": "TokenSets 价格和交易量汇总器。"
+  }
+}

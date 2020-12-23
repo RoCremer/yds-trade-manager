@@ -1,0 +1,43 @@
+{
+  "buttons": {
+    "start": "Genehmigen Sie den Handel Ihrer {{tokenSymbol}} ",
+    "pending": "Ihr {{tokenSymbol}} wird genehmigt",
+    "submit": "{{buyOrSell}} einreichen"
+  },
+  "order-summary": {
+    "title": "{{buyOrSell}}-Anforderung bestätigen",
+    "name": "Name",
+    "amount": "Menge",
+    "value": "Wert",
+    "from": "Von",
+    "to": "An",
+    "token-sets-fee": "TokenSets-Gebühr",
+    "network-fee": "Netzwerk-Gebühr",
+    "slippage": "Verzögerung",
+    "total-cost": "Gesamtkosten",
+    "order-total": "{{tokenQuantity}} {{tokenSymbol}} + Gebühren",
+    "slippage-warning": "Achtung! Dieser Handel wird mit einer Verzögerung von ca. {{slippage}} ausgeführt. Sollten Sie Mengen von {{tokenName}} im Wert von mehr als 50.000 USD {{buyOrSell}}, ",
+    "contact-us": "kontaktieren Sie ein Teammitglied für weitere Informationen."
+  },
+  "modals": {
+    "pending-title": "Ihre {{buyOrSell}}-Anforderung wird verarbeitet",
+    "completed-title": "Ihre {{buyOrSell}}-Anforderung wurde ausgeführt",
+    "completed-description": "Sie können unten Ihre Transaktion prüfen sowie in Kürze in Ihrem Konto Ihren Saldo einsehen.",
+    "long-title": "Ihre {{buyOrSell}}-Anforderung wird noch verarbeitet",
+    "long-description": "Bitte überwachen Sie Ihre Transaktion über den nachfolgenden Link oder versuchen Sie es erneut.",
+    "failed-title": "Ihr {{buyOrSell}} konnte nicht verarbeitet werden.",
+    "failed-description": "Ihre {{buyOrSell}}-Anforderung konnte nicht verarbeitet werden. Bitte prüfen Sie über den nachfolgenden Link Ihre Transaktion und versuchen Sie es erneut.",
+    "imtoken-completed": "Sie können den Fortschritt Ihrer Transaktion in Ihrem Konto nachverfolgen."
+  },
+  "toast": {
+    "completed": "Ihre Transaktion wurde eingereicht."
+  },
+  "uniswap-errors": {
+    "default": "Ihre {{buyOrSell}}-Anfrage konnte nicht ausgeführt werden."
+  },
+  "api-errors": {
+    "insufficient-liquidity": "Die Liquidität reicht nicht aus, um diese Anforderung zu bearbeiten. Bitte kontaktieren Sie uns für weitere Informationen.",
+    "eth-gas-cost": "Die ETH-Gaskosten übersteigen den Wert dieser Transaktion.",
+    "default": "Wir konnten keinen Transaktionspreis für diese Anforderung abrufen. Bitte versuchen Sie es mit einer anderen Menge."
+  }
+}

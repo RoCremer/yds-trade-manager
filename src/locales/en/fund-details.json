@@ -1,0 +1,13 @@
+{
+  "issue-and-redeem": {
+    "title": "Issue & Redeem",
+    "issue": "Issue",
+    "redeem": "Redeem"
+  },
+  "warning": {
+    "header": "Safety Alert",
+    "description": "This is an experimental strategy which may utilize unaudited smart contracts. Please ensure you've understood the contracts and use at your own risk. For more information on the risks involved, please view the article below.",
+    "cta": "I understand",
+    "learn-more": "Learn more"
+  }
+}

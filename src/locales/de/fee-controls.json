@@ -1,0 +1,101 @@
+{
+  "fee-controls": "Gebührensteuerung",
+  "common": {
+    "fee-type": "Gebührenart",
+    "current-fee": "Aktuelle Gebühr",
+    "new-fee": "Neue Gebühr",
+    "fee-type-unchanged": "Ihre {{feeType}} verbleibt",
+    "buy-fee": "Kaufgebühr",
+    "streaming-fee": "Streaminggebühr",
+    "performance-fee": "Leistungsgebühr"
+  },
+  "errors": {
+    "buy-fee-unallowed-value": "Die Kaufgebühr muss zwischen 0 und 5 % liegen",
+    "buy-fee-must-be-different": "Der neue Wert für die Kaufgebühr muss sich von der aktuellen Kaufgebühr unterscheiden.",
+    "performance-fee-unallowed-value": "Die Leistungsgebühr muss zwischen 0 und 40 % liegen",
+    "performance-fee-unallowed-value-legacy": "Die Leistungsgebühr muss zwischen 0,01 und 40 % liegen",
+    "performance-fee-watermark-upgrade-required": "Die Performancegebühr dieses Sets muss zuerst auf 0,01% gesetzt werden",
+    "performance-fee-must-be-different": "Der neue Wert für die Leistungsgebühr muss sich von der aktuellen Leistungsgebühr unterscheiden.",
+    "streaming-fee-unallowed-value": "Die Streaminggebühr muss zwischen 0 und 5 % betragen",
+    "streaming-fee-must-be-different": "Der neue Wert für die Streaminggebühr muss sich von der aktuellen Streaminggebühr unterscheiden."
+  },
+  "collect-fees": {
+    "title": "Gebühren einziehen",
+    "last-high-watermark": "Letztes Höchstmaß",
+    "next-high-watermark": "Nächstes Höchstmaß",
+    "performance-fee-label": "Nicht realisierte Leistungsgebühren",
+    "performance-fee-description": "Betrag der Gebühren, die basierend auf dem Wert dieses Sets im Verhältnis zu seinem zuletzt vermerkten Höchstmaß erhoben werden können.",
+    "performance-fee-unavailable-description": "Dieses Set überschreitet sein letztes Höchstmaß nicht. Es werden keine Leistungsgebühren angesammelt.",
+    "streaming-fee-label": "Nicht realisierte Streaminggebühren",
+    "streaming-fee-description": "Gebührenbetrag, der basierend auf dem Börsenwert des Sets, dem Prozentsatz der Streaminggebühr und der seit der Fälligkeit der letzten Gebühr vergangenen Zeit eingezogen werden kann.",
+    "total-fees-label": "Gesamtgebühren zum Einzug",
+    "collect-button": "Gebühren einziehen"
+  },
+  "fee-change": {
+    "title": "Gebühren aktualisieren",
+    "description": "Um den Nutzern bei wichtigen Änderungen am Set eine angemessene Vorlaufzeit zu bieten, erfordert die Aktualisierung des Gebührenprozentsatzes für ein Set eine Wartezeit von 5 Tagen.",
+    "description-limitation": "Um sicherzustellen, dass Gebührenaktualisierungen zuverlässig und sicher durchgeführt werden können, werden Streaming- und Leistungsgebühren möglicherweise jeweils nur einzeln aktualisiert",
+    "buy-fee-description": "Ihre Kaufgebühr muss zwischen 0 und 5 % liegen",
+    "performance-fee-description": "Sie können Ihre Leistungsgebühr mit einem Wert zwischen 0 und 40 % festlegen",
+    "performance-fee-description-legacy": "Sie können Ihre Leistungsgebühr mit einem Wert zwischen 0,01 und 40 % festlegen",
+    "streaming-fee-description": "Ihre Streaminggebühr kann zwischen 0 und 5 % betragen."
+  },
+  "fee-change-components": {
+    "confirm-fee-update": "Gebührenaktualisierung bestätigen",
+    "cancel-fee-update": "Gebührenaktualisierung stornieren",
+    "countdown-description": "Ihre {{feeType}}-Aktualisierung wurde gestartet. Sie können Ihre Aktualisierung abschließen in:",
+    "finalize-description": "Ihre {{feeType}}-Aktualisierung steht zur Bestätigung bereit. Bitte bestätigen Sie nachfolgend die Aktualisierung."
+  },
+  "start-fee-change-modal": {
+    "start-transaction-title": "{{feeType}}-Aktualisierung starten",
+    "start-transaction-description": "Um den Nutzern bei wichtigen Änderungen am Set eine angemessene Vorlaufzeit zu bieten, erfordert die Aktualisierung des Gebühren für ein Set eine Wartezeit von 5 Tagen.",
+    "start-transaction-description-2": "Um sicherzustellen, dass Gebührenaktualisierungen zuverlässig und sicher durchgeführt werden können, werden Streaming- und Leistungsgebühren möglicherweise jeweils nur einzeln aktualisiert",
+    "start-transaction-description-3": "Kehren Sie bitte 5 Tage nach Einreichung Ihrer Transaktion zurück, um Ihre Gebührenaktualisierung abzuschließen.",
+    "pending-transaction-title": "Gebührenaktualisierung wird initiiert",
+    "pending-transaction-description": "Bitte warten Sie, während Ihre Gebührenaktualisierung verarbeitet wird.",
+    "completed-transaction-title": "Ihre Gebührenaktualisierung wurde gestartet. Bitte kehren Sie in 5 Tagen zurück, um Ihre Aktualisierung abzuschließen.",
+    "failed-transaction-title": "Aktualisierung der Gebühren ist fehlgeschlagen",
+    "failed-transaction-description": "Ihre Gebührenaktualisierung konnte nicht gestartet werden. Bitte versuchen Sie es erneut.",
+    "long-transaction-title": "Gebührenupdate wird noch immer verarbeitet",
+    "long-transaction-description": "Ihre Gebührenaktualisierung wird noch immer verarbeitet. Sie können Ihre Transaktion unter dem folgenden Link weiter überwachen. Sollte die Transaktion nicht erfolgreich abgeschlossen werden, versuchen Sie es bitte erneut."
+  },
+  "confirm-fee-change-modal": {
+    "start-transaction-title": "{{feeType}}-Aktualisierung bestätigen",
+    "start-transaction-description": "Sobald Ihre Gebührenaktualisierung bestätigt wurde, läuft Ihr Set ab sofort mit dem neuen Gebührenprozentsatz.",
+    "start-transaction-description-2": "Wenn Sie in Zukunft eine neue Gebührenaktualisierung einreichen möchten, müssen Sie die Standardwartezeit von 5 Tagen abwarten.",
+    "pending-transaction-title": "Bestätige {{feeType}}-Aktualisierung",
+    "pending-transaction-description": "Bitte warten Sie, während Ihre Bestätigung verarbeitet wird.",
+    "completed-transaction-title": "Ihre {{feeType}}-Aktualisierung wurde bestätigt.",
+    "failed-transaction-title": "Bestätigung der Gebührenaktualisierung ist fehlgeschlagen",
+    "failed-transaction-description": "Ihre Gebührenaktualisierung konnte nicht bestätigt werden. Bitte versuchen Sie es erneut.",
+    "long-transaction-title": "Bestätigung wird noch immer verarbeitet",
+    "long-transaction-description": "Ihre Bestätigung wird noch immer verarbeitet. Sie können Ihre Transaktion unter dem folgenden Link weiter überwachen. Sollte die Transaktion nicht erfolgreich abgeschlossen werden, versuchen Sie es bitte erneut."
+  },
+  "cancel-fee-change-modal": {
+    "start-transaction-title": "{{feeType}}-Aktualisierung stornieren",
+    "start-transaction-description": "Die Stornierung der {{feeType}}-Aktualisierung setzt die 5-tägige Wartezeit zurück.",
+    "start-transaction-description-2": "Nach Bestätigung der Stornierung können Sie eine neue Gebührenaktualisierung anfordern.",
+    "pending-transaction-title": "{{feeType}}-Aktualisierung wird storniert",
+    "pending-transaction-description": "Bitte warten Sie die Verarbeitung Ihrer Stornierung ab.",
+    "completed-transaction-title": "Ihre {{feeType}}-Aktualisierung wurde storniert.",
+    "failed-transaction-title": "Stornierung der Gebührenaktualisierung ist fehlgeschlagen",
+    "failed-transaction-description": "Ihre Gebührenaktualisierung konnte nicht storniert werden. Bitte versuchen Sie es erneut.",
+    "long-transaction-title": "Stornierung der Gebührenaktualisierung wird noch immer verarbeitet",
+    "long-transaction-description": "Ihre Stornierung wird noch immer verarbeitet. Sie können Ihre Transaktion unter dem folgenden Link weiter überwachen. Sollte die Transaktion nicht erfolgreich abgeschlossen werden, versuchen Sie es bitte erneut."
+  },
+  "collect-fee-modal": {
+    "new-high-watermark": "Neues Höchstmaß",
+    "fees-to-be-collected": "Einzuziehende Gebühren",
+    "no-new-watermark": "Dieser Gebühreneinzug zeichnet kein neues Höchstmaß für dieses Set auf.",
+    "start-transaction-title": "Gebühren einziehen",
+    "start-transaction-description": "Die Gebühren für dieses Set werden der Adresse {{truncatedAddress}} in Form von {{totalFeesInSetUnits}} {{setSymbol}} gutgeschrieben und das Höchstmaß dieses Sets wird auf {{nextHighWaterMark}} {{BenchmarkAsset}} aktualisiert.",
+    "start-transaction-description-no-watermark": "Die Gebühren für dieses Set werden der Adresse {{truncatedAddress}} in Form von {{totalFeesInSetUnits}} {{setSymbol}} gutgeschrieben.",
+    "pending-transaction-title": "Gebühren werden eingezogen ...",
+    "pending-transaction-description": "Bitte warten Sie den Einzug Ihrer Gebühren ab.",
+    "completed-transaction-title": "Ihrem Konto wurden Setgebühren gutgeschrieben.",
+    "failed-transaction-title": "Gebühreneinzug fehlgeschlagen",
+    "failed-transaction-description": "Ihre Gebühren konnten nicht eingezogen werden. Bitte versuchen Sie erneut, Ihre Gebühren einzuziehen.",
+    "long-transaction-title": "Gebühreneinzug wird noch immer verarbeitet",
+    "long-transaction-description": "Ihr Gebühreneinzug wird noch immer verarbeitet. Sie können Ihre Transaktion unter dem folgenden Link weiter überwachen. Sollte die Transaktion nicht erfolgreich abgeschlossen werden, versuchen Sie es bitte erneut."
+  }
+}

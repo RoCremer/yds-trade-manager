@@ -1,0 +1,10 @@
+node_modules/
+build/
+.idea/
+.DS_Store
+.env
+.vscode
+yarn-error.log
+coverage/
+
+static.json

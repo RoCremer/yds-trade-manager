@@ -1,0 +1,83 @@
+{
+  "new": "Nuevo",
+  "manage-your-crypto": "Gestiona tus Criptomonedas",
+  "home-sticky-cta": {
+    "explore-sets": "Explora Sets",
+    "get-started": "¡Comenzar!",
+    "how-set-works-intro-video": "Cómo funciona Set"
+  },
+  "home-banner": {
+    "introducing-social-trader": "Sets de Traders Sociales Actualizados",
+    "copy-trades": "Gana intereses con tus Sets de Traders Sociales Favoritos",
+    "learn-more": "Más información"
+  },
+  "home-header": {
+    "intro": "Tokensets te ayuda fácilmente",
+    "title": "a gestionar tus Criptomonedas",
+    "description": "Mejora tu Portafolio con estrategias automatizadas de gestión "
+  },
+  "home-social-trader": {
+    "intro": "Únete a otros Traders en  ",
+    "title": "los Sets de Traders Sociales",
+    "description": "Sigue a los mejores traders con un solo click o crea tus propios sets y gana seguidores",
+    "explore": "Explora Sets por Trader",
+    "learn-more": "Más información"
+  },
+  "home-why-section": {
+    "intro": "Los Sets son Tokens con ",
+    "title": "Estrategias de Gestión de Activos predeterminadas",
+    "description": "Cada Set es una canasta inteligente de criptoactivos en un Token ERC20 que rebalancea automáticamente dependiendo de la estrategia que elijas.  No pierdas oportunidades de mercado y evita que tu portafolio se descontrole",
+    "save-time": "Ahorra tiempo y esfuerzo",
+    "automated-rebalancing": "Rebalanceo Automático",
+    "24hr": "Monitoreo 24hr",
+    "no-commitment": "Sin Compromiso",
+    "automated-strategies": "Estrategias Automatizadas",
+    "reduce-emotion": "Reduce el Riesgo Emocional",
+    "reduce-missed-opportunities": "Reduce las Oportunidades Perdidas",
+    "diversification": "Diversificación Instantánea",
+    "control": "Mantén el Control",
+    "collateral": "Colateralización Garantizada",
+    "buy-sell": "Compra y Vende en cualquier momento",
+    "ownership": "Tú eres dueño de tus fondos"
+  },
+  "home-one-token-section": {
+    "intro": "Tus Criptos favoritas con ",
+    "title": "Rebalanceo Inteligente",
+    "description": "Potencia tus Criptos con un Set que sigue una estrategia algorítmica a tu elección.  Cada Set está completamente respaldado por los Criptoactivos que está gestionando"
+  },
+  "home-set-explanation": {
+    "intro": "Opera con",
+    "title": "Tranquilidad",
+    "verified": "Seguridad Verificada",
+    "audited-code": "Soportado por código auditado.  Sin riesgo de contraparte.  Tú controlas tus fondos",
+    "buy-sell": "Compra y Vende en cualquier momento",
+    "no-lockup": "Compra y Vende sets libremente en Tokensets.  No tenemos períodos de bloqueo luego de comprar un Set  ",
+    "collateral": "Colateralización Garantizada",
+    "portfolio": "Cada Set es como un portafolio tokenizado, que contiene los tokens subyacentes que pertenecen a cada Set",
+    "explore": "Explora los Sets",
+    "get-started": "Comenzar"
+  },
+  "home-integrations": {
+    "intro": "Tokensets soporta las billeteras",
+    "title": "que tu ya utilizas",
+    "description": "Utiliza Billeteras conocidas en Tokensets, o regístrate con email y contraseña",
+    "learn-more": "Ver todas las integraciones"
+  },
+  "home-start-in-minutes-section": {
+    "intro": "¿Preparado para comprar un Set?",
+    "title": "Comienza en minutos",
+    "create": "Crear una cuenta",
+    "fund": "Carga tu Billetera",
+    "buy": "Comienza a comprar y vender"
+  },
+  "home-explore-section": {
+    "intro": "Comencemos.",
+    "title": "Comenzar a explorar los Sets",
+    "explore": "Explora los Sets",
+    "get-started": "Comenzar"
+  },
+  "home-faq-section": {
+    "title": "Preguntas frecuentes",
+    "view-faq": "Ver las Preguntas Frecuentes"
+  }
+}

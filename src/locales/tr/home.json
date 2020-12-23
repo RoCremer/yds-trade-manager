@@ -1,0 +1,83 @@
+{
+  "new": "Yeni",
+  "manage-your-crypto": "Kriptonuzu Yönetin",
+  "home-sticky-cta": {
+    "explore-sets": "Setleri Keşfedin",
+    "get-started": "Başlayın",
+    "how-set-works-intro-video": "Set Nasıl Çalışır"
+  },
+  "home-banner": {
+    "introducing-social-trader": "Yeni Set Sosyal Trader'a Giriş",
+    "copy-trades": "Bir tuşa tıklayarak diğer tüccarların işlemlerini kopyalayın.",
+    "learn-more": "Sosyal Trader hakkında daha fazlasını öğren"
+  },
+  "home-header": {
+    "intro": "TokenSets size kolayca yardımcı olur",
+    "title": "Kriptonuzu Yönetin",
+    "description": "Otomatik varlık yönetimi stratejileriyle portföyünüzü geliştirin"
+  },
+  "home-social-trader": {
+    "intro": "Diğer tüccarlara katılın",
+    "title": "Set Sosyal Tüccarı",
+    "description": "Bir tuşa basarak en iyi tüccarları takip edin veya kendi setlerinizi oluşturun ve takipçi toplayın.",
+    "explore": "Tacirlerin Setlerini Keşfedin",
+    "learn-more": "Daha fazlasını öğrenin >"
+  },
+  "home-why-section": {
+    "intro": "Setler İle Olan Tokenlerdir",
+    "title": "Yerleşik Varlık Yönetim Stratejileri",
+    "description": "Her Set, seçtiğiniz stratejiye dayanarak otomatik yeniden dengelenen ERC20 token kripto varlıkların akıllı bir sepetidir. Piyasa fırsatlarını kaçırmaya veya portföyünüzün kontrolden çıkmasına dur deyin.",
+    "save-time": "Zaman & Efor Kazanın",
+    "automated-rebalancing": "Otomatikleştirilmiş Yeniden Dengeleme",
+    "24hr": "24sa İzlem",
+    "no-commitment": "Taahhüt Yok",
+    "automated-strategies": "Otomatikleştirilmiş Stratejiler",
+    "reduce-emotion": "Duygusal Riski Azaltın",
+    "reduce-missed-opportunities": "Kaçan Fırsatları Azalt",
+    "diversification": "Anlık Çeşitlendirme",
+    "control": "Kontrolde Kalın",
+    "collateral": "Garantili Teminatlandırma",
+    "buy-sell": "İstediğiniz Zaman Alın & Satın",
+    "ownership": "Sermayenize Sahipsiniz"
+  },
+  "home-one-token-section": {
+    "intro": "Favori Kriptoların",
+    "title": "Akıllı Yeniden Dengeleme",
+    "description": "Mevcut kriptonuzu seçtiğiniz bir stratejiyi izleyen bir Set'e yükseltin. Her bir Set, yönettiği kripto varlık tarafından desteklidir."
+  },
+  "home-set-explanation": {
+    "intro": "Sahip Ol",
+    "title": "Gönül Rahatlığı",
+    "verified": "Onaylı Güvenlik",
+    "audited-code": "Denetlenmiş kod ile çalışmaktadır. Karşı taraf riski yoktur. Fonlarınızı siz kontrol edersiniz.",
+    "buy-sell": "İstediğiniz Zaman Alın & Satın",
+    "no-lockup": "TokenSets'te serbestçe Set alın ve satın. Bir Set alımından sonra hiçbir kilitlenme dönemi yoktur.",
+    "collateral": "Garantili Teminatlandırma",
+    "portfolio": "Her Set, o Sete ait dayanak tokenleri içeren parçalanmış bir portföy olarak hareket eder.",
+    "explore": "Setleri Keşfet",
+    "get-started": "Başlayın"
+  },
+  "home-integrations": {
+    "intro": "TokenSets cüzdanları destekler",
+    "title": "Zaten Kullanıyorsunuz",
+    "description": "TokenSets'de zaten aşina olduğunuz 3. kişi cüzdanlarını kullanın veya e-posta ve şifreyle kaydolun.",
+    "learn-more": "Tüm Entegrasyonları Görüntüle"
+  },
+  "home-start-in-minutes-section": {
+    "intro": "Bir Set Almaya Hazır Mısınız?",
+    "title": "Dakikalar İçinde Başla",
+    "create": "Hesap oluşturun",
+    "fund": "Cüzdanınıza para yatırın",
+    "buy": "Almaya & satmaya başlayın"
+  },
+  "home-explore-section": {
+    "intro": "Hadi Başlayalım.",
+    "title": "Setleri Keşfetmeye Başlayın",
+    "explore": "Setleri Keşfet",
+    "get-started": "Başlayın"
+  },
+  "home-faq-section": {
+    "title": "Sık Sorulan Sorular",
+    "view-faq": "SSS'ye Bakın"
+  }
+}

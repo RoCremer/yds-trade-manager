@@ -1,0 +1,24 @@
+{
+  "general": {
+    "name": "Nombre",
+    "explore-sets": "Explore Sets"
+  },
+  "feed": {
+    "following": "Siguiendo",
+    "discover": "Descubre",
+    "feed-end": "Has llegado al Final!"
+  },
+  "account": {
+    "my-account": "Mi cuenta",
+    "set-balance": "Saldo del Set",
+    "eth-balance": "Balance en ETH",
+    "percent-change": "Cambio en 1 Día",
+    "view-account": "Ver Cuenta",
+    "no-sets": "Bienvenido a Tokensets.  Puedes comenzar a explorar nuestros Sets aquí abajo"
+  },
+  "explore": {
+    "social-trading-sets": "Sets de Traders Sociales",
+    "robo-sets": "Robo Sets",
+    "percent-change": "Cambio en 1 Mes"
+  }
+}

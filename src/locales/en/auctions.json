@@ -1,0 +1,109 @@
+{
+  "explore-auctions": {
+    "title": "Rebalancing Auctions",
+    "description": "View and participate in Set rebalance auctions.",
+    "rebalance-notifications": "Rebalance Notifications"
+  },
+
+  "auction-header": {
+    "now": "Now",
+    "explore-rebalances": "< Explore Rebalances",
+    "rebalance-auction-for": "Rebalance Auction for",
+    "current-auction-price": "Current Auction Price",
+    "estimated-time-to-fair-value": "Est. Time to Fair Value",
+    "progress": "Progress",
+    "remaining-shares": "Remaining Shares",
+    "percent-to-fair-value": "Percent To Fair Value",
+    "auction-size": "Auction Size",
+    "current-auction-chunk": "Current Auction Chunk",
+    "current-auction-progress": "Current Auction Progress",
+    "total-auction-size": "Total Auction Size"
+  },
+
+  "rebalances-table": {
+    "rebalance-timer": "Rebalance Timer",
+    "rebalancing-criteria": "Rebalancing Criteria",
+    "status": "Status"
+  },
+
+  "auction-bid-form": {
+    "auction-starting-soon": "The Rebalance Auction will be starting shortly.",
+    "supply": "Supply",
+    "amount-to-supply": "Amount to Supply",
+    "receive": "Receive",
+    "shares": "Shares",
+    "amount-to-receive": "Amount to Receive",
+    "enter-shares": "Enter shares amount",
+    "login-to-participate": "Login to Participate",
+    "place-bid": "Place Bid",
+    "net-profit-and-loss": "Net Profit & Loss",
+    "transaction-bid-error": "Transaction not submitted.",
+    "bid-approval-failed": "Your {{tokenName}} could not be approved for bidding."
+  },
+
+  "live-bids-table": {
+    "bid-incoming": "Bid incoming...",
+    "size": "Size",
+    "time": "Time",
+    "no-bids-yet": "No Bids Yet"
+  },
+
+  "tooltips": {
+    "remaining-shares": "Remaining Shares",
+    "remaining-shares-description": "The remaining number of shares to be sold in this rebalance. A share represents the smallest portion of token outflows that may be bid on.",
+    "current-auction-price": "Current Exchange Rate",
+    "current-auction-price-description": "The current exchange rate for the token you will be receiving in terms of the token you are supplying. For cToken rebalances, the exchange rate reflects the underlying (non-cToken) asset.",
+    "estimated-time-fair-value": "Est. Time To Fair Value",
+    "estimated-time-fair-value-description": "The estimated amount of time until the exchange rate of tokens being supplied and tokens being received yields a positive P/L, according to CryptoCompare.",
+    "progress": "Progress",
+    "progress-description": "Progress of the rebalance based on the number of shares that have been sold. When progress reaches 100%, all shares have been sold and the rebalance is complete.",
+    "shares": "Shares",
+    "shares-description": "A share represents the smallest portion of tokens outflows that may be bid on. As a rebalance progresses, the price of each share becomes more favorable to bid on.",
+    "percentage-fair-value": "Percentage To Fair Value",
+    "percentage-fair-value-description": "Percentage to fair value is the Current Exchange Rate reconciled with the CryptoCompare price feed, which gives an estimate of the spread participants are able to capture by supplying tokens to the rebalance.",
+    "live-bids": "Live Bids",
+    "live-bids-description": "Shows most recently confirmed bids from rebalance participants with price data sourced from CryptoCompare.",
+    "market-cap": "Market Cap",
+    "market-cap-description": "The Total USD value of all tokens minted for this Set.",
+    "auction-size": "Auction Size",
+    "auction-size-description": "Auction size is how much of the total {{marketCap}} market cap is being rebalanced.",
+    "current-auction-chunk": "Current Auction Chunk",
+    "current-auction-chunk-description": "The quantity being rebalanced in the current auction chunk.",
+    "current-auction-progress": "Current Auction Progress",
+    "current-auction-progress-description": "Progress of the rebalance based on the number of shares that have been sold. When progress reaches 100%, this chunk of the rebalance is completed.",
+    "total-auction-size": "Total Auction Size",
+    "total-auction-size-description": "The total amount being rebalanced across all auction chunks."
+  },
+
+  "inactive-auction": {
+    "title": "This Set is currently not rebalancing",
+    "description": "Follow this set to get email notifications when it rebalances.",
+    "conditions": "Conditions Until Next Rebalance"
+  },
+
+  "initial-confirmation": {
+    "crossover-detected": "Crossover Detected",
+    "confirmation-period": "Confirmation Period",
+    "confirmation-period-description": "Time needed to confirm a rebalance signal. Helps reduce false positive signals.",
+    "confirmation-window": "Confirmation Window",
+    "confirmation-window-description": "{{confirmationWindow}} hour window to confirm a rebalance signal"
+  },
+
+  "rebalance-proposal": {
+    "ready": "Ready",
+    "rebalance-proposed": "Rebalance Proposed",
+    "time-until-rebalance": "Time Until Rebalance"
+  },
+
+  "transaction-history": {
+    "my-bid-transactions": "My Bid Transactions",
+    "no-bid-transactions": "No Bid Transactions To Show"
+  },
+
+  "auction-description": {
+    "title": "How Rebalancing Works",
+    "description-1": "Welcome to the Set Rebalancer. Rebalancing is the process of realigning the weights of tokens inside of a Set to the Set’s target weights.",
+    "description-2": "Taking part in a rebalance involves supplying undercollateralized component tokens to the Set and receiving over collateralized tokens in return. When you bid during the auction, you supply and receive tokens in the same transaction. Your funds are never locked in the auction.",
+    "learn-more": "Learn more about rebalances."
+  }
+}

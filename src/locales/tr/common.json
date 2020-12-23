@@ -1,0 +1,75 @@
+{
+  "general": {
+    "token-sets": "TokenSets",
+    "token": "Token",
+    "set": "Set",
+    "sets": "Setler",
+    "coins": "Paralar",
+    "portfolios": "Portföyler",
+    "amount": "Miktar",
+    "value": "Değer",
+    "balance": "Bakiye",
+    "address": "Adres",
+    "ethereum-address": "Ethereum Adresi"
+  },
+  "buttons": {
+    "send": "Gönder",
+    "buy": "Al",
+    "sell": "Sat",
+    "submit": "Gönder",
+    "cancel": "İptal Et",
+    "confirm": "Onayla",
+    "update": "Güncelle",
+    "retry": "Tekrar Dene",
+    "back": "Geri",
+    "next": "Sonraki",
+    "skip": "Geç",
+    "save": "Kaydet",
+    "try-again": "Tekrar Dene",
+    "close": "Kapat",
+    "post": "Paylaş",
+    "continue": "Devam",
+    "finish": "Tamamla",
+    "not-now": "Şimdi değil",
+    "dont-show-again": "Tekrar gösterme",
+    "delete": "Sil",
+    "discard": "Kaldır"
+  },
+  "sets": {
+    "name": "İsim",
+    "price": "Ücret",
+    "fee": "Ücret",
+    "buy-fee": "Alım Ücreti",
+    "performance-fee": "Performans Ücreti",
+    "streaming-fee": "Akış Ücreti",
+    "apr": "APR",
+    "market-cap": "Piyasa Değeri",
+    "total-market-cap": "Toplam Piyasa Değeri",
+    "inception": "Başlangıç Tarihi",
+    "trade-count": "Alım Satımların Sayısı",
+    "drawdown": "En Yüksek Düşüş",
+    "rebalance": "Yeniden Dengele",
+    "trader": "Tüccar",
+    "strategy": "Strateji",
+    "set-holders": "Set Sahipleri",
+    "explore-all-sets": "Tüm Setleri Keşfet",
+    "featured-sets": "Öne Çıkan Setler"
+  },
+  "time": {
+    "days": "Günler",
+    "hours": "Saatler",
+    "minutes": "Dakikalar",
+    "seconds": "Saniyeler"
+  },
+  "ledger": {
+    "sign-message": "Bu eylemi onaylamak üzere bir mesajı imzalamak için lütfen Ledger cihazınızı kontrol edin.",
+    "error-message": "Ledger cüzdanınızda bir hata oluştu. Sorunu gidermek için lütfen {{instructions}}'a uyun."
+  },
+  "errors": {
+    "input-a-valid-email": "Lütfen geçerli bir e-posta girin.",
+    "something-went-wrong": "Bir şeyler ters gitti. Lütfen sonra tekrar deneyin.",
+    "404-page-description": "Aradığınız sayfayı bulamadık.",
+    "back-to-home": "Eve Dön",
+    "unlock-ledger": "Bir şeyler ters gitti. Ledger'ınızın kilidinin açık olduğundan lütfen emin olun ve yeniden deneyin."
+  }
+}

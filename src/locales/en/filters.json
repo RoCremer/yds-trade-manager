@@ -1,0 +1,17 @@
+{
+  "labels": {
+    "filter-by": "Filter By",
+    "assets": "Assets",
+    "interest": "Interest",
+    "sentiment": "Sentiment"
+  },
+  "filter-type": {
+    "interest-bearing": "Interest Bearing",
+    "non-interest-bearing": "Non-interest Bearing",
+    "very-bullish": "Very Bullish",
+    "bullish": "Bullish",
+    "neutral": "Neutral",
+    "bearish": "Bearish",
+    "very-bearish": "Very Bearish"
+  }
+}

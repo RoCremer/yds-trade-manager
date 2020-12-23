@@ -1,0 +1,133 @@
+{
+  "faq": "Sık Sorulan Sorular",
+  "footer": {
+    "explore-sets": "Setleri Keşfedin",
+    "more-questions": "Başka sorularınız mı var?",
+    "reach-out": "Bize ulaşmaktan çekinmeyin",
+    "tweet-us": "Bize Bir Soru Tweetleyin",
+    "ask-us": "Bir Ekip Üyesiyle Konuşun"
+  },
+  "general": "Genel",
+  "what-is-a-set": "Set nedir?",
+  "what-is-a-set-description": "Set; Bitcoin (WBTC), Ethereum (WETH) ve yasal paraya sabitlenmiş akçeler (DAI) dâhil olmak üzere diğer varlıklardan oluşan tamamıyla teminata bağlanmış bir portföyü temsil eden bir dijital varlıktır (ERC-20). Setler, tek bir varlık tutarak herhangi bir portföy stratejisini (ör. aralık sınırlamalı alım satım) basitleştirmek üzere otomatik olarak yeniden dengeleme yapar. Setler kullanmak, birden çok varlığı manuel olarak yönetme ve portföyünüzü yeniden dengeleme ihtiyacını ortadan kaldırır.",
+
+  "custody-of-set": "Setleri ve teminatlarını kim himaye eder?",
+  "custody-of-set-title": "Set Tokenleri - Cüzdanınız",
+  "custody-of-set-description": "TokenSets aracılığıyla elde ettiğiniz Setler, kendi cüzdanınızda tutulur. Setler ERC-20 tokenleri olduğu için, örneğin, bunları soğuk depolama için kullandığınız bir Ethereum adresinde tutmak istiyorsanız, bunları ERC-20 tokenlerini destekleyen herhangi başka bir cüzdana taşıyabilirsiniz. Paralarınızı taşıyan tüm işlemler, hesabınız tarafından onaylanmalıdır ve Ethereum blok zincirinde doğrulanabilirdir.",
+  "custody-of-set-title-2": "Dayanak Teminat Tokenleri - Kasa Akıllı Sözleşmesi",
+  "custody-of-set-description-2": "Her bir Seti destekleyen dayanak teminat tokenleri, {{vaultContract}} içinde tutulur. Set ekibi, paranız kasa sözleşmesi içinde olduğunda paranıza erişime sahip olmaz. Paranıza Ethereum cüzdanınız aracılığıyla Set Protocol'de yalnızca sizin erişiminiz vardır. Bu nedenle, Setlerinizi taşıyan cizdana erişimi kaybederseniz, Set ekibinin sizin için paranızı geri almak için hiçbir yolu kalmayacağını göz önünde bulundurmak önemlidir. En iyi uygulama olarak özel cüzdan erişim bilgilerinizi acil bir durum olabileceğini göz önüne alarak güvenli bir yerde yedeklenmiş ve sağlama alınmış olarak tutun.",
+
+  "how-to-buy-and-sell": "Setleri nasıl alıp satabilirim?",
+  "how-to-buy-and-sell-description": "Yalnızca 3 kolay adımda Setler alıp satın:",
+  "how-to-buy-and-sell-step-1": "1) TokenSets'e bağlanmak için telefon numaranız veya MetaMask ile oturum açın. Coinbase Wallet, TrustWallet ve ImToken'ı da destekleriz.",
+  "how-to-buy-and-sell-step-2": "2) Bir Set ve satın alınacak miktar seçin",
+  "how-to-buy-and-sell-step-3": "3) Seti hesap sayfasında onaylayın ve izleyin",
+  "how-to-buy-and-sell-liquidity": "TokenSets, Set'i oluşturmak için merkezsizleştirilmiş borsalardan likidite tedarik eder. Tek yapmanız gereken ETH sağlamaktır.",
+
+  "are-there-fees": "TokenSets'de ücret alınır mı?",
+  "are-there-fees-title": "Hayır, Henüz Değil",
+  "are-there-fees-description": "Şu anda Set Protocol'ün veya TokenSets uygulamasının herhangi bir yerinde yerleşik bir ücretimiz bulunmamaktadır, ancak bu, gelecekte büyük olasılıkla güncellenecektir. Bir ücret eklersek/eklediğimizde kullanıcılarımıza önceden haber vereceğiz. Bu konuda Set ekibinden haberdar olmak istiyorsanız, {{discord}} kanalımıza katılın, bizi {{twitter}} ve {{medium}}'dea takip edin veya hesap ayarlarınızda e-posta bildirimlerimize kaydolun.",
+  "rebalancing-slippage": "Yeniden Dengeleme Kayması",
+  "rebalancing-slippage-description": "Kullanıcılar, belirli koşullar altında küçük miktarda bir kayma yaşayabilir. Yeniden dengeleme kayması hakkında daha fazla bilgi için lütfen bu makaleye {{articleLink}} göz atın",
+
+  "how-to-value-set": "Bir Seti nasıl değerlerim?",
+  "how-to-value-set-description": "Bir Set, dayanak bileşenleri tarafından %100 teminat altına alınır. Bu da, {{netAssetValue}'nin (Net Varlık Değeri), Set'in içindeki tüm dayanak bileşen tokenlerinin değerinin toplanmasıyla hesaplanabileceği anlamına gelir. TokenSets'de gösterilen fiyatlar, bir Set'in makul piyasa değerini birden fazla borsada göstermek için CryptoCompare'den tedarik edilir, akıllı sözleşmelerimizce kullanılan zincir üzerindeki fiyatlar {{makerDao}}'dan tedarik edilir ve alım ve satım fiyatları, Set Protokolüne likidite sağlayan DEX'lerden tedarik edilir.",
+
+  "where-to-trade": "Başka nerede Setler alıp satabilirim?",
+  "where-to-trade-description": "Setler, ERC-20 standardına uyumludur ve merkezsizleştirilmiş veya merkezi herhangi bir borsada listelenebilir. Bizimle iletişime geçin ve Setleri hangi borsada görmek istediğinizi bize bildirin.",
+
+  "tax-implications": "Setler alıp satmanın vergi açısından sonuçları nedir?",
+  "tax-implications-description": "Vergiler, yargı bölgelerine bağlı olarak büyük değişiklik gösterir. Tüm mali, vergiye ilişkin veya yasal mevzular için kendi uzmanlarınıza danışmanızı öneririz. Size belirli bir vergi rehberliği sunamıyor olsak da, kullanıcılar herhangi bir kripto para birimi değişiminin (örn. ETH'den WBTC'ye) kendi yargı bölgelerinde vergilendirilebilir bir işlem olabileceğinin farkında olmalıdır. Belirli durumlarda, bir kripto para biriminin doğrudan ihracı veya paketlenmesi (örn. Set o anda %100 oranında WETH'deyse ETH'den ETHMASCO20'ye) vergiye tabi olmayabilir. Dahası, belirli yargı bölgelerinde kullanıcılar, kısa veya uzun dönemli sermaye kazanç veya zararlarını her bir yeniden dengeleme sonrası tahakkuk ettirmek yerine Setleri satarken tahakkuk ettirebilir. Yargı bölgelerine dayalı olarak görülen farklılıklar nedeniyle TokenSets'lerin vergi işlemlerine ilişkin kesin bir yanıt sunamıyoruz.",
+
+  "trading": "Alım Satım",
+  "while-mining": "Bir yatırımcı madencilik yaparken neler olur?",
+  "while-mining-description": "TokenSets'de bir alım satım yaptığınızda işlemi Ethereum blok zincirine gönderirsiniz ve bu işlem, ancak bir Ethereum madencisi işleminizi bir sonraki bloğa eklerse kaydedilir. İşleminizin başarılı olduğundan emin olmak için, madenciler tarafından alınacak kadar büyük bir gas miktarı eklemeniz önerilir.",
+
+  "trade-revert": "Bir alım satım geri döndüğünde ne olur?",
+  "trade-revert-description": "Likidite sağlayıcılarından alınan oranlar alım satımınız onaylanmadan önce değişirse bir geri dönüş ortaya çıkabilir. Gösterilen oranı garanti edemiyorsak, işleminiz geri alınır ve paralarınız hesabınızda kalır. Bundan sonra yeni bir alım satımı ancak siz başlatabilirsiniz.",
+
+  "network-fees": "Ağ ücretleri nelerdir?",
+  "network-fees-description": "İşleminizi Ethereum blok zincirine kalıcı olarak kaydetmek için ağ ücretleri gereklidir. Bu işlem, TokenSets'de alıp sattığınız varlıkların mülkiyetini temsil eder.",
+
+  "network-fee-trade-size": "Ağ ücretleri alım satımın boyutuyla birlikte artar mı?",
+  "network-fee-trade-size-description": "Hayır. Ağ ücretleri daha büyük satın alımlarda artmaz. İster 1, ister 100 Set alın, aynı ağ ücretini ödersiniz. Ağ ücretleri, Ethereum blok zincirinde artan etkinlik nedeniyle arada sırada aniden yükselebilir.",
+
+  "trade-change": "Neden bir değişiklik aldım?",
+  "trade-change-description": "Sizin olan, sizindir. Setler alıp satarken gösterilen oran, alabileceğiniz en düşük oranı temsil eder. Alım satımın biraz daha iyi bir oranda gerçekleşmesi muhtemeldir, bu durumda da akıllı sözleşmelerimiz geri kalan kısmı size iade eder.",
+
+  "rebalancing": "Yeniden Dengeleme",
+  "what-is-rebalancing": "Yeniden dengelenme nedir?",
+  "overview": "Genel Bakış",
+  "what-is-rebalancing-description": "Yeniden Dengeleme, bir varlık portföyünün ağırlığının yeniden düzenlenmesi işlemidir. Setler, bileşen token fiyatları yeterince değişince ve bir zincir yeniden dengelenme mekanizmasında yeterli süre geçince periyodik olarak tahsislerini ayarlarlar. Bir Set sahibi olarak, seçmiş olduğunuz stratejiye göre otomatik yeniden dengelemenin semeresini görmek için tek yapmanız gereken bir Seti elinizde tutmaktır. Yeniden dengeleme hakkında daha fazla bilgi alın {{rebalanceLink}}",
+  "rebalancing-liquidity": "Likiditeyi Yeniden Dengeleme",
+  "what-is-rebalancing-description-2": "Set yeniden dengelemeleri, Kyber'ı bir likidite kaynağı olarak kullanmaz ve bunun yerine likidite sağlamak için açık piyasa katılımcılarını kullanır. Bu, kullanıcıların gereksiz ve tahmin edilemeyen miktarlarda kayma yaşamamasını sağlamak içindir. Bir yeniden dengelemeye katılmak istiyorsanız, hello@setprotocol.com adresinden bize ulaşın veya bize kişisel olarak {{discord}} üzerinden mesaj gönderin",
+
+  "who-can-rebalance": "Ne zaman yeniden dengeleme yapılacağına kim karar verir?",
+  "who-can-rebalance-description": "Yeniden Dengeleme Seti yöneticisi, yeni Set'in ne olabileceğini önerebilecek tek kişidir. Yönetici, güvenilir bir insan veya güvensiz bir akıllı sözleşme (güvensiz kahin veya Token Curated Registry) olabilir. TokenSets'de desteklenen tüm Robo Setler, nasıl yeniden dengeleme yapılacağına ilişkin önceden tanımlanmış mantığa sahip akıllı bir sözleşme yöneticisi kullanır. Bu, bir insana güvenme ihtiyacını ortadan kaldırır.",
+
+  "rebalance-progress": "Yeniden dengeleme süreci nasıl işler?",
+  "rebalance-progress-description": "Yeniden dengeleme Set yöneticisi akıllı sözleşmesi, önce hangi bileşenlerin yeniden dengeleneceğini teklif eder. Belirtilen teklif dönemi sona erince değişik bir açık eksiltme başlar. Bu açık eksiltmede yatırımcılar, eski bileşenleri yeni bileşenlerle değiştirmek için teklifler sunar. İhale devam ettikçe fiyat, yatırımcılar için giderek daha uygun hâle gelerek yeniden dengelemenin tamamlanma noktasına ulaşmasını sağlar.",
+
+  "when-to-rebalance": "Yeniden dengelemeler ne zaman olur?",
+  "when-to-rebalance-description": "Yeniden Dengelemeler, akıllı sözleşme yöneticisindeki belirli koşullar karşılandığında harekete geçer. Bu koşullar, yeniden dengeleme aralığı ve hedeften minimum yüzde sapma koşullarını içermekle birlikte bunlarla sınırlı değildir.",
+
+  "strategies": "Stratejiler",
+  "what-is-buy-and-hold": "Satın Al ve Tut stratejisi nedir?",
+  "what-is-buy-and-hold-description": "Al ve Tut stratejisi, zamanla sabit bir oran tutturmak için dayanak kripto para birimini otomatik olarak yeniden dengeler. Ör. Zamanla eşit ağırlık tutturmak üzere yeniden dengeleme yapan bir İlk 5 Kripto Para Birimi Seti. Daha fazla bilgi alın {{moreInfo}}",
+
+  "when-to-buy-and-hold": "Satın Al ve Tut stratejisini ne zaman kullanmalıyım?",
+  "when-to-buy-and-hold-description": "Satın Al ve Tut Setleri, kripto para birimi hakkında iyimserseniz, ancak riskinizi birden çok tokende farklılaştırmak ve tek tek varlıklarda yüksek performansları yakalamak istiyorsanız idealdir. Kripto portföy tahsislerinizi, başka bir şey yapmaya gerek kalmadan onlara duyduğunuz inanca uygun olarak tutun.",
+
+  "how-to-buy-and-hold": "Satın Al ve Tut Seti nasıl çalışır?",
+  "how-to-buy-and-hold-description": "Bileşen token tahsisleri, hedef tahsisten yeterince sapınca ve bir yeniden dengelenemenin gerçekleşmesi için yeterli süre geçince Set, hedef tahsisi uyarınca yeniden ayarlanır.",
+
+  "what-is-range-bound": "Aralık Sınırlama stratejisi nedir?",
+  "what-is-range-bound-description": "Aralık Sınırlama stratejileri, dayanak varlık uzun vadede fiyat olarak değişilik göstermediğinde bile fiyat hareketlerinden faydalanmak üzere, ani fiyat düşüşlerinde satın almak ve fiyat yükselişlerinde kâr elde etmek için oynak bir varlık (örn. ETH) ve istikrarlı bir varlık (örn. USD) arasında otomatik olarak yeniden denge kurar. Daha fazla bilgi alın {{moreInfo}}",
+
+  "when-to-range-bound": "Aralık Sınırlama stratejisini ne zaman kullanmalıyım?",
+  "when-to-range-bound-description": "Fiyat hareketinin güçlü ve belirli bir yön alacağına inanmıyorsanız, Aralık Sınırlamalı Setler idealdir. Aralık Sınırlamalı Setler, bir yandan ani, ters fiyat değişikliklerinin riskini asgariye indirirken diğer yandan daha fazla kripto para birimi biriktirme potansiyeli sağlar.",
+
+  "how-to-range-bound": "Aralık Sınırlama Kümesi nasıl çalışır?",
+  "how-to-range-bound-description": "Aralık Sınırlamalı Setler, bir gösterge token (başka bir deyişle Bitcoin, Ethereum) ve bir fiyat istikrarlı token  (başka bir deyişle Dai, USDC) içererek fiyat yükseldiğinde veya düştüğünde yeniden dengeleme yapar. Bu Setler, portföyünüzde ani fiyat düşüşlerinde hedef varlık satın almak için kullanılmak üzere bir miktar nakit tutar gibi davranır. Ör. %50 ETH ve %50 nakitten (DAI) oluşan Aralık Sınırlamalı bir set, fiyat aniden %10'dan fazla  düşerse, zamanla %50 DAI %50 ETH hedef tahsisini sürdürmek için DAI ile ETH satın alır.",
+
+  "difference-in-volatility": "Aralık Sınırlama Minimum, Düşük ve Yüksek Oynaklık arasındaki fark nedir?",
+  "difference-in-volatility-description": "Minimum, düşük ve yüksek ifadeleri, hedef varlğın (ör. ETH, BTC) fiyatının ne kadar oynak olacağına inancınızı tanımlar. ETH veya BTC'nin daha büyük bir aralıkta salınacağına (ya da daha yüksek oynaklığa sahip olacağına) inanıyorsanız, Aralık Sınırlamalı Yüksek Oynaklık Seti, portföyünüz için Minimum veya Düşük Oynaklık Seti'nden daha uygundur. ETH veya BTC'nin bir aralıkta minimal düzeyde salınacağına inanıyorsanız, Minimum Oynaklık Seti portföyünüz için daha idealdir. Minimum, düşük ve yüksek ifadeleri, Set'in gerçek {{impliedVolatility}}'nı tanımlamaz.",
+
+  "what-is-trend-trading": "Trende Dayalı Alım Satım stratejisi nedir?",
+  "what-is-trend-trading-description": "Trende Dayalı Alım Satım, bir varlığın momentumunun istatistik ve piyasa duyarlılığı analizi aracılığıyla kazançlar yakalamaya çalışır. Yatırımcılar, bir pozisyona ne zaman girileceğini ve bu pozisyondan ne zaman çıkılacağını gösteren Hareketli Ortalama, Hareketli Ortalama Yakınsaması / Iraksaması (MACD), Bollinger Bandı ve Göreli Güç İndeksi (RSI) gibi stratejileri uygulamak için teknik analizden faydalanır. Daha fazla bilgi alın {{moreInfo}}",
+
+  "when-to-trend-trading": "Trende Dayalı Alım Satım stratejisini ne zaman kullanmalıyım?",
+  "when-to-trend-trading-description": "Ne zaman Trende Dayalı Alım Satım stratejisini kullanacağınız tamamen size bağlıdır. Yatırımcıların kullandığı popüler momentuma dayalı stratejileri otomatik olarak yürürlüğe sokmak istiyorsanız, Trende Dayalı Alım Satım Setleri size göredir. Bu stratejilerden bazıları 20, 50, 100, 200 günlük hareketli ortalamalar, Üssel Hareketli Ortalamalar, Hareketli Ortalama Yakınsama / Iraksaması (MACD) gibi popüler Trende Dayalı Alım Satım göstergelerini takip etmeyi içerebilir.",
+
+  "how-to-trend-trading": "Trende Dayalı Alım Satım nasıl çalışır?",
+  "how-to-trend-trading-description": "Her Bir Trende Dayalı Alım Satım Seti, uygulanan stratejiye (ör. Basit Hareketli Ortalama, Üssel Hareketli Ortalama, Hareketli Ortalama Yakınsama / Iraksama (MACD)) dayalı olarak verili herhangi bir anda ya %100 hedef varlıktan (ör. Bitcoin, Ether) ya da %100 istikrarlı varlıktan (ör. USDC, Dai) oluşur. Varsayımsal bir örnekte, hedef varlığın değeri aşağı yönlü bir trend gmsteren 20 günlük Hareketli Ortalamasının altına düşerse, Set otomatik biçimde hedef varlıktan istikrarlı varlığa yeniden dengeleme yapar. 20 günlük Hareketli Ortalama, fiyatın Hareketli Ortalamanın üzerinde yükselmesiyle tersine bir trend gösterirse, Set hedef varlığa yeniden dengeleme yapar.",
+
+  "other": "Diğer",
+  "future-support": "TokenSets gelecekte hangi Setleri destekleyecek?",
+  "future-support-description": "Setleri yakın vadede trende dayalı alıp satmaya odaklanan daha fazla Seti gelecekte kullanıma sunmayı planlıyoruz. TokenSets'de görmek istediğiniz belirli bir Set veya strateji varsa, bize {{discord}} üzerinden mesaj gönderin.",
+
+  "how-to-build-on-set": "Set Protokolü üzerine nasıl bir şeyler inşa edebilirim?",
+  "how-to-build-on-set-description": "Set Protocol'de bir şeyler yapmak istiyorsanız {{developerPlatform}} içeriklerimize göz atın veya {{discord}} üzerinden bize mesaj gönderin!",
+
+  "how-secure-is-tokensets": "TokenSets ne kadar güvenli?",
+  "how-secure-is-tokensets-description": "Sistemimizin güvenliği, bizim için azami önem teşkil eder. Protoklün karmaşıklığının, sorunsuz bir yazılım kullanmanın zorluklarının ve değer taşıyan bir protokol sağlamanın sorumluluğunun farkındayız. Bu yüzden, sistemin en iyi güvenlik firmaları tarafından incelenmesini ve şirket içinde satır satır dikkatle irdelenmesini sağlamak için kayda değer bir çaba gösterdik. Denetimlerimiz için Chain Security ve Trail of Bits'e başvurduk. Bu denetimlerin raporlarına buradan erişebilirsiniz: {{chainSecurity}} ve {{trailOfBits}}",
+  "how-secure-is-tokensets-description-2": "Set Protocol sözleşmeleri repomuz, 840'ı aşkın birim, entegrasyon ve simülasyon testi üzerinden %100 satır ve dal kapsamına sahiptir. Ancak bu konuda bizim sözümüze güvenmeniz gerekmez, Set Protocol akıllı sözleşmesinin her satırı açık kaynaklıdır ve teknik topluluk üyelerinizi kodumuzu incelemeye ve doğrulamaya davet ediyoruz {{github}}. Sistemimiz hakkında daha fazla bilgi için {{whitepaper}} belgesine bakın.",
+
+  "email-submission": "TokenSets'de e-postamı göndermek için mesajı imzalarsam ne olur?",
+  "email-submission-description": "E-postanız Ethereum adresiyle yalnızca TokenSets'de ilişkilidir. E-posta adresiniz blok zincirine yüklenmez.",
+
+  "set-creator": "Nasıl bir Set oluşturabilir ve/veya yeniden dengeleme Seti yöneticisi olabilirim?",
+  "set-creator-description": "Set oluşturucu araçlarımız şu anda herkese açık değildir. Kendi Setinizi oluşturmaya ve yönetmeye ilgi duyuyorsanız bizimle {{email}} adresi veya {{discord}} üzerinden iletişime geçin.",
+
+  "auction-participation": "Yeniden dengelenme ihalesine nasıl katılırım?",
+  "auction-participation-description": "Tüm aktif ihaleleri görüntülemek için web sitesi alt bilgisinde bulunan \"Yeniden Dengelemeler\" bağlantısına tıklayın.",
+
+  "tokensets-set-protocol": "TokenSets, Set Protokolü ile nasıl ilişkilidir?",
+  "tokensets-set-protocol-description": "TokenSets, kullanıcıların tokenleştirilmiş portföy yönetimi stratejilerini kolayca alıp satmasına olanak tanıyan Set Protocol üzerine inşa edilen ilk uygulamadır. Set Protocol, kullanıcıların ERC-20 tokenlerinin portföylerini tamamıyla güvene gerek bırakmayan biçimde oluşturmasına, ihraç etmesine, paraya çevirmesine ve yönetmesine olanak tanıyan bir protokoldür. Set Protocol hakkında daha fazla bilgi alın {{setProtocol}}",
+
+  "set-labs-set-protocol": "Set Labs Inc., Set Protocol ile nasıl ilişkilidir?",
+  "set-labs-set-protocol-description": "Set Labs Inc., Set protokolü akıllı sözleşmelerini yapan şirkettir. Set Labs Inc., hiçbir Set için yönetici olarak hizmet vermez, karşı taraf gibi hareket etmez ya da kimsenin parasını TokenSets'de himayesine almaz. Set Labs Inc., her bir açık ihaleye diğer herhangi bir likidite sağlayıcısı olarak katılabilir. Set Protokolü {{setProtocol}} hakkında daha fazla bilgi alın",
+
+  "set-labs-social-trader": "Set Labs, TokenSets'de Set'ler sunan Yatırımcılarla nasıl ilişkilidir?",
+  "set-labs-social-trader-description": "Set Labs Inc., Set Protocol akıllı sözleşmelerini ve TokenSets uygulamasını yapan şirkettir. Daha önce değinildiği gibi, herhangi bir Set için yönetici olarak hizmet vermeyiz, karşı taraf olarak hareket etmeyiz ya da TokenSets'de herhangi birinin parasını himaye etmeyiz. Sitede Set'ler sunan Yatırımcılara gelince, bu kişiler Set Labs Inc.nin çalışanı, temsilcisi veya ortağı değildir. Set Labs Inc. yalnızca Yatırımcıların profiller kurabileceği, topluluk oluşturabileceği ve takipçileriyle etkileşimde bulunabileceği web sitesini ve çevrim içi portalı sunar, ancak Yatırımcıların adına alım satımlar gerçekleştirmez veya onlara başka herhangi bir hizmet sunmaz. Set Labs Inc. şu anda Yatırımcılardan sitede aktif bir varlığa sahip olma karşılığında ücret almaz veya Yatırımcılardan herhangi bir biçimde ücret toplamaz. Ancak, gelecekte bunları yapma hakkını saklı tutarız. Ücret almayı tercih etmemiz veya Yatırımcılarla ya da sitedeki diğer hizmet sağlayıcılarla ilişkimizin değişmesi durumunda kullanıcıları önceden bilgilendiririz."
+}

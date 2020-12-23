@@ -1,0 +1,36 @@
+{
+  "home": "Ana Sayfa",
+  "resources": {
+    "resources": "Kaynaklar",
+    "faq": "SSS",
+    "help-center": "Yardım Merkezi",
+    "blog": "Blog",
+    "developers": "Geliştiriciler",
+    "press": "Bastır",
+    "integrations": "Entegrasyonlar"
+  },
+  "company": {
+    "company": "Şirket",
+    "about": "Hakkında",
+    "careers": "Kariyerler"
+  },
+  "rebalances": {
+    "rebalances": "Yeniden Dengelenmeler"
+  },
+  "account": {
+    "account": "Hesap",
+    "trader-profile": "Tüccar Profili",
+    "my-account": "Hesabım",
+    "settings": "Ayarlar",
+    "sign-out": "Çıkış yap"
+  },
+  "explore-sets": "Setleri Keşfedin",
+  "sign-in": "Giriş Yap",
+  "sign-up": "Kayıt Ol",
+  "social-trader": {
+    "social-trader": "Sosyal Tüccar",
+    "leaderboard": "Tacir Skor Tablosu",
+    "introducing-social": "Sosyal Trader'a Giriş",
+    "become-a-trader": "Bir Tüccar Ol"
+  }
+}

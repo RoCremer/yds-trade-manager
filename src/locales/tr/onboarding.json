@@ -1,0 +1,41 @@
+{
+  "common": {
+    "sign-up-or-login": "Kaydol veya Oturum Aç"
+  },
+  "what-is-a-set": {
+    "title": "Setler, Varlık Yönetimi içindir",
+    "subtitle": "Set, varlığınızı büyütmeye yardımcı olmak için kripto para birimleri alıp satan bir dijital fon gibidir."
+  },
+  "set-products": {
+    "robo-title": "Robot Setler",
+    "robo-subtitle": "Portföyünüzü otomatik alım satım algoritmaları kullanarak yönetin.",
+    "social-title": "Sosyal Tacir Setleri",
+    "social-subtitle": "Dünyanın önde gelen kripto tacirlerinden stratejileri kopyalayın."
+  },
+  "wallet-setup": {
+    "title": "Başlayın",
+    "step-one-main": "Favori Ethereum Cüzdanınız ile oturum açın",
+    "step-one-secondary": "ya da şimdi bir tane oluştur (ücretsiz).",
+    "step-two-main": "Cüzdanınıza Ethereum gönderin",
+    "step-two-secondary": "Coinbase veya Binance gibi bir borsa kullanarak.",
+    "step-three-main": "Bir Set Satın Alın",
+    "step-three-secondary": "TokenSets.com'da."
+  },
+  "fund-your-wallet": {
+    "title": "Cüzdanını Fonla",
+    "subtitle": "TokenSets'de Set'ler alıp satmak için ETH kullanılır",
+    "eth-address-label": "Bu adresi veya QR kodunu kullanarak cüzdanınıza ETH gönderin:",
+    "hide-qr-code": "QR Kodunu Gizle",
+    "show-qr-code": "Adres QR Kodunu göster",
+    "your-wallet-balance": "Geçerli cüzdan bakiyeniz",
+    "add-more-funds-later": "Daha sonra Hesap sayfanızda daha fazla ETH ekleyebilirsiniz"
+  },
+  "finish-onboarding": {
+    "title": "Kendinize göre bir Set bulun",
+    "buying-a-set": "Bir Set Satın Almak, para yatırmaya benzer. Bu para otomatik olarak kripto para birimleri satın alıp satmak için kullanılır.",
+    "selling-a-set": "Yatırdığınız parayı, Set'inizin yaptığı kâr veya zararların üzerine eklenmiş veya üzerinden çıkarılmış olarak talep etmek için Set'inizi satın.",
+    "top-robo-sets": "En İyi Robot Setler",
+    "top-social-sets": "En İyi Sosyal Yatırımcı Setleri",
+    "explore-more-sets": "Daha Fazla Set Keşfet"
+  }
+}

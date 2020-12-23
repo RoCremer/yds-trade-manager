@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>spinner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.397395773,4.8291517 L8.00328027,4.8291517 L8.00328027,8.01914801 L0.397395773,8.01914801 L0.397395773,4.8291517 Z M0.619732617,0.272976015 L8.00328027,0.272976015 L8.00328027,3.07020454 L0.619732617,3.07020454 L0.619732617,0.272976015 Z" id="path-1"></path>
+    </defs>
+    <g id="spinner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pending" transform="translate(0.000000, 1.000000)">
+            <g id="Oval-Copy" transform="translate(1.166667, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Combined-Shape"></g>
+                <circle stroke="#FFFFFF" mask="url(#mask-2)" cx="4.27451444" cy="4.09090649" r="3.31372204"></circle>
+            </g>
+            <polygon id="Path-11" fill="#FFFFFF" points="0.740838325 2.67756677 2.49083832 4.57205962 4.24083832 2.67756677"></polygon>
+            <polygon id="Path-11-Copy" fill="#FFFFFF" transform="translate(8.554786, 4.213846) rotate(-180.000000) translate(-8.554786, -4.213846) " points="6.80478647 3.26956674 8.55478647 5.15812494 10.3047865 3.26956674"></polygon>
+        </g>
+    </g>
+</svg>

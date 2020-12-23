@@ -1,0 +1,41 @@
+{
+  "common": {
+    "sign-up-or-login": "Regístrese o inicie sesión"
+  },
+  "what-is-a-set": {
+    "title": "Los Sets son Herramientas para Gestionar Activos",
+    "subtitle": "Un Set es como un fondo digital que \"tradea\" con criptoactivos para ayudar a hacer crecer tus tenencias."
+  },
+  "set-products": {
+    "robo-title": "Robo Sets",
+    "robo-subtitle": "Gestionan tu cartera mediante robots de trading algorítmico.",
+    "social-title": "Sets de Traders Sociales",
+    "social-subtitle": "Te permiten copiar las estrategias de los principales traders de cripto del mundo."
+  },
+  "wallet-setup": {
+    "title": "Comenzar",
+    "step-one-main": "Ingresa con tu billetera de Ethereum favorita",
+    "step-one-secondary": "o crea una ahora (es gratis).",
+    "step-two-main": "Envía Ethereum a tu billetera",
+    "step-two-secondary": "utilizando un exchange como Coinbase o Binance, por ejemplo.",
+    "step-three-main": "Compra un Set",
+    "step-three-secondary": "en TokenSets.com."
+  },
+  "fund-your-wallet": {
+    "title": "Carga tu Billetera",
+    "subtitle": "ETH se usa para comprar y vender Sets en TokenSets",
+    "eth-address-label": "Envía ETH a tu billetera usando esta dirección o código QR:",
+    "hide-qr-code": "Ocultar código QR",
+    "show-qr-code": "Mostrar dirección código QR",
+    "your-wallet-balance": "El saldo actual de tu billetera es",
+    "add-more-funds-later": "Puedes añadir más ETH más tarde en la página de tu cuenta"
+  },
+  "finish-onboarding": {
+    "title": "Encuentra tu Set ideal",
+    "buying-a-set": "Comprar un Set es cómo hacer un depósito. Ese dinero será usado para comprar y vender criptoactivos.",
+    "selling-a-set": "Vende tu Set para cobrar tu depósito inicial más o menos cualquier ganancia o pérdida que tu Set produzca.",
+    "top-robo-sets": "Robo Sets",
+    "top-social-sets": "Sets de Traders Sociales",
+    "explore-more-sets": "Explora más Sets"
+  }
+}

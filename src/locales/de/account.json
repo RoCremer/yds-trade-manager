@@ -1,0 +1,48 @@
+{
+  "tabs": {
+    "portfolio": "Portfolio",
+    "settings": "Einstellungen"
+  },
+  "account": {
+    "send": "Senden",
+    "receive": "Erhalten",
+    "view": "Anzeigen",
+    "eth-balance": "Wert in ETH",
+    "total-balance": "Wert aller Sets",
+    "show-expanded-view": "Aufklappen",
+    "transactions": "Transaktionen",
+    "no-transactions": "Keine Transaktionen",
+    "no-sets": "Noch keine Sets!",
+    "no-sets-description": "Kein Problem. Entdecke Sets auf der",
+    "no-sets-description-2": "\"Sets Entdecken\" Seite",
+    "my-account": "Mein Account"
+  },
+  "welcome": {
+    "title": "Willkommen bei TokenSets!",
+    "subtitle": "Beginnen Sie hier, wenn Sie für den Anfang nach einer einfachen Methode suchen.",
+    "getting-started": "Anfangen",
+    "getting-started-subtitle": "Nun, da Sie Ihr neues Konto erstellt haben, können Sie ETH oder andere auf ETH basierende Tokens auf Ihr Konto einzahlen, um Sets zu erwerben.",
+    "getting-started-button": "Anfangen",
+    "already-have-an-account": "Haben Sie bereits ein Konto?",
+    "already-have-an-account-subtitle": "Wenn Sie bereits vorher ein Konto erstellt haben, versuchen Sie sich mit der ursprünglichen Login-Methode einzuloggen, die Sie zuvor benutzt haben.",
+    "already-have-an-account-button": "Mehr erfahren"
+  },
+  "send": {
+    "warning": "Warnung:",
+    "warning-description": "Wenn du deine Sets zu Exchanges wie Coinbase oder Binance sendest",
+    "warning-description-2": "führt das zum Komplettverlust deines Investments, da diese Exchange den ERC-20 Standard nicht unterstützen.",
+    "warning-description-3": "Bitte stelle sicher, dass du deine Tokens nur an Adressen mit ERC-20 Unterstützung sendest."
+  },
+  "receive": {
+    "my-address": "Meine Adresse"
+  },
+  "table": {
+    "24-hr": "Veränderung (24h)"
+  },
+  "settings": {
+    "title": "Email Einstellungen",
+    "description": "Deine Emailadresse wird nicht öffentlich angezeigt oder weitergegeben.",
+    "ethereum-address": "Ethereum Adresse",
+    "update-account": "Account bearbeiten"
+  }
+}

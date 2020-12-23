@@ -1,0 +1,30 @@
+{
+  "contact-info": {
+    "title": "Notificaciones de rebalanceo",
+    "sub-title": "Tu información de contacto",
+    "phone-number": "Número de teléfono",
+    "phone-number-placeholder": "XXX XXX XXXX",
+    "call-for-rebalances": "Llamar cuando comience el rebalanceo",
+    "sms-for-rebalances": "Enviar SMS cundo comience el rebalanceo",
+    "email": "Correo electrónico",
+    "email-placeholder": "Ingresar correo electrónico"
+  },
+  "errors": {
+    "toggle-notifications-error": "Debes seleccionar al menos una opción entre recibir una llamada o un SMS.",
+    "toggle-valid-phone-number-error": "El número de teléfono ingresado no es un número de teléfono válido.",
+    "generic-phone-number-error": "Algo salió mal al intentar guardar tu número de teléfono.",
+    "no-selected-sets": "No se han seleccionado nuevos Sets. Selecciona un nuevo Set al que suscribirte para las notificaciones de rebalanceo.",
+    "could-not-subscribe": "Tu número de teléfono no pudo ser suscrito a los nuevos Sets seleccionados."
+  },
+  "phone-number": {
+    "delete-phone-number": "Borrar número de teléfono"
+  },
+  "set-selection": {
+    "selected-sets": "Sets seleccionados",
+    "update-subscribed-sets": "Actualizar Sets seleccionados",
+    "name": "Nombre",
+    "market-cap": "Capitalización de mercado",
+    "components": "Componentes",
+    "success": "¡La configuración de tus notificaciones se actualizó con éxito!"
+  }
+}

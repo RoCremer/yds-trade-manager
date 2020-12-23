@@ -1,0 +1,17 @@
+{
+  "labels": {
+    "filter-by": "Filtre ölçütü",
+    "assets": "Varlıklar",
+    "interest": "Faiz",
+    "sentiment": "Hassassiyet"
+  },
+  "filter-type": {
+    "interest-bearing": "Faiz Getiren",
+    "non-interest-bearing": "Faiz Getirmeyen",
+    "very-bullish": "Çok Yükselme Eğilimli",
+    "bullish": "Yükselme Eğilimli",
+    "neutral": "Nötr",
+    "bearish": "Düşme Eğilimli",
+    "very-bearish": "Çok Düşme Eğilimli"
+  }
+}

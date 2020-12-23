@@ -1,0 +1,48 @@
+{
+  "tabs": {
+    "portfolio": "Cartera",
+    "settings": "Configuración"
+  },
+  "account": {
+    "send": "Enviar",
+    "receive": "Recibir",
+    "view": "Ver",
+    "eth-balance": "Mi balance de ETH",
+    "total-balance": "Balance total de mi Set",
+    "show-expanded-view": "Mostrar vista expandida",
+    "transactions": "Transacciones",
+    "no-transactions": "No hay transacciones del Set para mostrar",
+    "no-sets": "¡No hay Sets aquí!",
+    "no-sets-description": "No hay problema. Puede navegar por los Sets en el",
+    "no-sets-description-2": "Explore la página de Sets",
+    "my-account": "Mi cuenta"
+  },
+  "welcome": {
+    "title": "Bienvenido a Tokensets!",
+    "subtitle": "Comienza aquí si estás buscando una forma simple de comenzar.",
+    "getting-started": "Comenzar",
+    "getting-started-subtitle": "Ahora que has creado tu cuenta, puedes depositar ETH u otros tokens basados en Ethereum en tu cuenta y comprar Sets.",
+    "getting-started-button": "Comenzar",
+    "already-have-an-account": "¿Ya tienes una cuenta?",
+    "already-have-an-account-subtitle": "Si ya has creado una cuenta anteriormente, intenta ingresar con el método original que usaste en esa oportunidad",
+    "already-have-an-account-button": "Más información"
+  },
+  "send": {
+    "warning": "Advertencia:",
+    "warning-description": "Enviando sus Sets a Coinbase, Binance, y muchos otros exchanges",
+    "warning-description-2": "resultará en una pérdida de fondos debido a la falta de soporte para la transferencia de tokens ERC-20.",
+    "warning-description-3": "Asegúrese de que la dirección a la que envía sus tokens es compatible con las transferencias de tokens ERC-20."
+  },
+  "receive": {
+    "my-address": "Mi dirección"
+  },
+  "table": {
+    "24-hr": "Variación (24 HR)"
+  },
+  "settings": {
+    "title": "Preferencias de correo electrónico",
+    "description": "Su correo electrónico no será visible públicamente ni compartido",
+    "ethereum-address": "Dirección de Ethereum",
+    "update-account": "Actualizar cuenta"
+  }
+}

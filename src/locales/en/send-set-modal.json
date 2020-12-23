@@ -1,0 +1,19 @@
+{
+  "start-transaction": {},
+  "pending-transaction": {
+    "title": "Sending your tokens...",
+    "description": "Please wait for your tokens to complete sending."
+  },
+  "completed-transaction": {
+    "title": "Success!",
+    "description": "Your tokens were successfully transferred."
+  },
+  "failed-transaction": {
+    "title": "Something Went Wrong",
+    "description": "Your tokens were not sent to the new address. Please review what went wrong in the link below and try again."
+  },
+  "long-transaction": {
+    "title": "Still Processing",
+    "description": "Your send request is still processing. You may monitor your transaction using the link below, or try submitting a new transaction."
+  }
+}

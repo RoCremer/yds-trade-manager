@@ -1,0 +1,55 @@
+{
+  "login-modal": {
+    "sign-in": "サインイン",
+    "sign-up": "サインアップ",
+    "view-other-options": "他の選択肢を見る",
+    "hide-other-options": "他の選択肢を隠す",
+    "alternate-sign-in": "または〜でサインインします",
+    "alternate-sign-up": "または〜でサインアップ",
+    "no-account-prompt": "アカウントをまだお持ちではありませんか？",
+    "terms-and-conditions": "TokenSets にサインアップすることで、 {{termsAndConditions}} と {{privacyPolicy}} に同意します。",
+    "brave-metamask-warning": {
+      "title": "Brave + Metamask",
+      "description": "MetaMaskでBraveを使用するには、Braveブラウザの「Crypto Wallets」がオフになっていることを確認してください。<b>設定＞拡張機能＞Crypto Wallets＞オフ</b>",
+      "learn-more": "初めてこの設定を更新する場合は、ブラウザを再起動する必要があるかもしれません。{{learnMore}}"
+    },
+    "ledger-warning": {
+      "title": "Ledgerを使っていますか？",
+      "description": "MetaMask with Ledgerは、複数のブラウザとの互換性がないため、現在サポートされておりません。MetaMaskアカウントに資金を送金し、Ledgerに接続せずにMetaMaskを使用することをお勧めします。"
+    },
+    "ledger-choose-your-address": "自分のアドレスを選ぶ",
+    "ledger-please-unlock": "Ledgerをアンロックしてください",
+    "ledger-initial-load": "Ledgerがアンロックされたか確認中",
+    "ledger-step-one": "パスコードを入力してLedgerをアンロックする",
+    "ledger-step-two": "Ledgerの「Ethereum」アプリに移動します。"
+  },
+  "login-modal-options": {
+    "download-here": "こちらでダウンロードする。",
+
+    "fortmatic": "電話を使う",
+    "fortmatic-pending": "電話を使ってログインをしてください。",
+    "fortmatic-email-pending": "メールから続けてください。",
+
+    "ledger": "Ledgerを使う",
+    "ledger-pending": "Ledgerを使ってログインする",
+
+    "metamask": "MetaMask",
+    "metamask-download": "MetamMaskをダウンロードする",
+    "metamask-pending": "MetaMask拡張機能をご確認の上、ログインを継続してください。",
+
+    "metamask-mobile": "MetaMask Mobile",
+    "metamask-mobile-pending": "スマホでログインを続けてください。",
+
+    "coinbase-wallet": "Coinbase Wallet",
+
+    "trust-wallet": "Trust Wallet",
+
+    "imtoken": "imToken",
+    "imtoken-pending": "スマホでログインを続けてください。",
+
+    "opera-wallet": "Opera Wallet",
+    "opera-wallet-pending": "ログインを続けるにはブラウザをご確認ください。",
+
+    "wallet-link": "Coinbase Wallet（Wallet Linkを使う）"
+  }
+}

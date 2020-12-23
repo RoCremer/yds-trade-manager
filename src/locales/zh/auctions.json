@@ -1,0 +1,109 @@
+{
+  "explore-auctions": {
+    "title": "平衡调整拍卖",
+    "description": "查看并参与组合平衡调整拍卖。",
+    "rebalance-notifications": "再平衡通知"
+  },
+
+  "auction-header": {
+    "now": "现在",
+    "explore-rebalances": "< 探索平衡调整",
+    "rebalance-auction-for": "再平衡拍卖",
+    "current-auction-price": "当前拍卖价格",
+    "estimated-time-to-fair-value": "估计公允价值时间",
+    "progress": "进度",
+    "remaining-shares": "剩余份额",
+    "percent-to-fair-value": "公平值百分比",
+    "auction-size": "拍卖规模",
+    "current-auction-chunk": "当前拍卖块",
+    "current-auction-progress": "当前拍卖进度",
+    "total-auction-size": "拍卖总规模"
+  },
+
+  "rebalances-table": {
+    "rebalance-timer": "再平衡计时器",
+    "rebalancing-criteria": "平衡调整标准",
+    "status": "状态"
+  },
+
+  "auction-bid-form": {
+    "auction-starting-soon": "再平衡拍卖即将开始。",
+    "supply": "供应",
+    "amount-to-supply": "供应量",
+    "receive": "接收",
+    "shares": "份额",
+    "amount-to-receive": "要接收的金额",
+    "enter-shares": "输入份额金额",
+    "login-to-participate": "登录并参加",
+    "place-bid": "出价",
+    "net-profit-and-loss": "净损益",
+    "transaction-bid-error": "交易未提交。",
+    "bid-approval-failed": "您的{{tokenName}}无法批准出价。"
+  },
+
+  "live-bids-table": {
+    "bid-incoming": "即将到来的出价",
+    "size": "大小",
+    "time": "时间",
+    "no-bids-yet": "尚无出价"
+  },
+
+  "tooltips": {
+    "remaining-shares": "剩余份额",
+    "remaining-shares-description": "拍卖中剩余的发行在外股份数量。 每个股份代表在剩余的拍卖中可以交换多少代币。",
+    "current-auction-price": "当前拍卖价格",
+    "current-auction-price-description": "要交易获取的资产的当前价格。对于 cToken 再平衡，当前价格反映基础资产。",
+    "estimated-time-fair-value": "达到公平值的预估时间",
+    "estimated-time-fair-value-description": "所提供的代币 P/L 减去所收到的代币价值为正时大致所需的时间。",
+    "progress": "进度",
+    "progress-description": "基于已交换份额金额的拍卖进度。进度达到 100% 时，拍卖将结束。",
+    "shares": "股份",
+    "shares-description": "份额代表出价中提供和接收的代币数量。 随着平衡调整的进行，收到的代币数量与提供的代币数量之间的比率会增加，从而使份额更具吸引力。",
+    "percentage-fair-value": "到公平值的百分比",
+    "percentage-fair-value-description": "公平值的百分比是与 CryptoCompare 的价格相协调的当前拍卖价格，它提供了参与者能够在拍卖中捕获的价差的估值。",
+    "live-bids": "直播竞价",
+    "live-bids-description": "使用来自CryptoCompare的价格数据显示拍卖参与者最近确认的出价。",
+    "market-cap": "市值",
+    "market-cap-description": "当前为此 Set 铸造的价值总额（以美元表示）。",
+    "auction-size": "拍卖规模",
+    "auction-size-description": "拍卖规模是指总 {{marketCap}} 市值中再平衡的数额。",
+    "current-auction-chunk": "当前拍卖块",
+    "current-auction-chunk-description": "在当前拍卖块中正在进行再平衡的数量。",
+    "current-auction-progress": "当前拍卖进度",
+    "current-auction-progress-description": "基于已卖出股数的再平衡进度。当进度达到 100% 时，这部分的再平衡操作就完成了。",
+    "total-auction-size": "拍卖总规模",
+    "total-auction-size-description": "所有拍卖块的再平衡总金额。"
+  },
+
+  "inactive-auction": {
+    "title": "该组合目前未进行平衡调整",
+    "description": "关注此Set可在它再平衡时获得电子邮件通知。",
+    "conditions": "达到下次再平衡的条件"
+  },
+
+  "initial-confirmation": {
+    "crossover-detected": "检测到交换",
+    "confirmation-period": "确认阶段",
+    "confirmation-period-description": "确认再平衡信号所需的时间。帮助减少误报信号。",
+    "confirmation-window": "确认窗口",
+    "confirmation-window-description": "{{confirmationWindow}} 小时窗口来确认再平衡信号"
+  },
+
+  "rebalance-proposal": {
+    "ready": "准备就绪",
+    "rebalance-proposed": "建议的平衡调整",
+    "time-until-rebalance": "平衡调整所需时间"
+  },
+
+  "transaction-history": {
+    "my-bid-transactions": "我的出价交易",
+    "no-bid-transactions": "没有竞价交易显示"
+  },
+
+  "auction-description": {
+    "title": "平衡调整的工作原理",
+    "description-1": "欢迎使用组合平衡调整器。 平衡调整是指将组合内代币的权重与 的目标权重进行调整的过程。",
+    "description-2": "参与再平衡涉及向Set提供抵押不足的成分代币，和作为回报接收超额抵押的代币。当您在拍卖中出价时，您将在同一交易中提供和接收代币。你的资金在拍卖中是不会被锁定的。",
+    "learn-more": "进一步了解再平衡。"
+  }
+}

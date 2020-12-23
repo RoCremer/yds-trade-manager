@@ -1,0 +1,109 @@
+{
+  "explore-auctions": {
+    "title": "Portfolio Balancierungsauktionen",
+    "description": "Sehe Set Balancierungsauktionen und nehme daran teil.",
+    "rebalance-notifications": "Benachrichtigungen über Rebalancierung"
+  },
+
+  "auction-header": {
+    "now": "Jetzt",
+    "explore-rebalances": "Balancierungen ansehen",
+    "rebalance-auction-for": "Balancierungs Auktion für",
+    "current-auction-price": "Aktueller Auktionspreis",
+    "estimated-time-to-fair-value": "Geschätzte Zeit bis Fair Value",
+    "progress": "Fortschritt",
+    "remaining-shares": "Verbleibende Anteile",
+    "percent-to-fair-value": "Prozent bis Fair Value",
+    "auction-size": "Größe der Auktion",
+    "current-auction-chunk": "Teil der laufenden Auktion",
+    "current-auction-progress": "Fortschritt der laufenden Auktion",
+    "total-auction-size": "Gesamtgröße der Auktion"
+  },
+
+  "rebalances-table": {
+    "rebalance-timer": "Rebalancierungs-Zeituhr",
+    "rebalancing-criteria": "Rebalancierungskriterien",
+    "status": "Status"
+  },
+
+  "auction-bid-form": {
+    "auction-starting-soon": "Die Balancierungsauktion started bald.",
+    "supply": "Angebot",
+    "amount-to-supply": "Menge zum Anbieten",
+    "receive": "Erhalten",
+    "shares": "Anteile",
+    "amount-to-receive": "Menge zu Erhalten",
+    "enter-shares": "Gebe die Menge von Anteilen an",
+    "login-to-participate": "Einloggen um Teilzunehmn",
+    "place-bid": "Bieten",
+    "net-profit-and-loss": "Gewinn & Verlust",
+    "transaction-bid-error": "Transaktion nicht gesendet.",
+    "bid-approval-failed": "Dein {{tokenName}} konnte nicht zum Bieten angenommen werden."
+  },
+
+  "live-bids-table": {
+    "bid-incoming": "Gebot kommt...",
+    "size": "Größe",
+    "time": "Zeit",
+    "no-bids-yet": "Noch keine Gebote"
+  },
+
+  "tooltips": {
+    "remaining-shares": "Verbleibende Anteile",
+    "remaining-shares-description": "Die Menge an Anteilen, die in der Auktion verbleiben. Jeder Anteil repräsentiert wie viele Tokens im Rest der Auktion gehandelt werden können.",
+    "current-auction-price": "Aktueller Auktionspreis",
+    "current-auction-price-description": "Der aktuelle Preis des Tokens. Für cToken Rebalancierungen repräsentiert der aktuelle Preis den Preis des vom cToken repräsentierten Tokens.",
+    "estimated-time-fair-value": "Geschätzte Zeit bis Auktionsende",
+    "estimated-time-fair-value-description": "Die geschätzte Zeit bis Gewinn und Verlust der angebotenen Tokens minus des Wertes der zu erhaltenen Tokens positiv ist.",
+    "progress": "Fortschritt",
+    "progress-description": "Fortschritt der Auktion ist basiert auf der Anzahl der Anteile die verkauft wurden. Wenn der Fortschritt 100% erreicht, endet die Auktion.",
+    "shares": "Anteile",
+    "shares-description": "Anteile repräsentieren eine Menge an Token, die in einem Gebot angeboten und erhalten werden. Im Laufe des Rebalancierungsprozesses erhöht sich die Menge der Tokens die du erhältst vs die Tokens die du anbietest. Das macht die Anteile die zum Verkauf stehen attraktiver.",
+    "percentage-fair-value": "Prozent bis Fair Value",
+    "percentage-fair-value-description": "Prozent bis Fair Value ist der aktuelle Auktionspreis verglichen mit dem CryptoCompare Preisfeed. DIeser gibt an wie viel Spread Auktionsteilnehmer als Gewinn verbuchen könnten.",
+    "live-bids": "Livegebote",
+    "live-bids-description": "Zeigt die neuesten bestätigten Gebote von Auktionsteilnehmern mit Preisdaten von CryptoCompare.",
+    "market-cap": "Marktkapitalisierung",
+    "market-cap-description": "Gesamtwert investiert in dieses Set in USD",
+    "auction-size": "Größe der Auktion",
+    "auction-size-description": "Auktionsgröße bedeutet, wieviel vom gesamten {{marketCap}} Börsenwert rebalanciert wird.",
+    "current-auction-chunk": "Teil der laufenden Auktion",
+    "current-auction-chunk-description": "Die Menge, die im aktuellen Teil der Auktion rebalanciert wird.",
+    "current-auction-progress": "Fortschritt der laufenden Auktion",
+    "current-auction-progress-description": "Fortschritt der Rebalancierung auf Grundlage der Anzahl der Anteile, die verkauft worden sind. Wenn der Fortschritt 100% erreicht, ist dieser Teil der Rebalancierung abgeschlossen.",
+    "total-auction-size": "Gesamtgröße der Auktion",
+    "total-auction-size-description": "Der Gesamtbetrag, der momentan über alle Teile der Auktion rebalanciert wird."
+  },
+
+  "inactive-auction": {
+    "title": "Dieses Set hat aktuell keine Rebalancierung",
+    "description": "Folge diesem Set und erhalte Emailbenachrichtigungen wenn es rebalanciert.",
+    "conditions": "Bedingungen bis zur nächsten Rebalancierung."
+  },
+
+  "initial-confirmation": {
+    "crossover-detected": "Crossover entdeckt",
+    "confirmation-period": "Bestätigungszeitraum",
+    "confirmation-period-description": "Zeit die benötigt wird um ein Rebalancierungssignal zu bestätigen. Hilft falsche Signale zu reduzieren.",
+    "confirmation-window": "Bestätigungszeitfenster",
+    "confirmation-window-description": "{{confirmationWindow}} Stunden Fenster um ein Rebalancierungssignal zu bestätigen"
+  },
+
+  "rebalance-proposal": {
+    "ready": "Fertig",
+    "rebalance-proposed": "Rebalancierung gesendet",
+    "time-until-rebalance": "Zeit bis Rebalancierung"
+  },
+
+  "transaction-history": {
+    "my-bid-transactions": "Meine Gebote",
+    "no-bid-transactions": "Keine Gebote zum Anzeigen"
+  },
+
+  "auction-description": {
+    "title": "Wie Rebalancieren funktioniert",
+    "description-1": "Willkommen bei der Set Rebalancierung. Rebalancierung nennt sich der Prozess, der dein Set Portfolio updatet und nach den Vorgaben neu gewichtet.",
+    "description-2": "Teilnahme am Rebalancierungsprozess beinhaltet das Bereitstellen unterkollateralisierter Komponententokens und das Erhalten kollateralisierter Tokens im Gegenzug. Wenn du in einer Auktion bietest, stellst du Tokens zur Verfügung und erhältst Tokens - in der selben Transaktion. Deine Mittel werden niemals in der Auktion gelockt.",
+    "learn-more": "Mehr über Rebalancierungen erfahren"
+  }
+}

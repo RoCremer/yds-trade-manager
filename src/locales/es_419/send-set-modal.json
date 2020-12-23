@@ -1,0 +1,18 @@
+{
+  "pending-transaction": {
+    "title": "Enviando tus tokens...",
+    "description": "Por favor espera a que se complete envío de tus tokens."
+  },
+  "completed-transaction": {
+    "title": "¡Éxito!",
+    "description": "Tus tokens fueron transferidos con éxito."
+  },
+  "failed-transaction": {
+    "title": "Algo salió mal",
+    "description": "Tus tokens no fueron enviados a la nueva dirección. Por favor, revisa lo que salió mal en el enlace de abajo e inténtalo de nuevo."
+  },
+  "long-transaction": {
+    "title": "Todavía procesando",
+    "description": "Tu solicitud de envío aún se está procesando. Puedes supervisar tu transacción mediante el enlace que aparece a continuación o intentar enviar una nueva transacción."
+  }
+}

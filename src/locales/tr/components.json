@@ -1,0 +1,122 @@
+{
+  "progress-bar": {
+    "working": "Çalışıyor...",
+    "still-working": "Hala Çalışıyor..."
+  },
+  "modals": {
+    "link-to-transaction": "İşlem Bağlantısı",
+    "transaction-approving-title": "Onay Bekliyor",
+    "transaction-approving-description": "Lütfen işleminizi onaylayın ya da reddedin.",
+    "transaction-pending-title": "İşlem Sürüyor...",
+    "transaction-pending-description": "Lütfen bekleyin, işleminiz halen işleniyor...",
+    "transaction-finished-title": "Başarılı!",
+    "transaction-finished-description": "İşleminizin işlenmesi sona erdi.",
+    "transaction-failed-title": "Başarısız oldu",
+    "transaction-failed-description": "İşleminiz gerçekleştirilemedi.",
+    "transaction-long-title": "İşlem Hâlâ Devam Ediyor",
+    "transaction-long-description": "İşleminiz halen işleniyor."
+  },
+  "follow-set-modal": {
+    "success": "Başarılı!",
+    "success-description": "E-postanızı başarıyla eklediniz",
+    "finish": "Bitir",
+    "please-verify": "Lütfen e-postanızı doğrulayın",
+    "add-your-email": "Bildirimler için e-postanızı ekleyin",
+    "add-your-email-description": "{{setName}} takibi bildirimler için e-postanızı gerektirir."
+  },
+  "email-signup-modal": {
+    "success": "E-postanızı başarıyla eklediniz",
+    "please-verify": "Lütfen e-postanızı doğrulayın",
+    "add-your-email": "E-postanızı ekleyin",
+    "get-alerts": "TokenSets olayları hakkında uyarılar alın.",
+    "hidden-from-public": "E-postanız başkalarından gizlenir.",
+    "rebalances-label": "Yeniden Dengelemeler",
+    "new-products-and-features": "Yeni Ürünler ve Özellikler",
+    "portfolio-performance-updates": "Portföy Performansı Güncellemeleri",
+    "enter-your-email": "E-postanızı girin"
+  },
+  "set-table": {
+    "number-of-sets": "Setlerin Sayısı",
+    "traded-tokens": "İşlem Gören Tokenler",
+    "1-day": "1 Gün",
+    "1-week": "1 hafta",
+    "1-month": "1 Ay",
+    "3-month": "3 Ay",
+    "since-inception": "Başlangıçtan Beri",
+    "load-sets-error": "Bu utanç verici...",
+    "load-sets-error-description": "Bu Setleri tekrar yüklemeyi deneyelim!",
+    "explore-more-sets": "Daha Fazla Set Keşfet",
+    "no-filtered-sets": "Filtreli set yok.",
+    "no-filtered-sets-description": "Seçili filtre kriterinizle eşleşen set yok."
+  },
+  "toasts": {
+    "standard": {
+      "email-updated": "E-posta başarıyla güncellendi!",
+      "logged-out": "Başarıyla çıkış yaptınız.",
+      "accepted-terms-of-service": "Kullanım Koşullarımızı ve Gizlilik Politikamızı kabul ettiğiniz için teşekkürler!",
+      "followed-set": "Artık {{setName}} yeniden dengelendiğinde e-posta bildirimleri alacaksınız.",
+      "unfollowed-set": "Artık {{setName}} yeniden dengelendiğinde bildirim almayacaksınız.",
+      "onboarding-eth-received": "{{ethQuantity}} ETH başarılı şekilde alındı."
+    },
+    "errors": {
+      "transaction-not-submitted": "İşlem gönderilmedi.",
+      "accept-terms-of-service-failed": "Hizmet Şartlarımızı kabul etmeniz kaydedilemedi. Lütfen tekrar deneyin.",
+      "set-not-available": "Bu set kullanılabilir değil.",
+      "could-not-follow-set": "Bu seti takip ederken bir hata oluştu. Lütfen sonra tekrar deneyin.",
+      "could-not-unfollow-set": "Bu seti takipten çıkarken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "check-ethereum-main-net-connection": "Kontrat adresi bulunamadı. Lütfen Ethereum Ana Ağına bağlı olduğunuza emin olun.",
+      "approve-long": "{{tokenName}} onayınız hala beklemede. İşleminizi etherscan'den lütfen takip edin veya tekrar deneyin."
+    }
+  },
+  "allocation-change": {
+    "previous": "Önceki",
+    "next": "Sonraki"
+  },
+  "select-language-modal": {
+    "choose-a-language": "Bir dil seçin"
+  },
+  "wallet-token-selector": {
+    "bidding-with-token": "{{tokenName}} ile teklif",
+    "receiving-token": "{{tokenName}} alınıyor",
+    "auto-convert-into-ctoken": "{{compoundExchangeRate}} Compound döviz kuru kullanılarak tokenleriniz otomatik olarak c{{tokenName}} tokenine çevrilecek.",
+    "auto-convert-into-underlying": "Tokenleriniz, {{compoundExchangeRate}} Compounda değişim oranı kullanılarak otomatik olarak {{tokenName}} tokenine çevrilecek."
+  },
+  "rich-text-editor": {
+    "add-link-url-placeholder": "Bağlantı URL'sini buraya ekleyin",
+    "add-link-text-placeholder": "Bağlantı metnini buraya ekleyin",
+    "add-image-url-placeholder": "Görsel URL'nizi buraya ekleyin"
+  },
+  "set-type-badge": {
+    "powered-by-defi-pulse": "DeFi Pulse ile güçlendirilmiştir",
+    "upgrade-available": "Yükseltme Mevcut",
+    "legacy-set": "Servet"
+  },
+  "web3": {
+    "login-success": "Hoşgeldiniz! Giriş yaptınız.",
+    "changed-account": "Yeni bir hesaba giriş yaptınız.",
+    "create-signature-failed": "Hesap adresi bulunamadı. Mesaj imzası üretilemedi."
+  },
+  "create-feed-post": {
+    "text-area-placeholder": "Bu Setin takipçilerini ve hamillerini buradan güncelle.",
+    "success": "Başarılı!",
+    "success-description": "Gönderiniz başarılı bir şekilde paylaşıldı!",
+    "failed": "Bir şeyler ters gitti",
+    "failed-description": "Tekrar paylaşmayı deneyin veya problem devam ederse destek ekibinden biri ile iletişime geçin.",
+    "discard-post": "Gönderi Kaldırılsın mı?",
+    "discard-post-description": "Bu sayfadan ayrılarak gönderinizi kaldırmış olacaksınız. Bu işlem geri alınamaz."
+  },
+  "feed-post": {
+    "delete-post": "Gönderiyi Sil"
+  },
+  "delete-feed-post": {
+    "title": "Gönderi Silinsin mi?",
+    "description": "Gönderinizi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+  },
+  "delete-phone-number": {
+    "title": "Telefon Numarası Silinsin mi?",
+    "description": "Telefon numaranızı silmek istediğinizden emin misiniz? Yeniden dengelenme bildirimleri almak istiyorsanız, numaranızı tekrar elle girmeniz gerekecek."
+  },
+  "pagination": {
+    "footer-description": "{{totalElementCount}} {{elementType}}'in {{startRange}} - {{endRange}}'ini gösteriyor "
+  }
+}

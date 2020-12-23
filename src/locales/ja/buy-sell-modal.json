@@ -1,0 +1,92 @@
+{
+  "preview": {
+    "pay": "払う",
+    "get": "受け取る",
+    "your-balance": "残高",
+    "your-balance-description": "アカウントの残高です。",
+    "max": "最大"
+  },
+  "compound-tooltip": {
+    "title": "注意",
+    "description-buy": "このSetでは、現在割り当てられている通貨でのみ購入が可能です。Compoundに移動して{{tokenName}}を発行します。",
+    "description-sell": "このSetでは、現在割り当てられている通貨でのみ売却が可能です。コンパウンドに向かい、{{tokenName}}を発行します。"
+  },
+  "order-details": {
+    "confirm-order": "注文を確認する",
+    "per-set": "Setあたり",
+    "tokensets-fee": "トークンセット料金",
+    "buy-fee": "購入手数料",
+    "paid-to": "に支払われます",
+    "network-fee": "ネットワーク手数料",
+    "fees": "手数料",
+    "total-cost": "合計コスト",
+    "total-receive": "合計受け取り",
+    "more-order-information": "ご注文の詳細についてはこちらをご覧ください。",
+    "slippage": "スリッページ",
+    "slippage-description-buy": "この購入取引は、外部取引を必要とせずに、SetにETHを入金するだけです。これにより、スリッページは0%となります。",
+    "slippage-description-sell": "この売却取引は、外部取引を必要とせずに、SetからETHを引き出すだけです。これにより、スリッページは0%になります。"
+  },
+  "confirm-order-tooltip": {
+    "pricing": "価格設定",
+    "pricing-description": "TokenSetsは、Kyber Networkのリザーブと0xを介して広範な市場から流動性を引き出します。Setの価格は、基礎となるコンポーネントのベストレートの合計価格です。",
+    "platform-fees": "プラットフォーム料金",
+    "platform-fees-description": "TokenSetsは現在、Setsの購入に手数料はかかりません。",
+    "network-fee": "ネットワーク手数料",
+    "network-fee-description": "このネットワーク手数料は、取引を実行するためのガス代です。",
+    "more-information": "詳細情報へのリンク"
+  },
+  "pending": {
+    "processing": "あなたのトランザクションは処理中です",
+    "verifying-order": "買い注文の確認...",
+    "approve-success": "あなたの{{tokenName}}は取引が承認されました。",
+    "order-processing": "{{tokenQuantity}} {{tokenName}}の注文は処理中です。"
+  },
+  "finished": {
+    "buy-intro": "買い注文",
+    "sell-intro": "売り注文",
+    "processing": "トランザクションは処理中です。",
+    "processing-description": "保留中です。アカウントページからトランザクション状況を確認できます。",
+    "im-token-processing": "トランザクションは処理中です。",
+    "im-token-processing-description": "開始されました。アカウントページからトランザクション状況を確認できます。",
+    "tx-failed": "トランザクションにエラーが発生しました。",
+    "tx-failed-description": "エラーが発生しました。トランザクションが成立したかどうか、アカウントページでご確認ください。",
+    "buy-successful": "買い注文が成功しました。",
+    "sell-successful": "売り注文が成功しました。",
+    "successful-description": "成功しました。まもなくウォレットで確認できます。",
+    "learn-more-errors": "これらのエラーの詳細についてFAQをご覧ください。",
+    "etherscan": "Etherscanのリンク"
+  },
+  "email-signup": {
+    "get-notified": "Setがリバランスされた際に通知を受け取る。",
+    "get-notified-description": "{{username}}が{{setName}}のリバランスを行った際に、メールで通知を受け取る。",
+    "get-notified-description-alt": " {{setName}} がリバランスした際にメール通知を受け取る。",
+    "success": "成功!",
+    "success-description": "リバランスの通知メールの設定が完了しました。"
+  },
+  "buttons": {
+    "start": "取引のため{{tokenName}}を承認する",
+    "approve": "取引のため{{tokenName}}を承認しています",
+    "finalize": "{{tokenName}}承認の確定しています",
+    "preview-buy": "買い注文のプレビュー",
+    "preview-sell": "売り注文のプレビュー",
+    "submit-buy": "買い注文を送信",
+    "submit-sell": "売り注文を送信",
+    "confirm": "トランザクションを確認してください。",
+    "preparing-order": "注文の準備中...",
+    "to-account": "自分のアカウント",
+    "submit-email": "メールを送る",
+    "view-account": "アカウントの残高を見る"
+  },
+  "errors": {
+    "gas-required": "イーサリアムネットワーク料金（ガス）のETHを追加ください。 現在の{{ethBalance}} ETHの残高はgasの{{gasCost}} ETHをカバーできる必要があります。",
+    "gas-required-with-eth": "イーサリアムネットワーク料金（gas）に対応するため、{{gasNeeded}} ETHで注文を調整してください。",
+    "something-went-wrong": "うまくいきませんでした。もう一度お試しください。",
+    "rates-changed": "レートが変わりました。",
+    "rates-expired": "レートが期限切れになりました。",
+    "rates-retry-buy": "再度「買い注文の提出」をクリックして、更新されたレートで再送信してください。",
+    "rates-retry-sell": "再度「売り注文の提出」をクリックして、更新されたレートで再送信してください。",
+    "transaction-failed": "トランザクションが失敗しました。もう一度お試しください。",
+    "email-input-failed": "有効なメールアドレスを入力してください。",
+    "email-signup-failed": "メールアドレスを登録できませんでした。後ほどもう一度お試しください。"
+  }
+}

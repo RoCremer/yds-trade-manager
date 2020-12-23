@@ -1,0 +1,92 @@
+{
+  "about": {
+    "intro": "Sei Teil des",
+    "title": "Open Finance Movements",
+    "team": {
+      "intro": "Unser Team",
+      "title": "Ambitionierte Pioniere.",
+      "title-2": "Eine Arbeit, die etwas bedeutet.",
+      "description": "Unser Team ist eine Gruppe ambitionierter Pioniere, mit einer Leidenschaft, die Welt zum Besseren zu verändern - durch ein offeneres und effizienteres Finanzsystem. Wir glauben an harte Arbeit, Produkte der höchsten Qualität. Unsere Entscheidungen sind geprägt durch unsere Kultur von kontinuierlichem Lernen, Authentizität und Transparenz."
+    },
+    "team-members": {
+      "felix": {
+        "role": "CEO",
+        "description": "Investor bei Turing Capital. Davor bei Radius und 21.co.",
+        "education": "Bachelor von UC Berkeley"
+      },
+      "inje": {
+        "role": "CPO",
+        "description": "Davor bei GoDaddy und Boin.",
+        "education": "BFA von RISD"
+      },
+      "alex": {
+        "role": "CTO",
+        "description": "Zuvor bei Square, Caviar, Apple und Zynga.",
+        "education": "Bachelor von UC Berkeley"
+      },
+      "justin": {
+        "role": "Engineer",
+        "description": "Lead Engineer bei Airbnb.",
+        "education": "Master von Stanford & Bachelor von UC Berkeley"
+      },
+      "brian": {
+        "role": "Technische Leitung",
+        "description": "Self-erlernter Engineer. Zuvor bei DRW.",
+        "education": "Bachelor von Universität von Chicago"
+      },
+      "richard": {
+        "role": "Growth Operations",
+        "description": "Zuvor Management Consultant bei PwC.",
+        "education": "Bachelor von Northwestern Universität"
+      },
+      "anthony": {
+        "role": "Produkt Marketing Manager",
+        "description": "Mitgründer von EthHub. Zuvor in Cyber Sicherheit."
+      },
+      "dylan": {
+        "role": "Engineer",
+        "description": "Zuvor bei Coins.ph und Code Chrysalis.",
+        "education": "Bachelor von New York Universität"
+      },
+      "punia": {
+        "role": "Manager für Geschäftsbetrieb und Strategie",
+        "description": "Ehemals Investor bei Draper Associates",
+        "education": "B.Sc. von der UC Berkeley, Haas School of Business"
+      }
+    },
+    "hiring": {
+      "intro": "Mitmachen",
+      "title": "Wir stellen ein",
+      "description": "Wir suchen nach herausragenden Computer Scientists, uns helfen die Zukunft von Set zu bauen.",
+      "description-2": "Interessiert?",
+      "view-open-positions": "Offene Stellen sehen"
+    },
+    "advisors": "Advisor",
+    "advisor-members": {
+      "paul": {
+        "description": "Partner bei Pantera Capital"
+      },
+      "steve": {
+        "description": "Gründer und Managing Director bei Kindred Ventures"
+      }
+    },
+    "investors": "Investoren"
+  },
+
+  "careers": {
+    "intro": "Mitmachen",
+    "title": "Finde dein zu Hause bei Set",
+    "vision": "Unserre Vision",
+    "vision-description": "Wir bauen die Grundbausteine für ein aufblühendes Finanzsystem. Mit Werkzeugen, die Entwickler, Fund Manager und Investoren die Möglichkeit geben, mit Krypto Portfolios zu interagieren, die mehr sind als die Summe ihrer Teile.",
+    "who-we-are": "Wer wir sind",
+    "who-we-are-description": "Wir sind ein Team leidenschaftlicher Lerner, die neue Standards setzen wollen, in allem was wir tun. Wir glauben an harte Arbeit und das erstellen von Produkten, die einen positiven Einfluss auf das Leben der Menschen haben.",
+    "open-positions": "Offene Stellen",
+    "apply": "Bewerben",
+    "jobs": {
+      "backend-engineer": "Back-End-Ingenieur"
+    },
+    "locations": {
+      "san-francisco": "San Francisco"
+    }
+  }
+}

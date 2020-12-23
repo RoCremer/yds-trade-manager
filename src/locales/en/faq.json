@@ -1,0 +1,133 @@
+{
+  "faq": "Frequently Asked Questions",
+  "footer": {
+    "explore-sets": "Explore Sets",
+    "more-questions": "Any more questions?",
+    "reach-out": "Feel free to reach out to us",
+    "tweet-us": "Tweet Us A Question",
+    "ask-us": "Talk To A Team Member"
+  },
+  "general": "General",
+  "what-is-a-set": "What is a Set?",
+  "what-is-a-set-description": "A Set is a digital asset (ERC-20) that represents a fully collateralized portfolio of other assets including Bitcoin (WBTC), Ethereum (WETH), and fiat-pegged coins (DAI). Sets automatically rebalance to make executing any portfolio strategy (e.g. range bound trading) simple by holding a single asset. Using Sets removes the need to manually manage multiple assets and rebalance your portfolio.",
+
+  "custody-of-set": "Who custodies the Sets and their collateral?",
+  "custody-of-set-title": "Set Tokens - Your Wallet",
+  "custody-of-set-description": "Sets that you obtain through TokenSets are held in your own wallet. Since Sets are ERC-20 tokens, you can move them to any other wallet that supports ERC-20 tokens, such as if you want to hold them in an Ethereum address you use for cold storage. All transactions that move your funds must be confirmed by your account and are verifiable on the Ethereum blockchain.",
+  "custody-of-set-title-2": "Underlying Collateral Tokens - The Vault Smart Contract",
+  "custody-of-set-description-2": "The underlying collateral tokens that back each Set are held inside of the {{vaultContract}} The Set team does not have access to your funds when it is inside of the vault contract. Only you have access to your funds in the Set Protocol through your Ethereum wallet. Because of this, it’s important to note that if you lose access to the wallet that holds your Sets, the Set team will not have any way of retrieving your funds for you. As a best practice, keep your private wallet access information backed up and secured in a safe place in case of an emergency situation.",
+
+  "how-to-buy-and-sell": "How do I buy and sell Sets?",
+  "how-to-buy-and-sell-description": "Trade Sets in just 3 easy steps:",
+  "how-to-buy-and-sell-step-1": "1) Login with your phone number or MetaMask to connect to TokenSets. We also support Coinbase Wallet, TrustWallet, and ImToken.",
+  "how-to-buy-and-sell-step-2": "2) Select a Set and amount to buy",
+  "how-to-buy-and-sell-step-3": "3) Confirm and track the Set in the account page",
+  "how-to-buy-and-sell-liquidity": "TokenSets will source liquidity from decentralized exchanges to mint the Set. All you need to do is provide ETH.",
+
+  "are-there-fees": "Are there fees on TokenSets?",
+  "are-there-fees-title": "No, Not Yet",
+  "are-there-fees-description": "We currently don’t have a built in fee anywhere in the Set Protocol or TokenSets the app, though this will most likely be updated in the future. When/if we add a fee, we will notify users in advance. If you want to keep up to date on this from the Set team, join our {{discord}} follow us on {{twitter}} {{medium}} or sign up for our email notifications in your account settings.",
+  "rebalancing-slippage": "Rebalancing Slippage",
+  "rebalancing-slippage-description": "Users may incur a small amount of slippage during a rebalance under certain circumstances. For more information about rebalancing slippage, please check this article {{articleLink}}",
+
+  "how-to-value-set": "How do I value a Set?",
+  "how-to-value-set-description": "A Set is 100% collateralized by its underlying components, which means its {{netAssetValue}}(NAV) can be calculated by adding up the value of all the underlying component tokens inside of the Set. Prices displayed on TokenSets are sourced from CryptoCompare to show the fair market value of a Set across multiple exchanges, on-chain prices used by our smart contracts are sourced from {{makerDao}} and prices for buying and selling are sourced from DEXs that provide liquidity to Set Protocol.",
+
+  "where-to-trade": "Where else can I trade Sets?",
+  "where-to-trade-description": "Sets conform to the ERC-20 Standard and can be listed on any decentralized or centralized exchange. Contact us and let us know which exchange you’d like to see Sets on.",
+
+  "tax-implications": "What are the tax implications of trading Sets?",
+  "tax-implications-description": "Taxes vary greatly by jurisdiction. For any financial, tax, or legal matters, we recommend consulting your own professionals. While we cannot provide you with specific tax guidance, users should be aware that any exchange of crypto (e.g. ETH to WBTC) may be a taxable transaction in their jurisdiction. In certain instances, a direct issuance or wrapping of crypto (e.g. ETH to ETHSMACO20 if the Set is currently in 100% WETH) may not be taxable. Furthermore, in certain jurisdictions, users may be able to recognize short or long term capital gains or losses when selling Sets they’ve acquired rather than after each rebalance. Because of the variety of outcomes based on jurisdictions, we are unable to provide a definitive answer to the tax treatment of TokenSets.",
+
+  "trading": "Trading",
+  "while-mining": "What happens while a trade is mining?",
+  "while-mining-description": "When you make a trade on TokenSets, you are submitting the transaction on the Ethereum blockchain, which will only be recorded if an Ethereum miner includes your transaction in the next block. In order to ensure that your transaction is successful, it’s recommended that you include a gas amount that’s large enough to be picked up by miners.",
+
+  "trade-revert": "What happens when a trade reverts?",
+  "trade-revert-description": "A revert may occur when rates from liquidity providers change before your trade is confirmed. If we cannot guarantee the displayed rate, your transaction will revert and your funds will remain in your account. Only you can initiate a new trade after that.",
+
+  "network-fees": "What are network fees?",
+  "network-fees-description": "Network fees are required to permanently record your transaction to the Ethereum blockchain. This represents your ownership of the assets you trade on TokenSets.",
+
+  "network-fee-trade-size": "Do network fees increase with size of the trade?",
+  "network-fee-trade-size-description": "No. Network fees do not increase with larger purchases. You pay the same network fee whether buying 1 or 100 Sets. Network fees may spike occasionally due to increased activity on the Ethereum blockchain.",
+
+  "trade-change": "Why did I receive change?",
+  "trade-change-description": "What’s yours is yours. The rate shown when trading Sets represents the lowest rate that you can receive. It is likely that the trade executes with a slightly better rate in which case, our smart contracts return the remainder to you.",
+
+  "rebalancing": "Rebalancing",
+  "what-is-rebalancing": "What is rebalancing?",
+  "overview": "Overview",
+  "what-is-rebalancing-description": "Rebalancing is the process of realigning the weighting of a portfolio of assets. Sets periodically adjust their allocations when component token prices change enough, and enough time has passed through an on chain rebalancing mechanism. As an owner of a Set, you don’t need to do anything but hold a Set to gain the benefits of automated rebalancing according to the strategy you choose. Learn more about rebalances {{rebalanceLink}}",
+  "rebalancing-liquidity": "Rebalancing Liquidity",
+  "what-is-rebalancing-description-2": "Set rebalances do not use Kyber as a liquidity source, and instead use open market participants to supply liquidity. This is to ensure that users don’t incur unnecessary and unpredictable amounts of slippage. If you’d like to participate in a rebalance, reach out to us at hello@setprotocol.com or message us personally on {{discord}}",
+
+  "who-can-rebalance": "Who decides when to rebalance?",
+  "who-can-rebalance-description": "The rebalancing Set manager is the only party that can propose what the new Set can be. The manager can be a trusted human or a trustless smart contract (trustless oracle or Token Curated Registry). All Robo Sets supported on TokenSets will use a smart contract manager with predefined logic on how to rebalance, which eliminates the need to trust a human counterparty.",
+
+  "rebalance-progress": "How does the rebalancing process work?",
+  "rebalance-progress-description": "The rebalancing Set manager smart contract first proposes what components to rebalance into. Once the specified proposal period ends, a modified dutch auction starts, where traders submit bids to swap new components for old components. The price becomes more and more favorable to traders as the auction goes on, ensuring that the rebalancing reaches completion.",
+
+  "when-to-rebalance": "When do rebalances occur?",
+  "when-to-rebalance-description": "Rebalances will kickoff when certain conditions are met in the smart contract manager. These conditions include, but are not limited to, the rebalance interval and the minimum percent deviation from target.",
+
+  "strategies": "Strategies",
+  "what-is-buy-and-hold": "What is the Buy and Hold strategy?",
+  "what-is-buy-and-hold-description": "The Buy and Hold strategy automatically rebalances underlying crypto to maintain a fixed ratio over time. E.g. A Top 5 Crypto Set that rebalances to maintain an equal weight over time. Learn more {{moreInfo}}",
+
+  "when-to-buy-and-hold": "When should I use a Buy and Hold strategy?",
+  "when-to-buy-and-hold-description": "Buy and Hold Sets are ideal if you’re bullish on crypto but want to diversify your risk over multiple tokens and capture outperformance on individual assets. Keep your crypto portfolio allocations in line with their beliefs without needing to do anything.",
+
+  "how-to-buy-and-hold": "How does a Buy and Hold Set work?",
+  "how-to-buy-and-hold-description": "Any time the component token allocations deviate sufficiently from the target allocation, and enough time has passed for a rebalance to occur, the Set is realigned to its target allocation.",
+
+  "what-is-range-bound": "What is the Range Bound strategy?",
+  "what-is-range-bound-description": "Range Bound strategies automatically rebalance between a volatile asset (e.g. ETH) and a stable asset (e.g. USD) to buy on price dips and take profits on price rallies to capitalize on price movements even when the underlying asset does not change in price over the long term. Learn more {{moreInfo}}",
+
+  "when-to-range-bound": "When should I use a Range Bound strategy?",
+  "when-to-range-bound-description": "Range Bound Sets are ideal if you don’t believe in a strong specific direction of price movement and provides the potential to accumulate more crypto while minimizing the risk of sudden, adverse price changes.",
+
+  "how-to-range-bound": "How does a Range Bound Set work?",
+  "how-to-range-bound-description": "The Range Bound Sets contain a benchmark token (i.e. Bitcoin, Ethereum) and a price stable token (i.e. Dai, USDC), rebalancing between the two when prices rise or fall. These Sets emulate holding a portion of cash in your portfolio to be used to buy on price dips of the target asset. E.g. A Range Bound Set that is composed of 50% ETH and 50% cash (DAI) and buys ETH with DAI if the price dips more than 10% to maintain its 50% DAI 50% ETH target allocation over time.",
+
+  "difference-in-volatility": "What is the difference between Range Bound Min, Low, and High Volatility?",
+  "difference-in-volatility-description": "Min, low, and high describe your belief of how volatile the price of the target asset (e.g. ETH, BTC) is. If you believe ETH or BTC will swing in a larger range (or have higher volatility), a Range Bound High Volatility Set is more suitable for your portfolio than a Min or Low Volatility Set. If you believe ETH or BTC will swing minimally in a range, a Min Volatility Set is more ideal in your portfolio. Min, low, and high do not describe the Set’s actual {{impliedVolatility}}",
+
+  "what-is-trend-trading": "What is the Trend Trading strategy?",
+  "what-is-trend-trading-description": "Trend Trading attempts to capture gains through statistical and market sentiment analysis of an asset’s momentum. Traders use technical analysis to implement strategies such as Moving Averages, Moving Average Convergence Divergence (MACD), Bollinger Bands, and RSI that indicate when to enter and exit a position. Learn more {{moreInfo}}",
+
+  "when-to-trend-trading": "When should I use a Trend Trading strategy?",
+  "when-to-trend-trading-description": "When to use a Trend Trading strategy is ultimately up to you. Trend Trading Sets are for you if you wish to enact popular momentum based strategies automatically that traders use. Some of these strategies may include following popular Trend Trading indicators such as the 20, 50, 100, 200 day moving averages, Exponential Moving Averages, MACD, RSI, and more.",
+
+  "how-to-trend-trading": "How does a Trend Trading Set work?",
+  "how-to-trend-trading-description": "Each Trend Trading Set is composed of either 100% the target asset (e.g. Bitcoin, Ether) or 100% a stable asset (e.g. USDC, Dai) at any given point based on the implemented strategy (e.g. Simple Moving Averages, Exponential Moving Averages, MACD). In a hypothetical example, if the price of the target asset falls below its 20 day MA indicating a downtrend, then the Set automatically rebalances from the target asset to the stable asset. If the 20 day MA indicates a trend reversal with price rising above the MA, then the Set rebalances to the target asset.",
+
+  "other": "Other",
+  "future-support": "What Sets will TokenSets support in the future?",
+  "future-support-description": "We are planning to roll out more Sets in the future focusing on the trend trading Sets in the near term. If you have a specific Set or strategy you’d like to see on TokenSets, message us on {{discord}}",
+
+  "how-to-build-on-set": "How do I build something on Set Protocol?",
+  "how-to-build-on-set-description": "Check out our {{developerPlatform}} or message us on {{discord}} if you want to build anything on Set Protocol!",
+
+  "how-secure-is-tokensets": "How secure is TokenSets?",
+  "how-secure-is-tokensets-description": "Security of our system is of the utmost importance to us. We recognize the complexity of the protocol, the difficulties in deploying issue-free software, and the responsibility of maintaining a value-bearing protocol. Therefore, we’ve made a considerable effort to ensure the system has been reviewed by top security firms and heavily scrutinized line by line internally. We reached out to Chain Security and Trail of Bits for our audits. You can find the reports from those audits here: {{chainSecurity}} and {{trailOfBits}}",
+  "how-secure-is-tokensets-description-2": "Our Set Protocol contracts repo has 100% line and branch coverage over the span of over 840+ unit, integration and simulation tests. But you don’t need to take our word for it, every line of smart contract code for Set Protocol is open source, and we encourage technical community members to review and verify our code {{github}}. For more information on our system, view the {{whitepaper}}",
+
+  "email-submission": "What happens when I sign the message to submit my email on TokenSets?",
+  "email-submission-description": "Your email is associated with your Ethereum address only on TokenSets. Your email is not uploaded to the blockchain.",
+
+  "set-creator": "How do I create a Set and/or become a rebalancing Set manager?",
+  "set-creator-description": "Our Set creator tools are currently not public. Contact us at {{email}} or on {{discord}} if you are interested in creating or managing your own Set.",
+
+  "auction-participation": "How do I participate in the rebalancing auction?",
+  "auction-participation-description": "Click the \"Rebalances\" link in the website footer to view all active auctions.",
+
+  "tokensets-set-protocol": "How is TokenSets related to Set Protocol?",
+  "tokensets-set-protocol-description": "TokenSets is the first application built on the Set Protocol, which allows users to buy and sell tokenized portfolio management strategies easily. Set Protocol is a protocol that allows users to create, issue, redeem, and manage portfolios of ERC-20 tokens in a completely trustless way. Learn more about Set Protocol {{setProtocol}}",
+
+  "set-labs-set-protocol": "How is Set Labs Inc. related to Set Protocol?",
+  "set-labs-set-protocol-description": "Set Labs Inc. is the company building the Set Protocol smart contracts. Set Labs Inc. does not serve as managers for any Sets, act as a counterparty, or custody anyone’s funds on TokenSets. Set Labs Inc. may participate in each open auction as a participant along with any other liquidity providers. Learn more about Set Protocol {{setProtocol}}",
+
+  "set-labs-social-trader": "How is Set Labs related to Traders offering Sets on TokenSets?",
+  "set-labs-social-trader-description": "Set Labs Inc. is the company that has built the Set Protocol smart contracts and the TokenSets application. As mentioned before, we do not serve as managers for any Sets, act as a counterparty, or custody anyone’s funds on TokenSets. With respect to the Traders offering Sets on the site, they are not employees, agents, or affiliates of Set Labs Inc. Set Labs Inc. provides only the website and online portal where Traders may establish profiles, develop a community, and engage with their followers, but we do not execute trades on the Traders behalf or provide them with any other services. Set Labs Inc. does not currently charge Traders to have an active presence on the site or collect fees from Traders in any way, though we reserve the right to do so in the future. In the event we elect to charge fees or our relationship with Traders or other service providers on the site change, we will notify users in advance."
+}

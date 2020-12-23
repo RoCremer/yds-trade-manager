@@ -1,0 +1,92 @@
+{
+  "about": {
+    "intro": "加入",
+    "title": "开放金融运动",
+    "team": {
+      "intro": "我们的团队",
+      "title": "雄心壮志的开拓者。",
+      "title-2": "做重要的工作。",
+      "description": "我们的团队是一群雄心壮志的开拓者，他们热衷于通过更易于访问和高效的金融体系来创造更美好的世界。 我们坚信通过不断学习，真实性和透明性的文化，努力工作和玩乐，创造最高质量的产品，体验，人际关系和决策。"
+    },
+    "team-members": {
+      "felix": {
+        "role": "首席执行官",
+        "description": "图灵资本的投资者。 之前在Radius和21.co。",
+        "education": "加州大学伯克利分校理学士"
+      },
+      "inje": {
+        "role": "CPO",
+        "description": "以前在 GoDaddy 和 Bcoin。",
+        "education": "来自RISD的BFA"
+      },
+      "alex": {
+        "role": "CTO",
+        "description": "之前在 Square, Caviar, Apple 和 Zynga。",
+        "education": "从 UC Berkeley 而来的 BS "
+      },
+      "justin": {
+        "role": "工程师",
+        "description": "Airbnb 首席工程师。",
+        "education": "来自斯坦福的 MS 和 来自 美国伯克利的 BS"
+      },
+      "brian": {
+        "role": "技术运营",
+        "description": "自学成材的工程师。以前在 DRW。",
+        "education": "芝加哥大学理学士"
+      },
+      "richard": {
+        "role": "成长运营",
+        "description": "曾在普华永道担任管理顾问。",
+        "education": "西北大学文学士"
+      },
+      "anthony": {
+        "role": "产品营销经理",
+        "description": "EthHub 的联合创始人。之前从事网络安全工作。"
+      },
+      "dylan": {
+        "role": "工程师",
+        "description": "以前在 Coins.ph 和 Code Chrysalis。",
+        "education": "纽约大学文学士"
+      },
+      "punia": {
+        "role": "商务运营兼战略经理",
+        "description": "此前在 Draper Associates 担任投资人。",
+        "education": "加州大学伯克利分校哈斯商学院学士。"
+      }
+    },
+    "hiring": {
+      "intro": "加入我们",
+      "title": "我们正在招聘",
+      "description": "我们需要杰出的技术人才和运营人员，帮助我们建设 Set 的未来。",
+      "description-2": "想加入？",
+      "view-open-positions": "查看开放头寸"
+    },
+    "advisors": "顾问",
+    "advisor-members": {
+      "paul": {
+        "description": "Pantera Capital 合伙人"
+      },
+      "steve": {
+        "description": "Kindred Ventures 创始人和执行董事"
+      }
+    },
+    "investors": "投资者"
+  },
+
+  "careers": {
+    "intro": "加入我们",
+    "title": "在组合中找到你的家",
+    "vision": "我们的愿景",
+    "vision-description": "我们正在为开放金融体系的繁荣创造基础。我们创建的工具可以助力开发人员、基金经理和投资者进行加密货币构成交互，其价值高于他们各自拥有的那部分。",
+    "who-we-are": "我们是谁",
+    "who-we-are-description": "我们是一个有激情的学习者团队，我们做的一切都采用更高标准。我们相信努力工作，热爱生活，创造有意义的产品，给人们的生活带来积极影响。",
+    "open-positions": "空缺职位",
+    "apply": "应用",
+    "jobs": {
+      "backend-engineer": "后端工程师"
+    },
+    "locations": {
+      "san-francisco": "旧金山"
+    }
+  }
+}

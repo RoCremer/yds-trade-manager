@@ -1,0 +1,100 @@
+{
+  "new": "New",
+  "manage-your-crypto": "Manage Your Crypto",
+  "home-sticky-cta": {
+    "explore-sets": "Explore Sets",
+    "get-started": "Get started",
+    "how-set-works-intro-video": "How Set Works"
+  },
+  "home-banner": {
+    "introducing-social-trader": "Upgraded Social Trader Sets",
+    "copy-trades": "Earn interest with your favorite Social Trader Sets.",
+    "learn-more": "Learn more >"
+  },
+  "home-header": {
+    "title": "Crypto Portfolios From The ",
+    "title-highlight": "Pros",
+    "description": "Join thousands of other users who automate the best portfolio management strategies with TokenSets."
+  },
+  "home-social-trader": {
+    "intro": "Join other traders on the",
+    "title": "Set Social Trader",
+    "description": "Follow the best traders with a click of a button or create your own sets and gather your following.",
+    "explore": "Explore Sets by Traders",
+    "learn-more": "Learn more >"
+  },
+  "home-why-section": {
+    "title": "How It Works",
+    "description": "Set portfolios automatically rebalance your crypto using the strategy you choose. Reduce your emotional risk from actively trading by letting the portfolio strategies do the work for you.",
+    "save-time": "Save Time & Effort",
+    "automated-rebalancing": "Automated Rebalancing",
+    "24hr": "24hr Monitoring",
+    "no-commitment": "No Commitment",
+    "automated-strategies": "Automated Strategies",
+    "reduce-emotion": "Reduce Emotional Risk",
+    "reduce-missed-opportunities": "Reduce Missed Opportunities",
+    "diversification": "Instant Diversification",
+    "control": "Stay in Control",
+    "collateral": "Guaranteed Collateralization",
+    "buy-sell": "Buy & Sell Anytime",
+    "ownership": "You Own Your Funds"
+  },
+  "home-v2-section": {
+    "title": "Say Hello To",
+    "title-highlight": "Set V2",
+    "audited-header": "Fully Audited",
+    "audited-description": "The Set V2 system has been audited by industry leading auditing firms Open Zeppelin and ABDK.",
+    "view-audit": "View the audit reports.",
+    "portfolios-header": "Flexible Portfolios",
+    "portfolios-description": "Portfolios can hold multiple assets and change their positions based on the portfolio's strategy.",
+    "yield-farming-header": "Yield Farming",
+    "yield-farming-coming-soon": "Coming Soon",
+    "coming-soon": "Coming Soon",
+    "yield-farming-description": "Generate yield simply by joining a portfolio. Choose from a range of different yield farming strategies from low risk low reward, to high risk high reward."
+  },
+  "home-one-token-section": {
+    "intro": "Your Favorite Cryptos With",
+    "title": "Smart Rebalancing",
+    "description": "Upgrade your existing crypto into a Set that follows a strategy of your choice. Each Set is fully backed by the crypto asset that it’s managing."
+  },
+  "home-set-explanation": {
+    "intro": "Have",
+    "title": "Peace of Mind",
+    "verified": "Verified Security",
+    "audited-code": "Powered by audited code. No counterparty risk. You control your funds.",
+    "buy-sell": "Buy & Sell Anytime",
+    "no-lockup": "Freely buy and sell Sets on TokenSets. There are no lockup periods after purchasing a Set.",
+    "collateral": "Guaranteed Collateralization",
+    "portfolio": "Each Set acts like a tokenized portfolio, containing the underlying tokens belonging to that Set.",
+    "explore": "Explore Sets",
+    "get-started": "Get Started"
+  },
+  "home-integrations": {
+    "intro": "TokenSets supports wallets",
+    "title": "You Already Use",
+    "description": "Use 3rd party wallets you're already familiar with on TokenSets, or sign up with email and password.",
+    "learn-more": "View All Integrations"
+  },
+  "home-start-in-minutes-section": {
+    "intro": "Ready To Buy A Set?",
+    "title": "Get Started In Minutes",
+    "create": "Create an account",
+    "fund": "Fund your wallet",
+    "buy": "Start buying & selling"
+  },
+  "home-explore-section": {
+    "get-started-intro": "Let’s Begin.",
+    "get-started-title": "New Users",
+    "get-started-description": "View Sets that are available to buy and sell. Load your wallet with crypto and get started joining portfolio strategies on TokenSets.",
+    "explore": "Explore Sets",
+    "get-started": "Get Started",
+    "portfolio-managers-intro": "Join the leading platform for",
+    "portfolio-managers-title": "Crypto Portfolio Managers",
+    "portfolio-managers-description": "Create a Set as a portfolio manager and get your users to easily join your portfolio strategies.",
+    "portfolio-managers-cta": "Apply Here"
+  },
+  "home-faq-section": {
+    "title": "Frequently Asked Questions",
+    "view-faq": "View the FAQ"
+  }
+}

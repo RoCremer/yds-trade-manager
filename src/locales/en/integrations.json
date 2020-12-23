@@ -1,0 +1,41 @@
+{
+  "title": "Integrations and partners",
+  "description": "Companies and products that have Set integrations.",
+  "view": "View",
+  "wallets": {
+    "title": "Wallets",
+    "coinbase-wallet": "Coinbase wallet",
+    "coinbase-wallet-description": "Easy to use wallet that allows you to buy, sell, and track your Sets.",
+    "argent": "Argent Wallet",
+    "argent-description": "A simple and secure smart wallet for crypto with built in Set support.",
+    "trust-wallet": "Trust wallet",
+    "trust-wallet-description": "Secure multi-coin wallet where you can buy, sell, and track your Sets.",
+    "fortmatic": "Fortmatic",
+    "fortmatic-description": "Secure wallet that supports login through email and phone.",
+    "imtoken": "imToken",
+    "imtoken-description": "Multi-asset wallet that allows users to buy, sell, and manage Sets."
+  },
+  "open-finance-portals": {
+    "title": "Open Finance Portals",
+    "zerion": "Zerion",
+    "zerion-description": "A single solution for Open Finance products that supports Sets.",
+    "multis": "Multis",
+    "multis-description": "A cryptobank that allows you to buy, sell, and manage Sets.",
+    "defi-prime": "DeFiprime",
+    "defi-prime-description": "A one stop shop for all things DeFi with a Set portfolio tracker."
+  },
+  "liquidity": {
+    "title": "Liquidity",
+    "kyber": "Kyber",
+    "kyber-description": "An on-chain liquidity protocol that supplies liquidity to Set.",
+    "0x": "0x",
+    "0x-description": "A protocol for peer-to-peer exchange used for Set liquidity."
+  },
+  "prices-and-analytics": {
+    "title": "Prices & Analytics",
+    "etherscan": "Etherscan",
+    "etherscan-description": "List of Set’s verified smart contracts on the Ethereum Blockchain on Etherscan.",
+    "coin-gecko": "Coin Gecko",
+    "coin-gecko-description": "TokenSets price and trading volume aggregator."
+  }
+}

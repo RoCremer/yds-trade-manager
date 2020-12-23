@@ -1,0 +1,41 @@
+{
+  "common": {
+    "sign-up-or-login": "Registrieren oder Anmelden"
+  },
+  "what-is-a-set": {
+    "title": "Sets sind für Vermögensverwaltung",
+    "subtitle": "Ein Set ist wie ein digitaler Fonds, der mit Kryptowährungen handelt, um dabei zu helfen, Ihren Reichtum zu vergrößern."
+  },
+  "set-products": {
+    "robo-title": "Roboter-Sets",
+    "robo-subtitle": "Mit automatischen Handelsalgorithmen Ihr Portfolio verwalten. \n",
+    "social-title": "Social Trader Sets",
+    "social-subtitle": "Copy-Strategien der weltweit führenden Kryptowährungshändler."
+  },
+  "wallet-setup": {
+    "title": "Anfangen",
+    "step-one-main": "Mit Ihrer bevorzugten Ethereum-Wallet anmelden",
+    "step-one-secondary": "oder jetzt eine erstellen (es ist kostenlos).",
+    "step-two-main": "Ethereum zu Ihrer Wallet schicken,",
+    "step-two-secondary": "indem Sie eine Börse wie Coinbase oder Binance benutzen.",
+    "step-three-main": "Ein Set kaufen",
+    "step-three-secondary": "bei TokenSets.com."
+  },
+  "fund-your-wallet": {
+    "title": "Füllen Sie Ihre Wallet an",
+    "subtitle": "ETH wird benutzt, um Sets bei TokenSets zu kaufen und zu verkaufen",
+    "eth-address-label": "Benutzen Sie diese Adresse oder QR-Code, um ETH zu Ihrer Wallet zu schicken:",
+    "hide-qr-code": "QR-Code ausblenden",
+    "show-qr-code": "Adresse QR-Code zeigen",
+    "your-wallet-balance": "Das aktuelle Guthaben Ihrer Wallet ist",
+    "add-more-funds-later": "Sie können später auf Ihrer Konto-Seite weitere ETH hinzufügen"
+  },
+  "finish-onboarding": {
+    "title": "Finden Sie ein Set, das für Sie geeignet ist",
+    "buying-a-set": "Ein Set zu kaufen ist wie eine Einzahlung vorzunehmen. Dieses Geld wird benutzt, um automatisch Kryptowährung zu kaufen und zu verkaufen.",
+    "selling-a-set": "Verkaufen Sie Ihr Set und fordern Sie Ihre Einzahlung ein, plus oder minus der Gewinne oder Verluste, die Ihr Set erzielt.",
+    "top-robo-sets": "Erstklassige Robo Sets",
+    "top-social-sets": "Erstklassige Social Trader Sets",
+    "explore-more-sets": "Weitere Sets erkunden"
+  }
+}

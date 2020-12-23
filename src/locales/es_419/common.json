@@ -1,0 +1,75 @@
+{
+  "general": {
+    "token-sets": "TokenSets",
+    "token": "Token",
+    "set": "Set",
+    "sets": "Sets",
+    "coins": "Monedas",
+    "portfolios": "Carteras",
+    "amount": "Cantidad",
+    "value": "Valor",
+    "balance": "Saldo",
+    "address": "Dirección",
+    "ethereum-address": "Dirección de Ethereum"
+  },
+  "buttons": {
+    "send": "Enviar",
+    "buy": "Comprar",
+    "sell": "Vender",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "update": "Actualizar",
+    "retry": "Reintentar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "skip": "Saltar",
+    "save": "Guardar",
+    "try-again": "Intente de nuevo",
+    "close": "Cerrar",
+    "post": "Publicar",
+    "continue": "Continuar",
+    "finish": "Finalizar",
+    "not-now": "Ahora no",
+    "dont-show-again": "No mostrar de nuevo",
+    "delete": "Borrar",
+    "discard": "Eliminar"
+  },
+  "sets": {
+    "name": "Nombre",
+    "price": "Precio",
+    "fee": "Tarifa",
+    "buy-fee": "Tarifa de Ingreso",
+    "performance-fee": "Tarifa por Performance",
+    "streaming-fee": "Tarifa por Uso de Plataforma",
+    "apr": "Tasa de Interés Anual (APR)",
+    "market-cap": "Capitalización de marcado",
+    "total-market-cap": "Capitalización de Mercado Total",
+    "inception": "Fecha de origen",
+    "trade-count": "Número de operaciones",
+    "drawdown": "Caída Máxima ",
+    "rebalance": "Rebalanceo",
+    "trader": "Trader",
+    "strategy": "Estrategia",
+    "set-holders": "Tenedores del Set",
+    "explore-all-sets": "Explore todos los Sets",
+    "featured-sets": "Sets Destacados"
+  },
+  "time": {
+    "days": "Días",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos"
+  },
+  "ledger": {
+    "sign-message": "Por Favor chequee su dispositivo Ledger para firmar un mensaje y confirmar la acción",
+    "error-message": "Hubo un error con su billetera Ledger. Por favor siga las {{instructions}} para resolver el problema"
+  },
+  "errors": {
+    "input-a-valid-email": "Por favor ingrese un correo electrónico válido.",
+    "something-went-wrong": "Algo salió mal. Por favor intente más tarde.",
+    "404-page-description": "No podemos encontrar la página que está buscando.",
+    "back-to-home": "Volver a la portada",
+    "unlock-ledger": "Algo salió mal.  Por favor asegúrese que su dispositivo Ledger esté desbloqueado e inténtelo nuevamente"
+  }
+}

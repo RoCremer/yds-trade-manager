@@ -1,0 +1,41 @@
+{
+  "title": "統合とパートナー",
+  "description": "セット統合を実施している企業や商品",
+  "view": "見る",
+  "wallets": {
+    "title": "ウォレット",
+    "coinbase-wallet": "Coinbaseウォレット",
+    "coinbase-wallet-description": "セットの売買や追跡ができる簡単なウォレットです。",
+    "argent": "Argentウォレット",
+    "argent-description": "Setサポート組み込み式の暗号化用シンプルかつ安全なスマートウォレット。",
+    "trust-wallet": "Trust wallet",
+    "trust-wallet-description": "セットの売買や追跡ができるセキュアなマルチコインウォレット。",
+    "fortmatic": "Fortmatic",
+    "fortmatic-description": "メールや電話でのログインに対応したセキュアなウォレット。",
+    "imtoken": "imToken",
+    "imtoken-description": "セットの売買・管理ができるマルチアセットウォレット。"
+  },
+  "open-finance-portals": {
+    "title": "オープンファイナンスポータル",
+    "zerion": "Zerion",
+    "zerion-description": "セットをサポートするオープンファイナンス商品のための単一のソリューションです。",
+    "multis": "Multis",
+    "multis-description": "セットの売買・管理ができるクリプトバンク。",
+    "defi-prime": "DeFiprime",
+    "defi-prime-description": "セットのポートフォリオトラッカーを備えたDeFiのすべてのもののためのワンストップショップ。"
+  },
+  "liquidity": {
+    "title": "流動性",
+    "kyber": "Kyber",
+    "kyber-description": "Setに流動性を供給するオンチェーン流動性プロトコル。",
+    "0x": "0x",
+    "0x-description": "セットの流動性のために使用されるピアツーピア交換のためのプロトコル。"
+  },
+  "prices-and-analytics": {
+    "title": "価格と分析",
+    "etherscan": "イーサスキャン",
+    "etherscan-description": "イーサスキャンのイーサリアムブロックチェーン上の検証済みスマートコントラクトのセットリスト。",
+    "coin-gecko": "CoinGecko",
+    "coin-gecko-description": "TokenSetsの価格と取引量のアグリゲータ。"
+  }
+}

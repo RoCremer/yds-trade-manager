@@ -1,0 +1,55 @@
+{
+  "login-modal": {
+    "sign-in": "Giriş Yap veya Kayıt Ol",
+    "sign-up": "Kayıt Ol",
+    "view-other-options": "Diğer Seçenekleri Görüntüle",
+    "hide-other-options": "Diğer Seçenekleri Gizle",
+    "alternate-sign-in": "veya şununla giriş yapın:",
+    "alternate-sign-up": "veya şununla kaydolun:",
+    "no-account-prompt": "Hesabınız yok mu?",
+    "terms-and-conditions": "TokenSets'e kayıt olarak, {{termsAndConditions}} ve {{privacyPolicy}} kabul ederim.",
+    "brave-metamask-warning": {
+      "title": "Brave + Metamask",
+      "description": "Brave'i MetaMask'le kullanabilmek için, Brave tarayıcınızın \"Krypto Cüzdanlar\"ının kapalı olduğundan emin olun. <b> Ayarlar > Uzantılar > Kripto Cüzdanlar > Kapalı.</b> adımlarını takip edin.",
+      "learn-more": "Bu ayarı ilk defa güncelliyorsanız tarayıcınızı baştan başlatmanız gerekebilir. {{learnMore}}"
+    },
+    "ledger-warning": {
+      "title": "Bir Muhasebe Defteri mi Kullanıyorsunuz?",
+      "description": "Birden fazla tarayıcıdaki uyumsuzluk nedeniyle, Ledger'la MetaMask şu anda desteklenmemektedir. Paranızı MetaMask hesabınıza aktarmanızı ve MetaMask'i Ledger'a bağlamadan kullanmanızı tavsiye ederiz."
+    },
+    "ledger-choose-your-address": "Adresinizi seçin.",
+    "ledger-please-unlock": "Lütfen Ledger'ınızı açın",
+    "ledger-initial-load": "Ledger'ın kilidinin açılıp açılmadığı kontrol ediliyor...",
+    "ledger-step-one": "Parolanızı girerek Ledger'ınızın kilidini açın.",
+    "ledger-step-two": "Ledger'ınızda \"Ethereum\" uygulamasına gidin."
+  },
+  "login-modal-options": {
+    "download-here": "Buradan indirin.",
+
+    "fortmatic": "Telefon Kullan",
+    "fortmatic-pending": "Lütfen telefonunuzla giriş yapmaya devam edin.",
+    "fortmatic-email-pending": "Lütfen e-postanız üzerinden devam edin.",
+
+    "ledger": "Ledger Kullanın",
+    "ledger-pending": "Ledger'ın ile giriş yapılıyor",
+
+    "metamask": "MetaMask Kullan",
+    "metamask-download": "MetaMask İndir",
+    "metamask-pending": "Giriş yapmaya devam etmek için MetaMask eklentinizi kontrol edin.",
+
+    "metamask-mobile": "MetaMask Mobil",
+    "metamask-mobile-pending": "Lütfen telefonunuzla giriş yapmaya devam edin.",
+
+    "coinbase-wallet": "Coinbase Cüzdan",
+
+    "trust-wallet": "Trust Wallet",
+
+    "imtoken": "imToken",
+    "imtoken-pending": "Lütfen telefonunuzla giriş yapmaya devam edin.",
+
+    "opera-wallet": "Opera Cüzdan",
+    "opera-wallet-pending": "Giriş yapmaya devam etmek için lütfen tarayıcınızı kontrol edin.",
+
+    "wallet-link": "Coinbase Cüzdan (Cüzdan Bağlantısı kullanır)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "buttons": {
+    "start": "同意您的 {{tokenSymbol}} 开展交易",
+    "pending": "您的 {{tokenSymbol}} 正在批准中",
+    "submit": "提交 {{buyOrSell}}"
+  },
+  "order-summary": {
+    "title": "确认 {{buyOrSell}} 订单",
+    "name": "名称",
+    "amount": "数量",
+    "value": "价值",
+    "from": "从",
+    "to": "至",
+    "token-sets-fee": "TokenSets 费",
+    "network-fee": "网络费",
+    "slippage": "滑点",
+    "total-cost": "全部费用",
+    "order-total": "{{tokenQuantity}} {{tokenSymbol}} + 费用",
+    "slippage-warning": "警告！本交易将以大约 {{slippage}} 的滑点执行。如果您要 {{buyOrSell}} 超过 $50,000 美元的 {{tokenName}} 请",
+    "contact-us": "联系团队成员以获得帮助。"
+  },
+  "modals": {
+    "pending-title": "您的 {{buyOrSell}} 订单正在处理中",
+    "completed-title": "您的 {{buyOrSell}} 订单已完成",
+    "completed-description": "您可以在下方查看交易，并很快在账户页面查看余额。",
+    "long-title": "您的 {{buyOrSell}} 订单仍在处理中",
+    "long-description": "请通过下方链接查看您的交易，或再次尝试。",
+    "failed-title": "您的 {{buyOrSell}} 无法处理。",
+    "failed-description": "您的 {{buyOrSell}} 订单无法处理。请通过下方链接查看您的交易并再次尝试。",
+    "imtoken-completed": "您可以在账户页面跟踪交易进度。"
+  },
+  "toast": {
+    "completed": "您的交易已提交！"
+  },
+  "uniswap-errors": {
+    "default": "您的 {{buyOrSell}} 请求无法完成。"
+  },
+  "api-errors": {
+    "insufficient-liquidity": "目前没有足够的流动资金来支持该订单。请联系我们了解更多信息。",
+    "eth-gas-cost": "以太坊矿工费超出了本次交易的价值。",
+    "default": "我们无法为该订单找到交易价格。请尝试不同的数量。"
+  }
+}

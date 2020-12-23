@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 2 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="9" cy="9" r="9"></circle>
+    </defs>
+    <g id="♠️-Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V1.5_Nav" transform="translate(-1119.000000, -18.000000)">
+            <g id="Group-2-Copy-3" transform="translate(1128.500000, 27.000000) rotate(-180.000000) translate(-1128.500000, -27.000000) translate(1119.500000, 18.000000)">
+                <g id="Oval">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#9B97B3" xlink:href="#path-1"></use>
+                    <circle fill="#FFFFFF" mask="url(#mask-2)" cx="9" cy="12" r="3"></circle>
+                    <circle fill="#FFFFFF" mask="url(#mask-2)" cx="9" cy="2" r="6"></circle>
+                </g>
+                <path d="M9,18 C4.02943725,18 -1.42108547e-14,13.9705627 -1.42108547e-14,9 C-1.42108547e-14,4.02943725 4.02943725,-2.4158453e-13 9,-2.4158453e-13 C13.9705627,-2.4158453e-13 18,4.02943725 18,9 C18,13.9705627 13.9705627,18 9,18 Z M9,16.7111429 C13.2587466,16.7111429 16.7111429,13.2587466 16.7111429,9 C16.7111429,4.74125338 13.2587466,1.28885711 9,1.28885711 C4.74125338,1.28885711 1.28885711,4.74125338 1.28885711,9 C1.28885711,13.2587466 4.74125338,16.7111429 9,16.7111429 Z" id="Combined-Shape" fill="#9B97B3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

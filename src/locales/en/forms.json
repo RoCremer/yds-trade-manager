@@ -1,0 +1,69 @@
+{
+  "trader-profile": {
+    "title": "Edit Profile",
+    "username": "Username",
+    "first-name": "First name",
+    "last-name": "Last name",
+    "bio": "Bio",
+    "ethereum-address": "Ethereum Address",
+    "website": "Website",
+    "twitter-handle": "Twitter Handle",
+    "submit": "Submit",
+    "update-success": "Your trader profile has been successfully updated!",
+    "update-failed": "Update trader profile request failed.",
+    "username-taken": "Update failed: Username {{username}} is already taken.",
+    "invalid-signature": "Update failed: Invalid signature."
+  },
+  "rebalance-manager": {
+    "choose-next-allocation": "Choose the next allocation for your trading pool.",
+    "post-title": "Write a post describing your thoughts behind the trade",
+    "post-description": "This will be posted after the rebalance is successfully initiated, along with an email to your followers after the rebalance is completed.",
+    "enter-a-description": "Enter a description",
+    "learn-more": "Learn More",
+
+    "rebalance-pending": "Your rebalance initiation is pending...",
+    "rebalance-pending-description": "Please stay on this page until the transaction has gone through.",
+
+    "long-confirmation": "Your rebalance is still pending confirmation.",
+    "long-confirmation-description": "Your rebalance will begin after your transaction has been mined. You can monitor the progress of your transaction on Etherscan or on your Account page.",
+
+    "successful-rebalance": "Rebalance Initiated!",
+    "successful-rebalance-description": "Your rebalance has started and will finish within 4 hours into your new allocation.",
+
+    "rebalance-failed": "Rebalance Initialization Failed",
+    "rebalance-failed-description": "Your transaction to initiate the rebalance has failed. Please select a higher gas fee or try again later.",
+
+    "currently-rebalancing": "This set is currently rebalancing",
+    "view-auction": "View Auction",
+    "etherscan-link": "Your Etherscan link",
+
+    "enable-twap": "Enable TWAP",
+    "enabling-twap": "Enabling TWAP",
+    "confirming-twap": "Confirming TWAP"
+  },
+  "update-set-details": {
+    "title": "Edit Set",
+    "set-symbol": "Set Symbol",
+    "set-name": "Set Name",
+    "owner-address": "Owner Address",
+    "set-address": "Set Address",
+    "set-description": "Set Description",
+    "update-successful": "Your set has been successfully updated!",
+    "update-failed": "Your update set details request has failed."
+  },
+  "send-tokens": {
+    "send-tokens": "Send Tokens",
+    "max-eth-error": "Your account has insufficient ETH to complete this transfer. Press the \"Max\" button to see the maximum allowable ETH you may transfer minus Ethereum Network Fees.",
+    "max-token-error": "Your account has insufficient {{tokenSymbol}} to complete this transfer.",
+    "gas-error": "Your account has insufficient ETH to complete this transfer. {{gasFee}} ETH is required to complete this transfer.",
+    "preview-send": "Preview Send",
+    "send-confirmation": "Send Confirmation",
+    "send-amount": "Send Amount",
+    "remaining-balance-after-transfer": "New balance after transfer",
+    "to-address": "To",
+    "ethereum-network-fees": "Ethereum Network Fees",
+    "disclaimer": "I understand that sending my Sets to Coinbase, Binance, and other exchanges",
+    "disclaimer-2": "will result in a loss of funds due to lack of ERC-20 token transfer support.",
+    "disclaimer-3": "I have ensured that the address I'm sending my tokens to supports the token I am currently transferring."
+  }
+}

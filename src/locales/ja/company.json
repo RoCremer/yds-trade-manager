@@ -1,0 +1,92 @@
+{
+  "about": {
+    "intro": "参加しよう",
+    "title": "オープンファイナンス・ムーブメントに",
+    "team": {
+      "intro": "我々のチーム",
+      "title": "野心的な先駆者たち。",
+      "title-2": "重要な仕事をする。",
+      "description": "当社のチームは、よりアクセスしやすく効率的な金融システムを通じて、より良い世界を実現することに情熱を燃やす野心的なパイオニアのグループです。私たちは、継続的な学習、信頼性、透明性の文化に導かれた最高品質の製品、経験、関係性、意思決定を創造し、一生懸命に働き、一生懸命楽しむことを信じています。"
+    },
+    "team-members": {
+      "felix": {
+        "role": "CEO",
+        "description": "Turing Capital の投資家。元Radiusと21.co.",
+        "education": "カリフォルニア大学バークレー校の理学部卒"
+      },
+      "inje": {
+        "role": "CPO",
+        "description": "元GoDaddyおよびBcoin",
+        "education": "RISDの金融学士卒"
+      },
+      "alex": {
+        "role": "CTO",
+        "description": "元Square, Caviar, Apple, Zynga.",
+        "education": "カリフォルニア大学バークレー校の理学部卒"
+      },
+      "justin": {
+        "role": "エンジニア",
+        "description": "Airbnbのリードエンジニア",
+        "education": "スタンフォード大学院およびカリフォルニア大学バークレー校の理学部卒"
+      },
+      "brian": {
+        "role": "技術オペレーション",
+        "description": "エンジニア、元DRW",
+        "education": "シカゴ大学の理学部卒"
+      },
+      "richard": {
+        "role": "グロース・オペレーション",
+        "description": "元PwCにて経営コンサルタント",
+        "education": "ノースウェスタン大学卒"
+      },
+      "anthony": {
+        "role": "プロダクトマーケティングマネジャー",
+        "description": "EthHubの共同創業者。サイバーセキュリティ分野出身"
+      },
+      "dylan": {
+        "role": "エンジニア",
+        "description": "元Coins.phとCode Chrysalis",
+        "education": "ニューヨーク大学卒"
+      },
+      "punia": {
+        "role": "ビジネスオペレーション＆ストラテジーマネジャー",
+        "description": "以前はDraper Associatesの投資家でした。",
+        "education": "ハース・ビジネススクール、カリフォルニア大学バークレー校でBSを取得"
+      }
+    },
+    "hiring": {
+      "intro": "私達に加わりましょう",
+      "title": "採用",
+      "description": "Setの未来を一緒に築いてくれる、優秀な技術者とオペレーターを募集しています。",
+      "description-2": "興味がありますか？",
+      "view-open-positions": "オープンポジションを見る"
+    },
+    "advisors": "アドバイザー",
+    "advisor-members": {
+      "paul": {
+        "description": "Pantera Capitalのパートナー"
+      },
+      "steve": {
+        "description": "Kindred Venturesの創業者兼ディレクター"
+      }
+    },
+    "investors": "投資家"
+  },
+
+  "careers": {
+    "intro": "参加しましょう",
+    "title": "Setで居場所をみつける",
+    "vision": "我々のビジョン",
+    "vision-description": "私たちは、オープンな金融システムが繁栄するための基盤を作っています。開発者、ファンドマネージャー、投資家が、個々の部品よりも価値のある組み合わさったクリプト製品と対話できるようにするツールを作成しています。",
+    "who-we-are": "我々について",
+    "who-we-are-description": "私たちは常に学び続ける情熱的なチームであり、すべてのことに対してハードルをあえて上げています。私たちは、一生懸命に働き、一生懸命に遊び、人々の生活にプラスの影響を与える意味のある製品を作ることの可能性を信じています。",
+    "open-positions": "オープンポジション",
+    "apply": "応募",
+    "jobs": {
+      "backend-engineer": "バックエンドエンジニア"
+    },
+    "locations": {
+      "san-francisco": "サンフランシスコ"
+    }
+  }
+}

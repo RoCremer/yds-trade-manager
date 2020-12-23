@@ -1,0 +1,48 @@
+{
+  "tabs": {
+    "portfolio": "Portföy",
+    "settings": "Ayarlar"
+  },
+  "account": {
+    "send": "Gönder",
+    "receive": "Al",
+    "view": "Görüntüle",
+    "eth-balance": "ETH Bakiyem",
+    "total-balance": "Toplam Set Bakiyem",
+    "show-expanded-view": "Genişletilmiş Görünümü Göster",
+    "transactions": "İşlemler",
+    "no-transactions": "Gösterilebilecek Set İşlemi Yok",
+    "no-sets": "Burada Hiç Set Yok!",
+    "no-sets-description": "Sorun yok. Setlere göz gözdirebilirsiniz",
+    "no-sets-description-2": "Setler Sayfasını Keşfet",
+    "my-account": "Hesabım"
+  },
+  "welcome": {
+    "title": "TokenSets'e Hoşgeldiniz!",
+    "subtitle": "Basit bir başlangıç arıyorsanız buradan başlayın.",
+    "getting-started": "Başlangıç",
+    "getting-started-subtitle": "Yeni hesabınızı oluşturduğunuza göre, Set almak için hesabınıza ETH veya diğer Ethereum bazlı jetonlar yatırabilirsiniz.",
+    "getting-started-button": "Başla",
+    "already-have-an-account": "Hesabınız Zaten Var mı?",
+    "already-have-an-account-subtitle": "Önceden halihazırda bir hesap açtıysanız, önceden kullandığınız giriş yöntemi ile giriş yapmayı deneyin.",
+    "already-have-an-account-button": "Daha Fazla Bilgi Edinin"
+  },
+  "send": {
+    "warning": "Uyarı:",
+    "warning-description": "Setleriniz Coinbase, Binance ve diğer birçok borsaya gönderiliyor",
+    "warning-description-2": "ERC-20 token transfer desteği olmamasından dolayı fon kaybı ile sonuçlanacak.",
+    "warning-description-3": "Tokenlerinizi gönderdiğiniz adresin ERC-20 token transferlerini desteklediğine emin olun."
+  },
+  "receive": {
+    "my-address": "Adresim"
+  },
+  "table": {
+    "24-hr": "Değişim (24 SA)"
+  },
+  "settings": {
+    "title": "E-posta Tercihleri",
+    "description": "E-postanız herkese açık olmayacak ve kimseyle paylaşılmayacaktır.",
+    "ethereum-address": "Ethereum Adresi",
+    "update-account": "Hesabı Güncelleyin"
+  }
+}

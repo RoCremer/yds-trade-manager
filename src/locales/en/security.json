@@ -1,0 +1,14 @@
+{
+  "heading": {
+    "title": "Security",
+    "sub-title": "Intro",
+    "description-1": "We at Set take security very seriously and have employed the help of the industry’s best auditing firms to inspect the protocol for any vulnerabilities. The audits below are by ",
+    "description-2": " and ",
+    "description-3": ", which have been reviewed and acted upon by the Set team. While the audits are a thorough investigation of the code’s integrity, please be advised that the audits do not provide a 100% foolproof guarantee that the code is free from vulnerabilities.",
+    "description-4": "We believe in holding ourselves to a high standard when it comes to security, and provide these documents publicly to help you make your own determination on the security of the protocol."
+  },
+  "audits": {
+    "header": "Audits",
+    "september": "September"
+  }
+}

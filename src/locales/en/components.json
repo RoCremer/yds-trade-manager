@@ -1,0 +1,123 @@
+{
+  "progress-bar": {
+    "working": "Working...",
+    "still-working": "Still Working..."
+  },
+  "modals": {
+    "link-to-transaction": "Link to Transaction",
+    "transaction-approving-title": "Awaiting Confirmation",
+    "transaction-approving-description": "Please confirm or reject your transaction.",
+    "transaction-pending-title": "Transaction Processing...",
+    "transaction-pending-description": "Please wait, your transaction is processing...",
+    "transaction-finished-title": "Success!",
+    "transaction-finished-description": "Your transaction has finished processing.",
+    "transaction-failed-title": "Failed",
+    "transaction-failed-description": "Your transaction could not be processed.",
+    "transaction-long-title": "Transaction Still Processing",
+    "transaction-long-description": "Your transaction is still processing."
+  },
+  "follow-set-modal": {
+    "success": "Success!",
+    "success-description": "You successfully added your email",
+    "finish": "Finish",
+    "please-verify": "Please verify your email",
+    "add-your-email": "Add your email for notifications",
+    "add-your-email-description": "Following {{setName}} requires your email for notifications."
+  },
+  "email-signup-modal": {
+    "success": "You successfully added your email",
+    "please-verify": "Please verify your email",
+    "add-your-email": "Add your email",
+    "get-alerts": "Get alerts on TokenSet events.",
+    "hidden-from-public": "Your email will be hidden from public.",
+    "rebalances-label": "Rebalances",
+    "new-products-and-features": "New Products & Features",
+    "portfolio-performance-updates": "Portfolio Performance Updates",
+    "enter-your-email": "Enter your email"
+  },
+  "set-table": {
+    "number-of-sets": "Number of Sets",
+    "traded-tokens": "Traded Tokens",
+    "1-day": "1 Day",
+    "1-week": "1 Week",
+    "1-month": "1 Month",
+    "3-month": "3 Months",
+    "since-inception": "Since Inception",
+    "load-sets-error": "Well, this is embaressing...",
+    "load-sets-error-description": "Let’s try loading these Sets again!",
+    "explore-more-sets": "Explore More Sets",
+    "no-filtered-sets": "No filtered sets available.",
+    "no-filtered-sets-description": "No sets match your selected filter criteria."
+  },
+  "toasts": {
+    "standard": {
+      "email-updated": "Email successfully updated!",
+      "logged-out": "You’ve successfully logged out.",
+      "accepted-terms-of-service": "Thanks for accepting our Terms of Service and Privacy Policy!",
+      "followed-set": "You will now receive email notifications when {{setName}} rebalances.",
+      "unfollowed-set": "You will no longer receive notifications when {{setName}} rebalances.",
+      "onboarding-eth-received": "{{ethQuantity}} ETH successfully received.",
+      "approve-complete": "Your {{tokenName}} approval was successful."
+    },
+    "errors": {
+      "transaction-not-submitted": "Transaction not submitted.",
+      "accept-terms-of-service-failed": "Your acceptance of our Terms of Service could not be recorded. Please try again.",
+      "set-not-available": "This set is not available.",
+      "could-not-follow-set": "There was an error following this set. Please try again later.",
+      "could-not-unfollow-set": "There was an error unfollowing this set. Please try again later.",
+      "check-ethereum-main-net-connection": "Contract address could not be found. Please ensure you are connected to Ethereum Main Network.",
+      "approve-long": "Your {{tokenName}} approval is still pending. Please monitor your transaction on etherscan or try again.",
+      "approve-failed": "Your {{tokenName}} approval could not be processed. Please review your transaction on etherscan and try again."
+    }
+  },
+  "allocation-change": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "select-language-modal": {
+    "choose-a-language": "Choose a language"
+  },
+  "wallet-token-selector": {
+    "bidding-with-token": "Bidding with {{tokenName}}",
+    "receiving-token": "Receiving {{tokenName}}",
+    "auto-convert-into-ctoken": "Your tokens will automatically be converted to c{{tokenName}} using the Compound exchange rate of {{compoundExchangeRate}}.",
+    "auto-convert-into-underlying": "Your tokens will automatically be converted to {{tokenName}} using the Compound exchange rate of {{compoundExchangeRate}}."
+  },
+  "rich-text-editor": {
+    "add-link-url-placeholder": "Add the link URL here",
+    "add-link-text-placeholder": "Add the link text here",
+    "add-image-url-placeholder": "Add your image URL here"
+  },
+  "set-type-badge": {
+    "upgrade-available": "Upgrade Available",
+    "legacy-set": "Legacy"
+  },
+  "web3": {
+    "login-success": "Welcome! You’ve logged in.",
+    "changed-account": "You’ve logged into a new account.",
+    "create-signature-failed": "No account address found. Unable to generate message signature."
+  },
+  "create-feed-post": {
+    "text-area-placeholder": "Update this Set's followers and holders here.",
+    "success": "Success!",
+    "success-description": "Your post has been successfully published!",
+    "failed": "Something went wrong",
+    "failed-description": "Try posting again or contact a team member if the problem persists.",
+    "discard-post": "Discard Post?",
+    "discard-post-description": "Leaving this page will discard your post. This cannot be undone."
+  },
+  "feed-post": {
+    "delete-post": "Delete Post"
+  },
+  "delete-feed-post": {
+    "title": "Delete Post?",
+    "description": "Are you sure you want to delete your post? This cannot be undone."
+  },
+  "delete-phone-number": {
+    "title": "Delete Phone Number?",
+    "description": "Are you sure you want to delete your phone number? If you want to receive rebalance notifications, you will have to add it back manually."
+  },
+  "pagination": {
+    "footer-description": "Showing {{startRange}} - {{endRange}} of {{totalElementCount}} {{elementType}}"
+  }
+}

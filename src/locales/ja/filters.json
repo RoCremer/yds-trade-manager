@@ -1,0 +1,17 @@
+{
+  "labels": {
+    "filter-by": "フィルタ分けの基準",
+    "assets": "アセット",
+    "interest": "利息",
+    "sentiment": "センチメント"
+  },
+  "filter-type": {
+    "interest-bearing": "  利付き",
+    "non-interest-bearing": " 無利息",
+    "very-bullish": "非常に強気な",
+    "bullish": "強気な",
+    "neutral": "ニュートラル",
+    "bearish": "弱気",
+    "very-bearish": "非常に強気筋"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "progress-bar": {
+    "working": "Bearbeiten...",
+    "still-working": "Immer noch am Bearbeiten..."
+  },
+  "modals": {
+    "link-to-transaction": "Link zur Transaktion",
+    "transaction-approving-title": "Bestätigung ausstehend",
+    "transaction-approving-description": "Bitte bestätigen Sie Ihre Transaktion oder lehnen Sie sie ab.",
+    "transaction-pending-title": "Transaktion wird verarbeitet ...",
+    "transaction-pending-description": "Bitte warten Sie, Ihre Transaktion wird verarbeitet ...",
+    "transaction-finished-title": "Erfolg!",
+    "transaction-finished-description": "Die Verarbeitung Ihrer Transaktion wurde fertiggestellt.",
+    "transaction-failed-title": "Fehlgeschlagen",
+    "transaction-failed-description": "Ihre Transaktion konnte nicht verarbeitet werden.",
+    "transaction-long-title": "Transaktion wird weiter verarbeitet",
+    "transaction-long-description": "Ihre Transaktion wird noch immer verarbeitet."
+  },
+  "follow-set-modal": {
+    "success": "Erfolg!",
+    "success-description": "Du hast deine Email erfolgreich hinzugefügt",
+    "finish": "Fertigstellen",
+    "please-verify": "Bitte verifiziere deine Email",
+    "add-your-email": "Bitte füge deine Email hinzu um Benachrichtigungen zu erhalten",
+    "add-your-email-description": "Um {{setName}} Benachrichtigungen zu erhalten musst du deine Email angeben."
+  },
+  "email-signup-modal": {
+    "success": "Du hast deine Email erfolgreich hinzugefügt",
+    "please-verify": "Bitte verifiziere deine Email",
+    "add-your-email": "Füge deine Email hinzu",
+    "get-alerts": "Erhalte Benachrichtigungen bei TokenSets Events.",
+    "hidden-from-public": "Deine Email wird nicht öffentlich angezeigt.",
+    "rebalances-label": "Rebalancierungen",
+    "new-products-and-features": "Neue Produkte & Funktionen",
+    "portfolio-performance-updates": "Portfolio Performance Updates",
+    "enter-your-email": "Gib deine Email an"
+  },
+  "set-table": {
+    "number-of-sets": "Anzahl Sets",
+    "traded-tokens": "Getradete Tokens",
+    "1-day": "1 Tag",
+    "1-week": "1 Woche",
+    "1-month": "1 Monat",
+    "3-month": "3 Monate",
+    "since-inception": "Seit Erstellung",
+    "load-sets-error": "Hmm, das ist peinlich...",
+    "load-sets-error-description": "Lass uns versuchen die Seite neuzuladen!",
+    "explore-more-sets": "Entdecke mehr Sets",
+    "no-filtered-sets": "Keine gefilterten Sets verfügbar.",
+    "no-filtered-sets-description": "Keine Sets, die Ihren ausgewählten Filterkriterien entsprechen."
+  },
+  "toasts": {
+    "standard": {
+      "email-updated": "Email erfolgreich upgedated!",
+      "logged-out": "Du hast dich erfolgreich abgemeldet.",
+      "accepted-terms-of-service": "Danke, dass du unsere Nutzungsbedingungen und Privatsphärebestimmungen akzeptiert hast.",
+      "followed-set": "Du wirst nun Email Benachrichtigungen erhalten, wenn {{setName}} rebalanciert.",
+      "unfollowed-set": "Du wirst von nun an keine Benachrichtungen mehr erhalten, wenn {{setName}} rebalanciert.",
+      "onboarding-eth-received": "{{ethQuantity}} ETH erfolgreich erhalten."
+    },
+    "errors": {
+      "transaction-not-submitted": "Transaktion nicht gesendet.",
+      "accept-terms-of-service-failed": "Deine Akzeptanz der Nutzungsbedingungen konnte nicht festgestellt werden. Bitte versuche es erneut.",
+      "set-not-available": "Dieses Set ist nicht verfügbar.",
+      "could-not-follow-set": "Etwas ist schiefgelaufen. Bitte versuche es später erneut.",
+      "could-not-unfollow-set": "Beim Entfolgen ist etwas schiefgelaufen. Bitte versuche es später erneut.",
+      "check-ethereum-main-net-connection": "Vertragsadresse konnte nicht gefunden werden. Bitte stelle sicher, dass du zum Ethereum Main Network verbunden ist.",
+      "approve-long": "Ihre {{tokenName}}-Genehmigung steht noch aus. Bitte beobachten Sie Ihre Transaktion auf Etherscan oder versuchen es erneut."
+    }
+  },
+  "allocation-change": {
+    "previous": "Vorheriges",
+    "next": "Nächstes"
+  },
+  "select-language-modal": {
+    "choose-a-language": "Wähle eine Sprache"
+  },
+  "wallet-token-selector": {
+    "bidding-with-token": "Bieten mit {{tokenName}}",
+    "receiving-token": "{{tokenName}} erhalten ",
+    "auto-convert-into-ctoken": "Deine Tokens werden automatisch umgewandelt in c{{tokenName}}, basierend auf dem Compound Wechselkurs von {{compoundExchangeRate}}.",
+    "auto-convert-into-underlying": "Deine Tokens werden automatisch umgewandelt in {{tokenName}}, basierend auf dem Compound Wechselkurs von {{compoundExchangeRate}}."
+  },
+  "rich-text-editor": {
+    "add-link-url-placeholder": "Füge die URL hier ein",
+    "add-link-text-placeholder": "Füge den Linktext hier ein",
+    "add-image-url-placeholder": "Füge deine Bild-URL hier ein"
+  },
+  "set-type-badge": {
+    "powered-by-defi-pulse": "Unterstützt von DeFi Pulse",
+    "upgrade-available": "Upgrade verfügbar",
+    "legacy-set": "veraltet"
+  },
+  "web3": {
+    "login-success": "Willkommen! Du hast dich angemeldet.",
+    "changed-account": "Du hast dich erfolgreich in deinen neuen Account eingeloggt.",
+    "create-signature-failed": "Keine Account Adresse gefunden. Generierung der Signatur war nicht möglich."
+  },
+  "create-feed-post": {
+    "text-area-placeholder": "Aktualisieren Sie hier Verfolger und Halter dieses Sets.",
+    "success": "Erfolg!",
+    "success-description": "Ihr Posting wurde erfolgreich veröffentlicht!",
+    "failed": "Ein Fehler ist aufgetreten",
+    "failed-description": "Versuchen Sie, erneut zu posten, oder wenden Sie sich an ein Teammitglied, falls das Problem weiter besteht.",
+    "discard-post": "Posting verwerfen?",
+    "discard-post-description": "Wenn Sie diese Seite verlassen, wird Ihr Posting verworfen. Dies ist nicht rückgängig zu machen."
+  },
+  "feed-post": {
+    "delete-post": "Posting löschen"
+  },
+  "delete-feed-post": {
+    "title": "Posting löschen?",
+    "description": "Sind Sie sicher, dass Sie Ihr Posting löschen möchten? Dies ist nicht rückgängig zu machen."
+  },
+  "delete-phone-number": {
+    "title": "Telefonnummer löschen?",
+    "description": "Sind Sie sicher, dass Sie Ihre Telefonnummer löschen möchten? Wenn Sie Benachrichtigungen über Rebalancierungen empfangen wollen, werden Sie sie per Hand wieder eingeben müssen."
+  },
+  "pagination": {
+    "footer-description": "Zeigt {{startRange}} - {{endRange}} von {{totalElementCount}} {{elementType}}"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "progress-bar": {
+    "working": "処理中...",
+    "still-working": "まだ処理中です..."
+  },
+  "modals": {
+    "link-to-transaction": "トランザクションへのリンク",
+    "transaction-approving-title": "確認待機中",
+    "transaction-approving-description": "お取引内容を確認するか拒否してください。",
+    "transaction-pending-title": "トランザクション処理中...",
+    "transaction-pending-description": "トランザクションは処理中です、少々お待ち下さい。",
+    "transaction-finished-title": "成功!",
+    "transaction-finished-description": "トランザクションの処理が完了しました。",
+    "transaction-failed-title": "失敗しました。",
+    "transaction-failed-description": "トランザクションは処理できませんでした。",
+    "transaction-long-title": "トランザクションは処理中です。",
+    "transaction-long-description": "あなたのトランザクションは処理中です"
+  },
+  "follow-set-modal": {
+    "success": "成功!",
+    "success-description": "メールの追加に成功しました",
+    "finish": "終わる",
+    "please-verify": "メールを検証してください",
+    "add-your-email": "通知のためにメールを追加する",
+    "add-your-email-description": "{{setName}}をフォローするには、通知のためのメールアドレスが必要です。"
+  },
+  "email-signup-modal": {
+    "success": "メールの追加に成功しました",
+    "please-verify": "メールを検証してください",
+    "add-your-email": "メールを追加する",
+    "get-alerts": "TokenSetイベント時のアラートを取得する",
+    "hidden-from-public": "メールアドレスは公開されません。",
+    "rebalances-label": "リバランス",
+    "new-products-and-features": "新しいプロダクトと機能",
+    "portfolio-performance-updates": "ポートフォリオ・パフォーマンス・アップデート",
+    "enter-your-email": "メールアドレスを入力する"
+  },
+  "set-table": {
+    "number-of-sets": "Setの数",
+    "traded-tokens": "取引されたトークン",
+    "1-day": "1日",
+    "1-week": "1週間",
+    "1-month": "1ヶ月",
+    "3-month": "3ヶ月",
+    "since-inception": "開始以降",
+    "load-sets-error": "これは恥ずかしい...",
+    "load-sets-error-description": "もう一度これらのSetsをロードしてみよう!",
+    "explore-more-sets": "Setsをもっと見てみる",
+    "no-filtered-sets": "フィルターセットはご利用いただけません。",
+    "no-filtered-sets-description": "選択されたフィルター基準に一致するセットがありません。"
+  },
+  "toasts": {
+    "standard": {
+      "email-updated": "メールの更新が成功しました!",
+      "logged-out": "ログアウトしました。",
+      "accepted-terms-of-service": "当社の利用規約とプライバシーポリシーに同意していただきありがとうございます。",
+      "followed-set": "{{setName}}がリバランスされた際にメールで通知されるようになりました。",
+      "unfollowed-set": "{{setName}}がリバランスされたときに通知を受け取れなくなります。",
+      "onboarding-eth-received": "{{ethQuantity}} ETHを受け取りました。"
+    },
+    "errors": {
+      "transaction-not-submitted": "トランザクションが送信されていません。",
+      "accept-terms-of-service-failed": "当社の利用規約への同意が記録されませんでした。もう一度お試しください。",
+      "set-not-available": "このSetはご利用いただけません。",
+      "could-not-follow-set": "このSetに続いてエラーが発生しました。後でもう一度お試しください。",
+      "could-not-unfollow-set": "このSetをアンフォローする際にエラーが発生しました。後でもう一度お試しください。",
+      "check-ethereum-main-net-connection": "コントラクトアドレスが見つかりませんでした。Ethereumメインネットワークに接続されていることを確認してください。",
+      "approve-long": "あなたの{{tokenName}}の承認はまだ保留中です。etherscanでトランザクションを確認するか、再度お試しください。"
+    }
+  },
+  "allocation-change": {
+    "previous": "前へ",
+    "next": "次へ"
+  },
+  "select-language-modal": {
+    "choose-a-language": "言語を選ぶ"
+  },
+  "wallet-token-selector": {
+    "bidding-with-token": "{{tokenName}}で入札してください。",
+    "receiving-token": "{{tokenName}} を受け取ります。",
+    "auto-convert-into-ctoken": "あなたのトークンは、{{compoundExchangeRate}}のCompound上のレートを使用して、自動的にc{{tokenName}}に変換されます。",
+    "auto-convert-into-underlying": "あなたのトークンは{{compoundExchangeRate}}のCompound上のレートを使用して、自動的に{{tokenName}}に変換されます。"
+  },
+  "rich-text-editor": {
+    "add-link-url-placeholder": "ここにリンクURLを追加",
+    "add-link-text-placeholder": "ここにリンクテキストを追加",
+    "add-image-url-placeholder": "ここに画像URLを追加"
+  },
+  "set-type-badge": {
+    "powered-by-defi-pulse": "Powered By DeFi Pulse",
+    "upgrade-available": "利用できるアップグレード",
+    "legacy-set": "レガシー"
+  },
+  "web3": {
+    "login-success": "ようこそ!ログインしました。",
+    "changed-account": "新しいアカウントにログインしました。",
+    "create-signature-failed": "アカウントアドレスが見つかりません。メッセージ署名を生成できません。"
+  },
+  "create-feed-post": {
+    "text-area-placeholder": "ここでこのSetのフォロワーとホルダーを更新します。",
+    "success": "成功しました！",
+    "success-description": "あなたの投稿は正常に公開されました！",
+    "failed": "何かが間違っています",
+    "failed-description": "再度投稿または問題が解決しない場合はチームメンバーへご連絡ください。",
+    "discard-post": "投稿を破棄しますか？",
+    "discard-post-description": "このページから移動すると投稿が破棄されます。この操作は元に戻すことはできません。"
+  },
+  "feed-post": {
+    "delete-post": "投稿を削除する"
+  },
+  "delete-feed-post": {
+    "title": "投稿を削除しますか？",
+    "description": "投稿を本当に削除しますか？元に戻すことはできません。"
+  },
+  "delete-phone-number": {
+    "title": "電話番号を削除しますか？",
+    "description": "本当に電話番号を削除してよろしいですか？ リバランス通知を受け取りたい場合は、手動で追加する必要があります。"
+  },
+  "pagination": {
+    "footer-description": "{{totalElementCount}} {{elementType}}の{{startRange}} - {{endRange}}を表示中"
+  }
+}

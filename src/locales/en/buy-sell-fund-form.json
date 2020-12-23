@@ -1,0 +1,55 @@
+{
+  "buttons": {
+    "start": "Approve Your {{tokenSymbol}} For Trading",
+    "pending": "Your {{tokenSymbol}} Is Being Approved",
+    "submit": "Submit {{buyOrSell}}"
+  },
+  "order-summary": {
+    "title": "Confirm {{buyOrSell}}",
+    "name": "Name",
+    "amount": "Amount",
+    "value": "Value",
+    "from": "From",
+    "to": "To",
+    "token-sets-fee": "TokenSets Fee",
+    "network-fee": "Network Fee",
+    "slippage": "Premium",
+    "premium": "Premium",
+    "premium-info": "The difference between the Uniswap market price and Net Asset Value of the Set.",
+    "buy-fee": "Buy Fee",
+    "buy-fee-description": "This buy fee is used to deter arbitrage via oracle price mismatches. This buy fee is distributed to all existing {{setName}} holders.",
+    "sell-fee": "Sell Fee",
+    "sell-fee-description": "This sell fee is used to cover the gas costs of maintaining reserves.",
+    "total-cost": "Total Cost",
+    "total-to-receive": "Total To Receive",
+    "order-total": "{{tokenQuantity}} {{tokenSymbol}} + Fees",
+    "receiving-total": "{{tokenQuantity}} {{tokenSymbol}} - Fees",
+    "negative-order-total-warning": "Warning! The gas cost required to execute this trade exceeds the value of tokens you will receive.",
+    "slippage-warning": "Warning! This Set is trading at a {{slippage}} premium on Uniswap. If you are {{buyOrSell}} quantities of {{tokenName}} greater than $50,000 USD please",
+    "contact-us": "contact a team member for assistance."
+  },
+  "modals": {
+    "pending-title": "Your {{buyOrSell}} Order is Processing",
+    "completed-title": "Your {{buyOrSell}} Order Was Completed",
+    "completed-description": "You can review your transaction below, and view your balance on your Account page shortly.",
+    "long-title": "Your {{buyOrSell}} Order is Still Processing",
+    "long-description": "Please monitor your transaction using the link below, or try again.",
+    "failed-title": "Your {{buyOrSell}} Could Not Be Processed.",
+    "failed-description": "Your {{buyOrSell}} order could not be processed. Please review your transaction at the link below and try again.",
+    "imtoken-completed": "You can track the progress of your transaction in your account page."
+  },
+  "toast": {
+    "completed": "Your transaction has been submitted!"
+  },
+  "uniswap-errors": {
+    "default": "Your {{buyOrSell}} request could not be completed."
+  },
+  "api-errors": {
+    "insufficient-liquidity": "There is not enough liquidity to service this order. Please contact us for more information.",
+    "eth-gas-cost": "The ETH gas cost exceeds the value of this transaction.",
+    "insufficient-reserves": "There are insufficient reserves to service this order. Please wait or contact us if you would like to sell a quantity >2% of this Set's TVL.",
+    "minimum-issuance-not-met": "This buy order does not meet the minimum quantity threshold. Please try again with a larger quantity.",
+    "exceeds-buy-sell-limit": "This Set cannot accept transaction sizes greater than 200k USD. Please try again with a smaller quantity.",
+    "default": "We could not fetch a transaction price for this order. Please try a different quantity."
+  }
+}

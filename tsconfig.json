@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "target": "es6",
+    "lib": ["es7", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "baseUrl": "./src/",
+    "typeRoots": ["node_modules/set-protocol-utils/types/*", "node_modules/@types"],
+    "paths": {
+      "@actions/*": ["actions/*"],
+      "@components/*": ["components/*"],
+      "@containers/*": ["containers/*"],
+      "@constants/*": ["constants/*"],
+      "@img/*": ["img/*"],
+      "@reducers/*": ["reducers/*"],
+      "@selectors/*": ["selectors/*"],
+      "@typings/*": ["typings/*"],
+      "@utils/*": ["utils/*"],
+      "bignumber.js": ["../node_modules/bignumber.js/bignumber.d.ts"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,30 @@
+{
+  "contact-info": {
+    "title": "再平衡通知",
+    "sub-title": "您的联系方式",
+    "phone-number": "电话号码",
+    "phone-number-placeholder": "XXX XXX XXXX",
+    "call-for-rebalances": "再平衡开始时打电话",
+    "sms-for-rebalances": "再平衡开始时发送短信",
+    "email": "电邮",
+    "email-placeholder": "输入电邮"
+  },
+  "errors": {
+    "toggle-notifications-error": "您必须在接听电话和短信之间至少选择其一。",
+    "toggle-valid-phone-number-error": "您输入的电话号码无效。",
+    "generic-phone-number-error": "在尝试保存您的电话号码时出错了。",
+    "no-selected-sets": "未选择新的 set。选择订阅一个新 set 以获得再平衡通知。",
+    "could-not-subscribe": "您的电话号码无法订阅新选择的 set。"
+  },
+  "phone-number": {
+    "delete-phone-number": "删除电话号码"
+  },
+  "set-selection": {
+    "selected-sets": "已选 Set",
+    "update-subscribed-sets": "更新订阅的 Set",
+    "name": "名字",
+    "market-cap": "市值",
+    "components": "组成部分",
+    "success": "您的通知设置已成功更新！"
+  }
+}

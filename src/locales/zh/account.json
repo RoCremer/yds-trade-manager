@@ -1,0 +1,48 @@
+{
+  "tabs": {
+    "portfolio": "投资组合",
+    "settings": "设置"
+  },
+  "account": {
+    "send": "发送",
+    "receive": "收到",
+    "view": "查看",
+    "eth-balance": "我的ETH余额",
+    "total-balance": "我的总组合资产",
+    "show-expanded-view": "显示扩展视图",
+    "transactions": "交易",
+    "no-transactions": "并无 Set 交易可显示",
+    "no-sets": "这里没有 Set !",
+    "no-sets-description": "没问题。您可以浏览 set 于",
+    "no-sets-description-2": "浏览组合页面",
+    "my-account": "我的账户"
+  },
+  "welcome": {
+    "title": "欢迎来到 TokenSets！",
+    "subtitle": "如果您正在寻找一个简单的方法来开始，那就从这里开始。",
+    "getting-started": "开始",
+    "getting-started-subtitle": "现在您已经创建了新的账户，您可以将 ETH 或其他基于 Ethereum 的代币存入您的账户以购买 Sets 。",
+    "getting-started-button": "开始",
+    "already-have-an-account": "已经有一个账户？",
+    "already-have-an-account-subtitle": "如果您之前已经创建了账号，请尝试用您之前使用的原始登录方式登录。",
+    "already-have-an-account-button": "了解更多"
+  },
+  "send": {
+    "warning": "警告：",
+    "warning-description": "将您的 Set 发送到 Coinbase、Binance 以及众多其他交易所",
+    "warning-description-2": "会导致资金损失，这是由于缺乏 ERC-20 代币转发支持所致。",
+    "warning-description-3": "确保您发送代币的地址支持ERC-20代币转移。"
+  },
+  "receive": {
+    "my-address": "我的地址"
+  },
+  "table": {
+    "24-hr": "变化（24小时）"
+  },
+  "settings": {
+    "title": "电子邮件偏好设定",
+    "description": "不会公开或共享您的电子邮箱。",
+    "ethereum-address": "以太坊地址",
+    "update-account": "更新账户"
+  }
+}

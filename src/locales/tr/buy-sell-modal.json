@@ -1,0 +1,92 @@
+{
+  "preview": {
+    "pay": "Öde",
+    "get": "Al",
+    "your-balance": "Bakiyeniz",
+    "your-balance-description": "Bu, {{provider}} cüzdanınızdaki bakiyedir.",
+    "max": "En Fazla"
+  },
+  "compound-tooltip": {
+    "title": "Bildirim",
+    "description-buy": "Bu Set için, satın alma yalnızca Sete şu an tahsis edilen para biriminde gerçekleştirilebilir. {{tokenName}} basmak için Compound'a yönlenin. ",
+    "description-sell": "Bu Set için, satış sadece Setin şu anda tahsis edildiği para biriminde gerçekleşebilir. {{tokenName}} basmak için Compound'a yönlenin."
+  },
+  "order-details": {
+    "confirm-order": "Emri Onayla",
+    "per-set": "Set başına",
+    "tokensets-fee": "TokenSets Ücreti",
+    "buy-fee": "Alım Ücreti",
+    "paid-to": "Ödenen",
+    "network-fee": "Ağ Ücreti",
+    "fees": "Ücretler",
+    "total-cost": "Toplam Maliyet",
+    "total-receive": "Alınacak Toplam",
+    "more-order-information": "Emir bilgileriniz hakkında daha fazlasını öğrenin",
+    "slippage": "Kayma",
+    "slippage-description-buy": "Bu alım işlemi, dış alım satım ihtiyacı olmadan ETH'inizi basitçe bir Set içine yatırır. Bu %0 kayma ile sonuçlanır.",
+    "slippage-description-sell": "Bu satış işlemi, harici alım satıma gerek duymadan basitçe ETH'nizi Set'den çıkarır. Bu %0 slipaja neden olur."
+  },
+  "confirm-order-tooltip": {
+    "pricing": "Fiyatlandırma",
+    "pricing-description": "TokenSets likiditeyi 0x yoluyla Kyber Network'ün kaynaklarından ve geniş piyasadan sağlar. Bir Setin fiyatı, altındaki bileşenler için en iyi ücretlerin toplamıdır.",
+    "platform-fees": "Platform Ücretleri",
+    "platform-fees-description": "TokenSets şu an Set alımı için ücret talep etmemektedir.",
+    "network-fee": "Ağ Ücreti",
+    "network-fee-description": "Bu ağ ücreti, işlemi gerçekleştirmek için benzin masrafıdır.",
+    "more-information": "Daha fazla bilgi için bağlantı"
+  },
+  "pending": {
+    "processing": "İşleminiz sürüyor",
+    "verifying-order": "Alım Emri Doğrulanıyor...",
+    "approve-success": " {{tokenName}} alım satım için onaylandı!",
+    "order-processing": "{{tokenQuantity}} {{tokenName}} isteğiniz işleniyor."
+  },
+  "finished": {
+    "buy-intro": "Alım emriniz",
+    "sell-intro": "Satış emriniz",
+    "processing": "İşleminiz Hâlâ Devam Ediyor",
+    "processing-description": "hala beklemede. İşleminizin ilerlemesini hesap sayfanızdan takip edebilirsiniz.",
+    "im-token-processing": "İşleminiz İşleniyor",
+    "im-token-processing-description": "onaylandı. İşleminizin ilerlemesini hesap sayfanızdan takip edebilirsiniz.",
+    "tx-failed": "İşleminizle İlgili Bir Sorun Oluştu",
+    "tx-failed-description": "bir hatayla karşılaştı. İşleminizin gerçekleşip gerçekleşmediğini görmek için lütfen hesap sayfanızı kontrol edin.",
+    "buy-successful": "Alım Emri Başarılı!",
+    "sell-successful": "Satış Emri Başarılı!",
+    "successful-description": "başarılı oldu ve kısa bir süre sonra cüzdanınızda görülebilir olacak.",
+    "learn-more-errors": "Bu hatalarla ilgili SSS'den bilgi alın.",
+    "etherscan": "Etherscan bağlantınız"
+  },
+  "email-signup": {
+    "get-notified": "Setiniz Yeniden Dengelendiğinde Bildirim Alın",
+    "get-notified-description": "{{username}} {{setName}} setini yeniden dengelerken e-posta bildirimleri alın.",
+    "get-notified-description-alt": "{{setName}} yeniden dengelendiğinde e-posta bildirimleri alın.",
+    "success": "Başarılı!",
+    "success-description": "Yeniden dengelemeler için e-posta bildirimlerine başarıyla abone oldunuz."
+  },
+  "buttons": {
+    "start": "{{tokenName}} Alım Satım İçin Onayla",
+    "approve": "{{tokenName}} Alım Satım İçin Onaylanıyor",
+    "finalize": "{{tokenName}} Onayınız Sonuçlandırılıyor",
+    "preview-buy": "Alımı Ön İzle",
+    "preview-sell": "Satışı Ön İzle",
+    "submit-buy": "Alım Gönder",
+    "submit-sell": "Satışı Gönderin",
+    "confirm": "Lütfen İşleminizi Onaylayın",
+    "preparing-order": "Talimatınız Hazırlanıyor...",
+    "to-account": "Hesabıma Git",
+    "submit-email": "E-posta Gir",
+    "view-account": "Hesap Bakiyelerimi Görüntüle"
+  },
+  "errors": {
+    "gas-required": "Ethereum ağ ücretleri (gaz) için lütfen daha fazla ETH ekleyin. {{ethBalance}} değerindeki mevcut ETH bakiyeniz gaz için {{ethBalance}} ETH'yi karşılayabilmeli.",
+    "gas-required-with-eth": "Ethereum ağ ücretlerini (gaz) sağlamak için {{gasNeeded}} ETH oranında lütfen siparişinizde değişiklik yapın.",
+    "something-went-wrong": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+    "rates-changed": "Oranlar değişti.",
+    "rates-expired": "Oranların süresi doldu.",
+    "rates-retry-buy": "Güncellenen oranlarla tekrar göndermek için lütfen \"Satın Alımı Gönder\"e tıklayın.",
+    "rates-retry-sell": "Güncellenen oranlarla yeniden göndermek için lütfen \"Satış Gönder'e\" tekrar tıklayın.",
+    "transaction-failed": "İşlem başarısız oldu. Lütfen tekrar deneyin.",
+    "email-input-failed": "Lütfen geçerli bir e-posta girin.",
+    "email-signup-failed": "E-posta adresinizi kaydedemedik. Lütfen daha sonra tekrar deneyin."
+  }
+}

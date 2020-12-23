@@ -1,0 +1,69 @@
+{
+  "trader-profile": {
+    "title": "プロフィールを編集",
+    "username": "ユーザネーム",
+    "first-name": "名前",
+    "last-name": "名字",
+    "bio": "情報",
+    "ethereum-address": "Ethereumアドレス",
+    "website": "ウェブサイト",
+    "twitter-handle": "Twitter名",
+    "submit": "送信する",
+    "update-success": "プロフィールは更新されました。",
+    "update-failed": "更新に失敗しました。",
+    "username-taken": "更新に失敗: {{username}} はすでに使われています。",
+    "invalid-signature": "更新に失敗：無効な署名です。"
+  },
+  "rebalance-manager": {
+    "choose-next-allocation": "取引プールの次の割当を選ぶ。",
+    "post-title": "取引のあなたの考えを投稿する。",
+    "post-description": "リバランスが正常に開始された後、リバランス完了後にフォロワーにメールでお知らせします。",
+    "enter-a-description": "説明を入力してください",
+    "learn-more": "詳しく見る",
+
+    "rebalance-pending": "リバランスの開始は保留されています...",
+    "rebalance-pending-description": "お取引が完了するまで、このページをご覧ください。",
+
+    "long-confirmation": "リバランスはまだ確認中です。",
+    "long-confirmation-description": "取引がマイニングされた後、リバランスが開始されます。取引の進捗状況は、Etherscanまたはアカウントページで確認できます。",
+
+    "successful-rebalance": "リバランスが開始されました。",
+    "successful-rebalance-description": "あなたのリバランスは開始されており、新しい割り当てまで4時間以内に終了します。",
+
+    "rebalance-failed": "リバランス開始に失敗しました",
+    "rebalance-failed-description": "リバランスを開始するための取引に失敗しました。高いガス料金を選択するか、後でもう一度お試しください。",
+
+    "currently-rebalancing": "このセットは現在リバランス中です。",
+    "view-auction": "オークションをみる",
+    "etherscan-link": "Etherscanのリンク",
+
+    "enable-twap": "TWAPを有効化する",
+    "enabling-twap": "TWAPを有効にしています",
+    "confirming-twap": "TWAPを確認しています"
+  },
+  "update-set-details": {
+    "title": "セットを編集する",
+    "set-symbol": "セットシンボル",
+    "set-name": "セット名",
+    "owner-address": "オーナーアドレス",
+    "set-address": "セットアドレス",
+    "set-description": "セットの説明",
+    "update-successful": "あなたのセットは正常に更新されました。",
+    "update-failed": "更新設定の詳細要求に失敗しました。"
+  },
+  "send-tokens": {
+    "send-tokens": "トークンを送信する",
+    "max-eth-error": "アカウントのETHが不足するためこの送金を完了できません。「最大」ボタンを押すと転送可能な最大許容ETHからイーサリアムネットワーク料金を差し引いたものを表示します。",
+    "max-token-error": "あなたのアカウントはこの転送を完了するための{{tokenSymbol}}が不足しています。",
+    "gas-error": "この送金を完了するためのアカウントのETHが不足しています。この送金を完了するために{{gasFee}}ETHが必要です。",
+    "preview-send": "送信プレビュー",
+    "send-confirmation": "確認を送信する",
+    "send-amount": "合計を送信する",
+    "remaining-balance-after-transfer": "転送後の新しい残高",
+    "to-address": "宛て",
+    "ethereum-network-fees": "イーサリアムネットワーク料金",
+    "disclaimer": "私のセットをコインベースや、バイナンス、その他の取引所に送信することを理解しています",
+    "disclaimer-2": "ERC-20トークン転送サポートがないことにより資金が失われます。",
+    "disclaimer-3": "トークンを送信しているアドレスが現在転送中のトークンをサポートすることを確認しました。"
+  }
+}

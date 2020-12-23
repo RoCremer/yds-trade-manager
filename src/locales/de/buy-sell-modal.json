@@ -1,0 +1,92 @@
+{
+  "preview": {
+    "pay": "Zahlen",
+    "get": "Erhalten",
+    "your-balance": "Kontostand",
+    "your-balance-description": "Das ist der Kontostand deiner {{provider}} Wallet.",
+    "max": "Maximum"
+  },
+  "compound-tooltip": {
+    "title": "Hinweis",
+    "description-buy": "Für dieses Set ist Kaufen nur in der Währung möglich, in der dieses Set nominiert ist. Gehe zu Compound um in {{tokenName}} zu wechseln.",
+    "description-sell": "Für dieses Set ist Verkaufen nur in der Währung möglich, in der dieses Set nominiert ist. Gehe zu Compound um in {{tokenName}} zu wechseln."
+  },
+  "order-details": {
+    "confirm-order": "Transaktion bestätigen",
+    "per-set": "pro Set",
+    "tokensets-fee": "TokenSets Gebühr",
+    "buy-fee": "Kaufgebühr",
+    "paid-to": "Gezahlt an",
+    "network-fee": "Netzwerkgebühr",
+    "fees": "Gebühren",
+    "total-cost": "Gesamtkosten",
+    "total-receive": "Menge",
+    "more-order-information": "Mehr Infos über deine Transaktion",
+    "slippage": "Slippage",
+    "slippage-description-buy": "Diese Transaktion transferiert einfach ETH in ein Set ohne irgendwelche Trades. Das führt zu 0% Slippage und Gebühren.",
+    "slippage-description-sell": "Diese Transaktion transferiert einfach ETH aus dem Set ohne irgendwelche Trades. Das führt zu 0% Slippage und Gebühren."
+  },
+  "confirm-order-tooltip": {
+    "pricing": "Preise",
+    "pricing-description": "TokenSets nutzt Liquidität von Kyber Network und den 0x Märkten. Der angezeigte Preis eines Sets setzt sich aus den Preisen der Assets enthalten in dem jeweiligen Set zusammen.",
+    "platform-fees": "Plattformgebühren",
+    "platform-fees-description": "TokenSets verlangt aktuell keine Gebühren.",
+    "network-fee": "Netzwerkgebühren",
+    "network-fee-description": "Die Netzwerkgebühren sind die Gaskosten der Ethereum Blockchain um eine Transaktion auszuführen.",
+    "more-information": "Link für mehr Informationen"
+  },
+  "pending": {
+    "processing": "Deine Transaktion wird verarbeitet",
+    "verifying-order": "Kauf-Order bestätigen...",
+    "approve-success": "Dein {{tokenName}} wurde fürs Traden zugelassen!",
+    "order-processing": "Deine Order für {{tokenQuantity}} {{tokenName}} wird verarbeitet."
+  },
+  "finished": {
+    "buy-intro": "Deine Kauf-Order für",
+    "sell-intro": "Deine Verkauf-Order für",
+    "processing": "Deine Transaktion wird verarbeitet",
+    "processing-description": "ist noch unbestätigt. Du kannst den Fortschritt deiner Transaktion auf deiner Account Seite sehen.",
+    "im-token-processing": "Deine Transaktion wird verarbeitet",
+    "im-token-processing-description": "wurde abgeschickt. Du kannst den Fortschritt deiner Transaktion auf deiner Account Seite sehen.",
+    "tx-failed": "Bei deiner Transaktion ist ein Fehler aufgetreten",
+    "tx-failed-description": "ist ein Fehler aufgetreten. Bitte überprüfe deine Account Seite um zu sehen ob deine Transaktion abgeschickt wurde.",
+    "buy-successful": "Kauf-Order erfolgreich!",
+    "sell-successful": "Verkauf-Order erfolgreich!",
+    "successful-description": "war erfolgreich und wird bald in deiner Wallet erscheinen.",
+    "learn-more-errors": "Lerne mehr über diese Fehler in unseren FAQs.",
+    "etherscan": "Dein Etherscan Link"
+  },
+  "email-signup": {
+    "get-notified": "Werde über Set Rebalancierungen benachrichtigt",
+    "get-notified-description": "Erhalte Emailbenachrichtigungen wenn {{username}} dein {{setName}} rebalanciert.",
+    "get-notified-description-alt": "Erhalte Emailbenachrichtigungen wenn {{setName}} rebalanciert.",
+    "success": "Erfolg!",
+    "success-description": "Du hast dich erfolgreich für Emailbenachrichtungen zu Set Rebalancierungen angemeldet."
+  },
+  "buttons": {
+    "start": "{{tokenName}} zum Traden freischalten",
+    "approve": "{{tokenName}} wird zum Traden freigeschaltet",
+    "finalize": "Trade Freischaltung für {{tokenName}} wird fertiggestellt ",
+    "preview-buy": "Kauf-Vorschau",
+    "preview-sell": "Verkauf-Vorschau",
+    "submit-buy": "Kaufen",
+    "submit-sell": "Verkaufen",
+    "confirm": "Bitte bestätige deine Transaktion",
+    "preparing-order": "Order wird vorbereitet...",
+    "to-account": "Zu meinem Account gehen",
+    "submit-email": "Email speichern",
+    "view-account": "Meinen Kontostand sehen"
+  },
+  "errors": {
+    "gas-required": "Bitte ergänzen Sie weitere ETH für die Netzgebühren von Ethereum (Benzin). Ihr aktueller {{ethBalance}} ETH-Kontostand muss imstande sein, {{gasCost}} ETH für Benzin zu decken.",
+    "gas-required-with-eth": "Bitte passen Sie Ihre Order um {{gasNeeded}} ETH an, um die Ethereum-Netzgebühren (Benzin) zu entrichten.",
+    "something-went-wrong": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "rates-changed": "Die Wechselkurse haben sich geändert.",
+    "rates-expired": "Die Wechselkurse sind abgelaufen.",
+    "rates-retry-buy": "Bitte drücke auf \"Kaufen\" um es erneut mit neuen Wechselkursen zu versuchen.",
+    "rates-retry-sell": "Bitte drücke auf \"Verkaufen\" um es erneut mit neuen Wechselkursen zu versuchen.",
+    "transaction-failed": "Transaktion fehlgeschlagen. Bitte versuche es erneut.",
+    "email-input-failed": "Bitte gib eine korrekt Emailadresse an.",
+    "email-signup-failed": "Wir konnten deine Emailadresse nicht registrieren. Bitte versuche es später erneut."
+  }
+}

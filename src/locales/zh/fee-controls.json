@@ -1,0 +1,101 @@
+{
+  "fee-controls": "费用控制",
+  "common": {
+    "fee-type": "费用类型",
+    "current-fee": "当前费用",
+    "new-fee": "新费用",
+    "fee-type-unchanged": "您的 {{feeType}} 将保留",
+    "buy-fee": "购买费",
+    "streaming-fee": "流媒体费用",
+    "performance-fee": "绩效费"
+  },
+  "errors": {
+    "buy-fee-unallowed-value": "购买费必须介于 0 到 5% 之间",
+    "buy-fee-must-be-different": "新的购买费金额必须与当前的购买费金额不同。",
+    "performance-fee-unallowed-value": "绩效费用必须介于 0 到 40％ 之间",
+    "performance-fee-unallowed-value-legacy": "绩效费用必须介于 0.01 到 40％ 之间",
+    "performance-fee-watermark-upgrade-required": "该 set 的绩效费必须首先设定为 0.01%",
+    "performance-fee-must-be-different": "新的绩效费用必须与当前的绩效费用不同。",
+    "streaming-fee-unallowed-value": "流媒体费必须介于 0 到 5% 之间",
+    "streaming-fee-must-be-different": "新的流媒体费用值必须不同于当前的流媒体费用值。"
+  },
+  "collect-fees": {
+    "title": "收取费用",
+    "last-high-watermark": "上一条高水位线",
+    "next-high-watermark": "下一条高水位线",
+    "performance-fee-label": "未实现的绩效费",
+    "performance-fee-description": "根据该 Set 相对于其最近记录的高水位线值而收取的费用金额。",
+    "performance-fee-unavailable-description": "该 Set 未超过其最近的高水位线。不产生绩效费。",
+    "streaming-fee-label": "未实现的流媒体费用",
+    "streaming-fee-description": "根据该 Set 的市值、流媒体费用百分比、以及自上次计费事件以来经过的时间来确定可能收取的费用金额。",
+    "total-fees-label": "可收取的费用总额",
+    "collect-button": "收取费用"
+  },
+  "fee-change": {
+    "title": "升级费用",
+    "description": "为了让用户对于 Set 的主要变更有有足够的完成时间，更新 Set 的费用百分比需要 5 天的等待期。",
+    "description-limitation": "为确保费用更新能够安全可靠地完成，流媒体费和绩效费一次只能更新一个",
+    "buy-fee-description": "您的购买费可介于 0% 到 5% 之间",
+    "performance-fee-description": "您的绩效费用可以是 0％ 到 40％ 之间的值",
+    "performance-fee-description-legacy": "您的绩效费用可以是 0.01％ 到 40％ 之间的值",
+    "streaming-fee-description": "您的流媒体费用将会介于0％到5％之间"
+  },
+  "fee-change-components": {
+    "confirm-fee-update": "确认费用更新",
+    "cancel-fee-update": "取消费用更新",
+    "countdown-description": "您的 {{feeType}} 更新已开始。您可在以下位置完成更新：",
+    "finalize-description": "您的 {{feeType}} 更新已准备就绪，等待确认。请在下方确认更新。"
+  },
+  "start-fee-change-modal": {
+    "start-transaction-title": "开始 {{feeType}} 更新",
+    "start-transaction-description": "为了给用户足够的准备时间来应对 Set 的大变动，更新 Set 的费用需要 5 天的等待期。",
+    "start-transaction-description-2": "为确保费用更新能够安全可靠地完成，流媒体费和绩效费一次只能更新一个",
+    "start-transaction-description-3": "交易提交后，请在 5 天后返回此页面以完成费用更新。",
+    "pending-transaction-title": "发起费用更新",
+    "pending-transaction-description": "正在等待您的费用更新。",
+    "completed-transaction-title": "您已开始费用更新。请在 5 天后回来完成更新。",
+    "failed-transaction-title": "费用更新失败",
+    "failed-transaction-description": "无法启动您的费用更新。请重试。",
+    "long-transaction-title": "费用更新仍在处理中",
+    "long-transaction-description": "您的费用更新仍在处理中。您可通过下面的链接继续监控您的交易。如果交易失败，请重试。"
+  },
+  "confirm-fee-change-modal": {
+    "start-transaction-title": "确认 {{feeType}} 更新",
+    "start-transaction-description": "确认费用更新后，您的 Set 将立即开始使用新的费用百分比。",
+    "start-transaction-description-2": "如果您希望将来提交新的费用更新，您必须经历 5 天的标准等待期。",
+    "pending-transaction-title": "确认 {{feeType}} 更新",
+    "pending-transaction-description": "您的确认正在处理中，请等待。",
+    "completed-transaction-title": "您的 {{feeType}} 更新已确认。",
+    "failed-transaction-title": "费用更新确认失败",
+    "failed-transaction-description": "无法确认您的费用更新。请重试。",
+    "long-transaction-title": "确认仍在处理中",
+    "long-transaction-description": "您的确认仍在处理中。您可通过下面的链接继续监控您的交易。如果交易失败，请重试。"
+  },
+  "cancel-fee-change-modal": {
+    "start-transaction-title": "取消 {{feeType}} 更新",
+    "start-transaction-description": "取消您的 {{feeType}} 更新将重置 5 天的等待期。",
+    "start-transaction-description-2": "确认取消后，您可以提交新的费用更新请求。",
+    "pending-transaction-title": "取消 {{feeType}} 更新",
+    "pending-transaction-description": "您的取消正在处理中，请等待。",
+    "completed-transaction-title": "您的 {{feeType}} 更新已取消。",
+    "failed-transaction-title": "费用更新取消失败",
+    "failed-transaction-description": "您的费用更新无法取消。请再试一遍。",
+    "long-transaction-title": "费用更新取消仍在处理中",
+    "long-transaction-description": "您的取消仍在处理中。您可通过下面的链接继续监控您的交易。如果交易失败，请重试。"
+  },
+  "collect-fee-modal": {
+    "new-high-watermark": "新的高水位线",
+    "fees-to-be-collected": "待收取的费用",
+    "no-new-watermark": "这项收费不会导致该组合记录新的高水位线。",
+    "start-transaction-title": "收取费用",
+    "start-transaction-description": "此 Set 的费用将以 {{totalFeesInSetUnits}} {{setSymbol}} 的形式记入地址{{truncatedAddress}}，并且此 Set 的最高水位线将更新为{{nextHighWaterMark}} {{benchmarkAsset}}。",
+    "start-transaction-description-no-watermark": "该 Set 的费用将以 {{totalFeesInSetUnits}} {{setSymbol}} 的形式存入地址 {{truncatedAddress}}。",
+    "pending-transaction-title": "收费...",
+    "pending-transaction-description": "请稍等，我们正在收取您的费用。",
+    "completed-transaction-title": "Set 费用已记入您的账户。",
+    "failed-transaction-title": "收费失败",
+    "failed-transaction-description": "您的费用无法收取。请尝试再次收取费用。",
+    "long-transaction-title": "收费仍在处理中",
+    "long-transaction-description": "您的费用仍在处理中。您可以在下面的链接中继续监控您的交易。如果交易失败，请稍后重试。"
+  }
+}

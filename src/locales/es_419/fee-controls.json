@@ -1,0 +1,101 @@
+{
+  "fee-controls": "Controles de Comisiones",
+  "common": {
+    "fee-type": "Tipo de Comisión",
+    "current-fee": "Comisión actual",
+    "new-fee": "Nueva Comisión",
+    "fee-type-unchanged": "Su {{feeType}} permanecerá",
+    "buy-fee": "Comisión de Ingreso",
+    "streaming-fee": "Comisión por Uso de Plataforma",
+    "performance-fee": "Comisión por Performance"
+  },
+  "errors": {
+    "buy-fee-unallowed-value": "La Comisión de ingreso debe tener un valor entre 0 y 5%",
+    "buy-fee-must-be-different": "El nuevo valor de la comisión de ingreso debe ser diferente del valor actual.",
+    "performance-fee-unallowed-value": "La comisión por performance debe tener un valor entre 0 y 40%",
+    "performance-fee-unallowed-value-legacy": "La comisión por performance debe tener un valor entre 0.01 y 40%",
+    "performance-fee-watermark-upgrade-required": "La comisión por performance para este Set debe tener un valor inicial de 0.01",
+    "performance-fee-must-be-different": "El nuevo valor de la comisión por performance debe ser diferente del valor actual.",
+    "streaming-fee-unallowed-value": "La comisión por uso de la plataforma debe tener un valor entre 0 y 5%",
+    "streaming-fee-must-be-different": "El nuevo valor de la comisión por uso de la plataforma debe ser diferente del valor actual."
+  },
+  "collect-fees": {
+    "title": "Cobrar comisiones",
+    "last-high-watermark": "Ultimo valor de referencia de Crecimiento",
+    "next-high-watermark": "Próximo valor de referencia de Crecimiento",
+    "performance-fee-label": "Comisiones por performance desactualizadas",
+    "performance-fee-description": "El monto de comisiones que puede ser recolectado basándose en el valor del Set en relación con la última marca del valor de referencia de crecimiento",
+    "performance-fee-unavailable-description": "Este Set no excede su último valor de referencia más alto.  No se pueden acreditar comisiones por performance.",
+    "streaming-fee-label": "Comisiones por uso de la plataforma desactualizadas",
+    "streaming-fee-description": "El monto de Comisiones que puede ser cobrado basado en el valor de mercado del Set, las comisiones por uso de plataforma, y el tiempo transcurrido desde el último evento de acreditación de comisiones ",
+    "total-fees-label": "Total de comisiones a cobrar",
+    "collect-button": "Cobrar comisiones"
+  },
+  "fee-change": {
+    "title": "Actualizar comisiones",
+    "description": "A fin de dar a los usuarios un plazo adecuado para realizar cambios importantes en el Set, la actualización del porcentaje de la tarifa del Set requiere un período de espera de 5 días.",
+    "description-limitation": "Para asegurar que las actualizaciones de las comisiones puedan completarse de forma fiable y segura, las tarifas de uso de la plataforma y las Tarifas por performance sólo pueden ser actualizadas una por vez",
+    "buy-fee-description": "Tu comisión de ingreso puede tener un valor entre 0 y 5%",
+    "performance-fee-description": "Tu comisión por performance puede tener un valor entre 0 y 40%",
+    "performance-fee-description-legacy": "La Comisión por performance puede tener un valor entre 0.01% y 40%",
+    "streaming-fee-description": "Tu comisión por uso de la plataforma puede tener un valor entre 0 y 5%"
+  },
+  "fee-change-components": {
+    "confirm-fee-update": "Confirmar actualización de comisión",
+    "cancel-fee-update": "Cancelar actualización de comisión",
+    "countdown-description": "Tu actualización de {{feeType}} ha comenzado. Puedes finalizar su actualización en:",
+    "finalize-description": "Tu actualización de {{feeType}} está lista para confirmar. Por favor confirma la actualización debajo."
+  },
+  "start-fee-change-modal": {
+    "start-transaction-title": "Comenzar actualización de {{feeType}} ",
+    "start-transaction-description": "A fin de dar a los usuarios un plazo adecuado para realizar cambios importantes en el Set, la actualización de la comisión del Set requiere un período de espera de 5 días.",
+    "start-transaction-description-2": "Para asegurar que las actualizaciones de las comisiones puedan completarse de forma fiable y segura, las tarifas de uso de la plataforma y las tarifas por performance sólo pueden ser actualizadas una por vez",
+    "start-transaction-description-3": "Después de que tu transacción sea enviada, por favor regresa a esta página en 5 días para finalizar la actualización de la tarifa.",
+    "pending-transaction-title": "Iniciando actualización de la comisión",
+    "pending-transaction-description": "Por favor espera mientras la actualización de tu tarifa se está procesando.",
+    "completed-transaction-title": "Tu actualización de comisión ha comenzado. Por favor regresa en 5 días para finalizar la actualización.",
+    "failed-transaction-title": "La actualización de la comisión ha fallado",
+    "failed-transaction-description": "La actualización de tu comisión no se pudo iniciar  Por favor, inténtalo de nuevo.",
+    "long-transaction-title": "Actualización de comisión todavía en proceso",
+    "long-transaction-description": "Tu actualización de tarifa aún se está procesando. Puedes supervisar tu transacción mediante el enlace de aquí abajo. Si la transacción no se realiza con éxito, por favor inténtalo de nuevo."
+  },
+  "confirm-fee-change-modal": {
+    "start-transaction-title": "Confirmar actualización de {{feeType}}",
+    "start-transaction-description": "Una vez que se confirme la actualización de la tarifa, su Set comenzará a utilizar inmediatamente el nuevo porcentaje de la tarifa.",
+    "start-transaction-description-2": "Si deseas enviar una nueva actualización de la tarifa en el futuro, debes aguardar el período de espera estándar de 5 días.",
+    "pending-transaction-title": "Confirmando actualización de {{feeType}} ",
+    "pending-transaction-description": "Por favor espera mientras tu transacción se está procesando.",
+    "completed-transaction-title": "Tu actualización de {{feeType}}  ha sido confirmada.",
+    "failed-transaction-title": "La confirmación de actualización de la comisión ha fallado",
+    "failed-transaction-description": "La actualización de tu tarifa no se pudo confirmar. Por favor, inténtalo de nuevo.",
+    "long-transaction-title": "Confirmación todavía en proceso",
+    "long-transaction-description": "Tu confirmación aún se está procesando. Puedes supervisar su transacción mediante el enlace de aquí abajo. Si la transacción no se realiza con éxito, por favor inténtalo de nuevo."
+  },
+  "cancel-fee-change-modal": {
+    "start-transaction-title": "Cancelar actualización de {{feeType}} ",
+    "start-transaction-description": "Cancelar la actualización de {{feeType}} restablecerá el período de espera de 5 días.",
+    "start-transaction-description-2": "Después de que se confirme tu cancelación, puedes presentar una nueva solicitud de actualización de tarifas.",
+    "pending-transaction-title": "Cancelando actualización de {{feeType}} ",
+    "pending-transaction-description": "Por favor, espera mientras se procesa tu cancelación.",
+    "completed-transaction-title": "Su actualización de {{feeType}}  ha sido cancelada.",
+    "failed-transaction-title": "La cancelación de la actualización de la comisión ha fallado",
+    "failed-transaction-description": "La actualización de tu tarifa no se pudo confirmar. Por favor, inténtalo de nuevo.",
+    "long-transaction-title": "La cancelación de la actualización de la comisión todavía está en proceso",
+    "long-transaction-description": "Tu cancelación aún se está procesando. Puedes supervisar tu transacción mediante el enlace de aquí abajo. Si la transacción no se realiza con éxito, por favor inténtalo de nuevo."
+  },
+  "collect-fee-modal": {
+    "new-high-watermark": "Próximo valor de referencia de Crecimiento",
+    "fees-to-be-collected": "Comisiones a cobrar",
+    "no-new-watermark": "Este cobro no registrará un nuevo valor de referencia de Crecimiento.",
+    "start-transaction-title": "Cobrar comisiones",
+    "start-transaction-description": "Las comisiones de este Set se acreditarán a la dirección {{truncatedAddress}} en forma de {{totalFeesInSetUnits}}. {{setSymbol}}, y el valor de referencia de crecimiento de este Set se actualizará a {{nextHighWaterMark}} {{benchmarkAsset}}.",
+    "start-transaction-description-no-watermark": "Las comisiones de este Set se acreditarán a la dirección {{truncatedAddress}} en forma de {{totalFeesInSetUnits}} {{setSymbol}}.",
+    "pending-transaction-title": "Cobrando comisiones...",
+    "pending-transaction-description": "Por favor espera mientras las tarifas están siendo cobradas.",
+    "completed-transaction-title": "Las comisiones del Set han sido acreditadas en tu cuenta.",
+    "failed-transaction-title": "El cobro de comisiones ha fallado",
+    "failed-transaction-description": "Sus tarifas no pudieron ser cobradas. Por favor, intenta cobrar sus tarifas de nuevo.",
+    "long-transaction-title": "Cobro de comisiones todavía en proceso",
+    "long-transaction-description": "El cobro de tus comisiones todavía se está procesando. Puedes supervisar tu transacción mediante el enlace de aquí abajo. Si la transacción no se realiza con éxito, por favor inténtalo de nuevo."
+  }
+}

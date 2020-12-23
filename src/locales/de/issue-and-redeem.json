@@ -1,0 +1,69 @@
+{
+  "approval-status": {
+    "unstarted": "GENEHMIGUNG ERFORDERLICH",
+    "pending": "GENEHMIGUNG AUSSTEHEND",
+    "approved": "GENEHMIGT!"
+  },
+  "issue-approve": {
+    "title": "Wir benötigen Ihre Genehmigung für jeden einzelnen Token.",
+    "description": "Zu Ihrer Sicherheit müssen Sie für Ihre Token Ausgabeberechtigungen erteilen, wenn Sie den Set-Smart-Vertrag verwenden zu möchten. Dadurch werden Ihre Token ausschließlich zur Ausgabe genehmigt. Es werden keine Token versandt. Klicken Sie zum Fortfahren auf „Alle genehmigen“ und akzeptieren Sie die einzelnen Tokengenehmigungen."
+  },
+  "issue-form": {
+    "title": "Bitte geben Sie die Menge der {{tokenSymbol}}-Sets ein, die Sie emittieren möchten.",
+    "description": "Zu Ihrer Sicherheit müssen Sie für Ihre Token Ausgabeberechtigungen erteilen, wenn Sie den Set-Smart-Vertrag verwenden zu möchten. Dadurch werden Ihre Token ausschließlich zur Ausgabe genehmigt. Es werden keine Token versandt. Klicken Sie zum Fortfahren auf „Alle genehmigen“ und akzeptieren Sie die einzelnen Tokengenehmigungen.",
+    "error-title": "Sie verfügen nicht über ausreichend Token für eine Ausgabe.",
+    "error-description": "Wenn Sie {{setName}} ausgeben möchten, müssen Sie die oben benötigten Token über die Börse erwerben."
+  },
+  "issue-modals": {
+    "pending-title": "Wir emittieren Ihre Token",
+    "pending-description": "Ihre neu emittierten {{tokenName}}-Token können Sie bald ihn Ihrer Wallet sehen und handeln bzw. davon abbuchen.",
+    "long-title": "Ihre {{tokenName}}-Token werden noch immer emittiert",
+    "long-description": "Bitte überwachen Sie Ihre Transaktion über den nachfolgenden Link oder versuchen Sie es erneut.",
+    "completed-title": "Erfolg!",
+    "completed-description": "Ihre {{tokenName}}-Token wurden emittiert.",
+    "failed-title": "Etwas ist schiefgelaufen",
+    "failed-description": "Ihre {{tokenName}}-Token konnten nicht emittiert werden. Bitte prüfen Sie über den nachfolgenden Link, wo der Fehler liegt, und versuchen Sie es erneut."
+  },
+  "issue-action": {
+    "component-fetch-failed": "Beim Abrufen der erforderlichen Ausgabekomponenten ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es noch einmal.",
+    "issuance-failed": "Ihre Ausgabeanforderung konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut."
+  },
+  "redeem-approve": {
+    "title": "Bitte geben Sie zur Einlösung Ihres Sets Ihre Genehmigung.",
+    "description": "Zu Ihrer Sicherheit müssen Sie für Ihr Set Einlösungsberechtigungen erteilen, wenn Sie den Set-Smart-Vertrag verwenden zu möchten. Dadurch werden Ihre Token ausschließlich zum Einlösen genehmigt. Es werden keine Token versandt. Klicken Sie zum Fortfahren auf „Genehmigen“ und akzeptieren Sie die Genehmigungstransaktion."
+  },
+  "redeem-form": {
+    "title": "{{tokenName}} einlösen",
+    "description": "Bitte geben Sie die Menge an {{tokenSymbol}}-Sets ein, die Sie einlösen möchten.",
+    "your-balance": "Ihr {{tokenSymbol}}-Saldo",
+    "error-title": "Sie verfügen für eine Einlösung nicht über ausreichend Sets.",
+    "error-description": "Wenn Sie {{tokenName}} einlösen möchten, müssen Sie weitere {{tokenName}} erwerben."
+  },
+  "redeem-modals": {
+    "pending-title": "Wir lösen Ihre Token ein",
+    "pending-description": "Ihre eingelösten {{tokenName}}-Token können Sie bald ihn Ihrer Wallet sehen und handeln bzw. davon abbuchen.",
+    "long-title": "Ihre {{tokenName}}-Token werden noch immer eingelöst",
+    "long-description": "Bitte überwachen Sie Ihre Transaktion über den nachfolgenden Link oder versuchen Sie es erneut.",
+    "completed-title": "Erfolg!",
+    "completed-description": "Ihre {{tokenName}}-Token wurden eingelöst.",
+    "failed-title": "Etwas ist schiefgelaufen",
+    "failed-description": "Ihre {{tokenName}}-Token konnten nicht eingelöst werden. Bitte prüfen Sie über den nachfolgenden Link, wo der Fehler liegt, und versuchen Sie es erneut."
+  },
+  "redeem-action": {
+    "component-fetch-failed": "Beim Abrufen der erforderlichen Einlösungsinformationen ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu und versuchen Sie es noch einmal.",
+    "redeem-failed": "Ihre Einlösungsanfrage konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut."
+  },
+  "table": {
+    "token": "TOKEN",
+    "amount-required": "BENÖTIGTE MENGE",
+    "your-balance": "IHR KONTOSTAND",
+    "amount-per-set": "BETRAG PRO SET",
+    "receive": "EMPFANGEN"
+  },
+  "buttons": {
+    "approve-all": "Alle genehmigen",
+    "approve": "Genehmigen",
+    "issue": "Problem",
+    "redeem": "Einlösen"
+  }
+}

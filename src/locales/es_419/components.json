@@ -1,0 +1,122 @@
+{
+  "progress-bar": {
+    "working": "Trabajando...",
+    "still-working": "Todavía trabajando..."
+  },
+  "modals": {
+    "link-to-transaction": "Enlace a la transacción",
+    "transaction-approving-title": "En espera de confirmación",
+    "transaction-approving-description": "Confirme o rechace su transacción.",
+    "transaction-pending-title": "Transacción procesándose...",
+    "transaction-pending-description": "Por favor espera, tu transacción está siendo procesada...",
+    "transaction-finished-title": "¡Éxito!",
+    "transaction-finished-description": "Tu transacción ha terminado de procesarse. ",
+    "transaction-failed-title": "Fallo",
+    "transaction-failed-description": "Tu transacción no ha podido ser procesada.",
+    "transaction-long-title": "Transacción todavía en proceso",
+    "transaction-long-description": "Tu transacción todavía está siendo procesada."
+  },
+  "follow-set-modal": {
+    "success": "¡Éxito!",
+    "success-description": "Correo electrónico añadido exitosamente",
+    "finish": "Terminar",
+    "please-verify": "Por favor, verifica tu correo electrónico",
+    "add-your-email": "Agrega tu correo electrónico para recibir notificaciones",
+    "add-your-email-description": "Seguir a {{setName}} requiere tu email para notificaciones."
+  },
+  "email-signup-modal": {
+    "success": "Correo electrónico añadido exitosamente",
+    "please-verify": "Por favor, verifica tu correo electrónico",
+    "add-your-email": "Agrega tu correo electrónico",
+    "get-alerts": "Reciba alertas de eventos TokenSets.",
+    "hidden-from-public": "Tu correo electrónico ha sido ocultado.",
+    "rebalances-label": "Rebalanceos",
+    "new-products-and-features": "Nuevos productos y características",
+    "portfolio-performance-updates": "Actualizaciones de performance de carteras",
+    "enter-your-email": "Ingresa tu correo electrónico"
+  },
+  "set-table": {
+    "number-of-sets": "Número de Sets",
+    "traded-tokens": "Tokens comerciados",
+    "1-day": "1 día",
+    "1-week": "1 semana",
+    "1-month": "1 mes",
+    "3-month": "3 meses",
+    "since-inception": "Desde el inicio",
+    "load-sets-error": "Bueno, esto es vergonzoso...",
+    "load-sets-error-description": "¡Probemos cargando estos Sets otra vez!",
+    "explore-more-sets": "Explorar más Sets",
+    "no-filtered-sets": "Ningún Set filtrado Disponible",
+    "no-filtered-sets-description": "Ningún Set se ajusta a tus criterios de filtros"
+  },
+  "toasts": {
+    "standard": {
+      "email-updated": "¡Correo electrónico actualizado con éxito!",
+      "logged-out": "Sesión cerrada con éxito",
+      "accepted-terms-of-service": "¡Gracias por aceptar nuestros Términos del Servicio y Políticas de Privacidad!",
+      "followed-set": "A partir de ahora recibirás notificaciones cuando {{setName}}  haga un rebalanceo.",
+      "unfollowed-set": "Ya no recibirás más notificaciones cuando {{setName}} haga un rebalanceo.",
+      "onboarding-eth-received": "{{ethQuantity}} ETH recibido con éxito."
+    },
+    "errors": {
+      "transaction-not-submitted": "Transacción no enviada.",
+      "accept-terms-of-service-failed": "Tu aceptación de nuestros Términos de Servicio no pudo ser registrada. Por favor, inténtalo de nuevo.",
+      "set-not-available": "Este Set no está disponible.",
+      "could-not-follow-set": "Hubo un error al seguir este Set. Por favor, inténtalo de nuevo más tarde.",
+      "could-not-unfollow-set": "Hubo un error al dejar de seguir este Set. Por favor, inténtalo de nuevo más tarde.",
+      "check-ethereum-main-net-connection": "No se pudo encontrar la dirección del contrato. Por favor, asegúrate de que estás conectado a la Red Principal de Ethereum.",
+      "approve-long": "La aprobación de tu {{tokenName}} aún está pendiente. Por favor, monitorea tu transacción con etherscan o inténtalo de nuevo."
+    }
+  },
+  "allocation-change": {
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "select-language-modal": {
+    "choose-a-language": "Elige un idioma"
+  },
+  "wallet-token-selector": {
+    "bidding-with-token": "Ofreciendo  {{tokenName}}",
+    "receiving-token": "Recibiendo {{tokenName}}",
+    "auto-convert-into-ctoken": "Tus tokens serán automáticamente convertidos a c{{tokenName}} utilizando la tasa de cambio de Compound equivalente a {{compoundExchangeRate}}. ",
+    "auto-convert-into-underlying": "Tus tokens se convertirán automáticamente a {{tokenName}} usando el tipo de cambio compuesto de {{compoundExchangeRate}}."
+  },
+  "rich-text-editor": {
+    "add-link-url-placeholder": "Agrega la URL aquí",
+    "add-link-text-placeholder": "Agrega el texto del enlace aquí",
+    "add-image-url-placeholder": "Agrega la URL de la imagen aquí"
+  },
+  "set-type-badge": {
+    "powered-by-defi-pulse": "Con la tecnología de DeFi Pulse",
+    "upgrade-available": "Actualización disponible",
+    "legacy-set": "Históricos"
+  },
+  "web3": {
+    "login-success": "Has ingresado. ¡Bienvenido! ",
+    "changed-account": "Has ingresado a una nueva cuenta.",
+    "create-signature-failed": "No se ha encontrado la dirección de la cuenta. No se puede generar la firma del mensaje."
+  },
+  "create-feed-post": {
+    "text-area-placeholder": "Actualiza los seguidores y tenedores de este Set aquí",
+    "success": "¡Éxito!",
+    "success-description": "Tu post se ha publicado con éxito!",
+    "failed": "Algo salió mal",
+    "failed-description": "Intenta publicar nuevamente, o contacta a algún miembro del equipo si el problema persiste",
+    "discard-post": "¿Eliminar la publicación?",
+    "discard-post-description": "Si abandonas esta página tu publicación se perderá.  Esto no volverse atrás"
+  },
+  "feed-post": {
+    "delete-post": "Borrar publicación"
+  },
+  "delete-feed-post": {
+    "title": "¿Borrar publicación?",
+    "description": "¿Estás seguro que quieres borrar tu publicación?  Esto no puede volverse atrás"
+  },
+  "delete-phone-number": {
+    "title": "¿Borrar número de teléfono?",
+    "description": "Estás seguro que quieres borrar tu número telefónico? Si quieres recibir notificaciones de rebalanceos deberás agregar tu teléfono manualmente luego"
+  },
+  "pagination": {
+    "footer-description": "Mostrando {{startRange}} - {{endRange}} de {{totalElementCount}} {{elementType}}"
+  }
+}

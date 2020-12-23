@@ -1,0 +1,48 @@
+{
+  "tabs": {
+    "portfolio": "ポートフォリオ",
+    "settings": "設定"
+  },
+  "account": {
+    "send": "送信",
+    "receive": "受信",
+    "view": "見る",
+    "eth-balance": "自分のETH残高",
+    "total-balance": "自分のSet残高合計",
+    "show-expanded-view": "拡大したビューを表示する",
+    "transactions": "トランザクション",
+    "no-transactions": "Setトランザクションがありません",
+    "no-sets": "Setはありません!",
+    "no-sets-description": "問題ありません。Setを見ることができます。",
+    "no-sets-description-2": "Setページを見る",
+    "my-account": "自分のアカウント"
+  },
+  "welcome": {
+    "title": "TokenSetsへようこそ！",
+    "subtitle": "もしシンプルに開始する方法を探しているなら、こちらから始めてみましょう。",
+    "getting-started": "始め方",
+    "getting-started-subtitle": "新規アカウントを作成したので、ETHまたは他のイーサリアムベースのトークンをアカウントに入金しセットの購入が可能です。",
+    "getting-started-button": "開始する",
+    "already-have-an-account": "すでにアカウントをお持ちですか？",
+    "already-have-an-account-subtitle": "以前にアカウントを作成をした場合は、以前に使用していた元のログイン方法でログインしてください。",
+    "already-have-an-account-button": "詳細を知る"
+  },
+  "send": {
+    "warning": "警告:",
+    "warning-description": "あなたのSetをCoinbaseやBinance, また他の取引所に送ると",
+    "warning-description-2": "ERC-20トークンの送信サポートがないため、資産を失うことになります。",
+    "warning-description-3": "ERC-20トークンの送信サポートをしているアドレスに送信していることをご確認ください。"
+  },
+  "receive": {
+    "my-address": "自分のアドレス"
+  },
+  "table": {
+    "24-hr": "変化（24時間）"
+  },
+  "settings": {
+    "title": "Eメール設定",
+    "description": "Emailアドレスは、公開されたり共有されることはありません",
+    "ethereum-address": "Ethereumアドレス",
+    "update-account": "アカウントを更新する"
+  }
+}

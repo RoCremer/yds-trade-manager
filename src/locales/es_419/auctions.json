@@ -1,0 +1,109 @@
+{
+  "explore-auctions": {
+    "title": "Subastas de rebalanceo",
+    "description": "Ver y participar en subastas de rebalanceo.",
+    "rebalance-notifications": "Notificaciones de Rebalanceo"
+  },
+
+  "auction-header": {
+    "now": "Ahora",
+    "explore-rebalances": "Explorar relanceos",
+    "rebalance-auction-for": "Subasta de rebalanceo por",
+    "current-auction-price": "Precio actual de la subasta",
+    "estimated-time-to-fair-value": "Tiempo estimado para un valor justo",
+    "progress": "Progreso",
+    "remaining-shares": "Acciones remanentes",
+    "percent-to-fair-value": "Porcentaje del valor justo",
+    "auction-size": "Tamaño de la subasta",
+    "current-auction-chunk": "Porción actual de la subasta",
+    "current-auction-progress": "Progreso de la subasta",
+    "total-auction-size": "Tamaño Total de la subasta"
+  },
+
+  "rebalances-table": {
+    "rebalance-timer": "Tiempo para el Rebalanceo",
+    "rebalancing-criteria": "Criterio de rebalanceo",
+    "status": "Estado"
+  },
+
+  "auction-bid-form": {
+    "auction-starting-soon": "La subasta de rebalanceo comenzará en breve",
+    "supply": "Suministro",
+    "amount-to-supply": "Suma a Aportarr",
+    "receive": "Recibir",
+    "shares": "Acciones",
+    "amount-to-receive": "Suma a recibir",
+    "enter-shares": "Ingrese la cantidad de acciones",
+    "login-to-participate": "Inicie sesión para participar",
+    "place-bid": "Haga una oferta",
+    "net-profit-and-loss": "Ganancias y pérdidas netas",
+    "transaction-bid-error": "Transacción no enviada",
+    "bid-approval-failed": "Su {{tokenName}} no pudo ser aprobado para ofertar. "
+  },
+
+  "live-bids-table": {
+    "bid-incoming": "Oferta entrando...",
+    "size": "Tamaño",
+    "time": "Tiempo",
+    "no-bids-yet": "Sin ofertas todavía"
+  },
+
+  "tooltips": {
+    "remaining-shares": "Acciones remanentes",
+    "remaining-shares-description": "La cantidad de acciones en circulación que permanecen en la subasta. Cada acción representa cuántos tokens pueden intercambiarse por el resto de la subasta.",
+    "current-auction-price": "Precio actual de la subasta",
+    "current-auction-price-description": "El precio actual del activo por el que se está negociando. Para los rebalanceos de cToken, el precio actual refleja el activo subyacente.",
+    "estimated-time-fair-value": "Tiempo estimado para un valor justo",
+    "estimated-time-fair-value-description": "El tiempo estimado necesario para que el resultado entre pérdidas y ganancias de los tokens ofrecidos menos el valor de los tokens recibidos sea positivo",
+    "progress": "Progreso",
+    "progress-description": "El progreso de la subasta basado en la cantidad de acciones que se han intercambiado. Cuando el progreso llegue al 100%, la subasta terminará.",
+    "shares": "Acciones",
+    "shares-description": "Las acciones representan una cantidad de tokens suministrados y recibidos en una oferta. A medida que avanza el rebalanceo, la relación entre la cantidad de tokens que se reciben vs. los tokens que se suministran aumenta, lo que hace que las acciones sean más atractivas para pujar.",
+    "percentage-fair-value": "Porcentaje para el valor justo",
+    "percentage-fair-value-description": "El porcentaje al valor justo es el precio actual de la subasta reconciliado con el precio de alimentación de CryptoCompare, lo que da una estimación del diferencial que los participantes pueden captar en la subasta.",
+    "live-bids": "Ofertas en vivo",
+    "live-bids-description": "Muestra las ofertas más recientemente confirmadas de los participantes de la subasta con datos de precios tomados de CryptoCompare.",
+    "market-cap": "Capitalización de mercado",
+    "market-cap-description": "Suma total del valor en dólares actualmente acuñado para este Set.",
+    "auction-size": "Tamaño de la subasta",
+    "auction-size-description": "El tamaño de la subasta es cuánto del total {{marketCap}}  de la capitalización del mercado se está rebalanceando.",
+    "current-auction-chunk": "Porción actual de la subasta",
+    "current-auction-chunk-description": "La cantidad que se está rebalanceando en la porción actual de la subasta",
+    "current-auction-progress": "Progreso de la subasta",
+    "current-auction-progress-description": "El progreso de la subasta basado en el número de partes que han sido vendidas.  Cuando el porcentaje de progreso alcanza el 100%, esta porción del rebalanceo estará completa.",
+    "total-auction-size": "Tamaño Total de la subasta",
+    "total-auction-size-description": "El monto total que se está rebalanceando en todas pas porciones subastadas."
+  },
+
+  "inactive-auction": {
+    "title": "Este Set no se está rebalanceando actualmente.",
+    "description": "Siga a este Set para obtener notificaciones cuando se rebalancee.",
+    "conditions": "Condiciones hasta el próximo rebalanceo"
+  },
+
+  "initial-confirmation": {
+    "crossover-detected": "Punto de cruce detectado",
+    "confirmation-period": "Período de confirmación",
+    "confirmation-period-description": "Tiempo necesario para confirmar una señal de rebalanceo. Ayuda a reducir las señales positivas falsas.",
+    "confirmation-window": "Ventana de confirmación",
+    "confirmation-window-description": "{{confirmationWindow}} horas para confirmar una señal de rebalanceo"
+  },
+
+  "rebalance-proposal": {
+    "ready": "Listo",
+    "rebalance-proposed": "Rebalanceo propuesto",
+    "time-until-rebalance": "Tiempo hasta el rebalanceo"
+  },
+
+  "transaction-history": {
+    "my-bid-transactions": "Mis Transacciones de Oferta",
+    "no-bid-transactions": "No hay Transacciones de Oferta para mostrar"
+  },
+
+  "auction-description": {
+    "title": "Cómo funciona el rebalanceo",
+    "description-1": "Bienvenido al rebalanceador del Set. El rebalanceo es el proceso de realinear los valores de los tokens dentro de un Set a los valores objetivo del Set.",
+    "description-2": "La participación en un rebalanceo implica el suministro de tokens de componentes no colateralizados al Set y la recepción de tokens sobrecolateralizados a cambio. Cuando se hace una oferta durante la subasta, se suministran y reciben tokens en la misma transacción. Sus fondos nunca se bloquean en la subasta.",
+    "learn-more": "Aprenda más sobre rebalanceo"
+  }
+}

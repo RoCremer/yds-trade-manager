@@ -1,0 +1,18 @@
+{
+  "pending-transaction": {
+    "title": "Jetonlarınız gönderiliyor...",
+    "description": "Lütfen jetonlarınızın gönderilmesinin tamamlanmasını bekleyin."
+  },
+  "completed-transaction": {
+    "title": "Başarılı!",
+    "description": "Jetonlarınız başarılı bir şekilde transfer edildi."
+  },
+  "failed-transaction": {
+    "title": "Bir Şeyler Ters Gitti",
+    "description": "Jetonlarınız yeni adrese gönderilemedi. Lütfen aşağıdaki linkten hatanın ne olduğuna bakıp tekrar deneyin."
+  },
+  "long-transaction": {
+    "title": "Hala İşlemde",
+    "description": "Gönderim isteğiniz hala işlemde. İşleminizi aşağıdaki linki kullanarak takip edebilir veya yeni bir işlem isteminde bulunmayı deneyebilirsiniz."
+  }
+}

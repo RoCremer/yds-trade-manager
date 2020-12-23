@@ -1,0 +1,75 @@
+{
+  "general": {
+    "token-sets": "TokenSet",
+    "token": "代币",
+    "set": "Set",
+    "sets": "Set",
+    "coins": "币",
+    "portfolios": "组合",
+    "amount": "数量",
+    "value": "价值",
+    "balance": "余额",
+    "address": "地址",
+    "ethereum-address": "以太坊地址"
+  },
+  "buttons": {
+    "send": "发送",
+    "buy": "购买",
+    "sell": "卖出",
+    "submit": "提交",
+    "cancel": "取消",
+    "confirm": "确认",
+    "update": "更新",
+    "retry": "重试",
+    "back": "返回",
+    "next": "下一个",
+    "skip": "跳过",
+    "save": "保存",
+    "try-again": "重试",
+    "close": "关闭",
+    "post": "帖文",
+    "continue": "继续",
+    "finish": "完成",
+    "not-now": "现在不要",
+    "dont-show-again": "不再显示",
+    "delete": "删除",
+    "discard": "废弃"
+  },
+  "sets": {
+    "name": "姓名",
+    "price": "价格",
+    "fee": "费用",
+    "buy-fee": "购买费用",
+    "performance-fee": "绩效费",
+    "streaming-fee": "流媒体费",
+    "apr": "APR",
+    "market-cap": "市值",
+    "total-market-cap": "总市值",
+    "inception": "开始日期",
+    "trade-count": "交易数量",
+    "drawdown": "最大回撤",
+    "rebalance": "再平衡",
+    "trader": "交易员",
+    "strategy": "策略",
+    "set-holders": "组合持有者",
+    "explore-all-sets": "查看所有 Set",
+    "featured-sets": "特色 Set"
+  },
+  "time": {
+    "days": "天",
+    "hours": "小时",
+    "minutes": "记录",
+    "seconds": "秒"
+  },
+  "ledger": {
+    "sign-message": "请检查您的 Ledger 设备以签署消息并确认此操作。",
+    "error-message": "您的 Ledger 钱包出现了错误。请按照 {{instructions}} 来解决这个问题。"
+  },
+  "errors": {
+    "input-a-valid-email": "请输入有效的电子邮件。",
+    "something-went-wrong": "出错了。请稍后再试。",
+    "404-page-description": "我们找不到您要查看的页面。",
+    "back-to-home": "返回主页",
+    "unlock-ledger": "发生错误。请确保您的 Ledger 已解锁，然后重试。"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "buttons": {
+    "start": "Ticaret İçin {{tokenSymbol}} Onaylayın",
+    "pending": " {{tokenSymbol}} Jetonunuz Onaylanıyor ",
+    "submit": "{{buyOrSell}} gönder"
+  },
+  "order-summary": {
+    "title": "{{buyOrSell}} Emrini Onayla",
+    "name": "İsim",
+    "amount": "Miktar",
+    "value": "Değer",
+    "from": "Gönderen",
+    "to": "Alıcı",
+    "token-sets-fee": "JetonSetleri Ücreti",
+    "network-fee": "Ağ Ücreti",
+    "slippage": "Kayma",
+    "total-cost": "Toplam Bedel",
+    "order-total": "{{tokenQuantity}} {{tokenSymbol}} + Ücretler",
+    "slippage-warning": "Uyarı! Bu ticaret yaklaşık olarak {{slippage}} kadar kayma ile gerçekleşecek. Eğer 50.000 USD'den fazla miktarda {{tokenName}} {{buyOrSell}}, lütfen ",
+    "contact-us": "destek için bir ekip üyesiyle iletişime geçin."
+  },
+  "modals": {
+    "pending-title": "{{buyOrSell}} Emriniz İşleniyor",
+    "completed-title": "{{buyOrSell}} Emriniz Tamamlandı",
+    "completed-description": "İşleminizi aşağıda gözden geçirebilir, ve bakiyenizi Hesap sayfanızda kısa bir süre içinde görüntüleyebilirsiniz.",
+    "long-title": "{{buyOrSell}} Emriniz Halen İşleniyor",
+    "long-description": "Lütfen aşağıdaki bağlantıyı kullanarak işleminizi izleyin ya da tekrar deneyin.",
+    "failed-title": "{{buyOrSell}}'iniz İşlenemedi.  ",
+    "failed-description": " {{buyOrSell}} emriniz işlenemedi. Lütfen aşağıdaki bağlantıdan işleminizi gözden geçirip tekrar deneyin.",
+    "imtoken-completed": "İşleminizin ilerleme durumunu hesap sayfanızdan takip edebilirsiniz."
+  },
+  "toast": {
+    "completed": "İşleminiz gönderildi!"
+  },
+  "uniswap-errors": {
+    "default": "{{buyOrSell}} talebiniz tamamlanamadı."
+  },
+  "api-errors": {
+    "insufficient-liquidity": "Bu emri gerçekleştirmek için yeterli likidite yok. Lütfen daha fazla bilgi için bizle iletişime geçin.",
+    "eth-gas-cost": "ETH benzin masrafı bu işlemin değerini aşıyor. ",
+    "default": "Bu emir için bir işlem fiyatı getiremedik. Lütfen başka bir miktar deneyin."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "home": "Главная",
+  "resources": {
+    "resources": "Ресурсы",
+    "faq": "ЧаВО",
+    "help-center": "Справочный центр",
+    "blog": "Блог",
+    "developers": "Разработчики",
+    "press": "Нажмите",
+    "integrations": "Интеграции"
+  },
+  "company": {
+    "company": "Компания",
+    "about": "О приложении",
+    "careers": "Вакансии"
+  },
+  "rebalances": {
+    "rebalances": "Перебалансировки"
+  },
+  "account": {
+    "account": "Аккаунт",
+    "trader-profile": "Профиль трейдера",
+    "my-account": "Моя учетная запись",
+    "settings": "Настройки",
+    "sign-out": "Выйти"
+  },
+  "explore-sets": "Обзор наборов",
+  "sign-in": "Авторизоваться",
+  "sign-up": "Зарегистрироваться",
+  "social-trader": {
+    "social-trader": "Социальный трейдер",
+    "leaderboard": "Список трейдеров-лидеров",
+    "introducing-social": "Представляем социального трейдера",
+    "become-a-trader": "Станьте трейдером"
+  }
+}

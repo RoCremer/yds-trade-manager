@@ -1,0 +1,37 @@
+{
+  "home": "Home",
+  "resources": {
+    "resources": "Resources",
+    "faq": "FAQ",
+    "help-center": "Help Center",
+    "security": "Security",
+    "blog": "Blog",
+    "developers": "Documentation",
+    "press": "Press",
+    "integrations": "Integrations"
+  },
+  "company": {
+    "company": "Company",
+    "about": "About",
+    "careers": "Careers"
+  },
+  "rebalances": {
+    "rebalances": "Rebalances"
+  },
+  "account": {
+    "account": "Account",
+    "trader-profile": "Trader Profile",
+    "my-account": "My Account",
+    "settings": "Settings",
+    "sign-out": "Sign out"
+  },
+  "explore-sets": "Explore Sets",
+  "sign-in": "Sign In",
+  "sign-up": "Sign Up",
+  "social-trader": {
+    "social-trader": "Social Trader",
+    "leaderboard": "Trader Leaderboard",
+    "introducing-social": "Introducing Social Trader",
+    "become-a-trader": "Become a Trader"
+  }
+}

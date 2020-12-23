@@ -1,0 +1,75 @@
+{
+  "general": {
+    "token-sets": "TokenSets",
+    "token": "Token",
+    "set": "Set",
+    "sets": "Sets",
+    "coins": "Münzen",
+    "portfolios": "Portfolios",
+    "amount": "Menge",
+    "value": "Wert",
+    "balance": "Kontostand",
+    "address": "Adresse",
+    "ethereum-address": "Ethereum Adresse"
+  },
+  "buttons": {
+    "send": "Senden",
+    "buy": "Kaufen",
+    "sell": "Verkaufen",
+    "submit": "Speichern",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "update": "Aktualisieren",
+    "retry": "Erneut versuchen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "skip": "Überspringen",
+    "save": "abspeichern",
+    "try-again": "Erneut versuchen",
+    "close": "Schließen",
+    "post": "Posting",
+    "continue": "Weiter",
+    "finish": "Fertigstellen",
+    "not-now": "Nicht jetzt",
+    "dont-show-again": "Nicht wieder anzeigen",
+    "delete": "Löschen",
+    "discard": "Verwerfen"
+  },
+  "sets": {
+    "name": "Name",
+    "price": "Preis",
+    "fee": "Gebühren",
+    "buy-fee": "Kaufgebühren",
+    "performance-fee": "Leistungsgebühr",
+    "streaming-fee": "Streaminggebühr",
+    "apr": "Effektiver Jahreszins",
+    "market-cap": "Marktkapitalisierung",
+    "total-market-cap": "Gesamtmarktkapitalisierung",
+    "inception": "Erstellungsdatum",
+    "trade-count": "Anzahl von Trades",
+    "drawdown": "Maximaler Drawdown",
+    "rebalance": "Rebalancierung",
+    "trader": "Trader",
+    "strategy": "Strategie",
+    "set-holders": "Set Holder",
+    "explore-all-sets": "Alle Sets erkunden",
+    "featured-sets": "Empfohlene Sets"
+  },
+  "time": {
+    "days": "Tage",
+    "hours": "Stunden",
+    "minutes": "Minuten",
+    "seconds": "Sekunden"
+  },
+  "ledger": {
+    "sign-message": "Bitte überprüfe deinen Ledger um diese Aktion zu bestätigen.",
+    "error-message": "Bei Ihrem Ledger-Wallet ist ein Fehler aufgetreten. Bitte befolgen Sie {{instructions}}, um das Problem zu beheben."
+  },
+  "errors": {
+    "input-a-valid-email": "Bitte gebe eine korrekte Emailadresse ein.",
+    "something-went-wrong": "Etwas ist schiefgelaufen. Bitte versuche es später erneut.",
+    "404-page-description": "Wir konnten die Seite die du suchst leider nicht finden.",
+    "back-to-home": "Zurück zu Home",
+    "unlock-ledger": "Etwas ist schiefgelaufen. Bitte stelle sicher, dass dein Ledger entsperrt ist und versuche es erneut."
+  }
+}

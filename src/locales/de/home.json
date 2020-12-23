@@ -1,0 +1,83 @@
+{
+  "new": "Neu",
+  "manage-your-crypto": "Manage dein Krypto",
+  "home-sticky-cta": {
+    "explore-sets": "Sets entdecken",
+    "get-started": "Loslegen",
+    "how-set-works-intro-video": "Wie ein Set funktioniert"
+  },
+  "home-banner": {
+    "introducing-social-trader": "Wir stellen vor - Social Trader",
+    "copy-trades": "Kopiere Trades von anderen Tradern mit dem Klick von einem Knopf",
+    "learn-more": "Lerne mehr über Social Trader >"
+  },
+  "home-header": {
+    "intro": "TokenSets hilft dir",
+    "title": "Dein Krypto Portfolio zu Managen",
+    "description": "Optimiere dein Portfolio mit automatischen Asset Management Strategien"
+  },
+  "home-social-trader": {
+    "intro": "Nehme teil bei",
+    "title": "Set Social Trader",
+    "description": "Folge den besten Tradern mit einem Klick oder erstelle eigene Sets und sammle Follower.",
+    "explore": "Entdecke Sets von Tradern",
+    "learn-more": "Mehr erfahren >"
+  },
+  "home-why-section": {
+    "intro": "Sets sind Tokens mit",
+    "title": "Eingebauten Asset Management Strategien",
+    "description": "Jedes Set ist ein intelligenter Korb von ERC20 Tokens von Krypto Assets, welche automatisch rebalancieren, basierend auf einer Strategie deiner Wahl. Verpasse keine Gelegenheiten mehr oder dass dein Portfolio aus den Fugen gerät.",
+    "save-time": "Spare Zeit & Aufwand",
+    "automated-rebalancing": "Automatisches Rebalancieren",
+    "24hr": "24h Überwachung",
+    "no-commitment": "Keine Verpflichtung",
+    "automated-strategies": "Automatische Strategien",
+    "reduce-emotion": "Emotionale Risiken reduzieren",
+    "reduce-missed-opportunities": "Reduziere verpasste Gelegenheiten",
+    "diversification": "Sofortige Diversifizierung",
+    "control": "Bleibe in Kontrolle",
+    "collateral": "Garantierte Kollateralisierung",
+    "buy-sell": "Kaufe & Verkaufe jederzeit",
+    "ownership": "Deine Funds gehören dir"
+  },
+  "home-one-token-section": {
+    "intro": "Deine Lieblings-Kryptos",
+    "title": "Intelligentes Rebalancieren",
+    "description": "Upgrade dein Krypto in ein Set, dass einer Strategie deiner Wahl folgt. Jedes Set ist komplett kollateralisiert von den Krypto Assets, die es hält."
+  },
+  "home-set-explanation": {
+    "intro": "Genieße",
+    "title": "Frieden",
+    "verified": "Verifizierte Sicherheit",
+    "audited-code": "Verifizierter Code. Kein Intermediär Risiko. Du kontrollierst deine Funds.",
+    "buy-sell": "Kaufe & Verkaufe jederzeit",
+    "no-lockup": "Kaufe und verkaufe deine Sets auf TokenSets. Keine Lockup Zeiten, nachdem du dein Set gekauft hast.",
+    "collateral": "Garantierte Kollateralisierung",
+    "portfolio": "Jedes Set ist ein tokenisiertes Portfolio, das alle Tokens enthält die zu dem Set gehören.",
+    "explore": "Entdecke Sets",
+    "get-started": "Loslegen"
+  },
+  "home-integrations": {
+    "intro": "TokenSets unterstützt Wallets,",
+    "title": "die du schon nutzt",
+    "description": "Nutze Wallets von Drittanbietern oder melde dich mit Email und Passwort an.",
+    "learn-more": "Alle Integrationen sehen"
+  },
+  "home-start-in-minutes-section": {
+    "intro": "Bist du bereit ein Set zu kaufen?",
+    "title": "In wenigen Minuten loslegen",
+    "create": "Account erstellen",
+    "fund": "Lade deine Wallet auf",
+    "buy": "Kaufe & Verkaufe"
+  },
+  "home-explore-section": {
+    "intro": "Loslegen.",
+    "title": "Entdecke Sets",
+    "explore": "Sets entdecken",
+    "get-started": "Loslegen"
+  },
+  "home-faq-section": {
+    "title": "Häufig gestellte Fragen",
+    "view-faq": "Sehe die FAQs"
+  }
+}

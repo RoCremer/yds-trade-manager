@@ -1,0 +1,83 @@
+{
+  "new": "New",
+  "manage-your-crypto": "あなたの暗号通貨を運用する",
+  "home-sticky-cta": {
+    "explore-sets": "セットをみる",
+    "get-started": "始める",
+    "how-set-works-intro-video": "Setの使い方"
+  },
+  "home-banner": {
+    "introducing-social-trader": "アップグレードされたソーシャルトレーダーセット",
+    "copy-trades": "お気に入りのソーシャルトレーダーセットで利益を得る",
+    "learn-more": "詳しく見る"
+  },
+  "home-header": {
+    "intro": "TokenSetsを使えば、簡単に、",
+    "title": "暗号通貨を運用できます",
+    "description": "自動化された資産運用戦略でポートフォリオを充実させる"
+  },
+  "home-social-trader": {
+    "intro": "一緒に加わりましょう",
+    "title": "ソーシャルトレーダー",
+    "description": "クリックして最高のトレーダーをフォローしたり、独自のセットを作成してあなたのフォローを集めましょう。",
+    "explore": "トレーダーのセットをみる",
+    "learn-more": "詳しく見る"
+  },
+  "home-why-section": {
+    "intro": "トークンセットは",
+    "title": "資産運用戦略を組み込んだトークンです",
+    "description": "各セットは、あなたが選択した戦略に基づいて自動的にリバランスする暗号資産のスマートバスケットERC20トークンです。市場の機会を逃したり、ポートフォリオが手に負えなくなるのを防ぐことができます。",
+    "save-time": "労力と時間を節約します",
+    "automated-rebalancing": "自動リバランス",
+    "24hr": "24時間モニタリング",
+    "no-commitment": "コミットメントなしで",
+    "automated-strategies": "自動化された戦略",
+    "reduce-emotion": "感情によるリスクを削減",
+    "reduce-missed-opportunities": "見逃しによる機会を減らす",
+    "diversification": "インスタントな分散",
+    "control": "管理権限は維持したまま",
+    "collateral": "完全担保",
+    "buy-sell": "いつでも売り買いできる",
+    "ownership": "自分の資金は自分で保持する"
+  },
+  "home-one-token-section": {
+    "intro": "お気に入りの暗号通貨を",
+    "title": "スマートリバランス",
+    "description": "あなたの持っている暗号通貨を、選択した戦略に従うセットにアップグレードします。各セットは、管理している暗号資産によって完全に担保されています。"
+  },
+  "home-set-explanation": {
+    "intro": "TokenSetsによって",
+    "title": "心の平穏を保ちましょう",
+    "verified": "検証済みのセキュリティ",
+    "audited-code": "監査済みコードを利用。カウンターパーティ・リスクはありません。あなたは自分の資金をコントロールできます。",
+    "buy-sell": "いつでも売り買いできます",
+    "no-lockup": "TokenSetsで自由にセットを売買できます。セット購入後のロックアップ期間はありません。",
+    "collateral": "完全担保",
+    "portfolio": "各セットは、そのセットに属する基礎となるトークンを含む、トークン化されたポートフォリオのように動作します。",
+    "explore": "セットを見る",
+    "get-started": "始める"
+  },
+  "home-integrations": {
+    "intro": "TokenSetsは各種ウォレットをサポート",
+    "title": "既存ウォレットが使えます",
+    "description": "TokenSets上で、既にお馴染みのサードパーティ製ウォレットを使用するか、メールとパスワードでサインアップしてください。",
+    "learn-more": "統合先を見る"
+  },
+  "home-start-in-minutes-section": {
+    "intro": "セットを買う準備はいいですか？",
+    "title": "数分で始める",
+    "create": "アカウントを作る",
+    "fund": "ウォレットに資金を追加する",
+    "buy": "売買を開始する"
+  },
+  "home-explore-section": {
+    "intro": "始めましょう",
+    "title": "セットを見る",
+    "explore": "セットを見る",
+    "get-started": "始める"
+  },
+  "home-faq-section": {
+    "title": "よくある質問",
+    "view-faq": "よくある質問を見る"
+  }
+}

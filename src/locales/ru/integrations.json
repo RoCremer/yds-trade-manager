@@ -1,0 +1,41 @@
+{
+  "title": "Интеграции и партнеры",
+  "description": "Компании и продукты, которые имеют интеграции с сетами.",
+  "view": "Просмотр",
+  "wallets": {
+    "title": "Кошельки",
+    "coinbase-wallet": "Кошелек Coinbase",
+    "coinbase-wallet-description": "Простой в использовании кошелек позволяет вам покупать, продавать и отслеживать свои Сеты.",
+    "argent": "Кошелек Argent",
+    "argent-description": "Простой и безопасный интеллектуальный кошелек для криптовалюты со встроенной поддержкой наборов.",
+    "trust-wallet": "Кошелек Trust",
+    "trust-wallet-description": "Безопасный мультимонетный кошелек, который позволяет вам покупать, продавать сеты и управлять ими.",
+    "fortmatic": "Fortmatic",
+    "fortmatic-description": "Безопасный кошелек, поддерживающий вход через электронный адрес и телефон.",
+    "imtoken": "imToken",
+    "imtoken-description": "Мультиактивный кошелек, который позволяет пользователям покупать, продавать сеты и управлять ими."
+  },
+  "open-finance-portals": {
+    "title": "Порталы Open Finance",
+    "zerion": "Zerion",
+    "zerion-description": "Единое решение для продуктов Open Finance, которые поддерживают сеты.",
+    "multis": "Multis",
+    "multis-description": "Криптобанк, который позволяет вам покупать, продавать сеты и управлять ими.",
+    "defi-prime": "DeFiprime",
+    "defi-prime-description": "Единый центр для всего, связанного с DeFi, с трекером портфолио сета."
+  },
+  "liquidity": {
+    "title": "Ликвидность",
+    "kyber": "Kyber",
+    "kyber-description": "Внутренний протокол ликвидности, который обеспечивает ликвидность сета.",
+    "0x": "0x",
+    "0x-description": "Протокол для однорангового обмена, используемый для обращения Сета."
+  },
+  "prices-and-analytics": {
+    "title": "Цены и аналитика",
+    "etherscan": "Etherscan",
+    "etherscan-description": "Список проверенных умных контрактов набора на Ethereum Blockchain на Etherscan.",
+    "coin-gecko": "Coin Gecko",
+    "coin-gecko-description": "TokenSets агрегатор цен и объема торгов."
+  }
+}

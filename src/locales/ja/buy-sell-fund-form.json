@@ -1,0 +1,43 @@
+{
+  "buttons": {
+    "start": "あなたの{{tokenSymbol}}の取引を承認する",
+    "pending": "あなたの{{tokenSymbol}}は現在承認中です",
+    "submit": "{{buyOrSell}}を送信する"
+  },
+  "order-summary": {
+    "title": "{{buyOrSell}}注文を確認する",
+    "name": "名前",
+    "amount": "総額",
+    "value": "額面",
+    "from": "差出人",
+    "to": "宛先",
+    "token-sets-fee": "トークンセットの手数料",
+    "network-fee": "ネットワーク手数料",
+    "slippage": "遅延",
+    "total-cost": "総費用",
+    "order-total": "{{tokenQuantity}} {{tokenSymbol}} + 手数料",
+    "slippage-warning": "警告！この取引成立にはおよそ{{slippage}}程度の遅延が見込まれます。50,000ドル相当以上の{{tokenName}}を{{buyOrSell}}される場合は、ぜひ",
+    "contact-us": "チームメンバーに連絡して手伝ってもらう。"
+  },
+  "modals": {
+    "pending-title": "あなたの{{buyOrSell}}注文は処理中です",
+    "completed-title": "あなたの{{buyOrSell}}注文が完了しました",
+    "completed-description": "下の方で取引内容を再確認でき、まもなくアカウントページ上で残高をご覧になれます。",
+    "long-title": "あなたの{{buyOrSell}}注文は現在処理中です",
+    "long-description": "下記のリンク先を利用して取引内容を監視するか、もう一度試してください。",
+    "failed-title": "あなたの{{buyOrSell}}は処理できませんでした。",
+    "failed-description": "あなたの{{buyOrSell}}注文を処理できませんでした。以下のリンク先からお取引内容を確認して、もう一度試してください。",
+    "imtoken-completed": "あなたのアカウントページにて、取引の進捗状況を追跡できます。"
+  },
+  "toast": {
+    "completed": "お取引内容が送信されました！"
+  },
+  "uniswap-errors": {
+    "default": "あなたの{{buyOrSell}}リクエストを完了できませんでした。"
+  },
+  "api-errors": {
+    "insufficient-liquidity": "この注文を実行するのに必要な資金が不足しています。さらに詳しくは、弊社までお問い合わせください。",
+    "eth-gas-cost": "ETHガスの費用が、この取引の額面を超えています。",
+    "default": "このご注文の取引価格が見つかりませんでした。金額を変えて試してください。"
+  }
+}

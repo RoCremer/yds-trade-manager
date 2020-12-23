@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "edit-profile": "Profili Düzenle",
+    "see-less": "daha az gör",
+    "see-more": "daha fazlasını gör"
+  },
+  "trader-profile": {
+    "feed-tab": "Besleme",
+    "sets-tab": "Setler"
+  },
+  "managed-sets": {
+    "rebalance": "Yeniden dengelenme",
+    "edit-details": "Detayları Düzenle",
+    "fee-controls": "Ücret Denetimleri"
+  }
+}

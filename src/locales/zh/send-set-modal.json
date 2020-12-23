@@ -1,0 +1,18 @@
+{
+  "pending-transaction": {
+    "title": "正在转出您的代币……",
+    "description": "请等待您的代币完成转账流程。"
+  },
+  "completed-transaction": {
+    "title": "成功！",
+    "description": "您的代币已成功转账。"
+  },
+  "failed-transaction": {
+    "title": "出错了",
+    "description": "您的代币没有发送到新地址。请在下面的链接中查找错误，然后再试。"
+  },
+  "long-transaction": {
+    "title": "仍在处理中",
+    "description": "您的转账请求仍在处理中。您可以使用下面的链接监控交易，或者尝试提交新的交易。"
+  }
+}

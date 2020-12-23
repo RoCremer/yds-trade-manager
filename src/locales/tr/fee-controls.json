@@ -1,0 +1,101 @@
+{
+  "fee-controls": "Ücret Denetimleri",
+  "common": {
+    "fee-type": "Ücret Tipi",
+    "current-fee": "Geçerli Ücret",
+    "new-fee": "Yeni Ücret",
+    "fee-type-unchanged": "Size ait olan {{feeType}} kalacak",
+    "buy-fee": "Satın Alım Ücreti",
+    "streaming-fee": "Akış Ücreti",
+    "performance-fee": "Performans Ücreti"
+  },
+  "errors": {
+    "buy-fee-unallowed-value": "Satın alım ücreti 0 ile %5 arasında bir değer olmalıdır",
+    "buy-fee-must-be-different": "Yeni satın alma ücreti değeri, geçerli satın alma ücreti değerinden farklı olmalıdır.",
+    "performance-fee-unallowed-value": "Performans ücreti 0 ve %40 arası bir değer olmalı",
+    "performance-fee-unallowed-value-legacy": "Performans ücreti 0,01 ve %40 arası bir değer olmalı",
+    "performance-fee-watermark-upgrade-required": "Bu setin performans ücreti önce %0.01'e ayarlanmalıdır.",
+    "performance-fee-must-be-different": "Yeni performans ücreti değeri, geçerli performans ücreti değerinden farklı olmalıdır.",
+    "streaming-fee-unallowed-value": "Akış ücreti 0 ve %5 arası bir değer olmalıdır",
+    "streaming-fee-must-be-different": "Yeni akış ücreti değeri, geçerli akış ücreti değerinden farklı olmalıdır."
+  },
+  "collect-fees": {
+    "title": "Ücretleri topla",
+    "last-high-watermark": "Son yüksek su çizgisi",
+    "next-high-watermark": "Sonraki yüksek su  çizgisi",
+    "performance-fee-label": "Gerçekleştirilmemiş performans ücretleri",
+    "performance-fee-description": "Bu Set'in son kaydedilen yüksek su çizgisine göreceli olan değerine dayalı olarak toplanabilir ücret miktarı.",
+    "performance-fee-unavailable-description": "Bu set en son doruk noktası değerini aşmamıştır. Hiçbir performans ücreti tahakkuk edilemez.",
+    "streaming-fee-label": "Gerçekleştirilmemiş akış ücretleri",
+    "streaming-fee-description": "Bu Set'in piyasa değerine, akış ücreti yüzdesine ve son ücret tahakkuk olayından bu yana geçen süreye dayalı olarak toplanabilir ücret miktarı.",
+    "total-fees-label": "Toplam toplanabilir ücret",
+    "collect-button": "Ücretleri Topla"
+  },
+  "fee-change": {
+    "title": "Ücretleri Güncelle",
+    "description": "Kullanıcılara Set'te yapılan değişiklikler için yeterli hazırlık zamanı sunmak için, bir Set'in ücret yüzdesini değiştirmek, 5 günlük bir bekleme süresini gerektirir.",
+    "description-limitation": "Ücret güncellemelerinin güvenilir ve güvenli biçimde tamamlanmasını sağlamak için Akış Ücretleri ve Performans Ücretleri yalnızca teker teker güncellenebilir",
+    "buy-fee-description": "Satın alma ücretiniz %0 ile %5 arasında bir değer olabilir",
+    "performance-fee-description": "Performans ücretiniz %0 ile %40 arasında bir değer olabilir",
+    "performance-fee-description-legacy": "Performans ücretiniz %0,01 ile %40 arasında bir değer olabilir",
+    "streaming-fee-description": "Akış ücretiniz %0 ile %5 arasında bir değer olabilir"
+  },
+  "fee-change-components": {
+    "confirm-fee-update": "Ücret Güncellemesini Onayla",
+    "cancel-fee-update": "Ücret Güncellemesini İptal Et",
+    "countdown-description": "{{feeType}} güncellemeniz başlatıldı. Güncellemenizi şu süre içinde sonuçlandırabilirsinizi:",
+    "finalize-description": "{{feeType}} güncellemeniz onay için hazır. Lütfen güncellemeyi altta onaylayın."
+  },
+  "start-fee-change-modal": {
+    "start-transaction-title": "{{feeType}} Güncellemesini Başlat",
+    "start-transaction-description": "Kullanıcılara Set'te yapılan büyük değişiklikler için yeterli hazırlık zamanı sunmak için bir Set'in ücretini güncellemek 5 günlük bir bekleme süresi gerektirir.",
+    "start-transaction-description-2": "Ücret güncellemelerinin güvenilir ve güvenli biçimde tamamlanmasını sağlamak için Akış Ücretleri ve Performans Ücretleri yalnızca teker teker güncellenebilir",
+    "start-transaction-description-3": "İşleminiz gönderildikten sonra ücret güncellemesini sonuçlandırmak için lütfen 5 gün içinde bu sayfaya dönün.",
+    "pending-transaction-title": "Ücret Güncellemesi Başlatılıyor",
+    "pending-transaction-description": "Ücret güncellemeniz işlenirken lütfen bekleyin.",
+    "completed-transaction-title": "Ücret Güncellemeniz başladı. 5 gün geçtikten sonra güncellemenizi sonuçlandırmak için lütfen tekrar gelin.",
+    "failed-transaction-title": "Ücret Güncellemesi Başarısız Oldu",
+    "failed-transaction-description": "Ücret güncellemeniz başlatılamadı. Lütfen tekrar deneyin.",
+    "long-transaction-title": "Ücret Güncellemesi Hâlâ İşleniyor",
+    "long-transaction-description": "Ücret güncellemeniz hâlâ işleniyor. İşleminizi aşağıdaki bağlantıdan izlemeye devam edebilirsiniz. İşlem başarılı olmazsa lütfen yeniden deneyin. "
+  },
+  "confirm-fee-change-modal": {
+    "start-transaction-title": "{{feeType}} Güncellemesini Onayla",
+    "start-transaction-description": "Ücret Güncellemeniz onaylandıktan sonra Setiniz anında yeni ücret yüzdesini kullanmaya başlar.",
+    "start-transaction-description-2": "Gelecekte yeni bir ücret güncellemesi göndermek isterseniz, standart 5 günlük bekleme süresini beklemeniz gerekir.",
+    "pending-transaction-title": "{{feeType}} Güncellemesi Onaylanıyor",
+    "pending-transaction-description": "Onayınız işlenirken lütfen bekleyin.",
+    "completed-transaction-title": "{{feeType}} Güncellemeniz onaylandı.",
+    "failed-transaction-title": "Ücret Güncelleme Onayı Başarısız Oldu",
+    "failed-transaction-description": "Fiyat güncellemeniz onaylanamadı. Lütfen tekrar deneyin.",
+    "long-transaction-title": "Onay Halen İşleniyor",
+    "long-transaction-description": "Onayınız halen işleniyor. İşleminizi alttaki bağlantıdan takip etmeyi sürdürebilirsiniz. İşlem başarılı olmazsa lütfen tekrar deneyin."
+  },
+  "cancel-fee-change-modal": {
+    "start-transaction-title": "{{feeType}} Güncellemesini İptal Et",
+    "start-transaction-description": "{{feeType}} güncellemenizi iptal etmek 5 günlük bekleme süresini sıfırlar.",
+    "start-transaction-description-2": "İptal işleminiz onaylandıktan sonra yeni bir ücret güncelleme isteği gönderebilirsiniz.",
+    "pending-transaction-title": "{{feeType}} Güncellemesi İptal Ediliyor",
+    "pending-transaction-description": "İptal işleminiz işlenirken lütfen bekleyin.",
+    "completed-transaction-title": "{{feeType}} Güncellemeniz iptal edildi.",
+    "failed-transaction-title": "Ücret Güncellemesi İptali Başarısız Oldu",
+    "failed-transaction-description": "Ücret güncellemeniz iptal edilemedi. Lütfen yeniden deneyin.",
+    "long-transaction-title": "Ücret Güncelleme İptali Hâlâ İşleniyor",
+    "long-transaction-description": "İptal işleminiz hâlâ işleniyor. İşleminizi aşağıdaki bağlantıdan izlemeye devam edebilirsiniz. İşlem başarılı olmazsa lütfen yeniden deneyin."
+  },
+  "collect-fee-modal": {
+    "new-high-watermark": "Yeni doruk noktası",
+    "fees-to-be-collected": "Toplanacak ücretler",
+    "no-new-watermark": "Bu ücret toplama işlemi, bu set için yeni bir yüksek su çizgisi kaydetmeyecek.",
+    "start-transaction-title": "Ücretleri Topla",
+    "start-transaction-description": "Bu Set'in ücretleri {{truncatedAddress}} adresine {{totalFeesInSetUnits}} {{setSymbol}} biçiminde geçirilecektir ve bu Set'in yüksek su çizgisi {{nextHighWaterMark}} {{benchmarkAsset}} olarak güncellenecektir.",
+    "start-transaction-description-no-watermark": "Bu Set'in ücretleri {{truncatedAddress}} adresine {{totalFeesInSetUnits}} {{setSymbol}} biçiminde geçirilecek.",
+    "pending-transaction-title": "Ücretler Toplanıyor...",
+    "pending-transaction-description": "Ücretleriniz toplanırken lütfen bekleyin.",
+    "completed-transaction-title": "Set Ücretleri hesabınıza geçirildi.",
+    "failed-transaction-title": "Ücret Toplanması Başarısız Oldu",
+    "failed-transaction-description": "Ücretleriniz toplanamadı. Lütfen ücretinizi yeniden toplamayı deneyin.",
+    "long-transaction-title": "Ücret Toplama Hâlâ İşleniyor",
+    "long-transaction-description": "Ücret toplama işleminiz hâlâ sürüyor. İşleminizi aşağıdaki bağlantıdan izlemeye devam edebilirsiniz. İşlem başarılı olmazsa lütfen yeniden deneyin."
+  }
+}

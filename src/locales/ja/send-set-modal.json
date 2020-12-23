@@ -1,0 +1,18 @@
+{
+  "pending-transaction": {
+    "title": "トークンを送信しています...",
+    "description": "トークンの送信完了までお待ちください。"
+  },
+  "completed-transaction": {
+    "title": "成功しました！",
+    "description": "トークンは正常に転送されました。"
+  },
+  "failed-transaction": {
+    "title": "何か間違えています",
+    "description": "新アドレスにトークンが送信されませんでした。 以下のリンクで問題の原因を確認し再度お試しください。"
+  },
+  "long-transaction": {
+    "title": "処理中です",
+    "description": "送信リクエストを処理しています。 以下リンクでトランザクションの監視、または新規トランザクションを送信してください。"
+  }
+}

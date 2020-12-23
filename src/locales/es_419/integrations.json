@@ -1,0 +1,41 @@
+{
+  "title": "Integraciones y socios",
+  "description": "Empresas y productos que tienen integraciones de Sets",
+  "view": "Ver",
+  "wallets": {
+    "title": "Billeteras",
+    "coinbase-wallet": "Billetera de Coinbase",
+    "coinbase-wallet-description": "Billetera fácil de usar que le permite comprar, vender y controlar sus Sets.",
+    "argent": "Argent Wallet",
+    "argent-description": "Una Billetera Inteligente simple y segura para manejar tus Criptos.  Con soporte de Sets incluido.",
+    "trust-wallet": "Trust wallet",
+    "trust-wallet-description": "Billetera multi-monedas segura donde puede comprar, vender y controlar sus Sets.",
+    "fortmatic": "Fortmatic",
+    "fortmatic-description": "Billetera segura que soporta ingreso a través de correo electrónico y teléfono.",
+    "imtoken": "imToken",
+    "imtoken-description": "Billetera multi-activo que le permite comprar, vender y controlar sus Sets."
+  },
+  "open-finance-portals": {
+    "title": "Portales de Open Finance ",
+    "zerion": "Zerion",
+    "zerion-description": "Una solución única para los productos de Open Finance que soportan Sets.",
+    "multis": "Multis",
+    "multis-description": "Banco cripto que le permite comprar, vender y administrar Sets.",
+    "defi-prime": "DeFiprime",
+    "defi-prime-description": "Una app multiuso para todas las operaciones Defi, con un seguidor de portafolios Set"
+  },
+  "liquidity": {
+    "title": "Liquidez",
+    "kyber": "Kyber",
+    "kyber-description": "Un protocolo de liquidez on-chain que provee de liquidez a Set",
+    "0x": "0x",
+    "0x-description": "Un protocolo de intercambios persona a persona utilizado para liquidez en Set"
+  },
+  "prices-and-analytics": {
+    "title": "Precios y Análisis",
+    "etherscan": "Etherscan",
+    "etherscan-description": "Lista de los contratos inteligentes verificados el la Blockchain de Ethereum en Etherscan",
+    "coin-gecko": "Coin Gecko",
+    "coin-gecko-description": "Agregador de volumenes y precios de trading para Tokensets"
+  }
+}

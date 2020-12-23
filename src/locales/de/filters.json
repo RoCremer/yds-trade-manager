@@ -1,0 +1,17 @@
+{
+  "labels": {
+    "filter-by": "Filtern nach",
+    "assets": "Aktivposten",
+    "interest": "Zins",
+    "sentiment": "Empfindung"
+  },
+  "filter-type": {
+    "interest-bearing": "verzinslich",
+    "non-interest-bearing": "unverzinslich",
+    "very-bullish": "sehr optimistisch",
+    "bullish": "optimistisch",
+    "neutral": "Neutral",
+    "bearish": "pessimistisch",
+    "very-bearish": "sehr pessimistisch"
+  }
+}

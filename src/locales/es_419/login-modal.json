@@ -1,0 +1,55 @@
+{
+  "login-modal": {
+    "sign-in": "Ingresa",
+    "sign-up": "Regístrate",
+    "view-other-options": "Ver otras opciones",
+    "hide-other-options": "Ocultar otras opciones",
+    "alternate-sign-in": "o ingresar con",
+    "alternate-sign-up": "o registrarse con",
+    "no-account-prompt": "¿No tienes una cuenta?",
+    "terms-and-conditions": "Al registrarme en TokenSets, acepto los {{termsAndConditions}} y {{privacyPolicy}}",
+    "brave-metamask-warning": {
+      "title": "Brave + Metamask",
+      "description": "Para usar Brave con MetaMask, asegúrate de que tu navegador Brave tenga \"Crypto Wallets\" desactivado. Vaya a <b>Settings > Extensions > Crypto Wallets > Off</b>",
+      "learn-more": "Es posible que tengas que reiniciar el navegador si es la primera vez que actualizas esta configuración. {{learnMore}}"
+    },
+    "ledger-warning": {
+      "title": "¿Estás utilizando un Ledger?",
+      "description": "Metamask con Ledger no está soportado en este momento dadas las incompatibilidades con diferentes navegadores.  Le recomendamos transferir sus fondos a su cuenta de Metamask y luego utilizar Metamask sin la conexión a su Ledger"
+    },
+    "ledger-choose-your-address": "Elige tu dirección",
+    "ledger-please-unlock": "Por favor desbloquea tu Ledger",
+    "ledger-initial-load": "Chequeando si el Ledger está desbloqueado",
+    "ledger-step-one": "Desbloquea tu Ledger ingresando tu clave",
+    "ledger-step-two": "Navega hasta la app \"Ethereum\" en tu Ledger"
+  },
+  "login-modal-options": {
+    "download-here": "Descargar aquí.",
+
+    "fortmatic": "Usar teléfono",
+    "fortmatic-pending": "Por favor, continua el inicio de sesión con tu teléfono.",
+    "fortmatic-email-pending": "Por favor continúes a través de su correo electrónico",
+
+    "ledger": "Usar Ledger",
+    "ledger-pending": "Iniciar sesión con su Ledger",
+
+    "metamask": "MetaMask",
+    "metamask-download": "Descargar Metamask",
+    "metamask-pending": "Por favor, comprueba la extensión de su MetaMask para continuar con el ingreso.",
+
+    "metamask-mobile": "MetaMask Mobile",
+    "metamask-mobile-pending": "Por favor, continua el inicio de sesión con tu teléfono.",
+
+    "coinbase-wallet": "Billetera Coinbase",
+
+    "trust-wallet": "Trust Wallet",
+
+    "imtoken": "imToken",
+    "imtoken-pending": "Por favor, continua el inicio de sesión con tu teléfono.",
+
+    "opera-wallet": "Billetera Opera",
+    "opera-wallet-pending": "Por favor, comprueba tu navegador para continuar con el ingreso.",
+
+    "wallet-link": "Coinbase Wallet (usando enlace de la Wallet)"
+  }
+}

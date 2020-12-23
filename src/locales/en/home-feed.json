@@ -1,0 +1,30 @@
+{
+  "general": {
+    "name": "Name",
+    "explore-sets": "Explore Sets"
+  },
+  "feed": {
+    "following": "Following",
+    "discover": "Discover",
+    "feed-end": "You reached the end!"
+  },
+  "announcement": {
+    "title": "Announcing New The Yield Farming Sets",
+    "description": "View the new Yield Farms running on Set V2.",
+    "read-more": "Read More"
+  },
+  "account": {
+    "my-account": "My Account",
+    "set-balance": "Set Balance",
+    "eth-balance": "ETH Balance",
+    "percent-change": "1D Change",
+    "view-account": "View Account",
+    "no-sets": "Welcome to TokenSets. You can get started by exploring Sets below."
+  },
+  "explore": {
+    "social-trading-sets": "Social Trading Sets",
+    "robo-sets": "Robo Sets",
+    "portfolios": "Portfolios",
+    "percent-change": "1M Change"
+  }
+}

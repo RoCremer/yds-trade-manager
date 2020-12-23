@@ -1,0 +1,55 @@
+{
+  "login-modal": {
+    "sign-in": "Sign In",
+    "sign-up": "Sign Up",
+    "view-other-options": "View Other Options",
+    "hide-other-options": "Hide Other Options",
+    "alternate-sign-in": "or sign in with",
+    "alternate-sign-up": "or sign up with",
+    "no-account-prompt": "Don't have an account?",
+    "terms-and-conditions": "By signing up with TokenSets, I accept the {{termsAndConditions}} and {{privacyPolicy}}",
+    "brave-metamask-warning": {
+      "title": "Brave + Metamask",
+      "description": "In order to use Brave with MetaMask, make sure that your Brave browser has ”Crypto Wallets” turned off. Go to <b>Settings > Extensions > Crypto Wallets > Off.</b>",
+      "learn-more": "You may need to restart your browser if you’re updating this setting for the first time. {{learnMore}}"
+    },
+    "ledger-warning": {
+      "title": "Using a Ledger?",
+      "description": "MetaMask with Ledger is not supported at the moment due to incompatibilities with multiple browsers. We recommend transferring your funds to your MetaMask account and using MetaMask without connecting it to your Ledger."
+    },
+    "ledger-choose-your-address": "Choose your address",
+    "ledger-please-unlock": "Please unlock your Ledger",
+    "ledger-initial-load": "Checking if Ledger is unlocked...",
+    "ledger-step-one": "Unlock your Ledger by entering your passcode.",
+    "ledger-step-two": "Navigate to ”Ethereum” app in your Ledger."
+  },
+  "login-modal-options": {
+    "download-here": "Download here.",
+
+    "fortmatic": "Use Phone",
+    "fortmatic-pending": "Please continue logging in with your phone.",
+    "fortmatic-email-pending": "Please continue through your email.",
+
+    "ledger": "Use Ledger",
+    "ledger-pending": "Logging in with your Ledger",
+
+    "metamask": "MetaMask",
+    "metamask-download": "Download MetaMask",
+    "metamask-pending": "Please check your MetaMask extension to continue logging in.",
+
+    "metamask-mobile": "MetaMask Mobile",
+    "metamask-mobile-pending": "Please continue logging in with your phone.",
+
+    "coinbase-wallet": "Coinbase Wallet",
+
+    "trust-wallet": "Trust Wallet",
+
+    "imtoken": "imToken",
+    "imtoken-pending": "Please continue logging in with your phone.",
+
+    "opera-wallet": "Opera Wallet",
+    "opera-wallet-pending": "PPlease check your browser to continue logging in.",
+
+    "wallet-link": "Coinbase Wallet (using Wallet Link)"
+  }
+}

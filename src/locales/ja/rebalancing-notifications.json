@@ -1,0 +1,30 @@
+{
+  "contact-info": {
+    "title": "通知のリバランス",
+    "sub-title": "あなたの連絡先情報",
+    "phone-number": "電話番号",
+    "phone-number-placeholder": "XXX XXX XXXX",
+    "call-for-rebalances": "リバランス開始時に呼び出す",
+    "sms-for-rebalances": "リバランス開始の際にSMSを送信する",
+    "email": "Eメール",
+    "email-placeholder": "メールアドレスを入力"
+  },
+  "errors": {
+    "toggle-notifications-error": "電話の受信またはSMSを受け取りいずれか1つを選択してください。",
+    "toggle-valid-phone-number-error": "ご入力された電話番号は有効ではありません。",
+    "generic-phone-number-error": "電話番号の保存中にエラーが発生しました。",
+    "no-selected-sets": "新規セットが選択されていません。 リバランス通知のためサブスクライブする新規セットを選択します。",
+    "could-not-subscribe": "あなたの電話番号を新規で選択されたセットに登録できませんでした。"
+  },
+  "phone-number": {
+    "delete-phone-number": "電話番号を削除する"
+  },
+  "set-selection": {
+    "selected-sets": "選択したセット",
+    "update-subscribed-sets": "引き受け済みセットの更新",
+    "name": "氏名",
+    "market-cap": "時価総額",
+    "components": "コンポーネント",
+    "success": "通知設定は正常に更新されました！"
+  }
+}

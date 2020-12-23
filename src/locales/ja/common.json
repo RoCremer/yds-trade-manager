@@ -1,0 +1,75 @@
+{
+  "general": {
+    "token-sets": "TokenSets",
+    "token": "トークン",
+    "set": "セット",
+    "sets": "セット",
+    "coins": "コイン",
+    "portfolios": "ポートフォリオ",
+    "amount": "数量",
+    "value": "価値",
+    "balance": "残高",
+    "address": "アドレス",
+    "ethereum-address": "Ethereumアドレス"
+  },
+  "buttons": {
+    "send": "送る",
+    "buy": "買う",
+    "sell": "売る",
+    "submit": "送信する",
+    "cancel": "キャンセルする",
+    "confirm": "確認する",
+    "update": "更新する",
+    "retry": "再度試す",
+    "back": "戻る",
+    "next": "次へ",
+    "skip": "スキップする",
+    "save": "保存する",
+    "try-again": "再度試す",
+    "close": "閉じる",
+    "post": "投稿する",
+    "continue": "続ける",
+    "finish": "終わる",
+    "not-now": "今はしない",
+    "dont-show-again": "今後表示しない",
+    "delete": "削除する",
+    "discard": "破棄する"
+  },
+  "sets": {
+    "name": "名前",
+    "price": "価格",
+    "fee": "手数料",
+    "buy-fee": "購入手数料",
+    "performance-fee": "パフォーマンス手数料",
+    "streaming-fee": "ストリーミング手数料",
+    "apr": "APR",
+    "market-cap": "時価総額",
+    "total-market-cap": "合計時価総額",
+    "inception": "開始日付",
+    "trade-count": "取引回数",
+    "drawdown": "最大ドローバック",
+    "rebalance": "リバランス",
+    "trader": "トレーダー",
+    "strategy": "戦略",
+    "set-holders": "Setホルダー",
+    "explore-all-sets": "全セットを探索する",
+    "featured-sets": "注目のセット"
+  },
+  "time": {
+    "days": "日",
+    "hours": "時",
+    "minutes": "分",
+    "seconds": "秒"
+  },
+  "ledger": {
+    "sign-message": "この動作を確認するために、Ledger デバイスを確認してメッセージに署名してください。",
+    "error-message": "あなたのLedgerウォレットでエラーが発生しました。問題を解決するには、{{instructions}}に従ってください。"
+  },
+  "errors": {
+    "input-a-valid-email": "有効なメールアドレスを入力してください。",
+    "something-went-wrong": "うまくいきませんでした。もう一度お試しください。",
+    "404-page-description": "ページが見つかりませんでした。",
+    "back-to-home": "ホームへ戻る",
+    "unlock-ledger": "何か問題が発生しました。Ledgerのロックが解除されていることを確認して、再度お試しください。"
+  }
+}

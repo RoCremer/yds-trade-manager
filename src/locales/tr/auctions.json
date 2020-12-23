@@ -1,0 +1,109 @@
+{
+  "explore-auctions": {
+    "title": "Yeniden Dengeleme İhaleleri",
+    "description": "Set yeniden dengeleme ihalelerini gör ve katıl.",
+    "rebalance-notifications": "Yeniden Dengelenme Bildirimleri"
+  },
+
+  "auction-header": {
+    "now": "Şimdi",
+    "explore-rebalances": "< Yeniden Dengelemeleri Keşfet",
+    "rebalance-auction-for": "Açık Artırmayı Yeniden Dengeleyin",
+    "current-auction-price": "Mevcut Açık Artırma Fiyatı",
+    "estimated-time-to-fair-value": "Rayiç Değer için Kalan Süre",
+    "progress": "İlerleme",
+    "remaining-shares": "Kalan Hisseler",
+    "percent-to-fair-value": "Rayiç Değer İçin Yüzde",
+    "auction-size": "Müzayede Ölçüsü",
+    "current-auction-chunk": "Şu An Müzayadedeki Parça",
+    "current-auction-progress": "Şu Anki Müzayade Süreci",
+    "total-auction-size": "Toplam Müzayede Ölçüsü"
+  },
+
+  "rebalances-table": {
+    "rebalance-timer": "Yeniden Dengelenme Zamanlayıcısı",
+    "rebalancing-criteria": "Yeniden Dengeleme Kriterleri",
+    "status": "Durum"
+  },
+
+  "auction-bid-form": {
+    "auction-starting-soon": "Yeniden Dengeleme İhalesi başlamak üzere.",
+    "supply": "Arz",
+    "amount-to-supply": "Temin Etme Miktarı",
+    "receive": "Al",
+    "shares": "Hisseler",
+    "amount-to-receive": "Alınacak Miktar",
+    "enter-shares": "Hisse miktarını gir",
+    "login-to-participate": "Katılmak İçin Giriş Yapın",
+    "place-bid": "Teklif Yap",
+    "net-profit-and-loss": "Net Kar & Kayıp",
+    "transaction-bid-error": "İşlem gönderilmedi.",
+    "bid-approval-failed": "{{tokenName}} tokeniniz teklif için onay alamadı."
+  },
+
+  "live-bids-table": {
+    "bid-incoming": "Teklif geliyor...",
+    "size": "Boyut",
+    "time": "Zaman",
+    "no-bids-yet": "Henüz Teklif Yok"
+  },
+
+  "tooltips": {
+    "remaining-shares": "Kalan Hisseler",
+    "remaining-shares-description": "İhalede kalan tedavüldeki hisse miktarı. Her hisse, ihalenin kalanında ne kadar tokenin takas edilebileceğini temsil eder.",
+    "current-auction-price": "Mevcut Açık Artırma Fiyatı",
+    "current-auction-price-description": "Varlığın alım satımının yapıldığı güncel fiyat. cToken yeniden dengelemeleri için, güncel ücret dayanak varlığı yansıtmaktadır.",
+    "estimated-time-fair-value": "Rayiç Değer için Tahmini Süre",
+    "estimated-time-fair-value-description": "Temin edilen tokenlerin P/L'si eksi alınan tokenlerin değerinin pozitif olması için gereken tahmini süre.",
+    "progress": "İlerleme",
+    "progress-description": "İhalenin ilerlemesi, alım satımı yapılan hisse miktarına dayanmaktadır. İlerleme %100'e ulaştığında ihale sona erecektir.",
+    "shares": "Hisseler",
+    "shares-description": "Hisseler, bir teklifte verilen ve alınan tokenların miktarını temsil eder. Bir yeniden dengelenme ilerledikçe, aldığınız tokenların miktarıyla verdiğiniz tokenların oranı artar ve hisseleri teklif vermek için daha cazip yapar.",
+    "percentage-fair-value": "Rayiç Değer İçin Yüzde",
+    "percentage-fair-value-description": "Adil değer yüzdesi, katılımcıların açık artırmada yakalayabildiği açıklığın tahmini değerini veren CryptoCompare fiyat beslemesiyle uyuşan Mevcut Açık Artırma Fiyatı'dır.",
+    "live-bids": "Canlı Teklifler",
+    "live-bids-description": "CryptoCompare kaynaklı fiyat verileriyle, açık artırma katılımcılarından gelen en son onaylanmış teklifleri gösterir.",
+    "market-cap": "Piyasa Değeri",
+    "market-cap-description": "Bu Set için şu an basılan değerin USD olarak toplam miktarı.",
+    "auction-size": "Müzayede Ölçüsü",
+    "auction-size-description": "Müzayede ölçüsü, toplam {{marketCap}} piyasa değerinin ne kadarının yeniden dengelendiğidir.",
+    "current-auction-chunk": "Şu An Müzayededeki Parça",
+    "current-auction-chunk-description": "Şu an müzayadedeki parçada yeniden dengelenen miktar.",
+    "current-auction-progress": "Şu Anki Müzayede Süreci",
+    "current-auction-progress-description": "Satılmış olan hisselerin sayısına dayalı yeniden dengelenme süreci. Süreç %100'e ulaştığında, yeniden dengelenmenin bu kısmı tamamlanmış olur.",
+    "total-auction-size": "Toplam Müzayede Ölçüsü",
+    "total-auction-size-description": "Müzayededeki tüm parçaların yeniden dengelenen toplam miktarı."
+  },
+
+  "inactive-auction": {
+    "title": "Bu Set şu anda yeniden dengelenmiyor",
+    "description": "Onu yeniden dengelendiğinde e-posta bildirimleri almak için bu seti takip edin.",
+    "conditions": "Sonraki Yeniden Dengelemeye Kadar Koşullar"
+  },
+
+  "initial-confirmation": {
+    "crossover-detected": "Geçiş Tespit Edildi",
+    "confirmation-period": "Onay Dönemi",
+    "confirmation-period-description": "Bir yeniden dengeleme sinyalini onaylamak içn gereken süre. Yanlış pozitif sinyalleri azaltmaya yardımcı olur.",
+    "confirmation-window": "Onay Penceresi",
+    "confirmation-window-description": "Bir yeniden dengeleme sinyalini onaylamak için {{confirmationWindow}} saatlik pencere"
+  },
+
+  "rebalance-proposal": {
+    "ready": "Hazır",
+    "rebalance-proposed": "Yeniden Dengeleme Teklif Edildi",
+    "time-until-rebalance": "Yeniden Dengelemeye Kalan Süre"
+  },
+
+  "transaction-history": {
+    "my-bid-transactions": "Teklif İşlemlerim",
+    "no-bid-transactions": "Gösterilecek Bir Arz İşlemi Yok"
+  },
+
+  "auction-description": {
+    "title": "Yeniden Dengeleme Nasıl Çalışır",
+    "description-1": "Set Yeniden Dengeleyicisine hoşgeldiniz. Yeniden dengeleme, bir Setin içindeki tokenlerin ağırlığını Setin hedef ağırlığına uyarlama işlemidir.",
+    "description-2": "Yeniden dengelemede yer alma, Sete yetersiz teminatlandırılmış tamamlayıcı tokenleri temin etme ve karşılığında fazla teminatlandırılmış tokenleri almayı içerir. İhale sırasında teklif verdiğinizde, aynı işlemde hem token temin eder hem de alırsınız. Fonlarınız ihalede asla kitlenmez.",
+    "learn-more": "Yeniden dengelenme hakkında daha fazlasını öğrenin"
+  }
+}

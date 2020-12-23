@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "edit-profile": "Profil bearbeiten",
+    "see-less": "Weniger anzeigen",
+    "see-more": "Mehr anzeigen"
+  },
+  "trader-profile": {
+    "feed-tab": "Feed",
+    "sets-tab": "Sets"
+  },
+  "managed-sets": {
+    "rebalance": "Portfolio rebalancieren",
+    "edit-details": "Details bearbeiten",
+    "fee-controls": "Gebührensteuerung"
+  }
+}

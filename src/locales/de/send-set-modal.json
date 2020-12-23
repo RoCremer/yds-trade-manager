@@ -1,0 +1,18 @@
+{
+  "pending-transaction": {
+    "title": "Ihre Tokens werden versendet...",
+    "description": "Bitte warten Sie, bis Ihre Tokens vollständig gesendet wurden."
+  },
+  "completed-transaction": {
+    "title": "Erfolg!",
+    "description": "Ihre Tokens wurden erfolgreich überwiesen."
+  },
+  "failed-transaction": {
+    "title": "Ein Fehler ist aufgetreten",
+    "description": "Ihre Tokens wurden nicht an die neue Adresse gesendet. Bitte prüfen Sie unter unten stehendem Link, welcher Fehler aufgetreten ist, und versuchen es erneut."
+  },
+  "long-transaction": {
+    "title": "Wird noch bearbeitet",
+    "description": "Ihre Versendeanfrage wird noch verarbeitet. Sie können die Transaktion mit dem unten stehenden Link verfolgen oder versuchen, eine neue Transaktion abzuschicken."
+  }
+}

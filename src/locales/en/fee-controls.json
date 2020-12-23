@@ -1,0 +1,101 @@
+{
+  "fee-controls": "Fee Controls",
+  "common": {
+    "fee-type": "Fee Type",
+    "current-fee": "Current Fee",
+    "new-fee": "New Fee",
+    "fee-type-unchanged": "Your {{feeType}} will remain",
+    "buy-fee": "Buy Fee",
+    "streaming-fee": "Streaming Fee",
+    "performance-fee": "Performance Fee"
+  },
+  "errors": {
+    "buy-fee-unallowed-value": "The buy fee must be a value between 0 and 5%",
+    "buy-fee-must-be-different": "The new buy fee value must be different from the current buy fee value.",
+    "performance-fee-unallowed-value": "The performance fee must be a value between 0 and 40%",
+    "performance-fee-unallowed-value-legacy": "The performance fee must be a value between 0.01 and 40%",
+    "performance-fee-watermark-upgrade-required": "This set's performance fee must first be set to 0.01%",
+    "performance-fee-must-be-different": "The new performance fee value must be different from the current performance fee value.",
+    "streaming-fee-unallowed-value": "The streaming fee must be a value between 0 and 5%",
+    "streaming-fee-must-be-different": "The new streaming fee value must be different from the current streaming fee value."
+  },
+  "collect-fees": {
+    "title": "Collect fees",
+    "last-high-watermark": "Last high watermark",
+    "next-high-watermark": "Next high watermark",
+    "performance-fee-label": "Unactualized performance fees",
+    "performance-fee-description": "Amount of fees that may be collected based on this Set's value relative to its last recorded high water mark.",
+    "performance-fee-unavailable-description": "This Set does not exceed its last high watermark value. No performance fees may be accrued.",
+    "streaming-fee-label": "Unactualized streaming fees",
+    "streaming-fee-description": "Amount of fees that may be collected based on this Set's marketcap, streaming fee percentage, and time elapsed since last fee accrual event.",
+    "total-fees-label": "Total collectible fees",
+    "collect-button": "Collect Fees"
+  },
+  "fee-change": {
+    "title": "Update Fees",
+    "description": "In order to give users adequate lead time on major changes to the Set, updating a Set's fee percentage requires a 5 day waiting period.",
+    "description-limitation": "To ensure fee updates can complete reliably and securely, Streaming Fees and Performance Fees may only be updated one at a time",
+    "buy-fee-description": "Your buy fee can be a value between 0% and 5%",
+    "performance-fee-description": "Your performance fee can be a value between 0% and 40%",
+    "performance-fee-description-legacy": "Your performance fee can be a value between 0.01% and 40%",
+    "streaming-fee-description": "Your streaming fee can be a value between 0% and 5%"
+  },
+  "fee-change-components": {
+    "confirm-fee-update": "Confirm Fee Update",
+    "cancel-fee-update": "Cancel Fee Update",
+    "countdown-description": "Your {{feeType}} update has been started. You may finalize your update in:",
+    "finalize-description": "Your {{feeType}} update is ready for confirmation. Please confirm the update below."
+  },
+  "start-fee-change-modal": {
+    "start-transaction-title": "Start {{feeType}} Update",
+    "start-transaction-description": "In order to give users adequate lead time on large changes to the Set, updating a Set's fee requires a 5 day waiting period.",
+    "start-transaction-description-2": "To ensure fee updates can complete reliably and securely, Streaming Fees and Performance Fees may only be updated one at a time",
+    "start-transaction-description-3": "After your transaction is submitted, please return to this page in 5 days to finalize the fee update.",
+    "pending-transaction-title": "Initiating Fee Update",
+    "pending-transaction-description": "Please wait while your fee update is processing.",
+    "completed-transaction-title": "Your Fee Update has been started. Please return to finalize your update after 5 days have passed.",
+    "failed-transaction-title": "Fee Update Failed",
+    "failed-transaction-description": "Your fee update could not be started. Please try again.",
+    "long-transaction-title": "Fee Update Still Processing",
+    "long-transaction-description": "Your fee update is still processing. You can keep monitoring your transaction in the link below. If the transaction does not succeed, please try again."
+  },
+  "confirm-fee-change-modal": {
+    "start-transaction-title": "Confirm {{feeType}} Update",
+    "start-transaction-description": "Once your Fee Update is confirmed your Set will immediately begin using the new fee percentage.",
+    "start-transaction-description-2": "If you wish to submit a new fee update in the future, you must wait the standard 5 day waiting period.",
+    "pending-transaction-title": "Confirming {{feeType}} Update",
+    "pending-transaction-description": "Please wait while your confirmation is processing.",
+    "completed-transaction-title": "Your {{feeType}} Update has been confirmed.",
+    "failed-transaction-title": "Fee Update Confirmation Failed",
+    "failed-transaction-description": "Your fee update could not be confirmed. Please try again.",
+    "long-transaction-title": "Confirmation Still Processing",
+    "long-transaction-description": "Your confirmation is still processing. You can keep monitoring your transaction in the link below. If the transaction does not succeed please try again."
+  },
+  "cancel-fee-change-modal": {
+    "start-transaction-title": "Cancel {{feeType}} Update",
+    "start-transaction-description": "Cancelling your {{feeType}} update will reset the 5 day waiting period.",
+    "start-transaction-description-2": "After your cancellation is confirmed, you may submit a new fee update request.",
+    "pending-transaction-title": "Cancelling {{feeType}} Update",
+    "pending-transaction-description": "Please wait while your cancellation is processing.",
+    "completed-transaction-title": "Your {{feeType}} Update has been cancelled.",
+    "failed-transaction-title": "Fee Update Cancellation Failed",
+    "failed-transaction-description": "Your fee update could not be cancelled. Please try again.",
+    "long-transaction-title": "Fee Update Cancellation Still Processing",
+    "long-transaction-description": "Your cancellation is still processing. You can keep monitoring your transaction in the link below. If the transaction does not succeed please try again."
+  },
+  "collect-fee-modal": {
+    "new-high-watermark": "New high water mark",
+    "fees-to-be-collected": "Fees to be collected",
+    "no-new-watermark": "This fee collection will not record a new high watermark for this set.",
+    "start-transaction-title": "Collect Fees",
+    "start-transaction-description": "This Set's fees will be credited to the address {{truncatedAddress}} in the form of {{totalFeesInSetUnits}} {{setSymbol}}, and this Set's high water mark will be updated to {{nextHighWaterMark}} {{benchmarkAsset}}.",
+    "start-transaction-description-no-watermark": "This Set's fees will be credited to the address {{truncatedAddress}} in the form of {{totalFeesInSetUnits}} {{setSymbol}}.",
+    "pending-transaction-title": "Collecting Fees...",
+    "pending-transaction-description": "Please wait while your fees are being collected.",
+    "completed-transaction-title": "Set Fees have been credited to your account.",
+    "failed-transaction-title": "Fee Collection Failed",
+    "failed-transaction-description": "Your fees were not able to be collected. Please try collecting your fee again.",
+    "long-transaction-title": "Fee Collection Still Processing",
+    "long-transaction-description": "Your fee collection is still processing. You can keep monitor your transaction in the link below. If the transaction does not succeed, please try again."
+  }
+}

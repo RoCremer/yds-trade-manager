@@ -1,0 +1,96 @@
+{
+  "preview": {
+    "pay": "Pay",
+    "get": "Get",
+    "your-balance": "Your Balance",
+    "your-balance-description": "This is the balance in your account.",
+    "max": "Max"
+  },
+  "compound-tooltip": {
+    "title": "Notice",
+    "description-buy": "For this Set, buying is only allowed with the currency that Set is currenty allocated in. Head to Compound to mint {{tokenName}}.",
+    "description-sell": "For this Set, selling is only allowed with the currency that Set is currenty allocated in. Head to Compound to mint {{tokenName}}."
+  },
+  "order-details": {
+    "confirm-order": "Confirm Order",
+    "per-set": "per Set",
+    "tokensets-fee": "TokenSets Fee",
+    "buy-fee": "Buy Fee",
+    "paid-to": "Paid to",
+    "network-fee": "Network Fee",
+    "fees": "Fees",
+    "total-cost": "Total Cost",
+    "total-receive": "Total To Receive",
+    "more-order-information": "Learn more about your order details",
+    "slippage": "Slippage",
+    "slippage-description-buy": "This transaction to buy simply deposits your ETH into a Set without the need for external trades. This results in 0% slippage.",
+    "slippage-description-sell": "This transaction to sell simply withdraws your ETH out of the Set without the need for external trades. This results in 0% slippage."
+  },
+  "confirm-order-tooltip": {
+    "pricing": "Pricing",
+    "pricing-description": "TokenSets pulls liquidity from Kyber Network’s reserves and the broader market via 0x. The price of a Set is the aggregate price of the best rates for the underlying components.",
+    "platform-fees": "Platform Fees",
+    "platform-fees-description": "TokenSets does not currently charge a fee for buying Sets",
+    "network-fee": "Network Fee",
+    "network-fee-description": "This network fee is the gas cost for executing the transaction.",
+    "more-information": "Link to more information"
+  },
+  "pending": {
+    "processing": "Your transaction is processing",
+    "verifying-order": "Verifying Buy Order...",
+    "approve-success": "Your {{tokenName}} was approved for trading!",
+    "order-processing": "Your order for {{tokenQuantity}} {{tokenName}} is processing."
+  },
+  "finished": {
+    "buy-intro": "Your order to buy",
+    "sell-intro": "Your order to sell",
+    "processing": "Your Transaction Is Still Processing",
+    "processing-description": "is still pending. You can track the progress of your transaction in your account page.",
+    "im-token-processing": "Your Transaction Is Processing",
+    "im-token-processing-description": "has gone through. You can track the progress of your transaction in your account page.",
+    "tx-failed": "There Was An Error With Your Transaction",
+    "tx-failed-description": "has encountered an error. Please check your account page to see if your transaction has gone through.",
+    "buy-successful": "Buy Order Successful!",
+    "sell-successful": "Sell Order Successful!",
+    "successful-description": "has been successful, and will be viewable in your wallet shortly.",
+    "learn-more-errors": "Learn about these errors in the FAQ.",
+    "etherscan": "Your Etherscan link"
+  },
+  "email-signup": {
+    "get-notified": "Get Notified When Your Set Rebalances",
+    "get-notified-description": "Receive email notifications when {{username}} rebalances your {{setName}}.",
+    "get-notified-description-alt": "Receive email notifications when {{setName}} rebalances.",
+    "success": "Success!",
+    "success-description": "You’ve successfully subscribed to email notifications for rebalances."
+  },
+  "buttons": {
+    "start": "Approve {{tokenName}} For Trading",
+    "approve": "Approving Your {{tokenName}} For Trading",
+    "finalize": "Finalizing Your {{tokenName}} Approval",
+    "preview-buy": "Preview Buy",
+    "preview-sell": "Preview Sell",
+    "submit-buy": "Submit Buy",
+    "submit-sell": "Submit Sell",
+    "confirm": "Please Confirm Your Transaction",
+    "preparing-order": "Preparing Your Order...",
+    "to-account": "Go To My Account",
+    "submit-email": "Submit Email",
+    "view-account": "View my Account Balances"
+  },
+  "errors": {
+    "gas-required": "Please add more ETH for Ethereum network fees (gas). Your current balance of {{ethBalance}} ETH must be able to cover {{gasCost}} ETH for gas.",
+    "gas-required-with-eth": "Please adjust your order by {{gasNeeded}} ETH to accommodate Ethereum network fees (gas).",
+    "something-went-wrong": "Something went wrong. Please try again.",
+    "rates-changed": "Rates have changed.",
+    "rates-expired": "Rates have expired.",
+    "rates-retry-buy": "Please click \"Submit Buy\" again to resubmit with updated rates.",
+    "rates-retry-sell": "Please click \"Submit Sell\" again to resubmit with updated rates.",
+    "transaction-failed": "Transaction failed. Please try again.",
+    "email-input-failed": "Please enter a valid email.",
+    "email-signup-failed": "We could not register your email address. Please try again later."
+  },
+  "external-link-modal": {
+    "description": "{{action}} {{setName}} using the links below:",
+    "view-on": "View on"
+  }
+}

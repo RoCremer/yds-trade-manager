@@ -1,0 +1,41 @@
+{
+  "title": "Entegrasyonlar ve ortaklar",
+  "description": "Set entegrasyonları olan şirketler ve ürünler.",
+  "view": "Görüntüle",
+  "wallets": {
+    "title": "Cüzdanlar",
+    "coinbase-wallet": "Coinbase cüzdanı",
+    "coinbase-wallet-description": "Setlerinizi almanıza, satmanıza ve izlemenize olanak tanıyan, kullanımı kolay cüzdan.",
+    "argent": "Gümüş Cüzdan",
+    "argent-description": "Dahili Set destekli kripto için basit, güvenli ve akıllı bir cüzdan.",
+    "trust-wallet": "Trust wallet",
+    "trust-wallet-description": "Set'lerinizi satın alabileceğiniz, satabileceğiniz ve izleyebileceğiniz güvenli, çok akçeli cüzdan",
+    "fortmatic": "Fortmatic",
+    "fortmatic-description": "E-posta ve telefonla oturum açmayı destekleyen güvenli cüzdan.",
+    "imtoken": "imToken",
+    "imtoken-description": "Kullanıcıların Set'leri satın almasına, satmasına ve yönetmesine olanak tanıyan, birden çok varlığa dayalı cüzdan."
+  },
+  "open-finance-portals": {
+    "title": "Finans Portallarını Aç",
+    "zerion": "Zerion",
+    "zerion-description": "Set'leri destekleyen Open Finance ürünlerine yönelik tek bir çözüm.",
+    "multis": "Multis",
+    "multis-description": "Set'leri almanıza, satmanıza ve yönetmenize olanak tanıyan bir kripto para birimleri bankası.",
+    "defi-prime": "DeFiprime",
+    "defi-prime-description": "DeFi'ye ilişkin her şey için Bir Set portföyü izleyicisi içeren tek durak noktası."
+  },
+  "liquidity": {
+    "title": "Likidite",
+    "kyber": "Kyber",
+    "kyber-description": "Set'e likidite sağlayan blok zincirinde bir likidite protokolü.",
+    "0x": "0x",
+    "0x-description": "Set likiditesi için kullanılan eşler arası değiş tokuş için bir protokol."
+  },
+  "prices-and-analytics": {
+    "title": "Fiyatlar ve Analiz",
+    "etherscan": "Etherscan",
+    "etherscan-description": "Etherscan'deki Ethereum Blok zincirinde bulunan, Set'in doğrulanmış akıllı kontratlar listesi.",
+    "coin-gecko": "Coin Gecko",
+    "coin-gecko-description": "TokenSets fiyatı ve alım-satım hacim toplayıcı."
+  }
+}

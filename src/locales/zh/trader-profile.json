@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "edit-profile": "编辑资料",
+    "see-less": "查看更少",
+    "see-more": "查看更多"
+  },
+  "trader-profile": {
+    "feed-tab": "消息来源",
+    "sets-tab": "Set"
+  },
+  "managed-sets": {
+    "rebalance": "平衡调整",
+    "edit-details": "编辑细节",
+    "fee-controls": "费用控制"
+  }
+}

@@ -1,0 +1,23 @@
+<svg width="121px" height="176px" viewBox="0 0 121 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <desc>TokenSets Logo.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3100FF" offset="0%"></stop>
+            <stop stop-color="#3200FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Brand-Concepts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-–-Dark-Background" transform="translate(-382.000000, -423.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-20-Copy" transform="translate(381.552734, 422.660490)">
+                <g id="Group-19">
+                    <g id="Group-2-Copy" transform="translate(61.721699, 60.026570) rotate(-90.000000) translate(-61.721699, -60.026570) translate(2.221699, 0.026570)">
+                        <circle id="Oval" cx="59.479342" cy="60.4602256" r="59.479342"></circle>
+                    </g>
+                    <g id="Group-2-Copy-2" transform="translate(60.275577, 116.517130) rotate(-270.000000) translate(-60.275577, -116.517130) translate(0.775577, 56.517130)">
+                        <circle id="Oval" cx="59.479342" cy="60.4602256" r="59.479342"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

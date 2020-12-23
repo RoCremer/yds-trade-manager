@@ -1,0 +1,69 @@
+{
+  "trader-profile": {
+    "title": "Profili Düzenle",
+    "username": "Kullanıcı adı",
+    "first-name": "İsim",
+    "last-name": "Soyad",
+    "bio": "Biyo",
+    "ethereum-address": "Ethereum Adresi",
+    "website": "Website",
+    "twitter-handle": "Twitter Kullanıcı Adı",
+    "submit": "Gönder",
+    "update-success": "Tüccar profiliniz başarıyla güncellendi!",
+    "update-failed": "Tacir profilini güncelleme isteği başarısız oldu.",
+    "username-taken": "Güncelleme başarısız oldu: {{username}} kullanıcı adı zaten alınmış.",
+    "invalid-signature": "Güncelleme başarısız oldu: Geçersiz imza."
+  },
+  "rebalance-manager": {
+    "choose-next-allocation": "Alım satım havuzunuz için sıradaki dağıtımı seçin.",
+    "post-title": "İşlemin ardında yatan düşüncelerinizi açıklayan bir gönderi yazın",
+    "post-description": "Bu, yeniden dengelenme başarıyla başladıktan sonra yayınlanacaktır ve tamamlandıktan sonra takipçilerinize bir e-posta gönderilecektir.",
+    "enter-a-description": "Bir tanım girin",
+    "learn-more": "Daha Fazlasını Öğren",
+
+    "rebalance-pending": "Yeniden dengeleme başlatmanız beklemede...",
+    "rebalance-pending-description": "İşlem gerçekleşene kadar lütfen bu sayfada kalın.",
+
+    "long-confirmation": "Yeniden dengelemeniz hala onay bekliyor.",
+    "long-confirmation-description": "İşleminizin madenciliği gerçekleştikten sonra yeniden dengelemeniz başlayacak. İşleminizin ilerlemesini Etherscan'de veya Hesap sayfanızda görüntüleyebilirsiniz.",
+
+    "successful-rebalance": "Yeniden Dengeleme Başladı!",
+    "successful-rebalance-description": "Yeniden dengelemeniz başladı ve 4 saat içinde yeni paylaştırmanızla sonlanacak.",
+
+    "rebalance-failed": "Yeniden Dengeleme Başlatması Başarısız",
+    "rebalance-failed-description": "Yeniden dengeleme başlatma işleminiz başarısız oldu. Lütfen daha yüksek bir benzin ücreti seçin veya sonra tekrar deneyin.",
+
+    "currently-rebalancing": "Bu set şu anda yeniden dengeleniyor",
+    "view-auction": "İhaleyi Gör",
+    "etherscan-link": "Etherscan bağlantınız",
+
+    "enable-twap": "TWAP'ı Etkinleştir",
+    "enabling-twap": "TWAP etkinleştiriliyor",
+    "confirming-twap": "TWAP Onaylanıyor"
+  },
+  "update-set-details": {
+    "title": "Seti Düzenle",
+    "set-symbol": "Set Sembolü",
+    "set-name": "Set İsmi",
+    "owner-address": "Sahibin Adresi",
+    "set-address": "Set Adresi",
+    "set-description": "Set Tanımı",
+    "update-successful": "Setiniz başarıyla güncellendi!",
+    "update-failed": "Set detaylarını güncelle isteminiz başarısız oldu."
+  },
+  "send-tokens": {
+    "send-tokens": "Jeton Gönder",
+    "max-eth-error": "Bu transferi tamamlamak için hesabınızda yeterli ETH yok. Ethereum Ağ Ücretleri hariç transfer edebileceğiniz maksimum ETH'yi görmek için \"Max\" butonuna basın.",
+    "max-token-error": "Hesabınızda bu transferi tamamlamak için yeterli {{tokenSymbol}} yok.",
+    "gas-error": "Hesabınızda bu transferi tamamlamak için yeterli ETH yok. Bu transferi tamamlamak için {{gasFee}} ETH gerekli.",
+    "preview-send": "Gönderiyi Ön Görüntüle",
+    "send-confirmation": "Onay Gönder",
+    "send-amount": "Miktarı Gönder",
+    "remaining-balance-after-transfer": "Transfer sonrası yeni bakiye",
+    "to-address": "Kime",
+    "ethereum-network-fees": "Ethereum Ağ Ücretleri",
+    "disclaimer": "Setlerimi Coinbase, Binance ve diğer alım-satımlara gönderdiğimi anlıyorum",
+    "disclaimer-2": "ERC-20 jeton transferi desteğinin eksikliğinden ötürü para kaybı ile sonuçlanacak.",
+    "disclaimer-3": "Jetonlarımı gönderdiğim adresin şu anda transfer yaptığım adres olduğundan eminim."
+  }
+}

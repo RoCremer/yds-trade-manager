@@ -1,0 +1,122 @@
+{
+  "progress-bar": {
+    "working": "工作中……",
+    "still-working": "仍在工作……"
+  },
+  "modals": {
+    "link-to-transaction": "链接到交易",
+    "transaction-approving-title": "正在等待确认",
+    "transaction-approving-description": "请确认或拒绝您的交易。",
+    "transaction-pending-title": "交易正在处理中......",
+    "transaction-pending-description": "请等待，您的交易正在处理中......",
+    "transaction-finished-title": "成功！",
+    "transaction-finished-description": "您的交易已处理完毕。",
+    "transaction-failed-title": "失败",
+    "transaction-failed-description": "您的交易无法处理。",
+    "transaction-long-title": "交易仍在处理中",
+    "transaction-long-description": "您的交易仍在处理中。"
+  },
+  "follow-set-modal": {
+    "success": "成功！",
+    "success-description": "您已成功添加电子邮件",
+    "finish": "完成",
+    "please-verify": "请验证您的电子邮件",
+    "add-your-email": "添加邮件，接收通知",
+    "add-your-email-description": "关注{{setName}}需要您的电子邮件用于通知。"
+  },
+  "email-signup-modal": {
+    "success": "您已成功添加电子邮件",
+    "please-verify": "请验证您的电子邮件",
+    "add-your-email": "添加您的电子邮件",
+    "get-alerts": "获取有关 TokenSet 事件的警报。",
+    "hidden-from-public": "您的电子邮件将不会公开。",
+    "rebalances-label": "再平衡",
+    "new-products-and-features": "新产品和功能",
+    "portfolio-performance-updates": "投资组合业绩更新",
+    "enter-your-email": "输入您的电子邮件"
+  },
+  "set-table": {
+    "number-of-sets": "Set 的数量",
+    "traded-tokens": "交易代币",
+    "1-day": "1天",
+    "1-week": "1周",
+    "1-month": "1个月",
+    "3-month": "3个月",
+    "since-inception": "自成立以来",
+    "load-sets-error": "好吧，这有点尴尬...",
+    "load-sets-error-description": "让我们再次尝试加载这些组合！",
+    "explore-more-sets": "探索更多组合",
+    "no-filtered-sets": "过滤后无可用的 set 结果。",
+    "no-filtered-sets-description": "您选择的过滤标准无匹配 set。"
+  },
+  "toasts": {
+    "standard": {
+      "email-updated": "已成功更新电子邮箱！",
+      "logged-out": "您已成功注销。",
+      "accepted-terms-of-service": "感谢您接受我们的服务条款和隐私政策！",
+      "followed-set": "在 {{setName}} 再平衡时，您会收到邮件提醒。",
+      "unfollowed-set": "{{setName}}平衡调整时，您将不再收到通知。",
+      "onboarding-eth-received": "{{ethQuantity}} ETH 成功接收。"
+    },
+    "errors": {
+      "transaction-not-submitted": "交易未提交。",
+      "accept-terms-of-service-failed": "您接受我们的服务条款无法记录。请重试。",
+      "set-not-available": "该组合不可用。",
+      "could-not-follow-set": "关注此 set 时出错。请稍后再试。",
+      "could-not-unfollow-set": "取消关注此 set 时出错。请稍后再试。",
+      "check-ethereum-main-net-connection": "未发现合约地址。请确保您与以太坊主网络的连接无误。",
+      "approve-long": "您的 {{tokenName}} 审批仍在等待。请在 etherscan 上监控您的交易，或者再试一次。"
+    }
+  },
+  "allocation-change": {
+    "previous": "往前",
+    "next": "下一个"
+  },
+  "select-language-modal": {
+    "choose-a-language": "选择语言"
+  },
+  "wallet-token-selector": {
+    "bidding-with-token": "与{{tokenName}}竞标",
+    "receiving-token": "接收 {{tokenName}}",
+    "auto-convert-into-ctoken": "您的代币将使用{{compoundExchangeRate}}的复合汇率自动转换为c {{tokenName}}。",
+    "auto-convert-into-underlying": "您的代币将自动转化为{{tokenName}} ，用的是 Compound 汇率 {{compoundExchangeRate}}。"
+  },
+  "rich-text-editor": {
+    "add-link-url-placeholder": "在此处添加链接URL",
+    "add-link-text-placeholder": "在此处添加链接文字",
+    "add-image-url-placeholder": "在这里添加您的图像 URL"
+  },
+  "set-type-badge": {
+    "powered-by-defi-pulse": "技术支持来自 DeFi Pulse",
+    "upgrade-available": "可升级",
+    "legacy-set": "Legacy"
+  },
+  "web3": {
+    "login-success": "欢迎！您已登录。",
+    "changed-account": "您已登录一个新帐户。",
+    "create-signature-failed": "未找到账户地址。无法生成消息签名。"
+  },
+  "create-feed-post": {
+    "text-area-placeholder": "在此处更新该 Set 的关注者和持有者。",
+    "success": "成功！",
+    "success-description": "您的帖文已成功发布！",
+    "failed": "出错了",
+    "failed-description": "如果问题仍然存在，请尝试再次发布或联系团队成员。",
+    "discard-post": "废弃帖文？",
+    "discard-post-description": "离开此页会导致您的帖文作废。该操作不可撤回。"
+  },
+  "feed-post": {
+    "delete-post": "删除帖文"
+  },
+  "delete-feed-post": {
+    "title": "删除帖文？",
+    "description": "您确定要删除帖子吗？该操作不可撤回。"
+  },
+  "delete-phone-number": {
+    "title": "删除电话号码？",
+    "description": "您确定要删除电话号码吗？如果想收到再平衡的通知，必须重新手动添加。"
+  },
+  "pagination": {
+    "footer-description": "正在显示 {{totalElementCount}} {{elementType}} 的 {{startRange}} - {{endRange}}"
+  }
+}

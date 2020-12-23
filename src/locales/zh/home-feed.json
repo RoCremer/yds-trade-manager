@@ -1,0 +1,24 @@
+{
+  "general": {
+    "name": "名字",
+    "explore-sets": "探索 Set"
+  },
+  "feed": {
+    "following": "正在关注",
+    "discover": "探索",
+    "feed-end": "您已到达末尾！"
+  },
+  "account": {
+    "my-account": "我的账户",
+    "set-balance": "Set 余额",
+    "eth-balance": "ETH 余额",
+    "percent-change": "1 天的变化",
+    "view-account": "查看账户",
+    "no-sets": "欢迎来到 TokenSets。您可以从探索下方的 Set 开始。"
+  },
+  "explore": {
+    "social-trading-sets": "社交交易 Set",
+    "robo-sets": "Robo Sets",
+    "percent-change": "1 个月的变化"
+  }
+}

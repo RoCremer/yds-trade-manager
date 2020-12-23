@@ -1,0 +1,43 @@
+{
+  "buttons": {
+    "start": "Apruebe su {{tokenSymbol}} para comerciar",
+    "pending": "Su {{tokenSymbol}} se está aprobando.",
+    "submit": "Enviar {{buyOrSell}}"
+  },
+  "order-summary": {
+    "title": "Confirmar orden de {{buyOrSell}}",
+    "name": "Nombre",
+    "amount": "Cantidad",
+    "value": "Valor",
+    "from": "De",
+    "to": "Para",
+    "token-sets-fee": "Tarifa de TokenSets",
+    "network-fee": "Tarifa de red",
+    "slippage": "Desfasaje de precio",
+    "total-cost": "Costo total",
+    "order-total": "{{tokenQuantity}} {{tokenSymbol}} + tarifas",
+    "slippage-warning": "Advertencia: Esta operación se ejecutará con un desfasaje de precio de aproximadamente {{slippage}}. Si tiene cantidades de {{buyOrSell}} de {{tokenName}} mayores que $50,000 USD, debe",
+    "contact-us": "comunicarse con un miembro del equipo para recibir asistencia."
+  },
+  "modals": {
+    "pending-title": "Su orden de {{buyOrSell}} se está procesando.",
+    "completed-title": "Su orden de {{buyOrSell}} se completó.",
+    "completed-description": "Puede revisar su transacción a continuación y ver su saldo en la página de su cuenta en breve.",
+    "long-title": "Su orden de {{buyOrSell}} se está procesando aún.",
+    "long-description": "Supervise su transacción utilizando el enlace a continuación o inténtelo de nuevo.",
+    "failed-title": "No se pudo procesar su {{buyOrSell}}.",
+    "failed-description": "Su orden de {{buyOrSell}} no se pudo procesar. Revise su transacción en el enlace a continuación e inténtelo de nuevo.",
+    "imtoken-completed": "Puede seguir el progreso de su transacción en la página de su cuenta."
+  },
+  "toast": {
+    "completed": "¡Se ha enviado su transacción!"
+  },
+  "uniswap-errors": {
+    "default": "Su solicitud de {{buyOrSell}} no se pudo completar."
+  },
+  "api-errors": {
+    "insufficient-liquidity": "No hay suficiente liquidez para procesar esta orden. Comuníquese con nosotros para obtener más información",
+    "eth-gas-cost": "El costo del gas en ETH excede el valor de esta transacción.",
+    "default": "No pudimos obtener un precio de transacción para esta orden. Intente con una cantidad diferente."
+  }
+}

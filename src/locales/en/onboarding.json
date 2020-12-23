@@ -1,0 +1,39 @@
+{
+  "common": {
+    "sign-up-or-login": "Sign In"
+  },
+  "what-is-a-set": {
+    "title": "Sets are for Asset Management",
+    "subtitle": "A Set is like a digital fund that trades cryptocurrencies to help grow your wealth."
+  },
+  "set-products": {
+    "product-title": "Your Automated Portfolio",
+    "product-subtitle": "Deposit your funds into a Set, and automatically enact that portfolio's strategy."
+  },
+  "wallet-setup": {
+    "title": "Get Started",
+    "step-one-main": "Login with your favorite Ethereum Wallet",
+    "step-one-secondary": "or create one now (it's free).",
+    "step-two-main": "Send Ethereum to your wallet",
+    "step-two-secondary": "using an exchange like Coinbase or Binance.",
+    "step-three-main": "Purchase a Set",
+    "step-three-secondary": "on TokenSets.com."
+  },
+  "fund-your-wallet": {
+    "title": "Fund Your Wallet",
+    "subtitle": "ETH is used to buy and sell Sets on TokenSets",
+    "eth-address-label": "Send ETH to your wallet using this address or QR code:",
+    "hide-qr-code": "Hide QR Code",
+    "show-qr-code": "Show Address QR Code",
+    "your-wallet-balance": "Your current wallet balance is",
+    "add-more-funds-later": "You can add more ETH later on your Account page"
+  },
+  "finish-onboarding": {
+    "title": "Pick your strategy",
+    "buying-a-set": "Any money deposited into a Set will be used to automatically execute the strategy you choose.",
+    "selling-a-set": "Sell your Set to claim your deposit plus or minus any gains or losses your Set makes.",
+    "top-robo-sets": "Robo Sets",
+    "top-social-sets": "Social Trader Sets",
+    "explore-more-sets": "Explore Sets"
+  }
+}

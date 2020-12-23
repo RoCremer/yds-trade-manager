@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "edit-profile": "プロフィールを編集",
+    "see-less": "少なく表示する",
+    "see-more": "もっと見る"
+  },
+  "trader-profile": {
+    "feed-tab": "フィード",
+    "sets-tab": "セット"
+  },
+  "managed-sets": {
+    "rebalance": "リバランス",
+    "edit-details": "詳細を編集する",
+    "fee-controls": "手数料を調整"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "explore-auctions": {
+    "title": "リバランスオークション",
+    "description": "Setリバランスオークションを見て参加する",
+    "rebalance-notifications": "通知のリバランス"
+  },
+
+  "auction-header": {
+    "now": "今",
+    "explore-rebalances": "リバランスを見る",
+    "rebalance-auction-for": "のためのリバランスオークション",
+    "current-auction-price": "現在のオークション価格",
+    "estimated-time-to-fair-value": "公正価格までの時間(米国東部標準時間)",
+    "progress": "進行状況",
+    "remaining-shares": "残りのシェア",
+    "percent-to-fair-value": "公正価値に対する割合",
+    "auction-size": "オークションサイズ",
+    "current-auction-chunk": "現在のオークションチャンク",
+    "current-auction-progress": "現在のオークションの進行状況",
+    "total-auction-size": "トータルのアクションサイズ"
+  },
+  
+  "rebalances-table": {
+    "rebalance-timer": "タイマーを見直す",
+    "rebalancing-criteria": "リバランス条件",
+    "status": "ステータス"
+  },
+
+  "auction-bid-form": {
+    "auction-starting-soon": "リバランスオークションはまもなく開始されます。",
+    "supply": "供給",
+    "amount-to-supply": "供給量",
+    "receive": "受け取り",
+    "shares": "シェア",
+    "amount-to-receive": "受け取り数",
+    "enter-shares": "シェア数を入力する",
+    "login-to-participate": "参加のためログイン",
+    "place-bid": "入札する",
+    "net-profit-and-loss": "合計損益",
+    "transaction-bid-error": "トランザクションが送信されていません",
+    "bid-approval-failed": "{{tokenName}}は入札のため承認されていません"
+  },
+
+  "live-bids-table": {
+    "bid-incoming": "入札中...",
+    "size": "サイズ",
+    "time": "時間",
+    "no-bids-yet": "入札はありません"
+  },
+
+  "tooltips": {
+    "remaining-shares": "残りのシェア",
+    "remaining-shares-description": "オークションに残っている発行済みシェア数。各シェアは、残りのオークションで交換できるトークンの数を表します。\n ",
+    "current-auction-price": "現在のオークション価格",
+    "current-auction-price-description": "取引されている資産の現在の価格。 cTokenリバランスの場合、現在の価格は原資産を反映しています。\n ",
+    "estimated-time-fair-value": "フェア価格までの時間(米国東部標準時間)",
+    "estimated-time-fair-value-description": "トークン供給の損益から受け取ったトークンの価値を引いた値が、正の値になるまでの推定所要時間\n ",
+    "progress": "進行状況",
+    "progress-description": "トレードオフされたシェア数に基づくオークションの進行状況。進行状況が100％に達すると、オークションは終了します。",
+    "shares": "シェア",
+    "shares-description": "シェアは、入札で提供および受信されるトークンの数を表します。リバランスが進むと、受け取るトークンの数と提供するトークンの数の比率が高くなり、シェアの入札がより魅力的になります。",
+    "percentage-fair-value": "公正価値に対する割合",
+    "percentage-fair-value-description": "公正価値に対するパーセンテージは、CryptoCompareの価格フィードで調整された現在のオークション価格であり、参加者がオークションで獲得できるスプレッドの見積もりを提供します。",
+    "live-bids": "有効な入札",
+    "live-bids-description": "CryptoCompareから提供された価格データを使用して、オークション参加者から最後に確認された入札を表示します。\n ",
+    "market-cap": "時価総額",
+    "market-cap-description": "このSetの発行に現在使われてるUSD建ての合計金額 ",
+    "auction-size": "オークションサイズ",
+    "auction-size-description": "オークションサイズは、{{marketCap}} 時価総額のうちいくらがリバランスされているかを意味します。",
+    "current-auction-chunk": "現在のオークションチャンク",
+    "current-auction-chunk-description": "現在のオークションチャンクでリバランスされる数量。",
+    "current-auction-progress": "現在のオークションの進行状況",
+    "current-auction-progress-description": "売却済みの株式数に基づくリバランスの進捗状況。進行状況が100％に達すると、このリバランスのチャンクは完了です。",
+    "total-auction-size": "トータルのアクションサイズ",
+    "total-auction-size-description": "全オークションチャンク間でリバランスされる合計金額。"
+  },
+
+  "inactive-auction": {
+    "title": "このSetは現在リバランス中ではありません",
+    "description": "このSetをフォローし、リバランスされたときにメール通知を受け取ります。",
+    "conditions": "次のリバランスまでの条件"
+  },
+
+  "initial-confirmation": {
+    "crossover-detected": "クロスオーバーが検出されました。",
+    "confirmation-period": "確認期間",
+    "confirmation-period-description": "リバランス・シグナルを確認するのに必要な時間。誤検知信号を減らすのに役立ちます。",
+    "confirmation-window": "確認ウィンドウ",
+    "confirmation-window-description": "リバランス・シグナルを確認するための{{confirmationWindow}}時間枠"
+  },
+
+  "rebalance-proposal": {
+    "ready": "準備完了",
+    "rebalance-proposed": "提案されたリバランス",
+    "time-until-rebalance": "リバランスまでの時間"
+  },
+
+  "transaction-history": {
+    "my-bid-transactions": "入札トランザクション",
+    "no-bid-transactions": "表示できる入札トランザクションはありません"
+  },
+
+  "auction-description": {
+    "title": "リバランスの仕組み",
+    "description-1": "Set Rebalancerへようこそ。リバランスとは、セット内のトークンのウェイトをセットのターゲットウェイトに再調整するプロセスです。",
+    "description-2": "リバランスに参加するには、担保不足のトークンをSetに提供し、代わりに担保付きのトークンを受け取ります。オークション中に入札する場合、供給と受け取りが同じトランザクションで行われます。あなたの資金はオークションでロックされることはありません。",
+    "learn-more": "リバランスの詳細をご覧ください。"
+  }
+}

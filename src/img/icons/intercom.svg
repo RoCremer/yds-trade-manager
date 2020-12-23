@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="77px" viewBox="0 0 78 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Intercom</title>
+    <desc>Created with Sketch.</desc>
+    <g id="📦-MVP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs" transform="translate(-877.000000, -2111.000000)">
+            <g id="Telegram-Card" transform="translate(729.000000, 2044.000000)">
+                <g id="Intercom" transform="translate(148.732991, 67.004667)">
+                    <circle id="Oval" fill="#2D2CE5" cx="38.3446726" cy="38.3446726" r="38.3446726"></circle>
+                    <rect id="Rectangle" fill="#FFFFFF" x="20.2670089" y="17.9953328" width="36" height="36" rx="4"></rect>
+                    <polygon id="Path-2" fill="#FFFFFF" points="56.2670089 58.9953328 56.2670089 47.4953328 29.7670089 47.4953328"></polygon>
+                    <path d="M26.2670089,44.4953328 C30.2670089,47.1619995 34.2670089,48.4953328 38.2670089,48.4953328 C42.2670089,48.4953328 46.4336756,47.1619995 50.7670089,44.4953328" id="Path-3" stroke="#2D2CE5" stroke-width="2.5" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

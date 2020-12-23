@@ -1,0 +1,55 @@
+{
+  "login-modal": {
+    "sign-in": "Войдите или зарегистрируйтесь",
+    "sign-up": "Регистрация",
+    "view-other-options": "Посмотреть другие варианты",
+    "hide-other-options": "Скрыть другие параметры",
+    "alternate-sign-in": "или зайдите с помощью",
+    "alternate-sign-up": "или зарегистрируйтесь с помощью",
+    "no-account-prompt": "Еще не зарегистрированы?",
+    "terms-and-conditions": "Регистрируясь на TokenSets, я принимаю {{termsAndConditions}} и {{privacyPolicy}}",
+    "brave-metamask-warning": {
+      "title": "Brave + Metamask",
+      "description": "Для того чтобы использовать Brave с MetaMask, убедитесь, что в вашем браузере Brave выключен «Криптокошелек». Перейдите в <b> Настройки> Расширения> Криптокошелек> Выкл. </b>",
+      "learn-more": "Возможно, вам потребуется перезапустить браузер, если вы обновляете эту установку в первый раз.{{learnMore}}"
+    },
+    "ledger-warning": {
+      "title": "Используете регистр?",
+      "description": "MetaMask с регистром сейчас не поддерживаются из-за несовместимости с несколькими браузерами. Мы рекомендуем перевести ваши средства на ваш счет MetaMask и использовать MetaMask без подключения его к вашему реестру."
+    },
+    "ledger-choose-your-address": "Выберите ваш адрес",
+    "ledger-please-unlock": "Пожалуйста, разблокируйте ваш Ledger",
+    "ledger-initial-load": "Проверяем, разблокирован ли Ledger...",
+    "ledger-step-one": "Разблокируйте Legder при помощи код-пароля.",
+    "ledger-step-two": "Перейдите в приложение Ethereum в вашем Ledger."
+  },
+  "login-modal-options": {
+    "download-here": "Скачайте здесь",
+
+    "fortmatic": "Использовать телефона",
+    "fortmatic-pending": "Продолжайте вход с помощью своего телефона.",
+    "fortmatic-email-pending": "Пожалуйста, продолжайте, следуя инструкциям в письме.",
+
+    "ledger": "Использовать Ledger",
+    "ledger-pending": "Вход с помощью вашего Ledger",
+
+    "metamask": "Использовать MetaMask",
+    "metamask-download": "Скачать MetaMask",
+    "metamask-pending": "Пожалуйста, проверьте свое расширение, чтобы продолжить авторизацию.",
+
+    "metamask-mobile": "MetaMask Mobile",
+    "metamask-mobile-pending": "Продолжайте вход с помощью своего телефона.",
+
+    "coinbase-wallet": "Кошелек Coinbase",
+
+    "trust-wallet": "Трастовый кошелек",
+
+    "imtoken": "imToken",
+    "imtoken-pending": "Продолжите вход с помощью своего телефона.",
+
+    "opera-wallet": "Кошелек Opera",
+    "opera-wallet-pending": "Проверьте свой браузер для продолжения регистрации.",
+
+    "wallet-link": "Кошелек Coinbase (используя ссылку на кошелек)"
+  }
+}

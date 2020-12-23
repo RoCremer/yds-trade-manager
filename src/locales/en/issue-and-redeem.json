@@ -1,0 +1,69 @@
+{
+  "approval-status": {
+    "unstarted": "REQUIRES APPROVAL",
+    "pending": "APPROVAL PENDING",
+    "approved": "APPROVED!"
+  },
+  "issue-approve": {
+    "title": "We need your approval for each token.",
+    "description": "For your security, you'll need to give your tokens issuing permissions to use the Set smart contract. This only approves your tokens for issuing and does not send any tokens. To continue, click 'Approve All', and accept each token approval."
+  },
+  "issue-form": {
+    "title": "Please enter the amount of {{tokenSymbol}} sets you would like to issue.",
+    "description": "For your security, you'll need to give your tokens issuing permissions to use the Set smart contract. This only approves your tokens for issuing and does not send any tokens. To continue, click 'Approve All', and accept each token approval.",
+    "error-title": "You do not have enough tokens to issue.",
+    "error-description": "If you would like to issue {{setName}}, you will need to obtain the above required tokens from an exchange."
+  },
+  "issue-modals": {
+    "pending-title": "We're issuing your tokens",
+    "pending-description": "Your newly issued {{tokenName}} tokens will be ready to view, trade and withdraw from your wallet soon.",
+    "long-title": "Your {{tokenName}} Tokens Are Still Being Issued",
+    "long-description": "Please monitor your transaction using the link below, or try again.",
+    "completed-title": "Success!",
+    "completed-description": "Your {{tokenName}} tokens have been issued.",
+    "failed-title": "Something Went Wrong",
+    "failed-description": "The {{tokenName}} tokens could not be issued. Please review what went wrong in the link below and try again."
+  },
+  "issue-action": {
+    "component-fetch-failed": "An error occurred while retrieving the necessary issuance components. Please reload the page and try again.",
+    "issuance-failed": "Your issuance request could not be completed. Please try again."
+  },
+  "redeem-approve": {
+    "title": "Please give an approval to redeem your Set.",
+    "description": "For your security, you'll need to give your Set redeeming permissions to use the Set smart contract. This only approves your token for redeeming and does not send any tokens. To continue, click 'Approve', and accept the approval transaction."
+  },
+  "redeem-form": {
+    "title": "Redeem {{tokenName}}",
+    "description": "Please enter the amount of {{tokenSymbol}} sets you would like to redeem.",
+    "your-balance": "Your {{tokenSymbol}} Balance",
+    "error-title": "You do not have enough Sets to redeem.",
+    "error-description": "If you would like to redeem {{tokenName}}, you will need to obtain more {{tokenName}}."
+  },
+  "redeem-modals": {
+    "pending-title": "We're redeeming your tokens",
+    "pending-description": "Your redeemed {{tokenName}} tokens will be ready to view, trade and withdraw from your wallet soon.",
+    "long-title": "Your {{tokenName}} Tokens Are Still Being Redeemed",
+    "long-description": "Please monitor your transaction using the link below, or try again.",
+    "completed-title": "Success!",
+    "completed-description": "Your {{tokenName}} tokens have been redeemed.",
+    "failed-title": "Something Went Wrong",
+    "failed-description": "Your {{tokenName}} tokens could not be redeemed. Please review what went wrong in the link below and try again."
+  },
+  "redeem-action": {
+    "component-fetch-failed": "An error occurred while retrieving the necessary redemption information. Please reload the page and try again.",
+    "redeem-failed": "Your redemption request could not be completed. Please try again."
+  },
+  "table": {
+    "token": "TOKEN",
+    "amount-required": "AMOUNT REQUIRED",
+    "your-balance": "YOUR BALANCE",
+    "amount-per-set": "AMOUNT PER SET",
+    "receive": "RECEIVE"
+  },
+  "buttons": {
+    "approve-all": "Approve All",
+    "approve": "Approve",
+    "issue": "Issue",
+    "redeem": "Redeem"
+  }
+}

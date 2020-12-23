@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="25px" viewBox="0 0 42 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 42</title>
+    <desc>Created with Sketch.</desc>
+    <g id="⚖️-V1.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page---Version-2" transform="translate(-791.000000, -5300.000000)">
+            <g id="Explore-Sets" transform="translate(129.500000, 4944.000000)">
+                <g id="Exchange-Button" transform="translate(628.750000, 315.000000)">
+                    <g id="Group-42" transform="translate(32.750000, 41.558594)">
+                        <g id="Buy-And-Hold-Token" transform="translate(18.000000, 0.000000)">
+                            <ellipse id="Oval" fill="#1D144F" cx="12" cy="12.0585366" rx="12" ry="11.7073171"></ellipse>
+                            <path d="M12,23.7658537 C18.627417,23.7658537 24,18.5243093 24,12.0585366 C24,5.5927639 18.627417,0.351219512 12,0.351219512 C11.9765148,0.351219512 12.0153779,23.7658537 12,23.7658537 Z" id="Oval-Copy-2" fill="#13AAE0"></path>
+                            <g id="Group-Copy-2" stroke-width="1" transform="translate(12.195088, 11.930380) rotate(-270.000000) translate(-12.195088, -11.930380) translate(-0.104912, 0.223063)"></g>
+                        </g>
+                        <g id="Buy-the-Dip-Token">
+                            <ellipse id="Oval" fill="#6E2001" cx="12" cy="12.0585366" rx="12" ry="11.7073171"></ellipse>
+                            <path d="M12,23.7658537 C18.627417,23.7658537 24,18.5243093 24,12.0585366 C24,5.5927639 18.627417,0.351219512 12,0.351219512 C12,0.351219512 12,23.7658537 12,23.7658537 Z" id="Oval-Copy-2" fill="#EDA600"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

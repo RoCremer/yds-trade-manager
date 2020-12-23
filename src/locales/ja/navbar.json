@@ -1,0 +1,36 @@
+{
+  "home": "ホーム",
+  "resources": {
+    "resources": "リソース",
+    "faq": "FAQ",
+    "help-center": "ヘルプセンター",
+    "blog": "ブログ",
+    "developers": "開発者",
+    "press": "プレス",
+    "integrations": "統合"
+  },
+  "company": {
+    "company": "企業",
+    "about": "About",
+    "careers": "採用"
+  },
+  "rebalances": {
+    "rebalances": "リバランス"
+  },
+  "account": {
+    "account": "アカウント",
+    "trader-profile": "トレーダープロフィール",
+    "my-account": "マイアカウント",
+    "settings": "設定",
+    "sign-out": "サインアウト"
+  },
+  "explore-sets": "セットを見る",
+  "sign-in": "サインイン",
+  "sign-up": "サインアップ",
+  "social-trader": {
+    "social-trader": "ソーシャルトレーダー",
+    "leaderboard": "トレーダーリーダーボード",
+    "introducing-social": "ソーシャルトレーダーの開始",
+    "become-a-trader": "トレーダーになる"
+  }
+}

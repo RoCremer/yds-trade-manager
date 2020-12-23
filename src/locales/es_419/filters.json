@@ -1,0 +1,17 @@
+{
+  "labels": {
+    "filter-by": "Filtrar por",
+    "assets": "Activos",
+    "interest": "Interés",
+    "sentiment": "Tendencia Esperada"
+  },
+  "filter-type": {
+    "interest-bearing": "Rinde Interés",
+    "non-interest-bearing": "No Rinde Interés",
+    "very-bullish": "Muy Positiva",
+    "bullish": "Positiva",
+    "neutral": "Neutral",
+    "bearish": "Negativa",
+    "very-bearish": "Muy Negativa"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "common": {
+    "sign-up-or-login": "サインアップorログイン"
+  },
+  "what-is-a-set": {
+    "title": "セットはアセットマネジメントのためです",
+    "subtitle": "セットは、あなたの資産の成長に役立つ暗号通貨のデジタルファンドのようなものです。"
+  },
+  "set-products": {
+    "robo-title": "ロボットセット",
+    "robo-subtitle": "自動売買アルゴリズムを使用してポートフォリオを管理します。",
+    "social-title": "ソーシャルトレーダーセット",
+    "social-subtitle": "世界をリードするクリプトトレーダーからの戦略をコピーします。"
+  },
+  "wallet-setup": {
+    "title": "始める",
+    "step-one-main": "お気に入りのEthereumウォレットでログイン",
+    "step-one-secondary": "or 新しく作る（無料）",
+    "step-two-main": "ウォレットにEthereumを送る",
+    "step-two-secondary": "CoinbaseやBinanceのような取引所を使う",
+    "step-three-main": "セットを買う",
+    "step-three-secondary": "TokenSets.com上で"
+  },
+  "fund-your-wallet": {
+    "title": "ウォレットに資金を追加する",
+    "subtitle": "ETHはTokenSets上でセットを売り買いするのに使われます。",
+    "eth-address-label": "このアドレスまたはQRコードを使って、ウォレットにETHを送信します。",
+    "hide-qr-code": "QRコードを隠す",
+    "show-qr-code": "QRコードを表示する",
+    "your-wallet-balance": "現在のウォレットの残高は",
+    "add-more-funds-later": "アカウントページから後でETHを追加することができます"
+  },
+  "finish-onboarding": {
+    "title": "あなたに合うセットを見つける",
+    "buying-a-set": "セットを購入することは、入金をするようなものです。そのお金は、自動的に暗号通貨を売買するために使用されます。",
+    "selling-a-set": "セットを売却して、利益や損失を確定する",
+    "top-robo-sets": "ロボセット",
+    "top-social-sets": "ソーシャルトレーダーセット",
+    "explore-more-sets": "セットをもっと見る"
+  }
+}

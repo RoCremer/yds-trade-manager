@@ -1,0 +1,92 @@
+{
+  "about": {
+    "intro": "Se parte del",
+    "title": "Movimiento Finanzas Abiertas",
+    "team": {
+      "intro": "Nuestro equipo",
+      "title": "Pioneros ambiciosos.",
+      "title-2": "Haciendo el trabajo que importa.",
+      "description": "Nuestro equipo es un grupo de pioneros ambiciosos, apasionados por hacer un mundo mejor a través de un sistema financiero más accesible y eficiente. Creemos en trabajar duro y jugar duro, creando productos, experiencias, relaciones y decisiones de la más alta calidad, guiados por nuestra cultura de aprendizaje continuo, autenticidad y transparencia."
+    },
+    "team-members": {
+      "felix": {
+        "role": "CEO",
+        "description": "Inversor en Turing Capital. Anteriormente en Radius y 21.co.",
+        "education": "BS de UC Berkeley"
+      },
+      "inje": {
+        "role": "CPO",
+        "description": "Anteriormente en GoDaddy y Bcoin.",
+        "education": "BFA de RISD"
+      },
+      "alex": {
+        "role": "CTO",
+        "description": "Anteriormente en Square, Caviar, Apple, y Zynga.",
+        "education": "BS de UC Berkeley"
+      },
+      "justin": {
+        "role": "Ingeniero",
+        "description": "Lead Engineer en Airbnb.",
+        "education": "MS de Stanford & BS de UC Berkeley"
+      },
+      "brian": {
+        "role": "Operaciones técnicas",
+        "description": "Ingeniero autodidacta. Anteriormente en DRW.",
+        "education": "BS de University of Chicago"
+      },
+      "richard": {
+        "role": "Operaciones de crecimiento",
+        "description": "Anteriormente consultor de gestión en PwC.",
+        "education": "BA de Northwestern University"
+      },
+      "anthony": {
+        "role": "Product Marketing Manager",
+        "description": "Cofundador de EthHub. Anteriormente trabajó en ciberseguridad."
+      },
+      "dylan": {
+        "role": "Ingeniero",
+        "description": "Anteriormente en Coins.ph y Code Chrysalis.",
+        "education": "BA de New York University"
+      },
+      "punia": {
+        "role": "Gerente de Operaciones y Estrategias",
+        "description": "Previamente inversor en Drapper Associates ",
+        "education": "BS en UC Berkeley, Haas School of Business"
+      }
+    },
+    "hiring": {
+      "intro": "Únete",
+      "title": "Estamos contratando",
+      "description": "Estamos buscando tecnólogos y operadores sobresalientes que nos ayuden a construir el futuro de Set.",
+      "description-2": "¿Estás interesado en unirte?",
+      "view-open-positions": "Ver posiciones abiertas"
+    },
+    "advisors": "Consejeros",
+    "advisor-members": {
+      "paul": {
+        "description": "Socio en Pantera Capital"
+      },
+      "steve": {
+        "description": "Fundador y Director Gerente de Kindred Ventures"
+      }
+    },
+    "investors": "Inversores"
+  },
+
+  "careers": {
+    "intro": "Únete",
+    "title": "Encuentra tu lugar en Set",
+    "vision": "Nuestra visión",
+    "vision-description": "Estamos creando las bases para que florezca el sistema financiero abierto. Estamos creando herramientas que permiten a los desarrolladores, gestores de fondos e inversores interactuar con composiciones cripto que son más valiosas que sus partes individuales.",
+    "who-we-are": "Quiénes somos",
+    "who-we-are-description": "Somos un equipo apasionado de gente que sube la bara en todo lo que hace. Creemos en trabajar duro y jugar duro y crear productos significativos que tengan un impacto positivo en la vida de las personas.",
+    "open-positions": "Posiciones abiertas",
+    "apply": "Postularse",
+    "jobs": {
+      "backend-engineer": "Ingeniero de Back-End"
+    },
+    "locations": {
+      "san-francisco": "San Francisco"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "labels": {
+    "filter-by": "Фильтровать по",
+    "assets": "Активы",
+    "interest": "Проценты",
+    "sentiment": "Динамика"
+  },
+  "filter-type": {
+    "interest-bearing": "Процентный",
+    "non-interest-bearing": "Беспроцентный",
+    "very-bullish": "Сильно повышенный",
+    "bullish": "Повышенный",
+    "neutral": "Нейтральный",
+    "bearish": "Пониженный",
+    "very-bearish": "Сильно пониженный"
+  }
+}

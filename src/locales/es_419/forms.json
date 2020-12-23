@@ -1,0 +1,69 @@
+{
+  "trader-profile": {
+    "title": "Editar Perfil",
+    "username": "Usuario",
+    "first-name": "Nombre",
+    "last-name": "Apellido",
+    "bio": "Bio",
+    "ethereum-address": "Dirección de Ethereum",
+    "website": "Sitio Web",
+    "twitter-handle": "Usuario de Twitter",
+    "submit": "Enviar",
+    "update-success": "Tu perfil de trader ha sido actualizado con éxito!",
+    "update-failed": "Tu solicitud para actualizar su Perfil de Trader ha fallado",
+    "username-taken": "Actualización fallida: Usuario {{username}} no está disponible",
+    "invalid-signature": "Actualización fallida: firma no válida"
+  },
+  "rebalance-manager": {
+    "choose-next-allocation": "Elige la próxima distribución para tu pool de trading",
+    "post-title": "Escribe un posteo describiendo tus ideas detrás del trade",
+    "post-description": "Esto será posteado luego de que el rebalanceo sea correctamente iniciado, junto con un correo electrónico a tus seguidores luego de que el rebalanceo finalice",
+    "enter-a-description": "Ingresa una descripción",
+    "learn-more": "Más información",
+
+    "rebalance-pending": "La iniciación de tu rebalanceo está pendiente...",
+    "rebalance-pending-description": "Por favor mantente en esta página hasta que la transacción se haya procesado",
+
+    "long-confirmation": "Tu rebalanceo todavía está pendiente de confirmación",
+    "long-confirmation-description": "Tu rebalanceo comenzará una vez que su transacción se haya minado.  Usted puede monitorear el progreso de su transacción en Etherscan desde la página de Su Cuenta",
+
+    "successful-rebalance": "Rebalanceo Iniciado!",
+    "successful-rebalance-description": "Tu rebalanceo ha comenzado y finalizará con la nueva distribución dentro de las próximas 4 horas ",
+
+    "rebalance-failed": "La Inicialización de su Rebalanceo ha Fallado",
+    "rebalance-failed-description": "Tu transacción para iniciar el rebalanceo ha fallado.  Por favor selecciona una tarifa de gas más alta o inténtalo más tarde",
+
+    "currently-rebalancing": "Este set se está rebalanceando",
+    "view-auction": "Ver Subasta",
+    "etherscan-link": "Tu link para Etherscan",
+
+    "enable-twap": "Habilitar TWAP (Precio promedio ponderado por tiempo)",
+    "enabling-twap": "Habilitando TWAP (Precio promedio ponderado por tiempo) ",
+    "confirming-twap": "confirmando TWAP (Precio promedio ponderado por tiempo)"
+  },
+  "update-set-details": {
+    "title": "Editar Set",
+    "set-symbol": "Símbolo del Set",
+    "set-name": "Nombre del Set",
+    "owner-address": "Dirección del Propietario",
+    "set-address": "Dirección del Set",
+    "set-description": "Descripción del Set",
+    "update-successful": "Tu Set se ha actualizado con éxito!",
+    "update-failed": "Tu solicitud de actualización de los detalles del set ha fallado"
+  },
+  "send-tokens": {
+    "send-tokens": "Enviar Tokens",
+    "max-eth-error": "Tu cuenta no cuenta con los ETH suficientes para completar esta transferencia.  Presiona el botón \"Max\" para ver el monto máximo de ETH que puedes transferir, menos las comisiones por el uso de la red Ethereum",
+    "max-token-error": "Tu cuenta no contiene el monto suficiente de {{tokenSymbol}} para completar esta transferencia.",
+    "gas-error": "u cuenta no cuenta con los ETH suficientes para completar esta transferencia.  Se requieren al menos {{gasFee}} ETH para completar esta transferencia.",
+    "preview-send": "Previsualizar envío",
+    "send-confirmation": "Confirmación de envío",
+    "send-amount": "Monto a enviar",
+    "remaining-balance-after-transfer": "Nuevo saldo luego de la transferencia ",
+    "to-address": "A",
+    "ethereum-network-fees": "Comisiones de la Red Ethereum",
+    "disclaimer": "Entiendo que el envío de mis Sets a Coinbase, Binance, y otros exchanges ",
+    "disclaimer-2": "implica la pérdida de mis fondos, ya que estos sitios no soportan la transferencia de tokens ERC-20",
+    "disclaimer-3": "He verificado y asegurado que la dirección a la que estoy enviando mis Tokens acepta los tipos de tokens que estoy transfiriendo"
+  }
+}

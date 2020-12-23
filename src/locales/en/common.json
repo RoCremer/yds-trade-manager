@@ -1,0 +1,75 @@
+{
+  "general": {
+    "token-sets": "TokenSets",
+    "token": "Token",
+    "set": "Set",
+    "sets": "Sets",
+    "coins": "Coins",
+    "portfolios": "Portfolios",
+    "amount": "Amount",
+    "value": "Value",
+    "balance": "Balance",
+    "address": "Address",
+    "ethereum-address": "Ethereum Address"
+  },
+  "buttons": {
+    "send": "Send",
+    "buy": "Buy",
+    "sell": "Sell",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "update": "Update",
+    "retry": "Retry",
+    "back": "Back",
+    "next": "Next",
+    "skip": "Skip",
+    "save": "Save",
+    "try-again": "Try Again",
+    "close": "Close",
+    "post": "Post",
+    "continue": "Continue",
+    "finish": "Finish",
+    "not-now": "Not now",
+    "dont-show-again": "Don’t show again",
+    "delete": "Delete",
+    "discard": "Discard"
+  },
+  "sets": {
+    "name": "Name",
+    "price": "Price",
+    "fee": "Fee",
+    "buy-fee": "Buy Fee",
+    "performance-fee": "Performance Fee",
+    "streaming-fee": "Streaming Fee",
+    "apr": "APR",
+    "market-cap": "Market Cap",
+    "total-market-cap": "Total Market Cap",
+    "inception": "Inception Date",
+    "trade-count": "Number of Trades",
+    "drawdown": "Max Drawdown",
+    "rebalance": "Rebalance",
+    "trader": "Trader",
+    "strategy": "Strategy",
+    "set-holders": "Set Holders",
+    "explore-all-sets": "Explore All Sets",
+    "featured-sets": "Featured Sets"
+  },
+  "time": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "ledger": {
+    "sign-message": "Please check your Ledger device to sign a message to confirm this action.",
+    "error-message": "There was an error with your Ledger wallet. Please follow {{instructions}} to fix the issue."
+  },
+  "errors": {
+    "input-a-valid-email": "Please enter a valid email.",
+    "something-went-wrong": "Something went wrong. Please try again later.",
+    "404-page-description": "We can’t find the page you’re looking for.",
+    "back-to-home": "Back to Home",
+    "unlock-ledger": "Something went wrong. Please make sure your Ledger is unlocked and try again."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "approval-status": {
+    "unstarted": "REQUIERE APROBACIÓN",
+    "pending": "APROBACIÓN PENDIENTE",
+    "approved": "¡APROBADO!"
+  },
+  "issue-approve": {
+    "title": "Necesitamos su aprobación para cada token.",
+    "description": "Por su seguridad, deberá otorgar permisos de emisión de tokens para usar el contrato inteligente de Set. Esto solo aprueba la emisión de sus tokens y no envía ningún token. Para continuar, haga clic en \"Aprobar todos\" y acepte la aprobación de cada token."
+  },
+  "issue-form": {
+    "title": "Introduzca la cantidad de {{tokenSymbol}} sets que le gustaría emitir.",
+    "description": "Por su seguridad, deberá otorgar permisos de emisión de tokens para usar el contrato inteligente de Set. Esto solo aprueba la emisión de sus tokens y no envía ningún token. Para continuar, haga clic en \"Aprobar todos\" y acepte la aprobación de cada token.",
+    "error-title": "No tiene tokens suficientes para emitir.",
+    "error-description": "Si le gustaría emitir {{setName}}, deberá obtener los tokens requeridos anteriormente de un intercambio."
+  },
+  "issue-modals": {
+    "pending-title": "Estamos emitiendo sus tokens.",
+    "pending-description": "Sus tokens {{tokenName}} emitidos recientemente estarán listos pronto para su visualización, intercambio y retiro de su billetera.",
+    "long-title": "Sus tokens {{tokenName}} se están emitiendo aún.",
+    "long-description": "Supervise su transacción utilizando el enlace a continuación o inténtelo de nuevo.",
+    "completed-title": "¡Se completó con éxito!",
+    "completed-description": "Sus tokens {{tokenName}} se han emitido.",
+    "failed-title": "Algo salió mal",
+    "failed-description": "Los tokens {{tokenName}} no se pudieron emitir. Revise qué salió mal en el enlace de abajo e inténtelo de nuevo."
+  },
+  "issue-action": {
+    "component-fetch-failed": "Se produjo un error al recuperar los componentes de emisión necesarios. Cargue la página otra vez e inténtelo de nuevo.",
+    "issuance-failed": "No se pudo completar su solicitud de emisión. Inténtelo de nuevo."
+  },
+  "redeem-approve": {
+    "title": "Otorgue aprobación para canjear su Set.",
+    "description": "Por su seguridad, deberá otorgar permisos de canje de Set para usar el contrato inteligente de Set. Esto solo aprueba el canje de sus tokens y no envía ningún token. Para continuar, haga clic en \"Aprobar\" y acepte la transacción de aprobación."
+  },
+  "redeem-form": {
+    "title": "Canjear {{tokenName}}",
+    "description": "Introduzca la cantidad de {{tokenSymbol}} sets que le gustaría canjear.",
+    "your-balance": "Su saldo de {{tokenSymbol}}",
+    "error-title": "No tiene Sets suficientes para canjear.",
+    "error-description": "Si le gustaría canjear {{{tokenName}}, deberá obtener más {{tokenName}}."
+  },
+  "redeem-modals": {
+    "pending-title": "Estamos canjeando sus tokens.",
+    "pending-description": "Sus tokens {{tokenName}} canjeados estarán listos pronto para la visualización, el intercambio y el retiro de su billetera.",
+    "long-title": "Sus tokens {{tokenName}} se están canjeando aún.",
+    "long-description": "Supervise su transacción utilizando el enlace a continuación o inténtelo de nuevo.",
+    "completed-title": "¡Se completó con éxito!",
+    "completed-description": "Sus tokens {{tokenName}} se han canjeado.",
+    "failed-title": "Algo salió mal",
+    "failed-description": "Sus tokens {{tokenName}} no se pudieron canjear. Revise qué salió mal en el enlace de abajo e inténtelo de nuevo."
+  },
+  "redeem-action": {
+    "component-fetch-failed": "Se produjo un error al recuperar la información de canje necesaria. Cargue la página otra vez e inténtelo de nuevo.",
+    "redeem-failed": "No se pudo completar su solicitud de canje. Inténtelo de nuevo."
+  },
+  "table": {
+    "token": "TOKEN",
+    "amount-required": "CANTIDAD REQUERIDA",
+    "your-balance": "SU SALDO",
+    "amount-per-set": "CANTIDAD POR SET",
+    "receive": "RECIBIR"
+  },
+  "buttons": {
+    "approve-all": "Aprobar todo",
+    "approve": "Aprobar",
+    "issue": "Emitir",
+    "redeem": "Canjear"
+  }
+}

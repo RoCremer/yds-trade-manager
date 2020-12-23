@@ -1,0 +1,92 @@
+{
+  "preview": {
+    "pay": "支付",
+    "get": "获取",
+    "your-balance": "您的资产",
+    "your-balance-description": "这是您的{{provider}}钱包余额。",
+    "max": "最高"
+  },
+  "compound-tooltip": {
+    "title": "通知",
+    "description-buy": "对于此 Set，仅允许使用该 Set 当前分配所用的货币进行购买。请前往 Compound 铸造 {{tokenName}}。",
+    "description-sell": "对于此 Set，仅允许使用该 Set 当前分配所用的货币进行出售。请前往 Compound 铸造 {{tokenName}}。"
+  },
+  "order-details": {
+    "confirm-order": "确认订单",
+    "per-set": "每组合",
+    "tokensets-fee": "TokenSets 费用",
+    "buy-fee": "购买费用",
+    "paid-to": "向谁支付",
+    "network-fee": "网费",
+    "fees": "费用",
+    "total-cost": "总花费",
+    "total-receive": "总计接收",
+    "more-order-information": "了解您的订单的更多详情",
+    "slippage": "滑点",
+    "slippage-description-buy": "这项购买交易仅需将您的ETH存入组合，而无需进行外部交易。 这导致滑移率为0％。",
+    "slippage-description-sell": "这项出售交易仅需将您的以太币从组合中撤出，而无需进行外部交易。 这导致滑移率为0％。"
+  },
+  "confirm-order-tooltip": {
+    "pricing": "定价",
+    "pricing-description": "TokenSets 通过 0x 从 Kyber Networks 的储备和更广泛的市场中吸取流动性。 组合的价格是基础组件最佳价格的总价。",
+    "platform-fees": "平台费",
+    "platform-fees-description": "TokenSets 目前对于买入 Set 不会收费",
+    "network-fee": "网费",
+    "network-fee-description": "该网络费用是执行交易的燃气费。",
+    "more-information": "链接通往更多信息"
+  },
+  "pending": {
+    "processing": "您的交易正在处理中",
+    "verifying-order": "正在验证购买订单...",
+    "approve-success": "您的{{tokenName}}已获准交易！",
+    "order-processing": "您的 {{tokenQuantity}} {{tokenName}} 订单正在处理中。"
+  },
+  "finished": {
+    "buy-intro": "您的买单",
+    "sell-intro": "您的卖单",
+    "processing": "您的交易仍在处理中",
+    "processing-description": "仍在进行中。 您可以在帐户页面中跟踪交易进度。",
+    "im-token-processing": "您的交易在处理中",
+    "im-token-processing-description": "已经完成。 您可以在帐户页面中跟踪交易进度。",
+    "tx-failed": "您以前的交易有错误",
+    "tx-failed-description": "发生错误。请检查您的账户页面，来看交易是否完成。",
+    "buy-successful": "购买订单成功！",
+    "sell-successful": "成功出售订单！",
+    "successful-description": "已成功，稍后可在您的钱包中查看。",
+    "learn-more-errors": "在常见问答中了解这些错误。",
+    "etherscan": "您的Etherscan链接"
+  },
+  "email-signup": {
+    "get-notified": "设置组合平衡调整时接收通知",
+    "get-notified-description": "当{{username}}重新调整您的{{setName}}时，接收电子邮件通知。",
+    "get-notified-description-alt": "当{{setName}}进行平衡调整时，接收电子邮件通知。",
+    "success": "成功！",
+    "success-description": "您已经成功订阅了再平衡的电邮通知。"
+  },
+  "buttons": {
+    "start": "批准{{tokenName}}进行交易",
+    "approve": "批准您的{{tokenName}}进行交易",
+    "finalize": "完成您的{{tokenName}}批准",
+    "preview-buy": "预览购买",
+    "preview-sell": "预览卖出",
+    "submit-buy": "提交买入",
+    "submit-sell": "提交出售信息",
+    "confirm": "请确认您的交易",
+    "preparing-order": "正在准备订单...",
+    "to-account": "前往我的账户",
+    "submit-email": "提交电子邮件",
+    "view-account": "查看我的账户余额"
+  },
+  "errors": {
+    "gas-required": "请添加更多的 ETH 用于 Ethereum 网络费用（gas）。您当前的 {{ethBalance}} ETH 余额必须足够支付用于 gas 的 {{gasCost}} ETH。",
+    "gas-required-with-eth": "请将您的订单调整 {{gasNeeded}} ETH，以支付 Ethereum 网络费用（gas）。",
+    "something-went-wrong": "出错了，请重试。",
+    "rates-changed": "价格已经改变。",
+    "rates-expired": "价格已过期。",
+    "rates-retry-buy": "请再次点击“提交购买”，以更新后的价格重新提交。",
+    "rates-retry-sell": "请再次点击“提交出售”以使用更新后的价格重新提交。",
+    "transaction-failed": "交易失败。请再试一次。",
+    "email-input-failed": "请输入有效的电子邮件。",
+    "email-signup-failed": "我们无法注册您的电子邮箱。请稍后再试。"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "general": {
+    "name": "Имя",
+    "explore-sets": "Просмотреть наборы"
+  },
+  "feed": {
+    "following": "Читает",
+    "discover": "Узнать",
+    "feed-end": "Вы достигли конца!"
+  },
+  "account": {
+    "my-account": "Мой аккаунт",
+    "set-balance": "Баланс набора",
+    "eth-balance": "Баланс ETH",
+    "percent-change": "Изменение 1д",
+    "view-account": "Посмотреть счет",
+    "no-sets": "Добро пожаловать в TokenSets. Вы можете начать с изучения наборов ниже."
+  },
+  "explore": {
+    "social-trading-sets": "Наборы Social Trading",
+    "robo-sets": "Робо-наборы",
+    "percent-change": "Изменение 1м"
+  }
+}

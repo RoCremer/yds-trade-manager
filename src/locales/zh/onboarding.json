@@ -1,0 +1,41 @@
+{
+  "common": {
+    "sign-up-or-login": "注册或登录"
+  },
+  "what-is-a-set": {
+    "title": "策略 (Set) 可用于资产管理",
+    "subtitle": "策略 (Set) 就像一个数字基金，通过交易加密货币来帮助您增加财富。"
+  },
+  "set-products": {
+    "robo-title": "机器人策略",
+    "robo-subtitle": "使用自动交易算法管理您的投资组合。",
+    "social-title": "社交交易策略",
+    "social-subtitle": "复制来自世界顶级加密货币交易者的策略。"
+  },
+  "wallet-setup": {
+    "title": "开始使用",
+    "step-one-main": "用您最喜欢的 Ethereum 钱包登录",
+    "step-one-secondary": "或者现在就创建一个（免费）。",
+    "step-two-main": "将 Ethereum 发送到您的钱包",
+    "step-two-secondary": "使用 Coinbase 或 Binance 之类的交易所。",
+    "step-three-main": "购买 Set",
+    "step-three-secondary": "在 TokenSets.com 上。"
+  },
+  "fund-your-wallet": {
+    "title": "为您的钱包充值",
+    "subtitle": "ETH 可用于在 TokenSets 上购买和出售策略 (Set)",
+    "eth-address-label": "通过以下地址或二维码将 ETH 发送到您的钱包：",
+    "hide-qr-code": "隐藏二维码",
+    "show-qr-code": "显示地址二维码",
+    "your-wallet-balance": "您当前的钱包余额为",
+    "add-more-funds-later": "您可以稍后在“账户”页面上添加更多 ETH"
+  },
+  "finish-onboarding": {
+    "title": "寻找适合您的组合",
+    "buying-a-set": "购买 Set 就像进行存款。这笔钱将用于自动买卖加密货币。",
+    "selling-a-set": "出售 Set 以提取您的存款加上或减去 Set 所产生的任何收益或损失后的金额。",
+    "top-robo-sets": "顶级机器人套装",
+    "top-social-sets": "顶级社交交易策略",
+    "explore-more-sets": "探索更多 Set"
+  }
+}

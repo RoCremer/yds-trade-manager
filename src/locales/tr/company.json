@@ -1,0 +1,92 @@
+{
+  "about": {
+    "intro": "Parçası olun",
+    "title": "Açık Finans Hareketi",
+    "team": {
+      "intro": "Takımımız",
+      "title": "Hevesli öncüler.",
+      "title-2": "Fark yaratan işi yapar.",
+      "description": "Takımımız, daha erişilebilir ve verimli bir finansal sistem yoluyla daha iyi bir dünya oluşturma konusunda tutkulu, hevesli öncülerden oluşan bir gruptur. Sıkı çalış sıkı eğlene inanır, en yüksek kalitede ürünleri, deneyimleri, ilişkileri ve sürekli öğrenme, orijinallik ve şeffaflık kültürümüzün rehberlik ettiği kararları oluştururuz."
+    },
+    "team-members": {
+      "felix": {
+        "role": "CEO",
+        "description": "Turing Capital'de yatırımcı. Daha önce Radius ve 21.co'da.",
+        "education": "UC Berkeley'den BS"
+      },
+      "inje": {
+        "role": "CPO",
+        "description": "GoDaddy ve Bcoin'de daha önce.",
+        "education": "RISD'den BFA"
+      },
+      "alex": {
+        "role": "CTO",
+        "description": "Daha önceden Square, Caviar, Apple ve Zynga'da.",
+        "education": "Kaliforniya Üniversitesi'nde Lisans"
+      },
+      "justin": {
+        "role": "Mühendis",
+        "description": "Airbnb'de Baş Mühendis",
+        "education": "Stanford'dan MS & UC Berkeley'den BS"
+      },
+      "brian": {
+        "role": "Teknik Operasyonlar",
+        "description": "Alaylı mühendis. Daha önceden DRW'da. ",
+        "education": "Chicago Üniversitesi'nde Lisans"
+      },
+      "richard": {
+        "role": "Büyüme Hareketleri",
+        "description": "Daha önceden PwC'de yönetim danışmanı.",
+        "education": "Northwestern Üniversitesinden BA"
+      },
+      "anthony": {
+        "role": "Ürün Pazarlama Müdürü",
+        "description": "EthHub kurucu ortağı. Önceden siber güvenlikte çalıştı."
+      },
+      "dylan": {
+        "role": "Mühendis",
+        "description": "Daha önceden Coins.ph ve Code Chrysalis'te.",
+        "education": "New York Üniversitesinden BA"
+      },
+      "punia": {
+        "role": "Ticari Faaliyetler ve Strateji Yöneticisi",
+        "description": "Draper Associates'te eski bir yatırımcı.",
+        "education": "UC Berkeley, Haas İşletme Fakültesi'nden BS"
+      }
+    },
+    "hiring": {
+      "intro": "Bize katılın",
+      "title": "Eleman Arıyoruz",
+      "description": "Set'in geleceğini inşa etmek için seçkin teknolojistler ve operatörler arıyoruz.",
+      "description-2": "Katılmak ister misiniz?",
+      "view-open-positions": "Açık Pozisyonları Görün"
+    },
+    "advisors": "Danışmanlar",
+    "advisor-members": {
+      "paul": {
+        "description": "Pantera Capital Partneri"
+      },
+      "steve": {
+        "description": "Kindred Ventures'da Kurucu ve Yönetim Müdürü"
+      }
+    },
+    "investors": "Yatırımcılar"
+  },
+
+  "careers": {
+    "intro": "Bize katıl",
+    "title": "Sette evinizi bulun",
+    "vision": "Vizyonumuz",
+    "vision-description": "Gelişip büyümesi için açık finansal sistemin temellerini kuruyoruz. Geliştiricilere, fon yöneticilerine ve yatırımcılara, ayrı ayrı parçalarından daha değerli olan kripto bileşimlerle etkileşime girme gücünü veren araçları yaratıyoruz.",
+    "who-we-are": "Biz Kimiz",
+    "who-we-are-description": "Yaptığımız her şeyle çıtayı yükselten, tutkulu bir öğrenci takımıyız. Sıkı çalış sıkı eğlene ve insanların hayatında olumlu bir etki oluşturacak anlamlı ürünler yaratmaya inanıyoruz.",
+    "open-positions": "Açık Pozisyonlar",
+    "apply": "Başvur",
+    "jobs": {
+      "backend-engineer": "Arka Uç Mühendisi"
+    },
+    "locations": {
+      "san-francisco": "San Francisco"
+    }
+  }
+}

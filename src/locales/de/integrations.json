@@ -1,0 +1,41 @@
+{
+  "title": "Eingliederungen und Partner",
+  "description": "Unternehmen und Produkte, die Set-Integrationen haben.",
+  "view": "Ansehen",
+  "wallets": {
+    "title": "Wallets",
+    "coinbase-wallet": "Coinbase Wallet",
+    "coinbase-wallet-description": "Einfach zu benutzende Wallet, die es Ihnen erlaubt, zu kaufen, zu verkaufen und Ihre Sets zu verfolgen.",
+    "argent": "Argent-Wallet",
+    "argent-description": "Ein einfaches und sicheres Smart-Wallet für Kryptowährungen mit eingebauter Unterstützung für Sets.",
+    "trust-wallet": "Trust Wallet",
+    "trust-wallet-description": "Sichere Multicoin-Wallet, bei der sie kaufen, verkaufen und Ihre Sets verfolgen können.",
+    "fortmatic": "Fortmatic",
+    "fortmatic-description": "Sichere Wallet, die das Anmelden über E-Mail und Mobiltelefon unterstützt.",
+    "imtoken": "imToken",
+    "imtoken-description": "Multi-Krypto-Wallet, die es Nutzern erlaubt, zu kaufen, zu verkaufen und Sets zu verwalten."
+  },
+  "open-finance-portals": {
+    "title": "Open-Finance-Portale",
+    "zerion": "Zerion",
+    "zerion-description": "Eine Einzellösung für Open-Finance-Produkte, die Sets unterstützt.",
+    "multis": "Multis",
+    "multis-description": "Eine Kryptobank, die es Ihnen erlaubt, zu kaufen, zu verkaufen und Sets zu verwalten.",
+    "defi-prime": "DeFiprime",
+    "defi-prime-description": "Eine einzige Anlaufstelle für alles, das mit DeFi zu tun hat, mit einem Set-Portfolio-Tracker."
+  },
+  "liquidity": {
+    "title": "Liquidität",
+    "kyber": "Kyber",
+    "kyber-description": "Ein on-chain Liquiditätsprotokoll, dass dem Set Liquidität liefert.",
+    "0x": "0x",
+    "0x-description": "Ein Protokoll für direkten Handel, das für Set-Liquidität genutzt wird."
+  },
+  "prices-and-analytics": {
+    "title": "Preise und Analysen",
+    "etherscan": "Etherscan",
+    "etherscan-description": "Liste der bestätigten Smart Contracts für das Set in der Ethereum-Blockchain auf Etherscan.",
+    "coin-gecko": "CoinGecko",
+    "coin-gecko-description": "Preis-und-Handelsvolumens-Aggregator von TokenSets"
+  }
+}

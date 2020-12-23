@@ -1,0 +1,122 @@
+{
+  "progress-bar": {
+    "working": "Работает...",
+    "still-working": "Еще работает..."
+  },
+  "modals": {
+    "link-to-transaction": "Ссылка на транзакцию",
+    "transaction-approving-title": "Ожидает подтверждения",
+    "transaction-approving-description": "Подтвердите или отклоните свою транзакцию.",
+    "transaction-pending-title": "Обработка транзакции...",
+    "transaction-pending-description": "Пожалуйста, подождите, ваша транзакция обрабатывается...",
+    "transaction-finished-title": "Успех!",
+    "transaction-finished-description": "Обработка вашей транзакции завершена.",
+    "transaction-failed-title": "Не удалось",
+    "transaction-failed-description": "Не удалось обработать вашу транзакцию.",
+    "transaction-long-title": "Транзакция все еще обрабатывается",
+    "transaction-long-description": "Ваша транзакция еще обрабатывается."
+  },
+  "follow-set-modal": {
+    "success": "Успех!",
+    "success-description": "Вы успешно добавили свою электронную почту",
+    "finish": "Завершить",
+    "please-verify": "Подтвердите свой адрес электронной почты",
+    "add-your-email": "Добавьте свой адрес электронной почты для уведомлений",
+    "add-your-email-description": "Для подписки на {{setName}} требуется ваш адрес электронной почты для уведомлений."
+  },
+  "email-signup-modal": {
+    "success": "Вы успешно добавили e-mail адрес",
+    "please-verify": "Пожалуйста, подтвердите ваш e-mail адрес",
+    "add-your-email": "Добавьте ваш e-mail адрес",
+    "get-alerts": "Получайте оповещения о событиях на TokenSets.",
+    "hidden-from-public": "Ваш e-mail адрес будет скрыт из общего доступа.",
+    "rebalances-label": "Перебалансировки",
+    "new-products-and-features": "Новые продукты и функции",
+    "portfolio-performance-updates": "Обновления производительности портфолио",
+    "enter-your-email": "Введите свой электронный адрес"
+  },
+  "set-table": {
+    "number-of-sets": "Количество наборов",
+    "traded-tokens": "Торгуемые токены",
+    "1-day": "1 день",
+    "1-week": "1 неделя",
+    "1-month": "1 месяц",
+    "3-month": "3 месяца",
+    "since-inception": "С момента начала",
+    "load-sets-error": "Ну, нам неловко...",
+    "load-sets-error-description": "Давайте попробуем снова загрузить эти наборы!",
+    "explore-more-sets": "Посмотрите другие наборы",
+    "no-filtered-sets": "Нет доступных отфильтрованных наборов.",
+    "no-filtered-sets-description": "Нет наборов, соответствующих выбранным критериям фильтра."
+  },
+  "toasts": {
+    "standard": {
+      "email-updated": "Электронная почта успешно обновлена",
+      "logged-out": "Вы успешно вышли.",
+      "accepted-terms-of-service": "Спасибо за принятие Условий предоставления услуг и Политики конфиденциальности!",
+      "followed-set": "Теперь вы будете получать уведомления по электронной почте, когда {{setName}}  перебалансируется.",
+      "unfollowed-set": "Вы больше не будете получать уведомления при перебалансировке {{setName}}.",
+      "onboarding-eth-received": "Успешно получено ETH: {{ethQuantity}}"
+    },
+    "errors": {
+      "transaction-not-submitted": "Транзакция не отправлена.",
+      "accept-terms-of-service-failed": "Ваше согласие с нашими Условиями предоставления услуг не может быть зафиксировано. Пожалуйста, попробуйте еще раз.",
+      "set-not-available": "Этот набор недоступен.",
+      "could-not-follow-set": "При подписке на этот набор возникла ошибка. Пожалуйста, попробуйте позже.",
+      "could-not-unfollow-set": "При отмене подписки на этот набор возникла ошибка. Попробуйте позже.",
+      "check-ethereum-main-net-connection": "Не удается найти адрес контракта. Пожалуйста, убедитесь, что вы подключены к главной сети Ethereum.",
+      "approve-long": "Ваше подтверждение {{tokenName}} еще не завершено. Пожалуйста, следите за вашей транзакцией на etherscan или попробуйте снова."
+    }
+  },
+  "allocation-change": {
+    "previous": "Предыдущий",
+    "next": "Далее"
+  },
+  "select-language-modal": {
+    "choose-a-language": "Выберите язык"
+  },
+  "wallet-token-selector": {
+    "bidding-with-token": "Торги {{tokenName}}",
+    "receiving-token": "Получение {{tokenName}}",
+    "auto-convert-into-ctoken": "Ваши токены будут автоматически преобразованы в c{{tokenName}} с использованием композитного обменного курса {{compoundExchangeRate}}.",
+    "auto-convert-into-underlying": "Ваши токены будут автоматически преобразованы в \n {{tokenName}} с использованием композитного обменного курса {{compoundExchangeRate}}."
+  },
+  "rich-text-editor": {
+    "add-link-url-placeholder": "Добавьте ссылку URL здесь",
+    "add-link-text-placeholder": "Добавьте текст ссылки здесь",
+    "add-image-url-placeholder": "Добавьте URL изображения здесь"
+  },
+  "set-type-badge": {
+    "powered-by-defi-pulse": "На базе DeFi Pulse",
+    "upgrade-available": "Доступно обновление",
+    "legacy-set": "Legacy"
+  },
+  "web3": {
+    "login-success": "Добро пожаловать! Вы вошли в систему.",
+    "changed-account": "Вы вошли в новый аккаунт.",
+    "create-signature-failed": "Адрес учетной записи не найден. Невозможно сгенерировать подпись сообщений."
+  },
+  "create-feed-post": {
+    "text-area-placeholder": "Обновите подписчиков и держателей этого набора здесь.",
+    "success": "Успешно!",
+    "success-description": "Ваш пост был успешно опубликован!",
+    "failed": "Что-то пошло не так",
+    "failed-description": "Попробуйте опубликовать снова или свяжитесь с техподдержкой, если проблема остается.",
+    "discard-post": "Отменить пост?",
+    "discard-post-description": "Если вы покинете эту страницу, ваш пост будет удален. Это нельзя отменить."
+  },
+  "feed-post": {
+    "delete-post": "Удалить пост"
+  },
+  "delete-feed-post": {
+    "title": "Удалить пост?",
+    "description": "Вы уверены, что хотите удалить ваш пост? Это нельзя отменить."
+  },
+  "delete-phone-number": {
+    "title": "Удалить номер телефона?",
+    "description": "Вы уверены, что хотите удалить свой номер телефона? Если вы хотите получать уведомления о перебалансировании, вам придется добавить его обратно вручную."
+  },
+  "pagination": {
+    "footer-description": "Показано {{startRange}} - {{endRange}} из {{totalElementCount}} {{elementType}}"
+  }
+}

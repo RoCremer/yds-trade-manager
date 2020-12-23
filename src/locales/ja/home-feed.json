@@ -1,0 +1,24 @@
+{
+  "general": {
+    "name": "氏名",
+    "explore-sets": "Setを探索する"
+  },
+  "feed": {
+    "following": "以下",
+    "discover": "検知する",
+    "feed-end": "終わりに達しました！"
+  },
+  "account": {
+    "my-account": "私のアカウント",
+    "set-balance": "バランスを設定する",
+    "eth-balance": "ETHバランス",
+    "percent-change": "1Dチェンジ",
+    "view-account": "アカウントを見る",
+    "no-sets": "TokenSetsへようこそ。 以下のセットを探索し開始いただけます。"
+  },
+  "explore": {
+    "social-trading-sets": "ソーシャルトレーディングセット",
+    "robo-sets": "ロボセット",
+    "percent-change": "1Mチェンジ"
+  }
+}

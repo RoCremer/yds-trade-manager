@@ -1,0 +1,24 @@
+{
+  "general": {
+    "name": "İsim",
+    "explore-sets": "Setleri Keşfet"
+  },
+  "feed": {
+    "following": "Takipte",
+    "discover": "Keşfet",
+    "feed-end": "Sona ulaştınız!"
+  },
+  "account": {
+    "my-account": "Hesabım",
+    "set-balance": "Set Bakiyesi",
+    "eth-balance": "ETH Bakiyesi",
+    "percent-change": "1D Değişim",
+    "view-account": "Hesbaı Görüntüle",
+    "no-sets": "TokenSets'e Hoşgeldiniz. Aşağıdaki Setleri keşfederek başlayabilirsiniz."
+  },
+  "explore": {
+    "social-trading-sets": "Sosyal Alım-satım Setleri",
+    "robo-sets": "Robo Setler",
+    "percent-change": "1M Değişiklik"
+  }
+}
