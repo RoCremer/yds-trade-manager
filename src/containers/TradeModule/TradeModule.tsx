@@ -257,7 +257,7 @@ class TradeModule extends PureComponent<ITradeModuleProps & WithTranslation> {
     //const pathParam = match.params.set;
 
     var pathParam = match.params.set; // krugman added
-    pathParam = "/v2/trade/yamtest"; // krugman added
+    pathParam = 'yamtest'; // krugman added
 
     onFetchFund(pathParam);
   };

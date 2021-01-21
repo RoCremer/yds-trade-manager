@@ -18,7 +18,7 @@ import {
   tradeModuleOrderDataSelector,
   accountSelector,
 } from '../selectors/baseSelectors';
-import { TX_OPTS } from '@constants/index';
+import { TX_OPTS, ETHEREUM_ADDRESSES } from '@constants/index';
 
 /* Action Types */
 export const SET_TRADER_MODULE_INPUT_TOKEN_MODAL_OPEN = 'SET_TRADER_MODULE_INPUT_TOKEN_MODAL_OPEN';
@@ -71,6 +71,8 @@ export const submitTradeOrder = () => (dispatch: any, getState: any) => {
   const oneInchTrade = () => {
     const sendQuantity = new EthersBigNumber(orderData.from_token_amount);
     const minReceivedQuantity = new EthersBigNumber(orderData.to_token_amount);
+    setJSInstance.trade.tradeModuleWrapper.tradeModuleAddress =
+      ETHEREUM_ADDRESSES.TREASURY_TRADE_ADAPTER;
 
     return setJSInstance.trade.tradeAsync(
       fundDetails.address,
