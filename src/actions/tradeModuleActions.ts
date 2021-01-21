@@ -73,7 +73,8 @@ export const submitTradeOrder = () => (dispatch: any, getState: any) => {
     const minReceivedQuantity = new EthersBigNumber(orderData.to_token_amount);
     setJSInstance.trade.tradeModuleWrapper.tradeModuleAddress =
       ETHEREUM_ADDRESSES.TREASURY_TRADE_ADAPTER;
-
+    console.log(transactionOptions);
+    transactionOptions.gasLimit = undefined;
     return setJSInstance.trade.tradeAsync(
       fundDetails.address,
       'OneInchExchangeAdapter',
