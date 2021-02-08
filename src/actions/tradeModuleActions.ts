@@ -3,7 +3,7 @@ import debounce from 'lodash/debounce';
 import { BigNumber as EthersBigNumber } from 'ethers/utils';
 
 import { emptyActionGenerator, payloadActionGenerator } from '@utils/reduxHelpers';
-import { BigNumber, userRejectedMetamaskTransaction } from '@utils/index';
+import { userRejectedMetamaskTransaction } from '@utils/index';
 import {
   resetTransactionWatcher,
   submitSetJSTransaction,
@@ -73,11 +73,11 @@ export const submitTradeOrder = () => (dispatch: any, getState: any) => {
     const minReceivedQuantity = new EthersBigNumber(orderData.to_token_amount);
     setJSInstance.trade.tradeModuleWrapper.tradeModuleAddress =
       ETHEREUM_ADDRESSES.TREASURY_TRADE_ADAPTER;
-    console.log(transactionOptions);
+    console.log(orderData);
     transactionOptions.gasLimit = undefined;
     return setJSInstance.trade.tradeAsync(
       fundDetails.address,
-      'OneInchExchangeAdapter',
+      orderData.exchange_adapter_name,
       orderData.from_token_address,
       sendQuantity,
       orderData.to_token_address,
@@ -101,22 +101,22 @@ export const submitTradeOrder = () => (dispatch: any, getState: any) => {
 };
 
 const fetch1InchOrderData = async (
-  setAddress: string,
-  fromDecimals: string,
+  _setAddress: string,
+  _fromDecimals: string,
   fromAddress: string,
   toAddress: string,
   amount: string,
 ) => {
   try {
-    const response = await axios.get('v2/funds/trade_quote', {
+    const response = await axios.get('public/v2/trade_quotes/' + ETHEREUM_ADDRESSES.YAM_HOUSE, {
       params: {
         from_token_address: fromAddress,
         to_token_address: toAddress,
-        amount: new BigNumber(amount).mul(10 ** Number(fromDecimals)).toString(),
-        from_address: setAddress,
+        amount: amount,
+        exchange_type: 'one_inch_v1',
       },
     });
-
+    console.log(response);
     return response.data.trade_quote;
   } catch (error) {
     return null;

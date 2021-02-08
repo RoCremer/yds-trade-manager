@@ -39,7 +39,11 @@ const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
 
 //const srcPath = subdir => path.resolve(__dirname.replace('/config', ''), `src/${subdir}/`);
-const srcPath = subdir => path.resolve(__dirname.replace('\\config', ''), 'src', subdir); // Krugman added - fixed path resolve issue
+const srcPath = subdir => {
+  let correctPath = path.resolve(__dirname.replace('/config', ''), `src/${subdir}/`)
+  console.log(correctPath)
+  return correctPath
+};
 
 // common function to get style loaders
 const getStyleLoaders = (cssOptions, preProcessor) => {
@@ -79,7 +83,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
 // Fall back to staging URL
 const apiUrl = env.stringified['process.env'].REACT_APP_SET_API_HOST
   ? env.stringified['process.env'].REACT_APP_SET_API_HOST.replace(/^"(.*)"$/, '$1')
-  : 'https://fc9e2e276de78afd4806f40ae53dc656.tokensets.com';
+  : 'https://api.tokensets.com';
 
 // This is the development configuration.
 // It is focused on developer experience and fast rebuilds.
