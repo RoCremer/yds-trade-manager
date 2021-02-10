@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Dispatch } from 'redux';
 
 import { emptyActionGenerator } from '@utils/reduxHelpers';
-
+import { ETHEREUM_CONSTANTS } from '@constants/index';
 /* Action Types */
 export const REQUEST_TOKENS = 'REQUEST_TOKENS';
 export const RECEIVE_TOKENS = 'RECEIVE_TOKENS';
@@ -23,7 +23,11 @@ export function fetchTokens() {
     dispatch(requestTokens());
     return axios
       .get('/v1/coins')
-      .then(response => dispatch(receiveTokens(response.data.coins)))
+      .then(response => {
+        console.log(response.data.coins);
+        response.data.coins.push(...ETHEREUM_CONSTANTS.TOKENS);
+        return dispatch(receiveTokens(response.data.coins));
+      })
       .catch((error: any) => {
         if (!error) return;
 
