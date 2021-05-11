@@ -108,12 +108,12 @@ const fetch1InchOrderData = async (
   amount: string,
 ) => {
   try {
-    const response = await axios.get('public/v2/trade_quotes/' + ETHEREUM_ADDRESSES.YAM_HOUSE, {
+    const response = await axios.get('public/v2/trade_quotes/' + ETHEREUM_ADDRESSES.HOUSE, {
       params: {
         from_token_address: fromAddress,
         to_token_address: toAddress,
         amount: amount,
-        exchange_type: 'one_inch_v1',
+        exchange_type: 'zero_ex',
       },
     });
     console.log(response);

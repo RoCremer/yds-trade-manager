@@ -666,45 +666,10 @@ const ERC20_ABI = [
   },
 ];
 
-const TOKENS = [
-  {
-    id: 'dpi',
-    name: 'DefiPulse Index',
-    symbol: 'DPI',
-    address: '0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b',
-    decimals: 18,
-    image_url: 'https://assets.coingecko.com/coins/images/12465/small/defi_pulse_index_set.png',
-  },
-  {
-    id: 'sushi',
-    name: 'Sushi',
-    symbol: 'SUSHI',
-    address: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
-    decimals: 18,
-    image_url: 'https://assets.coingecko.com/coins/images/12271/small/512x512_Logo_no_chop.png',
-  },
-  {
-    id: 'xsushi',
-    name: 'xSushi',
-    symbol: 'xSUSHI',
-    address: '0x8798249c2e607446efb7ad49ec89dd1865ff4272',
-    decimals: 18,
-    image_url: 'https://assets.coingecko.com/coins/images/13725/small/xsushi.png',
-  },
-  {
-    id: 'uma',
-    name: 'UMA',
-    symbol: 'UMA',
-    address: '0x04fa0d235c4abf4bcf4787af4cf447de572ef828',
-    decimals: 18,
-    image_url: 'https://assets.coingecko.com/coins/images/10951/small/UMA.png',
-  },
-];
 export default {
   UNLIMITED_TRANSFER_PROXY_ALLOWANCE,
   COMPOUND_UNLIMITED_TRANSFER_PROXY_ALLOWANCE,
   NODE_URL,
   SET_ABI,
   ERC20_ABI,
-  TOKENS,
 };

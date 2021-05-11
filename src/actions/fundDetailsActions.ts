@@ -9,10 +9,7 @@ export const RECEIVE_FUND_DETAILS_DATA = 'RECEIVE_FUND_DETAILS_DATA';
 export const requestFundDetailsData = emptyActionGenerator(REQUEST_FUND_DETAILS_DATA);
 export const receiveFundDetailsData = payloadActionGenerator(RECEIVE_FUND_DETAILS_DATA);
 const web3 = new Web3(ETHEREUM_CONSTANTS.NODE_URL);
-const SET_CONTRACT = new web3.eth.Contract(
-  ETHEREUM_CONSTANTS.SET_ABI,
-  ETHEREUM_ADDRESSES.YAM_HOUSE,
-);
+const SET_CONTRACT = new web3.eth.Contract(ETHEREUM_CONSTANTS.SET_ABI, ETHEREUM_ADDRESSES.HOUSE);
 
 const requestFundDetails = async () => {
   try {
@@ -21,9 +18,9 @@ const requestFundDetails = async () => {
     let components: any[] = await getComponentData(comps);
 
     return {
-      id: 'yamHOUSE',
-      name: 'Yam DAO House',
-      address: '0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b',
+      id: 'sushiHOUSE',
+      name: 'Sushi DAO House',
+      address: '0x7b18913d945242a9c313573e6c99064cd940c6af',
       components,
     };
   } catch (e) {
@@ -59,7 +56,7 @@ async function getComponentData(comps: any): Promise<Array<any>> {
       let symbol = await componentContract.methods.symbol().call();
       let name = await componentContract.methods.name().call();
       let totalPositionSize = BigInt(
-        (await componentContract.methods.balanceOf(ETHEREUM_ADDRESSES.YAM_HOUSE).call()).toString(),
+        (await componentContract.methods.balanceOf(ETHEREUM_ADDRESSES.HOUSE).call()).toString(),
       );
       return {
         decimals,
