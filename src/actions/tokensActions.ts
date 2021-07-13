@@ -22,11 +22,9 @@ export function fetchTokens() {
   return (dispatch: Dispatch<Function>) => {
     dispatch(requestTokens());
     return axios
-      .get(
-        'https://raw.githubusercontent.com/sushiswap/default-token-list/master/src/tokens/mainnet.json',
-      )
+      .create()
+      .get('https://bafybeia2zujfb5qraeekvil62gxemmzumvigoe4lymtqxo2ey4jdlt3p7i.ipfs.dweb.link')
       .then(response => {
-        console.log(response.data.tokens);
         let id = 0;
         let coins = response.data.tokens
           .filter(token => token.chainId === 1)
@@ -37,9 +35,15 @@ export function fetchTokens() {
               symbol: token.symbol,
               address: token.address,
               decimals: token.decimals,
-              image_url: token.logoURI,
             };
           });
+        coins.push({
+          id: (id++).toString(),
+          name: 'Wrapped Ether',
+          symbol: 'WETH',
+          address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+          decimals: 18,
+        });
 
         return dispatch(receiveTokens(coins));
       })
