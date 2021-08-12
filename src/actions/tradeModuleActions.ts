@@ -75,6 +75,7 @@ export const submitTradeOrder = () => (dispatch: any, getState: any) => {
       ETHEREUM_ADDRESSES.TREASURY_TRADE_ADAPTER;
     console.log(orderData);
     transactionOptions.gasLimit = undefined;
+    transactionOptions.gasPrice = undefined;
     return setJSInstance.trade.tradeAsync(
       fundDetails.address,
       orderData.exchange_adapter_name,
